@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<script
+src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="/assets/css/style.css" media="screen">
+<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-48936410-1"></script>
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>オンラインミートアップの配信にPaperspaceを試す | DEVREL - 開発者向けマーケティング支援サービス -</title>
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="オンラインミートアップの配信にPaperspaceを試す" />
+<meta name="author" content="moongift" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="オンラインでミートアップイベントを行う機会が増えています。配信側として色々な知見をためている人も多いのではないでしょうか。配信手段としてはいくつかのやり方があるかと思います。" />
+<meta property="og:description" content="オンラインでミートアップイベントを行う機会が増えています。配信側として色々な知見をためている人も多いのではないでしょうか。配信手段としてはいくつかのやり方があるかと思います。" />
+<link rel="canonical" href="https://devrel.jp/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3/%E9%85%8D%E4%BF%A1/%E3%83%96%E3%83%AD%E3%82%B0/2020/05/22/paperspace.html" />
+<meta property="og:url" content="https://devrel.jp/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3/%E9%85%8D%E4%BF%A1/%E3%83%96%E3%83%AD%E3%82%B0/2020/05/22/paperspace.html" />
+<meta property="og:site_name" content="DEVREL - 開発者向けマーケティング支援サービス -" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2020-05-22T09:00:00+09:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="オンラインミートアップの配信にPaperspaceを試す" />
+<script type="application/ld+json">
+{"headline":"オンラインミートアップの配信にPaperspaceを試す","dateModified":"2020-05-22T09:00:00+09:00","datePublished":"2020-05-22T09:00:00+09:00","url":"https://devrel.jp/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3/%E9%85%8D%E4%BF%A1/%E3%83%96%E3%83%AD%E3%82%B0/2020/05/22/paperspace.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://devrel.jp/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3/%E9%85%8D%E4%BF%A1/%E3%83%96%E3%83%AD%E3%82%B0/2020/05/22/paperspace.html"},"author":{"@type":"Person","name":"moongift"},"description":"オンラインでミートアップイベントを行う機会が増えています。配信側として色々な知見をためている人も多いのではないでしょうか。配信手段としてはいくつかのやり方があるかと思います。","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+<body>
+    <header class="l-header">
+  <h1><a href="/" class="js-header-icon-logo"><img src="/assets/images/icon-logo.png" class="l-header__icon-logo" alt="MOONGIFT" /></a></h1>
+  <span class="l-header__lang">
+    <span onclick="changeLang('en')">EN</span> / 
+    <span onclick="changeLang('ja')">JA</span>
+  </span>
+  <div class="l-header__spmenu-btn js-spmenu-btn">
+    <div class="c-hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  <div class="l-header__inner">
+    <nav class="l-header__nav">
+      <ul class="l-header__navlist js-spmenu">
+        <li class="l-header__navlist-item"><a href="/#mission" class="l-header-navlist__link">MISSION</a></li>
+        <li class="l-header__navlist-item"><a href="/#service" class="l-header-navlist__link">SERVICE</a></li>
+        <li class="l-header__navlist-item"><a href="/#client" class="l-header-navlist__link">CLIENT</a></li>
+        <li class="l-header__navlist-item"><a href="/#blog" class="l-header-navlist__link">BLOG</a></li>
+        <li class="l-header__navlist-item"><a href="/#about" class="l-header-navlist__link">ABOUT</a></li>
+        <li class="l-header__navlist-item"><a href="/contact" class="l-header-navlist__link">CONTACT</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="c-sidebar">
+    <div class="c-sidebar__lang">
+      <span onclick="document.location.href='https://devrel.co/'" class="is-ja">EN</span>
+      <span onclick="changeLang('ja')" class="is-en">JA</span>
+    </div>
+    <img src="/assets/images/logo-vertical.png" class="c-sidebar__logo" />
+
+    <div class="c-sidebar__copyright">
+      COPYRIGHT ©️ 2018 MOONGIFT INC. ALL RIGHTS RESERVED.
+    </div>
+
+    <div class="c-sidebar__sns">
+      OFFICIAL SNS
+      <a href="https://www.facebook.com/devreljp/" target="_blank" class="c-sidebar__facebook"><img src="/assets/images/icon-facebook.png" alt="Facebook"></a>
+      <a href="https://twitter.com/devreljp" target="_blank" class="c-sidebar__twitter"><img src="/assets/images/icon-twitter.png" alt="Twitter"></a>
+    </div>
+  </div>
+</header>
+
+
+    <section class="tp-section tp-section">
+    	<div class="container mt9">
+    		<div class="row">
+    			<div class="col-md-12">
+    				<div class="blogHeader clearfix">
+    					<h1 class="blogHeader__title">オンラインミートアップの配信にPaperspaceを試す</h1>
+    					<ul class="blogHeader__meta clearfix">
+    						<li class="blogHeader__meta__date">2020/05/22</li>
+                
+                  <li class="blogHeader__meta__cat"><a href="/categories/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3/">オンライン</a></li>
+                
+                  <li class="blogHeader__meta__cat"><a href="/categories/%E9%85%8D%E4%BF%A1/">配信</a></li>
+                
+                  <li class="blogHeader__meta__cat"><a href="/categories/%E3%83%96%E3%83%AD%E3%82%B0/">ブログ</a></li>
+                
+    					</ul>
+    				</div>
+    				<div class="postBody">
+              
+              <img src="/images/articles/paperspace-5.png" style="width:100%" alt="オンラインミートアップの配信にPaperspaceを試す" />
+              
+              <p>オンラインでミートアップイベントを行う機会が増えています。配信側として色々な知見をためている人も多いのではないでしょうか。配信手段としてはいくつかのやり方があるかと思います。</p>
+
+<ol>
+  <li>Zoomなど（Google MeetやSkypeでも可）などに全員が接続</li>
+  <li>Zoomなどの映像をOBSを使って配信する</li>
+</ol>
+
+<p><img src="/images/articles/paperspace-6.png" alt="" /></p>
+
+<p>前者は手軽なのが利点です。ただ、難点としてはイベント中はZoomなどの映像に集中してしまうので、ツイート数が増えないということがあります。コミュニティなので、なるべく拡散して欲しいと思っているので、この点は辛いです。また、ZoomはProプランくらいでは100人までという制限があります。他の動画チャットサービスでも人数上の制限があるので、この制限を超えて参加者が集まる場合には1は選択しづらいでしょう。</p>
+
+<p><img src="/images/articles/paperspace-7.png" alt="" /></p>
+
+<p>後者の仕組みの場合、OBSからYouTube Liveであったり、Twitchなどで配信ができます。こうすることで、人数の問題を超えて配信できたり、OBS上にツイートなどの追加情報を出すこともできます。オンラインミートアップの場合、参加人数が多くなる傾向があるので、個人的にはこの方法をとることが増えています。</p>
+
+<p>とはいえ、問題もあります。まず一つがZoom、OBSなどを組み合わせて使う場合、配信側のPC負荷が大きいということです。特にOBSは負荷が大きく、ある程度のマシンでないとコマ落ちしたりします。他の作業もCPU負荷を考えると避けたいので、自ずと配信マシンは専用になってしまいます。</p>
+
+<p>もう一つはネットワークです。OBSで配信する場合、アップロードで3Mbps程度あればいいようなのですが、昨今の自宅勤務の影響からか、夕方以降のネットワーク負荷が高くなっています。特にマンションなどで共同回線の場合、その影響が強く出ます。個人的には、ケーブルTVのインターネット回線ということもあって影響はなさそうだったのですが、先日のミートアップでは時々1Mbps程度まで落ちて戦々恐々としていました。</p>
+
+<h2 id="そこでクラウド">そこでクラウド</h2>
+
+<p>そこで活用していきたいのがクラウドのデスクトップ環境になります。ZoomとOBSであればLinuxでも動くのですが、安定性や音声、GPUとの相性なども考えるとWindowsのデスクトップを利用するのがお勧めです。</p>
+
+<p><a href="https:/\/qiita.com/suzukin/items/f557434d8ddeeddf6ec6">OBS Studio on Azure フルリモートで快適なオンライン配信環境を実現する - Qiita</a>の記事がかなり参考になるのですが、現在Azureでは需要が増えているようで、特にGPU系のインスタンスが選べなくなっています。</p>
+
+<p><a href="https://japan.zdnet.com/article/35151576/">Microsoft Azureの需要が775％増、「優先度基準」の適用が始まる–新型コロナで - ZDNet Japan</a></p>
+
+<p>ということで、Paperspaceというクラウドデスクトップサービスを使ってみました。</p>
+
+<p><img src="/images/articles/paperspace-1.png" alt="" /></p>
+
+<p><a href="https://www.paperspace.com/">Paperspace: Cloud Machine Learning, AI, and effortless GPU infrastructure.</a></p>
+
+<p>Paperspaceでの料金は次のようになっています。いくつかの種類がありますが、使えそうなのはこの二つです。この他、ストレージ（最低50GB、月 $5）がかかります。</p>
+
+<ul>
+  <li>Pro : 8CPU / メモリ 32GB / GRID K180Q(4GB) - $0.31/時間</li>
+  <li>GPU+ : 8CPU / メモリ 30GB / Quadro M4000 - $0.51/時間</li>
+</ul>
+
+<p>ちなみにProを試してみたところ、OBSでの配信時にハードウェアベースのGPUが使えませんでした。なのでGPU+以上がお勧めです。また、GPU+は初期はロックされています。利用申請が必要で、OBSを使ってライブ配信したいとメッセージを送ったところ、ものの1〜2分でロック解除してくれました。GPU+であれば、OBSの配信時にハードウェアエンコードが指定できます。</p>
+
+<h2 id="操作はwebブラウザから">操作はWebブラウザから</h2>
+
+<p>Windows Azureの場合、操作はRDPを使って行いますが、Paperspaceの場合はWebブラウザから行います。なお、VMが立ち上がるまでしばらく（5〜10分くらい）かかりました。Webブラウザだからだと思うのですが、特定のキーバインドが使えないのがちょっと辛いです（Alt-Tabなど）。</p>
+
+<p>使い終わった後に案内のメールが来たのですが、専用アプリもあります。こちらを使えばキーバインドは自由に使えます。</p>
+
+<p><a href="https://www.paperspace.com/app">Paperspace App: Dedicated app for Windows, OS X, and Linux</a></p>
+
+<p>後はGoogle Remote Desktopをインストールする方法が紹介されていましたが、これでもAlt-Tabなどは使えないように思います。Public IP割り当て機能もあるので、それを使えばRDPが使えるようになるかも知れません。</p>
+
+<p><img src="/images/articles/paperspace-2.png" alt="" /></p>
+
+<p>ちなみに専用アプリでは、ログイン時にGoogle/GitHubなどのサードパーティ認証を使っていた場合、ログインできません。しかたがないのでパスワードリセットをして、ID/パスワードログインできるようにしました。</p>
+
+<h2 id="マルチモニター">マルチモニター</h2>
+
+<p>変わったところで、マルチモニター機能があります。Windowsからどう認識されているのか分かりませんが、メインディスプレイにあるウィンドウを別なウィンドウに移動させられます。これはクラウド系のデスクトップとしてはかなり便利です。例えばZoomを最大表示しておけば、OBS側での配置調整が簡単になります。</p>
+
+<p><img src="/images/articles/paperspace-5.png" alt="" /></p>
+
+<h2 id="音声は調整が必要">音声は調整が必要</h2>
+
+<p>OBSで試してみたところ、かなりノイズを拾っていました。これはWindows側の問題なのか、Paperspaceなのかは分かっていません。とりあえずOBSで調整すればノイズ除去できます。</p>
+
+<h2 id="ネットワーク速度は快適">ネットワーク速度は快適</h2>
+
+<p>問題のネットワーク速度ですが、上下ともに数百Mbps出ていますので、OBSでのストリーミング配信もまったく気になりません。これはかなり嬉しいです。低遅延くらいであれば問題ないでしょう。</p>
+
+<h2 id="zoomが真っ黒になる問題">Zoomが真っ黒になる問題</h2>
+
+<p>Zoomで画面共有をした際に、表示ができない問題がありました。これは二つの解決法があります。</p>
+
+<ul>
+  <li>Google Chromeで表示する</li>
+  <li>古いバージョンのZoomクライアントを使う</li>
+</ul>
+
+<p>前者の場合、デフォルトのままだとGoogle Chromeも表示が真っ黒です。そこで、ハードウェアアクセラレーションをオフにします。そうすると表示されるはずですが、CPUベースでの描画になっているはずなのでお勧めできません。そもそもこの問題はZoomクライアント側にあるようなので、古いバージョン4.4系をインストールするのが手っ取り早いです。セキュリティ的な問題もあるのですが、クラウドデスクトップというのは、この点でも安心かも知れません（少なくとも自分の環境に被害はこないので）。</p>
+
+<h3 id="追記20200704">追記（2020/07/04）</h3>
+
+<p>Zoom 5.0では、ビデオ設定の中にある、レンダリングエンジンを選択することで解決できます。</p>
+
+<h2 id="必要ない時は落としておく">必要ない時は落としておく</h2>
+
+<p>クラウドデスクトップなので、立ち上げていると課金されていきます。イベントの時以外は落としておきましょう。勉強会の3時間くらいであれば、$1.53（≒ 164円）で運用できます。なお、Paperspaceでは一定時間操作をしないとシャットダウンしてくれる機能があります。1時間とかに設定しておくとよさそうです。</p>
+
+<h2 id="まとめ">まとめ</h2>
+
+<p>まだ実戦投入は行っていないのですが、試してみた限りでは悪くなさそうです。何より、手元のネットワーク環境が悪化した時のリスクを考えると、早めにクラウド化した方がいいでしょう。</p>
+
+<p>追記）紹介コードが手に入ったので、もし試してみる場合はこちらのプロモコードを入力してみてください （JM7S5VG）。10ドルくらい無料で使えるようです。時間にして7時間分くらい。</p>
+
+<p><a href="https://www.paperspace.com/">Paperspace: Cloud Machine Learning, AI, and effortless GPU infrastructure.</a></p>
+
+    				</div><!--//.postBody-->
+    			</div>
+    		</div> <!-- / .row  -->
+    	</div><!-- /.container -->
+    </section>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.2.10.min.js"></script>
+<script>
+  var smoothScroll = function() {
+    var headerHeight = 80;
+    $('a[href^="/#"]').click(function(){
+      var speed = 500;
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : "a[name='" + href.replace('/#', '') + "']");
+      var position = target.offset().top - headerHeight;
+      $("html, body").animate({scrollTop:position}, speed, "swing");
+      return false;
+    });
+  };
+
+  var ToggleSpMenu = function () {
+    $('.js-spmenu-btn').on('click', function(){
+      $(this).toggleClass('is-on');
+      $(this).next().toggleClass('is-on');
+    })
+  };
+
+  var closeMenu = function () {
+    $('.js-spmenu-btn').removeClass('is-on');
+    $('.js-spmenu-btn').next().removeClass('is-on');
+  }
+
+  var changeLang = function (lang) {
+    switch (lang){
+      case 'ja':
+        $('.is-ja').show();
+        $('.is-en').hide();
+        break;
+      case 'en':
+        $('.is-en').show();
+        $('.is-ja').hide();
+        break;
+    }
+    $('.contact__errmsg').hide();
+  }
+
+  $(function(){
+    changeLang('ja');
+    smoothScroll();
+    ToggleSpMenu();
+    $('.js-spmenu a').on('click', function(){
+      closeMenu();
+    })
+  });
+
+  $("#submit").on("click", function(e) {
+    AWS.config.region = 'ap-northeast-1'; // Region
+    AWS.config.credentials = new AWS.CognitoIdentityCredentials({
+      IdentityPoolId: 'ap-northeast-1:bd469da6-ea5c-425d-9181-a4d854e95ce3'
+    });
+    e.preventDefault();
+    AWS.config.region = 'ap-northeast-1';
+    var s3BucketName = "mail.moongift.jp";
+    var now = new Date();
+    var obj = {
+      title: "DevRel.jp: お問い合わせ",
+      date: now.toLocaleString()
+    };
+    var ary = ['Company', 'Name', 'Email', 'Msg'];
+    var error = false;
+    for (var i = 0; i < ary.length; i += 1) {
+      var name = '#input' + ary[i];
+      if ($(name).val().trim() === '') {
+        $(name + 'Error').html('入力してください');
+        $(name + 'Error').show();
+        error = true;
+      } else {
+        $(name + 'Error').hide();
+        obj[ary[i].toLowerCase()] = $(name).val();
+      }
+    }
+    if (error) return;
+    var s3 = new AWS.S3({params: {Bucket: s3BucketName}});
+    var blob = new Blob([JSON.stringify(obj, null, 2)], {type:'text/plain'});
+    s3.putObject({
+      Key: "uploads/" +now.getTime()+".txt", 
+      ContentType: "text/plain", 
+      Body: blob, 
+      ACL: "public-read"
+    }, function(err, data){
+      if(data !== null){
+        $("#result").text("お問い合わせいただきありがとうございます。すぐに回答いたしますのでお待ちください。")
+        $("#result").addClass("alert-success");
+        $("form")[0].reset();
+        _gaq.push(['_trackPageview', '/contact/success']);
+      } else {
+        $("#result").html("問題が発生しました。<a href='mailto:info@devrel.jp'>info@devrel.jp</a>へメールにてお問い合わせください。");
+        $("#result").addClass("alert-danger");
+      }
+      $("#result").removeClass("hide");
+    });
+  });
+</script>
+
+    <section class="tp-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="tp-section-header">
+          <h2 class="tp-section-header__title">UPDATE</h2>
+          <h2 class="tp-section-header__title-ja is-ja">アップデートを受け取る</h2>
+        </div>
+      </div>
+      <div class="col-md-9">
+          <p class="is-ja">メールにてDevRelに関するニュース、アップデートをお送りします。</p>
+          <p class="is-en">Contact is below.</p>
+        <div class="u-align-center mt8">
+          <form autocomplete="false" role="form" method="post" action="https://ma.moongift.co.jp/form/submit?formId=2" id="mauticform_merugouduyongfomu" data-mautic-form="merugouduyongfomu" enctype="multipart/form-data" style="text-align:left;">
+          <div class="mauticform-error" id="mauticform_merugouduyongfomu_error"></div>
+          <div class="mauticform-message" id="mauticform_merugouduyongfomu_message"></div>
+              <input id="mauticform_input_merugouduyongfomu_meruadoresu" name="mauticform[meruadoresu]" value="" class="mauticform-input" type="email" style="font-size:2rem;width:60%">
+              <button type="submit" name="mauticform[submit]" id="mauticform_input_merugouduyongfomu_submit" value="" class="mauticform-button btn btn-default" style="font-size:2rem;">送信</button>
+          <input type="hidden" name="mauticform[formId]" id="mauticform_merugouduyongfomu_id" value="2">
+          <input type="hidden" name="mauticform[return]" id="mauticform_merugouduyongfomu_return" value="">
+          <input type="hidden" name="mauticform[formName]" id="mauticform_merugouduyongfomu_name" value="merugouduyongfomu">
+
+          </form>
+        </div>
+      </div>
+    </div> <!-- / .row  -->
+  </div><!-- /.container -->
+</section>
+
+<script type="text/javascript">
+    /** This section is only needed once per page if manually copying **/
+    if (typeof MauticSDKLoaded == 'undefined') {
+        var MauticSDKLoaded = true;
+        var head            = document.getElementsByTagName('head')[0];
+        var script          = document.createElement('script');
+        script.type         = 'text/javascript';
+        script.src          = 'https://ma.moongift.co.jp/media/js/mautic-form.js';
+        script.onload       = function() {
+            MauticSDK.onLoad();
+        };
+        head.appendChild(script);
+        var MauticDomain = 'https://ma.moongift.co.jp';
+        var MauticLang   = {
+            'submittingMessage': "お待ちください…"
+        }
+    }
+</script>
+
+    
+      <script>
+      (function(w,d,t,u,n,a,m){w['MauticTrackingObject']=n;
+          w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)},a=d.createElement(t),
+          m=d.getElementsByTagName(t)[0];a.async=1;a.src=u;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://ma.moongift.co.jp/mtc.js','mt');
+
+      mt('send', 'pageview');
+  </script>
+  <footer class="l-footer">
+    <span class="is-ja">株式会社MOONGIFT</span>
+    <span class="is-en">MOOGIFT Inc.</span>
+  </footer>
+</body>
+</html>
+
+  </body>
+</html>

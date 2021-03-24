@@ -1,0 +1,897 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://devrel.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://devrel.jp/" rel="alternate" type="text/html" /><updated>2021-03-24T15:48:45+09:00</updated><id>https://devrel.jp/feed.xml</id><title type="html">DEVREL - 開発者向けマーケティング支援サービス -</title><subtitle>DevRelは開発者向けマーケティング施策です。私たちは企業の製品、サービスを広く開発者に知ってもらうためのDevRelをサポート、代行しています。</subtitle><entry><title type="html">簡単に分かるDevRel戦略</title><link href="https://devrel.jp/%E6%88%A6%E7%95%A5/%E3%83%96%E3%83%AD%E3%82%B0/2021/03/24/devrel-as-business.html" rel="alternate" type="text/html" title="簡単に分かるDevRel戦略" /><published>2021-03-24T09:00:00+09:00</published><updated>2021-03-24T09:00:00+09:00</updated><id>https://devrel.jp/%E6%88%A6%E7%95%A5/%E3%83%96%E3%83%AD%E3%82%B0/2021/03/24/devrel-as-business</id><content type="html" xml:base="https://devrel.jp/%E6%88%A6%E7%95%A5/%E3%83%96%E3%83%AD%E3%82%B0/2021/03/24/devrel-as-business.html">&lt;p&gt;DevRelは企業の事業活動の一環として行われます。この点がコミュニティやオープンソース・ソフトウェアの開発とは異なります。そして活動範囲は大きく分けて3つに分類されると考えられます。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;認知獲得から利用開始まで&lt;/li&gt;
+  &lt;li&gt;利用開始から促進&lt;/li&gt;
+  &lt;li&gt;求人、広告費用の低減&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h2 id=&quot;認知獲得から利用開始まで&quot;&gt;認知獲得から利用開始まで&lt;/h2&gt;
+
+&lt;p&gt;DevRelが得意とする範囲として、認知度の獲得が挙げられます。マーケティングのAARRRモデルで言う最初のAAであるAcquisition（新規ユーザー獲得）とActivation（利用開始）に相当する部分です。DevRel版AARRRモデルであるAAARRRPモデルに当てはめると最初のA（Awareness：認知する）も含まれます。ハッカソンや登壇、セミナーなどを通じてまず知ってもらう、体験してもらう、ユーザ登録してもらうまでのフェーズになります。&lt;/p&gt;
+
+&lt;p&gt;知ってもらうのがなぜ大事かというと、知らないとそのユーザは他社の類似サービスを利用するからです。開発者の数は有限であり、一つのサービスを採用したら別なサービスを選択しないでしょう。あえてプロジェクトの中でRuby on RailsとDjangoとLaravelを組み合わせたりしないでしょう。特に開発者向けのサービスはプロジェクトの中に組み込まれると、よほどのことがない限り載せ替えをしません。あるサービスにとっての1ユーザ獲得は、他のサービスにとっての-1なのです。&lt;/p&gt;
+
+&lt;p&gt;知ってもらった上で選ばれないとしたら、それはサービス側の問題です。機能や価格、ドキュメント、UIなどが問題なのかも知れません。それはそれで大きな問題ですが、まず知らないと選定の土俵にすら上げてもらえません。その状態を避けるべきです。&lt;/p&gt;
+
+&lt;h2 id=&quot;利用開始から促進&quot;&gt;利用開始から促進&lt;/h2&gt;
+
+&lt;p&gt;利用開始から別なフェーズがはじまります。ここは主にサポートやカスタマーサクセスの分野になります。また、ドキュメントや管理画面の使い勝手なども大きな要素になります。使い始めてから何か違うと感じて離れてしまうと、実は知らない時以上に大きなマイナスにつながる可能性があります。つまり一旦失望してしまった、ネガティブな印象をぬぐい去るのは大変だからです。顧客との関係性で言えば、マイナスになってしまった状態です。知ってもらうからには良い印象を持ち続けてもらう必要があります。&lt;/p&gt;
+
+&lt;p&gt;困った、と感じてしまう状態にならないのがベストです。しかし、すべてのユースケースを全方位的に予期するのは不可能です。そのため、困った状態になるのは当たり前だと考えるべきです。その上で困った状態からいかに素早く、軽やかに解決に導けるかが大きな課題になります。それは画面のエラーメッセージで、セルフサポートできる仕組みかも知れません。困った時にWeb検索して解決できるようにコンテンツを用意することかも知れません。さらにQ&amp;amp;Aフォーラムやメール、電話でのサポートかも知れません。&lt;/p&gt;
+
+&lt;p&gt;利用が進むと課金のフェーズになります。利用量や機能によって課金される場合、この最初の課金が大きな壁になります。1円と500円に大きな差はありませんが、0円と1円には非常に大きな壁があります。特にデジタルの世界においては費用が目に見えづらく、課金を嫌がる声が強いのは間違いありません。この課金部分はDevRelよりもビジネスモデルが大きく関わることでしょう。&lt;/p&gt;
+
+&lt;p&gt;一旦課金されたユーザにおいては、カスタマーサクセスによる手厚いサポートが提供されます。アップセル（さらなる高機能版への移行）とクロスセル（別な製品と組み合わせる）が主な手段になります。企業がサービスを利用する場合、それが彼らのビジネスを拡大させたり、費用を低減するのに利用されます。そこでアップセル・クロスセルを通じてさらなる利益拡大、費用減少が狙えるならば、課金を拡大するのを躊躇する理由はないでしょう。&lt;/p&gt;
+
+&lt;p&gt;このフェーズで起きる問題は課金額の低減です。つまり他社サービスに流れたり、顧客のサービスが縮小している場合に起こります。この点をフォローアップできるのもカスタマーサクセスの責任範囲になるでしょう。&lt;/p&gt;
+
+&lt;h2 id=&quot;求人広告費用の低減&quot;&gt;求人、広告費用の低減&lt;/h2&gt;
+
+&lt;p&gt;DevRelによる認知度拡大と、顧客満足度向上による紹介（リファラル）が増えると、新規獲得コストや宣伝コストが下がります。DevRelにおいては広告は信用度を下げていますので、利用者自身の声とエバンジェリスト・アドボケイトによる開発者目線の声の方が届きやすくなります。DevRelに取り組む人事部の活動も同様です。企業の知名度が上がれば、より良い人材が獲得しやすくなるでしょう。&lt;/p&gt;
+
+&lt;p&gt;DevRelで自社製品の売り上げ拡大を狙う一方で、認知度や信頼性を上げることで費用の減少を狙うのも大きな目的になります。&lt;/p&gt;
+
+&lt;h2 id=&quot;その他&quot;&gt;その他&lt;/h2&gt;
+
+&lt;p&gt;その他のDevRelによるメリットとしては、利用者からのフィードバックを得るという点があります。これはマーケティングで言うところのプロダクトマーケットフィット（PMF）になります。ユーザの声を聞くことで、彼らに必要なものを開発できます。余計な機能の開発に工数を割かれることなく、市場にフィットした製品を作り続けることが企業としての生き残り戦略につながるでしょう。&lt;/p&gt;
+
+&lt;h2 id=&quot;実現する戦術について&quot;&gt;実現する戦術について&lt;/h2&gt;
+
+&lt;p&gt;こうしたDevRelの戦略を進めるための戦術として次のようなものが考えられます。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ドキュメント整備&lt;/li&gt;
+  &lt;li&gt;コンテンツマーケティング&lt;/li&gt;
+  &lt;li&gt;ハンズオン&lt;/li&gt;
+  &lt;li&gt;ハッカソン&lt;/li&gt;
+  &lt;li&gt;コミュニティマーケティング&lt;/li&gt;
+  &lt;li&gt;コンテスト&lt;/li&gt;
+  &lt;li&gt;動画&lt;/li&gt;
+  &lt;li&gt;SDK/ライブラリ&lt;/li&gt;
+  &lt;li&gt;メールマガジン&lt;/li&gt;
+  &lt;li&gt;eBook&lt;/li&gt;
+  &lt;li&gt;その他いろいろ&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;この辺りはサービスの特性、費用に合わせて考えるべきでしょう。&lt;/p&gt;
+
+&lt;h2 id=&quot;まとめ&quot;&gt;まとめ&lt;/h2&gt;
+
+&lt;p&gt;DevRelの戦略はそれほど複雑ではありません。やること（戦術）が多すぎて複雑に見えてしまいますが、企業（または製品）メリットから考えれば良いだけです。ぜひ皆さんのすべき、できる点を模索してください。&lt;/p&gt;
+
+&lt;p&gt;MOONGIFTではDevRelのアウトソーシングを提供しています。DevRelに取り組みたいが、アイディアも人員も不足している…そんな場合はぜひ&lt;a href=&quot;/contact&quot;&gt;お問い合わせください&lt;/a&gt;。コンサルティングも可能です！&lt;/p&gt;</content><author><name>moongift</name></author><category term="戦略" /><category term="ブログ" /><summary type="html">DevRelは企業の事業活動の一環として行われます。この点がコミュニティやオープンソース・ソフトウェアの開発とは異なります。そして活動範囲は大きく分けて3つに分類されると考えられます。</summary></entry><entry><title type="html">2020年のDevRel活動を振り返る</title><link href="https://devrel.jp/%E3%83%96%E3%83%AD%E3%82%B0/2020/12/25/2020-devrel.html" rel="alternate" type="text/html" title="2020年のDevRel活動を振り返る" /><published>2020-12-25T09:00:00+09:00</published><updated>2020-12-25T09:00:00+09:00</updated><id>https://devrel.jp/%E3%83%96%E3%83%AD%E3%82%B0/2020/12/25/2020-devrel</id><content type="html" xml:base="https://devrel.jp/%E3%83%96%E3%83%AD%E3%82%B0/2020/12/25/2020-devrel.html">&lt;p&gt;&lt;a href=&quot;https://adventar.org/calendars/5163&quot;&gt;2020年のDevRelアドベントカレンダー&lt;/a&gt;もついに25日、最終日になりました。せっかくなので、2020年における自分自身のDevRelに関する活動について振り返りたいと思います。&lt;/p&gt;
+
+&lt;h2 id=&quot;webサイト&quot;&gt;Webサイト&lt;/h2&gt;
+
+&lt;p&gt;ひとりで管理できるようなシンプルなWebサイトをちょくちょく作るのですが、今年は次のようなページを作っていました。&lt;/p&gt;
+
+&lt;h3 id=&quot;online-meetup&quot;&gt;Online Meetup&lt;/h3&gt;
+
+&lt;p&gt;2月末から広まったコロナウイルスの影響によってコミュニティイベントが一気にオンライン化しました。最初、オンライン化したイベントが探しづらくて自分で作ったのがOnline Meetupです。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-2020-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;いくつかのメディアでも取り上げられて良かったなと。数時間で作った覚えがあります。connpassがすでにオンラインイベントの検索に対応していることもあり、お役御免かなと思っています。オンラインカンファレンス版が欲しいなと思っているこの頃。&lt;/p&gt;
+
+&lt;p&gt;アーキテクチャは次の通り。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;GitHub Pages&lt;/li&gt;
+  &lt;li&gt;Google スプレッドシート&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://online-meetup.dev/&quot;&gt;Online Meetup&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;devclebookmark&quot;&gt;DevCle::Bookmark&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-2020-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;DevRelに役立つリソースをまとめたサイトです。こういったリソースは個人的にまとめていたのですが、それを見せられる形にしました。あくまでも個人のブックマークの延長線上ですが、情報をまとめると役立つものになるでしょう。こちらも上のサイトと同じアーキテクチャ、仕組みで運用しています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://bookmark.devcle.com/&quot;&gt;DevCle::Bookmark&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;コミュニティ&quot;&gt;コミュニティ&lt;/h2&gt;
+
+&lt;p&gt;オンライン化が進んだときにDevRel/Onlineというのを立ち上げました。2回くらいイベントをやって、そこから続いていないですね…。オンライン化するのが当たり前になり、浸透してしまったことで新しい知見を得るのが難しくなっているのかも知れません。でも配信ネタとか、まだ深掘りはできる余地はあるかな…。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devrel.connpass.com/event/168692/&quot;&gt;DevRel/Online #1 〜初のオンライン開催〜 - connpass&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devrel.connpass.com/event/178317/&quot;&gt;DevRel/Online #2 〜オンラインのファシリテーションを考える〜 - connpass&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;ブログ&quot;&gt;ブログ&lt;/h2&gt;
+
+&lt;p&gt;クライアント向けのブログ記事で言うと、約300記事書いたようです。今年はJava、Google Apps Script、Python、Node.jsを使った記事が多かったように思います。Flutterも一部の記事で書いています。&lt;/p&gt;
+
+&lt;h2 id=&quot;ライブラリ&quot;&gt;ライブラリ&lt;/h2&gt;
+
+&lt;p&gt;今年個人で書いてリリースしたライブラリは次の通りです。言語的にいうとJavaScript(含むTypeScript)、Java、C#、Dart、Ruby、Python、VBAになります。&lt;/p&gt;
+
+&lt;h3 id=&quot;ncmbmaniancmb_deno-deno用のsdkです&quot;&gt;&lt;a href=&quot;https://github.com/NCMBMania/ncmb_deno&quot;&gt;NCMBMania/ncmb_deno: deno用のSDKです&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;TypeScript/Denoで作ったNCMB SDKです。DenoはTypeScriptが動きますが、ライブラリのインポート周りで癖があります。その辺りを吸収して同じコードベースで動くようにしています。&lt;/p&gt;
+
+&lt;h3 id=&quot;ncmbmaniancmb_xamarin-xamarin-sdk-for-ncmb&quot;&gt;&lt;a href=&quot;https://github.com/NCMBMania/ncmb_xamarin&quot;&gt;NCMBMania/ncmb_xamarin: Xamarin SDK for NCMB&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;はじめてC#で作ったライブラリです。Xamarinはもちろん.NET 2.0で動くのでWindowsやmacOSでも動作します。&lt;a href=&quot;https://github.com/runceel&quot;&gt;Microsoftの太田さん（エンベデッドエバンジェリスト）&lt;/a&gt;にお手伝いいただいています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.nuget.org/packages/NCMBClient/&quot;&gt;NuGet Gallery - NCMBClient 0.4.0&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;ncmbmaniancmb-dart-ncmb-library-for-dart-and-flutter&quot;&gt;&lt;a href=&quot;https://github.com/NCMBMania/ncmb-dart&quot;&gt;NCMBMania/ncmb-dart: NCMB library for Dart and Flutter.&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Dart/Flutterで動作するNCMB用SDKです。元々Flutter Webでも動作していたのですが、プッシュ通知周りを利用する際にネイティブ限定になってしまいました。プッシュ通知周りだけ別ライブラリ化して、Flutter Webでも使えるようにしたい…と思いつつ年を越してしまいます。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://pub.dev/packages/ncmb&quot;&gt;ncmb - Dart Package&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;goofmintncmb_py-ncmbのpython-sdkです&quot;&gt;&lt;a href=&quot;https://github.com/goofmint/ncmb_py&quot;&gt;goofmint/ncmb_py: NCMBのPython SDKです&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;最近大学でNCMBを利用するケースがあり、その中でIoTとの連携が求められているという文脈で開発をはじめています。ユースケースが分かっていると作りやすいですね。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://pypi.org/project/NCMB/&quot;&gt;NCMB · PyPI&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;goofmintcustomers-mail-cloud-java-customers-mail-cloudのjava用sdkです&quot;&gt;&lt;a href=&quot;https://github.com/goofmint/Customers-Mail-Cloud-Java&quot;&gt;goofmint/Customers-Mail-Cloud-Java: Customers Mail CloudのJava用SDKです&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;Customers Mail Cloud用のJava SDKです。メール送信しかできませんが、Web API経由なのでLambdaで動かすこともできます。&lt;/p&gt;
+
+&lt;h3 id=&quot;goofmintcustomers-mail-cloud-vba-vbaexcelからcustomers-mail-cloudを実行します&quot;&gt;&lt;a href=&quot;https://github.com/goofmint/Customers-Mail-Cloud-VBA&quot;&gt;goofmint/Customers-Mail-Cloud-VBA: VBA（Excel）からCustomers Mail Cloudを実行します。&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;同じくCustomers Mail Cloud用のVBA SDKです。簡単にいえばExcelからのメール送信を想定しています。&lt;/p&gt;
+
+&lt;h3 id=&quot;goofmintcustomersmailcloud-js-customers-mail-cloud用のnodejsライブラリです&quot;&gt;&lt;a href=&quot;https://github.com/goofmint/CustomersMailCloud-js&quot;&gt;goofmint/CustomersMailCloud-js: Customers Mail Cloud用のNode.jsライブラリです&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;同じくCustomers Mail Cloud用のNode.js SDKです。こちらはメール送信以外にも配信結果を取得するような機能も追加されています。TypeScriptで書かれています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.npmjs.com/package/@moongift/customers-mail-cloud&quot;&gt;@moongift/customers-mail-cloud - npm&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;goofmintcustmersmailcloud-rb-customers-mail-cloudのrubyライブラリです&quot;&gt;&lt;a href=&quot;https://github.com/goofmint/CustmersMailCloud-rb&quot;&gt;goofmint/CustmersMailCloud-rb: Customers Mail CloudのRubyライブラリです&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;同じくCustomers Mail Cloud用のRuby SDKです。こちらもメール送信以外にも配信結果を取得するような機能も追加されています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://libraries.io/rubygems/customers_mail_cloud&quot;&gt;customers_mail_cloud 0.3.0 on Rubygems - Libraries.io&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;goofmintcustomersmailcloudpy-python-library-for-customers-mail-cloud&quot;&gt;&lt;a href=&quot;https://github.com/goofmint/CustomersMailCloudPy&quot;&gt;goofmint/CustomersMailCloudPy: Python library for Customers Mail Cloud&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;同じくCustomers Mail Cloud用のPython SDKです。こちらもメール送信以外にも配信結果を取得するような機能も追加されています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://pypi.org/project/CustomersMailCloud/&quot;&gt;CustomersMailCloud · PyPI&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ハンズオン&quot;&gt;ハンズオン&lt;/h2&gt;
+
+&lt;p&gt;今年はハンズオンコンテンツに注力していました。リアルで行っている場合、せっかく来てもらっていることもあって2〜3時間のコンテンツが多かったですが、オンラインではなかなか集中力が続きません。そこで1時間のショートハンズオンを開催しています。たとえば利用している資料は次のようなものです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://qiita.com/goofmint/items/928258011ac57e79e0ca&quot;&gt;Monacaとニフクラ mobile backendを使ってタスク管理アプリを作ろう【ハンズオンスライド】 - Qiita&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;ハンズオンはDiscord上で行っています。Discordに登録してもらうことで、サービス体験者を可視化しています。また、その上でコミュニケーションを取ることで、タッチポイントを増やしています。&lt;/p&gt;
+
+&lt;h2 id=&quot;twitch&quot;&gt;Twitch&lt;/h2&gt;
+
+&lt;p&gt;TwitchやYouTube Liveを使って開発中、ブログ執筆中の配信を行っています。まだ実験段階で、どういったコンテンツが向いているのか試行錯誤しています。&lt;/p&gt;
+
+&lt;p&gt;エバンジェリストが目立ちすぎるのはよくないと思う部分もありますが、オンラインでの活動が増えていく中ではYouTuberやDJのような分かりやすいシンボル化も必要だと考えています。そういった形になるのが目標です。&lt;/p&gt;
+
+&lt;h2 id=&quot;カンファレンス運営&quot;&gt;カンファレンス運営&lt;/h2&gt;
+
+&lt;p&gt;今年運営に関わったカンファレンスは次の通りです。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-asia.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://conf2020.pwanight.jp/&quot;&gt;PWA Night CONFERENCE 2020&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://tokyo-2020.devrel.net/&quot;&gt;DevRelCon Tokyo 2020&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://2020.devrel.net/&quot;&gt;DevRelCon Earth 2020&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.cross-party.com/&quot;&gt;CROSS2020&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devrel.dev/asia-2020/&quot;&gt;DevRel/Asia 2020&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;PWA Night CONFERENCE 2020は2月1日開催で、コロナショックを受ける直前のカンファレンスでした。DevRelCon Tokyo 2020は中止、その他のカンファレンスはすべてオンラインカンファレンスとなっています。一番感慨深いのはやはりDevRel/Asia 2020になります。約半年間の準備で、新しいチャレンジしかない楽しい試みでした。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://devrel.jp/%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/2020/11/16/devrel-asia-2020.html&quot;&gt;DevRel/Asia 2020を開催しました - DEVREL - 開発者向けマーケティング支援サービス -&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;英語登壇&quot;&gt;英語登壇&lt;/h2&gt;
+
+&lt;p&gt;今年は3つでした。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://2020.devrel.net/&quot;&gt;DevRelCon Earth 2020&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://devrel.dev/asia-2020/&quot;&gt;DevRel/Asia 2020&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apidayshongkong.virtualconference.com/#/event&quot;&gt;apidays LIVE HONG KONG&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;DevRelConやDevRel/Asiaについては運営側と言うこともあって下駄を履いているところがあるでしょう。apidaysは1週間くらい前に突然登壇を依頼されたものになります。香港開催ですが、時差は1時間程度ですし、現地入りする必要がないのはオンラインカンファレンスのメリットと言えそうです。&lt;/p&gt;
+
+&lt;h2 id=&quot;書籍&quot;&gt;書籍&lt;/h2&gt;
+
+&lt;p&gt;DevRelに関連した書籍は2冊書いています。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/online-event.jpg&quot; style=&quot;width: 350px !important&quot; /&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;[一冊で分かる！オンラインイベントのはじめかた (技術の泉シリーズ（NextPublishing）)https://www.amazon.co.jp/dp/4844379291/)&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://techbookfest.org/product/5638666120593408&quot;&gt;英語で広がる開発者のキャリア&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;どちらも技術書典に合わせてコミュニティメンバーと一緒に書いた本になります。徐々に執筆環境も整いつつあって、書きやすくなってきました。2021年も良いネタがあればぜひ書きたいですね。&lt;/p&gt;
+
+&lt;h2 id=&quot;devくんrelちゃんの制作&quot;&gt;Devくん、Relちゃんの制作&lt;/h2&gt;
+
+&lt;p&gt;コロナ禍でなんとなく元気のなくなったDevRel界隈を盛り上げようと作成したのがDevくん、Relちゃんです。このイメージキャラクターはミートアップイベントやDevRel/Asia 2020でも活躍してくれました。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/devkun-relchan.png&quot; style=&quot;width: 500px !important&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;まとめ&quot;&gt;まとめ&lt;/h2&gt;
+
+&lt;p&gt;2020年はコロナショックがあり、あっという間に過ぎ去ってしまったように感じます。また、リモートワークやオンラインミートアップが多くなって刺激が低下しているのが否めない年でもありました。個人的には3月にいく予定だったインド行きがキャンセルになってしまったのが無念です。バンガロールでミートアップを行う予定で、20名を超える方たちが参加登録してたのに勿体なかったです。その頃はインドはほとんど広まっておらず、日本が避けられている状態だったのも、今に思えば遠い過去のようです。&lt;/p&gt;
+
+&lt;p&gt;うまくいけば2021年春頃にワクチン接種が開始しますが、副作用や輸入の問題もあって広く行き渡るのにはまだまだ時間がかかるでしょう。少なくとも2020年中に去年のようにリアルイベントを開くのは難しいと言わざるを得ません。そんな中でいかに情報を広め、開発者を鼓舞して寄り添えるか…2021年もDevRelの真価が問われることでしょう。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;MOONGIFTではDevRelのサポート、アウトソーシングを承っています。DevRelでのお悩みについてはお気軽に&lt;a href=&quot;/contact&quot;&gt;お問い合わせください&lt;/a&gt;。&lt;/p&gt;</content><author><name>moongift</name></author><category term="ブログ" /><summary type="html">2020年のDevRelアドベントカレンダーもついに25日、最終日になりました。せっかくなので、2020年における自分自身のDevRelに関する活動について振り返りたいと思います。</summary></entry><entry><title type="html">DevRelとブランドの関係</title><link href="https://devrel.jp/%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89/2020/12/06/devrel-branding.html" rel="alternate" type="text/html" title="DevRelとブランドの関係" /><published>2020-12-06T09:00:00+09:00</published><updated>2020-12-06T09:00:00+09:00</updated><id>https://devrel.jp/%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89/2020/12/06/devrel-branding</id><content type="html" xml:base="https://devrel.jp/%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89/2020/12/06/devrel-branding.html">&lt;p&gt;こちらはDevRel/Asia 2020の発表内容を日本語化したものです。スライド画像は英語のままです。&lt;/p&gt;
+
+&lt;h2 id=&quot;ブランドとは何か&quot;&gt;ブランドとは何か&lt;/h2&gt;
+
+&lt;p&gt;ブランドとは有形のものではありません。皆さんもブランドのイメージはあっても、的確な答えを持ち合わせていないかもしれません。そこで、まずはブランドとは何かを説明しましょう。ブランドの起源は、牛などの家畜に焼き印を押したことにあります。自分の家畜であることの証としてブランド化されていました。これがブランドです。現在では、ブランドという言葉は、有名な企業やサービス、商品のロゴマークを指すことが多いです。ブランドとは、ロゴを見ただけで製品やサービスのイメージを呼び起こすことができる力のことです。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-branding-006.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;つまり、簡単に言えば、ブランドとはマインドシェアの力といえます。ブランド力があれば、消費者はすぐにあなたを見つけてくれます。それは開発者の頭の中にある種みたいなものです。そして、ブランドは信頼の証でもあります。ブランド力のある製品やサービスは、開発者からの信頼度が高いと言えます。メリットを理解すれば、ブランド構築の重要性が理解できるでしょう。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-branding-009.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;こちらはインターブランドによるブランドランキングです。消費者向けですので、開発者向けとは違うことに注意してください。しかし、リストの上位5社をテクノロジ企業が独占しています。12位のインテル、13位のフェイスブック、14位のIBMもあります。テクノロジ企業がブランドを強化し、マインドシェアを獲得していることがわかります。&lt;/p&gt;
+
+&lt;p&gt;開発者という観点で見てみると、Appleのブランド力が非常に強いです。日本にはApple信者という言葉があります。Appleに魅了され、新製品が出るとすぐに飛びつく人たちです。私もその一人で、Appleの積極的に先進的な製品をリリースする姿勢が好きです。しかし、ほとんどの場合、最初の製品は多くの問題を抱えています。それもまた、Appleの価値の一部です。Amazon、というかAWSのことを考えてみてください。彼らはトップクラウドベンダーとしてシェアを45％を占めていて、さまざまな機能をリリースしています。開発者はそれらをパズルのように組み合わせてサービスを開発しています。個々の技術やサービスが開発者にとっては心地良く、AWSの魅力に取りつかれているのです。AWSの魅力の一つは、システムの安定性と機能の継続性です。めったに動かなくなることはありません。過去に書いたコードが継続的に動き続けます。開発者は、ベンダーの問題によってリリースされた機能を修正することなく、常に新しい開発に取り組むことができます。この安定性と継続性は、ブランド構築に大きな役割を果たします。&lt;/p&gt;
+
+&lt;p&gt;Microsoftはどうでうでしょう。約10年前、Microsoftは一部の開発者から嫌われていました。しかし、新しいCEOが就任した際に、メッセージは変わりました。Vistual Studio Codeは世界でもトップレベルのプログラミングエディタになり、Edgeは独自開発をやめてChromiumをベースにし、Edgeはブラウザのシェアを急速に伸ばしています。Googleは常に開発者志向の会社です。多くの開発者が彼らのサービスをハッキングし、便利なソフトウェアを作ってきました。Androidはスマートフォンの未来を変えようとしています。そして、Google ChromeやChromiumはWebを変えています。しかし、GoogleはGoogle VideoやPicassa、Hangoutsなど、似たような名前のサービスを作っては停止させています。彼らのサービスは継続性に難点があると知られています。継続性に疑問符がつくと、信頼を築くのは難しいでしょう。&lt;/p&gt;
+
+&lt;p&gt;このように強いブランドを持つことが、いかに企業価値を高めることにつながるかが分かったでしょう。ブランドの重要性が理解できたところで、次に進みます。&lt;/p&gt;
+
+&lt;h2 id=&quot;ブランドメリット&quot;&gt;ブランドメリット&lt;/h2&gt;
+
+&lt;p&gt;まずはメリットです。メリットを理解することで、ブランド構築の重要性が理解できます。ブランド構築のメリットは大きく分けて3つあります。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;後天的なユーザーコストの低下&lt;/li&gt;
+  &lt;li&gt;LTVの増加&lt;/li&gt;
+  &lt;li&gt;代替サービスとの差別化&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;まず、新規ユーザー獲得のためのコストです。マインドシェアを獲得していれば、開発者はほかと比較せずにあなたのサービスを選ぶでしょう。また、ロイヤルティの高い開発者は、あなたのサービスをほかの人に勧める可能性が高くなります。口コミでユーザーを獲得するためのコストは、広告よりも大幅に小さいです。&lt;/p&gt;
+
+&lt;p&gt;次に、LTVを向上につながります。あなたが強力なブランドを持っていれば、ユーザーは喜んであなたのサービスや製品を使い続けるでしょう。彼らはあなたのサービスに機能を追加してアップセルすることもあるでしょう。また、ほかのサービスへの切り替えコストが高くなるため、ユーザーはあなたのサービスを使い続けるでしょう。ほかのサービスへの流出は、単にマイナスではありません。競合他社にとってはプラス1、あなたにとってはマイナス1、合計2点の影響があります。&lt;/p&gt;
+
+&lt;p&gt;メリットの最後。ブランドはほかの代替サービスとの差別化になります。つまり、ブランドは選ぶ理由になります。価格や機能だけで選ばれるのではなく、ユーザーはブランドでサービスを選びます。たとえば、ブランドがなければ、あえてカッコ悪い商品を使いたいとは思わないでしょう。多少価格が高くても、使っていて格好良い、見た目がスマートな商品を選びます。また同じような商品が出てきても、ユーザーはあなたの商品を守ったり、応援してくれます。彼らはソーシャルメディアやブログを使って、クローン商品があなたのものとは違うことを説明してくれるでしょう。これは開発者にとって、あなたが一生懸命いうよりも説得力ある意見になるでしょう。&lt;/p&gt;
+
+&lt;h2 id=&quot;ブランド構築の目的&quot;&gt;ブランド構築の目的&lt;/h2&gt;
+
+&lt;p&gt;さて、ブランド構築の目的についてですが、これは簡単なことです。会社の利益の増加につながることです。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-branding-024.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;1つ目は、満足度の向上です。満足度が向上するということは、開発者がより多くのお金を払うことでしょう。価格を上げたとしても、離脱する開発者は少なくなります。2つ目は、開発者との関係が良くなることです。開発者がほかのサービスを気にするのをやめて、あなたのサービスを使い続けます。その結果、LTVは増加し、利益の増加につながります。最後に、ブランドはあなたのサービスの評判を向上させます。評判が良ければ、その評判に惹かれて新たな開発者を獲得できます。新規獲得のコストを削減することで、あなたの収益を向上させることができます。&lt;/p&gt;
+
+&lt;h2 id=&quot;ブランド価値を分解する&quot;&gt;ブランド価値を分解する&lt;/h2&gt;
+
+&lt;p&gt;ブランド価値には2つの視点があります。開発者の視点と、企業の視点です。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-branding-027.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;まずは開発者の視点です。開発者目線のブランド価値観は、得られる利益とコストの差を基準にしています。認識できるものとは、わかりやすい価値のことです。たとえば、機能や価格などです。しかし、中には認識されにくい価値もあります。使っているとみんなが注目してくれるなど、エモーショナルな価値です。これは、数値化が難しいものです。一方で、目に見えないコストもあります。たとえば、学習コスト、コーディングの時間、さらにはあなたの製品を使用するために費やした彼らのキャリアなどです。&lt;/p&gt;
+
+&lt;p&gt;対して、企業のブランド価値はどうでしょう。企業がまず価値と考えるのは、製品提供価値です。製品提供価値の最大化はマーケティングの領域です。その製品価値が、コンテンツ提供価値やリレーションシップ提供価値と相まって、ブランド価値を生み出しているのです。DevRelに携わっている方なら、ここでピンとくるはずです。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-branding-030.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;そう、コンテンツとリレーションシップです。ブログ記事を書いたりドキュメントをメンテナンスしたりするのがコンテンツ、コミュニティを維持したりハッカソンを扱うのがリレーションシップと同じです。つまり、ブランド構築の2大要素をDevRelが担っているのです。私たちDevRelがやっていることは、ブランド構築を強化していると言ってもよいでしょう。もともと私はブランド構築に興味があり、いろいろと調べていました。コンテンツ提供価値とリレーションシップ提供価値を知ったときに、大きな衝撃を受けました。なぜなら、DevRelがこのコンテンツ提供価値とリレーションシップ提供価値を提供しているからです。&lt;/p&gt;
+
+&lt;h3 id=&quot;コンテンツ提供価値とリレーション提供価値&quot;&gt;コンテンツ提供価値とリレーション提供価値&lt;/h3&gt;
+
+&lt;p&gt;もう少し詳しく説明しましょう。コンテンツ提供価値とは何かというと、製品の価値を上げる情報のことです。誰かに伝えたくなるようなストーリーであったり、相手を虜にするようなストーリーなどです。ほかとは何か違うと感じさせるストーリーもよいです。OSSの場合は、開発者が助けたくなるようなストーリーもよいです。&lt;/p&gt;
+
+&lt;p&gt;同様に、リレーション提供価値とは、製品の価値を高める関係性のことです。サービスを利用してソフトウェアを開発する経験、ユーザーグループに参加してコミュニケーションをとる、公式・非公式のサポートを受ける、OSSの開発に貢献するなど、すべてが関係性につながります。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-branding-034.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;コンテンツ提供価値とリレーションシップ提供価値、この2つが一緒になって初めて意味を持ちます。しかし、多くの場合、最初の接触はコンテンツです。そして開発者があなたの製品を継続的に使用することで、開発者は関係性を感じ、あなたの製品をより深く好きになるのです。では、たとえばコンテンツ提供価値とリレーションシップ提供価値とは具体的に何なのでしょうか。コンテンツ提供価値とは、企業が提供する情報で、あなたの製品をより魅力的なものにしてくれるものです。コンセプトムービー、一貫したデザイン、ブログ記事、ドキュメントだったりします。リレーションシップ提供価値はソーシャルメディアやユーザーグループ、ハンズオン活動などの体験主導型の施策になります。これらの要素はどちらもあなたの製品提供価値を支え、ブランド力を向上させるものです。&lt;/p&gt;
+
+&lt;h3 id=&quot;注意ポイント&quot;&gt;注意ポイント&lt;/h3&gt;
+
+&lt;p&gt;B2BとB2Cでは、誰をターゲットにしているかによって製品やサービスの条件が異なることを理解しましょう。B2Cでは、個人の開発者がターゲットであり、ステークホルダーは少なくなります。その反面、安定性は低くなります。B2Bの場合、戦える市場が限られきます。どちらの場合でもターゲットオーディエンスを分析し、彼らに合わせたブランディングをしましょう。ターゲットが違えば、コミュニティも異なるでしょう。ターゲットオーディエンス、つまり開発者のことをしっかりと学びましょう。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-branding-036.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;次に、信頼はすぐに築かれるものではありません。システムの安定性、応答性の高さ、そしてサービスの継続性が関係しています。中長期的に時間をかけることが、確かな信頼を築くためには欠かせません。&lt;/p&gt;
+
+&lt;h2 id=&quot;いつはじめるか&quot;&gt;いつはじめるか&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-branding-040.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;では、ブランディングの構築はいつから始めるのがベストなのでしょうか。これは新商品と既存商品では異なります。まず、新規製品の場合は、サービスのコンセプトが固まってから行うのがベストです。それ以前にやってしまうと、ピボットの影響が大きくなります。すでにリリースしている製品の場合は、アーリーアダプタへの波及が落ち着いたタイミングにしましょう。アーリーアダプタのフィードバックを受けてサービスが改善された段階くらいがちょうどよいです。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-branding-041.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;注意点&quot;&gt;注意点&lt;/h2&gt;
+
+&lt;p&gt;ブランドというのは信頼の積み重ねです。信頼は砂粒のようなもので、それを山のように積み上げるのは非常に難しいです。たとえば、あなたの会社がいくつかのサービスを提供しているとしましょう。最初、それぞれのサービスと開発者は良い関係を築いています。しかし、あなたのサービスの1つがユーザーの信頼を損なったとします。そうすると、会社への信頼は損なわれ、ほかのサービスにも波及することになります。1つのサービスの失敗は、会社全体のブランディングに悪影響を及ぼすことになります。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-branding-046.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;逆に言えば、すべてのサービスで良好な関係が保たれていれば、会社全体で開発者との強い信頼関係を築くことができます。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-branding-047.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;まとめ&quot;&gt;まとめ&lt;/h2&gt;
+
+&lt;p&gt;ブランドとは、開発者とサービスの絆です。強いブランドがあれば、開発者の心に早く届くでしょう。またブランドとは、それぞれの製品、コンテンツ、関係性の提供価値の掛け算で表されます。最後に、信頼を築くのは難しいですが、壊すのは簡単だということを忘れないでください。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;MOONGIFTではDevRelのサポート、アウトソーシングを承っています。DevRelでのお悩みについてはお気軽に&lt;a href=&quot;/contact&quot;&gt;お問い合わせください&lt;/a&gt;。&lt;/p&gt;</content><author><name>moongift</name></author><category term="ブランド" /><summary type="html">こちらはDevRel/Asia 2020の発表内容を日本語化したものです。スライド画像は英語のままです。</summary></entry><entry><title type="html">オンラインイベントに関する書籍を出版します！</title><link href="https://devrel.jp/%E6%9B%B8%E7%B1%8D/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2020/12/05/online-event-book.html" rel="alternate" type="text/html" title="オンラインイベントに関する書籍を出版します！" /><published>2020-12-05T09:00:00+09:00</published><updated>2020-12-05T09:00:00+09:00</updated><id>https://devrel.jp/%E6%9B%B8%E7%B1%8D/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2020/12/05/online-event-book</id><content type="html" xml:base="https://devrel.jp/%E6%9B%B8%E7%B1%8D/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2020/12/05/online-event-book.html">&lt;p&gt;昨年（2019年）の&lt;a href=&quot;https://www.amazon.co.jp/dp/B0814N5WLW&quot;&gt;DevRel Q&amp;amp;A&lt;/a&gt;に引き続き、2020年もDevRelに関する書籍が出版されます！&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+  &lt;a href=&quot;https://nextpublishing.jp/book/12581.html&quot;&gt;&lt;img src=&quot;/images/articles/online-event.jpg&quot; style=&quot;width: 354px !important;height: 500px !important&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+  &lt;a href=&quot;https://nextpublishing.jp/book/12581.html&quot;&gt;一冊で分かる！オンラインイベントのはじめかた&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;今回はこの書籍出版に関する裏話を共有します。&lt;/p&gt;
+
+&lt;h2 id=&quot;スケジュール&quot;&gt;スケジュール&lt;/h2&gt;
+
+&lt;p&gt;もともと、この本は&lt;a href=&quot;https://techbookfest.org/event/tbf09&quot;&gt;技術書典9&lt;/a&gt;で頒布するために執筆開始しました。技術書典9が7月10日に発表されたことから端を発します。&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+  &lt;img src=&quot;/images/articles/book-backstage-2.png&quot; style=&quot;width: 600px !important;height: 268px !important&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;7月12日に専用のチャットチャンネルを作成しました。ちなみに技術書典9は9月12日開催です。つまり2ヶ月間しか猶予はありません。&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+  &lt;img src=&quot;/images/articles/book-backstage-3.png&quot; style=&quot;width: 600px !important;height: 330px !important&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;ネタは決まって、章立てもできていたのですが、7月29日時点でほぼ何も動いていません。言い訳をすると、7月は&lt;a href=&quot;https://2020.devrel.net/&quot;&gt;DevRelCon Earth 2020&lt;/a&gt;というオンラインカンファレンスがあり、そちらにマンパワーを取られていました。それも29日になって、そろそろ動き出せそうになってきたかなというタイミングです。&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+  &lt;img src=&quot;/images/articles/book-backstage-4.png&quot; style=&quot;width: 600px !important;height: 124px !important&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;8月2日に技術書典9へ申し込みました。審査が通ったのは8月10日で、約1週間審査にかかっていたようです。&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+  &lt;img src=&quot;/images/articles/book-backstage-5.png&quot; style=&quot;width: 600px !important;height: 192px !important&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;そこからレギュレーションを決めて、執筆を開始しました。今期はTextLintを利用し、日本語のチェックを行っています。締め切りは8月末としていたので、約20日間といったところです。&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+  &lt;img src=&quot;/images/articles/book-backstage-6.png&quot; style=&quot;width: 600px !important;height: 195px !important&quot; /&gt;
+&lt;/div&gt;
+
+&lt;p&gt;30日ごろから一気に執筆が進んでいったのですが、最終的に完了したのは9月10日でした。9月10日までに見本誌を提出して審査を受けないと9月12日のイベント開始時に頒布開始できないという問題があり、なんとか間に合いました。とはいえ、いくつかの修正ポイントも残っていたのですが…。&lt;/p&gt;
+
+&lt;p&gt;ちなみにこちらが元の表紙です。&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+  &lt;img src=&quot;/images/articles/online-community-cover.png&quot; style=&quot;width: 354px !important;height: 500px !important&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;イベント当日&quot;&gt;イベント当日&lt;/h2&gt;
+
+&lt;p&gt;技術書典9では売れる度にメールが送られてくるしくみになっていました。後は売り上げ管理で数字を確認できるので、定期的にメッセージを送っていました。やはり売れるとうれしいもので、執筆者どうしでなるべく早く情報共有したいと考えていました。&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+  &lt;img src=&quot;/images/articles/book-backstage-8.png&quot; style=&quot;width: 600px !important;height: 615px !important&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;座談会設定&quot;&gt;座談会設定&lt;/h2&gt;
+
+&lt;p&gt;さらに頒布数を伸ばすべく、急遽執筆記念イベントを設定しました。&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+  &lt;img src=&quot;/images/articles/online-envet-connpass.png&quot; style=&quot;width: 600px !important;height: 246px !important&quot; /&gt;&lt;br /&gt;
+  &lt;a href=&quot;https://devrel.connpass.com/event/189351/&quot;&gt;DevRel/Book 緊急座談会 〜オンラインイベント本を語ろう〜 - connpass&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;こういったイベントをさくっと行えるのもオンラインのよさと言えるでしょう。動画を残すのも簡単で、アーカイブとしてすぐに使えます。&lt;/p&gt;
+
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/e30YEN3fWKw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;h2 id=&quot;技術書典9の結果&quot;&gt;技術書典9の結果&lt;/h2&gt;
+
+&lt;p&gt;頒布数は公開しませんが、予定の冊数は無事達成できました。初のオンライン開催とあって、心配ごともいろいろあったのですが、数多く買っていただけてよかったです。&lt;/p&gt;
+
+&lt;h2 id=&quot;商業出版のお話&quot;&gt;商業出版のお話&lt;/h2&gt;
+
+&lt;p&gt;そして技術書典9が終了した1週間後くらいにインプレスR&amp;amp;Dの山城さんより、商業出版のお声がけをいただきました。これが10月3日です。&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+  &lt;img src=&quot;/images/articles/book-backstage-9.png&quot; style=&quot;width: 600px !important;height: 178px !important&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;加筆修正&quot;&gt;加筆修正&lt;/h2&gt;
+
+&lt;p&gt;オンラインでのイベント、会議ツールは百花繚乱ともいうべき状態です。新しいツールが続々と登場し、既存ツールのバージョンアップも激しかった年でした。そんな中とあって、オンラインイベント本もすでに加筆修正ポイントがいくつもありました。この修正は10月末までを目処に行われました。&lt;/p&gt;
+
+&lt;h2 id=&quot;表紙のデザイン&quot;&gt;表紙のデザイン&lt;/h2&gt;
+
+&lt;p&gt;表紙のデザインは湊川さんが行っています。山城さんから湊川さんにお声がけがいったのは10月13日ごろだったようです。&lt;a href=&quot;/%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC/2020/12/04/character.html&quot;&gt;DevRelのキャラクタであるDevくん、Relちゃん&lt;/a&gt;を使う形でデザインが進んでいきました。さらに表紙にある著者の似顔絵はアイコンしてもらっています。私のものは現在TwitterとFacebookアイコンになっています。&lt;a href=&quot;https://twitter.com/llminatoll&quot;&gt;湊川さん&lt;/a&gt;++！&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+  &lt;img src=&quot;/images/articles/book-backstage-10.png&quot; style=&quot;width: 600px !important;height: 314px !important&quot; /&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;出版に向けて&quot;&gt;出版に向けて&lt;/h2&gt;
+
+&lt;p&gt;加筆修正が10月末で終わり、その後細かな修正が11月16日ごろまで行われました。そして11月20日に発売日が12月14日と決定しました。&lt;/p&gt;
+
+&lt;h2 id=&quot;金額の確定&quot;&gt;金額の確定&lt;/h2&gt;
+
+&lt;p&gt;今回はスクリーンショットが多く、Webサイトによってはダークモードのものもあり、モノクロの印刷ではきちんと見えない可能性がありました。そのためカラー版のみの販売とし、電子版は2,000円、紙版は2,500円となっています。モノクロの場合はそこから一定額減らせるようです。&lt;/p&gt;
+
+&lt;h2 id=&quot;予約開始&quot;&gt;予約開始&lt;/h2&gt;
+
+&lt;p&gt;そして12月4日にオンラインで書籍情報が公開され、Amazonなどでも予約開始できるようになりました。10月3日にお声がけいただいて、そこから2ヵ月で出版されたことになります。このスピード感はオンデマンド印刷だからこそといえそうです。&lt;/p&gt;
+
+&lt;div style=&quot;text-align: center&quot;&gt;
+  &lt;a href=&quot;https://nextpublishing.jp/book/12581.html&quot;&gt;&lt;img src=&quot;/images/articles/online-event.jpg&quot; style=&quot;width: 354px !important;height: 500px !important&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
+  &lt;a href=&quot;https://nextpublishing.jp/book/12581.html&quot;&gt;一冊で分かる！オンラインイベントのはじめかた&lt;/a&gt;
+&lt;/div&gt;
+
+&lt;p&gt;絶賛予約中なので、ぜひお願いします！&lt;/p&gt;
+
+&lt;h2 id=&quot;書籍について&quot;&gt;書籍について&lt;/h2&gt;
+
+&lt;p&gt;商業出版されたDevRelの書籍はこれで3冊目になります。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.jp/dp/B08PK5J8T1/&quot;&gt;一冊で分かる！オンラインイベントのはじめかた (技術の泉シリーズ（NextPublishing）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.jp/dp/B0814N5WLW/&quot;&gt;開発者向けマーケティング DevRel Q&amp;amp;A Apple、Slack、GitHub、Twitterが成長した裏にある秘密 (技術の泉シリーズ（NextPublishing）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.jp/dp/B07X8SD4PP/&quot;&gt;DevRel エンジニアフレンドリーになるための3C&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;いずれの書籍にも関わっているのですが、やはりコミュニティで書いた書籍はみんなの知恵と工夫、熱量がこもっているので感慨深いものがあります。ぜひ手にとってご覧ください（電子版もあります）。&lt;/p&gt;
+
+&lt;p&gt;後は個人的に書いた本もあります。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://booth.pm/ja/items/1729492&quot;&gt;DevRelの教科書: 基礎から歴史、基本的な考え方まで（紙版）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.jp/dp/B082RPGMQV/&quot;&gt;DevRelの教科書: 基礎から歴史、基本的な考え方まで（Kindle版）&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.jp/dp/B07CNCYV83/&quot;&gt;DevRel: なぜ彼らのプロダクトが選ばれるのか&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;次の予定について&quot;&gt;次の予定について&lt;/h2&gt;
+
+&lt;p&gt;技術書典9が終わって間もないですが、実はすでに&lt;a href=&quot;https://techbookfest.org/event/tbf10&quot;&gt;技術書典10が予定されています&lt;/a&gt;（10月26日より）。もちろんDevRel Meetupで参加登録済みです。次回は以前に書いた&lt;a href=&quot;https://www.amazon.co.jp/dp/B07Q86FNHB/&quot;&gt;英語で広がる開発者のキャリア&lt;/a&gt;を新たなメンバーとコンテンツで書き直します。実を言うと、前回の技術書典9で一番売れた本がこの英語本だったのです。英語やキャリアの話は注目されていることが分かっていますし、DevRelにおいてグローバルな活動は重視したいという考えがあります。そこで、再度英語×開発者×キャリアというテーマで書籍を書きます。&lt;/p&gt;
+
+&lt;p&gt;こちらも商業出版につながるとよいな、と願っています。&lt;/p&gt;</content><author><name>moongift</name></author><category term="書籍" /><category term="オンラインイベント" /><summary type="html">昨年（2019年）のDevRel Q&amp;amp;Aに引き続き、2020年もDevRelに関する書籍が出版されます！</summary></entry><entry><title type="html">DevRelのキャラクターが誕生（しています）！</title><link href="https://devrel.jp/%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC/2020/12/04/character.html" rel="alternate" type="text/html" title="DevRelのキャラクターが誕生（しています）！" /><published>2020-12-04T09:00:00+09:00</published><updated>2020-12-04T09:00:00+09:00</updated><id>https://devrel.jp/%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC/2020/12/04/character</id><content type="html" xml:base="https://devrel.jp/%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC/2020/12/04/character.html">&lt;p&gt;数ヶ月前にSlackなどで発表はしていながら、告知もリリース文も書いていないのですが…。この機会に発表したいと思います。DevRelのキャラクターを作成しました。名前はDevくん、Relちゃんです。安直ですが、お見知りおきください。&lt;/p&gt;
+
+&lt;h2 id=&quot;なぜ作成したのか&quot;&gt;なぜ作成したのか&lt;/h2&gt;
+
+&lt;p&gt;そもそも、なぜこのキャラクター達を作ったのか。それはこのコロナ禍の状況において、自然とコミュニティ活動全体がトーンダウンしているように見えたからです。オンラインイベントはオフラインのそれに比べて刺激が少なく感じられ、最初こそ大勢の人たちが集まったオンラインイベントも、結局のところ「合わない」人たちも大勢いたかと思います。半年くらい経って、結局オフラインの時と変わらないくらいの人数になってきています。3月くらいの人たちはどこにいってしまったのか…たぶんオンラインで参加できるから、とりあえずなんでも参加したという感じかなと思っています。&lt;/p&gt;
+
+&lt;p&gt;そんな訳で一瞬のバブル状態だった訳ですが、刺激が減ることによる熱量低下は大きな問題になります。そこで刺激物として投入したかったのがこのキャラクターになります。&lt;/p&gt;
+
+&lt;h2 id=&quot;キャラクターに込めた思い&quot;&gt;キャラクターに込めた思い&lt;/h2&gt;
+
+&lt;p&gt;こういった擬人化キャラクターはクラウドベンダーでよく行われています。奔りがどこだったかは記憶していませんが、Microsoftのクラウディアであったり、さくらインターネットの桜葉愛、クラスメソッドのめそ子など、キャラクターは多数存在します。しかし、これらはすべて女性キャラクターです。開発者界隈の男性比率が高いこともあり、そうした人たちに対するアプローチなのが見え見えなのがどうも気になりました。&lt;/p&gt;
+
+&lt;p&gt;DevRel界隈では著名な女性スピーカーも大勢います。また、個人的にはDevRel界隈においては性差を持ち込むのは厳禁と考えています。女性、男性を問わず、その人の技量で活躍できるのがDevRelの良いところでしょう。そういった事情もあり、男女のキャラクターで作成を依頼しました。&lt;/p&gt;
+
+&lt;p&gt;また、年齢的なところも考えました。DevRelにおいてはある程度の技術的、社会人としての経験が必要になります。新入社員1年目の方がエバンジェリストになっても、解決できる問題の幅は狭いでしょう。もちろん技術力だけであれば小学校くらいからオープンソース開発に関わっているという人もいますが、それは特殊な事例です。深い技術的知見と、これまでの経験がないと適切なアドバイス、サポートもできず、信頼を構築するのは難しいと思います。そのため、キャラクターは若々しさではなく、20代後半くらいのイメージで作ってもらっています。&lt;/p&gt;
+
+&lt;h2 id=&quot;キャラクタープロフィール&quot;&gt;キャラクタープロフィール&lt;/h2&gt;
+
+&lt;p&gt;各キャラクターのプロフィールは次のようになっています。&lt;/p&gt;
+
+&lt;h3 id=&quot;devくんのプロフィール&quot;&gt;Devくんのプロフィール&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;28歳&lt;/li&gt;
+  &lt;li&gt;大学時代に学生向けハッカソンに参加した経験あり&lt;/li&gt;
+  &lt;li&gt;新しい技術好き
+    &lt;ul&gt;
+      &lt;li&gt;気になるガジェットが出るとつい買ってしまう&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;新卒でオンラインサービスを提供する会社にプログラマーとして就職&lt;/li&gt;
+  &lt;li&gt;最近、社内で立ち上げたサービスのデベロッパーアドボケイトになる&lt;/li&gt;
+  &lt;li&gt;コミュニティは参加経験はあるが、立ち上げた経験はなし&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/dev-kun.png&quot; style=&quot;height:500px !important;width:283px !important;&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;relちゃんのプロフィール&quot;&gt;Relちゃんのプロフィール&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;年齢：秘密（20代後半）&lt;/li&gt;
+  &lt;li&gt;ツイ廃（会社にばれないようアカウントは分けている）&lt;/li&gt;
+  &lt;li&gt;大学時代はブログとソーシャルを利用&lt;/li&gt;
+  &lt;li&gt;新卒で入った会社は受託開発会社&lt;/li&gt;
+  &lt;li&gt;開発力はついたが、残業が多かったので転職&lt;/li&gt;
+  &lt;li&gt;現在は某外資系企業&lt;/li&gt;
+  &lt;li&gt;開発はUS本国。カスタマーサクセス兼コミュニティマネージャ&lt;/li&gt;
+  &lt;li&gt;コミュニティ立ち上げ経験はなし。現在勉強中&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/rel-chan.png&quot; style=&quot;height:500px !important;width:260px !important;&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;デザインについて&quot;&gt;デザインについて&lt;/h2&gt;
+
+&lt;p&gt;ここまでキャラクターを見せていれば分かる方もいると思いますが、デザインは&lt;a href=&quot;https://twitter.com/llminatoll&quot;&gt;湊川あいさん&lt;/a&gt;に依頼しました。こちらの期待する通りのキャラクターに仕上げてくれています。このDevくん、Relちゃんをベースに、何人かの絵師の方に依頼して派生版を描いてもらっています。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/dev-left.gif&quot; style=&quot;width: 186px !important; height: 186px !important&quot; /&gt;&lt;img src=&quot;/images/articles/dev-front.gif&quot; style=&quot;width: 186px !important; height: 186px !important&quot; /&gt;&lt;img src=&quot;/images/articles/dev-back.gif&quot; style=&quot;width: 186px !important; height: 186px !important&quot; /&gt;&lt;img src=&quot;/images/articles/dev-right.gif&quot; style=&quot;width: 186px !important; height: 186px !important&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/rel-left.gif&quot; style=&quot;width: 128px !important; height: 128px !important&quot; /&gt;&lt;img src=&quot;/images/articles/rel-front.gif&quot; style=&quot;width: 128px !important; height: 128px !important&quot; /&gt;&lt;img src=&quot;/images/articles/rel-back.gif&quot; style=&quot;width: 128px !important; height: 128px !important&quot; /&gt;&lt;img src=&quot;/images/articles/rel-right.gif&quot; style=&quot;width: 128px !important; height: 128px !important&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-custom-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-custom-3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;LINEスタンプもあります（まだ販売していません…）。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-custom-2.png&quot; style=&quot;width: 364px !important; height: 355px !important&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;その内3Dモデルとか作ってみたいですね。&lt;/p&gt;
+
+&lt;h2 id=&quot;使いどころ&quot;&gt;使いどころ&lt;/h2&gt;
+
+&lt;p&gt;Devくん、RelちゃんはDevRelに関するところであれば自由に使ってもらって構いません。スライドに紛れ込ませたり、配信などで出してもOKです。DevRelに関するところなので当たり前ですが、公共良俗に反する使い方はしないでください。個人的にはDevRel Meetup in Tokyoであったり、DevRel/Asia 2020の道案内などで活躍してもらっています。まだまだ使い方を模索中で、皆さんにもぜひ使ってみてもらいたいです。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/ovice.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;後、12月4日（この記事を書いている当日）から予約を開始した&lt;a href=&quot;https://nextpublishing.jp/book/12581.html&quot;&gt;一冊で分かる！オンラインイベントのはじめかた&lt;/a&gt;では表紙にDevくん、Relちゃんが描かれています。こちらの表紙も湊川あいさんの手によるものです。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/online-event.jpg&quot; style=&quot;width: 354px !important; height: 500px !important&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;その内、マンガなどにも登場することでしょう。ステッカーも作りたい。&lt;/p&gt;
+
+&lt;h2 id=&quot;まとめ&quot;&gt;まとめ&lt;/h2&gt;
+
+&lt;p&gt;こんな感じでDevくん、Relちゃんの誕生秘話は以上です。DevRel Meetup in Tokyoはなんだかんだで5年くらい続いていますが、まだまだ浸透段階にあります。コロナ禍で消沈している暇などありません。どんどん盛り上げていきましょう！&lt;/p&gt;</content><author><name>moongift</name></author><category term="キャラクター" /><summary type="html">数ヶ月前にSlackなどで発表はしていながら、告知もリリース文も書いていないのですが…。この機会に発表したいと思います。DevRelのキャラクターを作成しました。名前はDevくん、Relちゃんです。安直ですが、お見知りおきください。</summary></entry><entry><title type="html">DevRelのローカリゼーション</title><link href="https://devrel.jp/%E6%B5%B7%E5%A4%96/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2020/12/02/localization-devrel.html" rel="alternate" type="text/html" title="DevRelのローカリゼーション" /><published>2020-12-02T00:00:00+09:00</published><updated>2020-12-02T00:00:00+09:00</updated><id>https://devrel.jp/%E6%B5%B7%E5%A4%96/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2020/12/02/localization-devrel</id><content type="html" xml:base="https://devrel.jp/%E6%B5%B7%E5%A4%96/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2020/12/02/localization-devrel.html">&lt;p&gt;DevRelは開発者個人と向き合った活動になります。そのため、現地化がとても重要です。特にこれから海外に進出する、グローバルにサービス提供する、逆にある地域（日本含む）に進出する場合においては、現地の開発者状況について学ばなければなりません。&lt;/p&gt;
+
+&lt;p&gt;たとえば先日開催したDevRel/Asia 2020の場合、11月14日がインドのディーワーリーであることをほとんど誰も知りませんでした。ディーワーリーはヒンドゥー教のお祭りであり、日本で言えばクリスマスと正月が同時に来たような熱狂的お祭りになります。これがあったため、インドチームは運営に参加できなくなりました。あらかじめ知っていれば避けたのに…と思わずにはいられません。これは日本で言えばゴールデンウィークやお盆を避けたりするのと同じです。&lt;/p&gt;
+
+&lt;p&gt;さらにコミュニティのイベント開催方法も地域によって異なります。たとえばシンガポールではセッション前にご飯を食べます。懇親会のような時間が最初にあって、そこで食べながら参加メンバーたちと会話をします。そしてある程度集まった段階で椅子がある部屋に移動してセッションがはじまります。そして終わったら、すぐ解散します。日本とはまるきり逆ですし、20時前とかでも平気で終わってしまうので最初は驚きました。&lt;/p&gt;
+
+&lt;p&gt;コミュニティイベントは開催曜日、時間なども特色があります。シンガポールの場合、平日夜に行われるイベントも多数あります。インドでは平日はあまりなく、土曜日の午前中に行われたりします。この辺りの地域特性も分かっていないと、参加者が集められなかったり、彼らの満足度が低いものになってしまうでしょう。&lt;/p&gt;
+
+&lt;p&gt;これは日本でも同じで、地方都市の場合は平日夜でも大丈夫ですが、埼玉や神奈川、千葉などの東京周辺で開催する場合は週末の午後が都合がよかったりします。彼らは平日は東京の会社に出社しており、自宅は神奈川、千葉、埼玉にあります。自宅に戻るまでに1.5時間くらいかかるので、平日夜のイベントに参加するのは困難です。また、週末の午前中は休む時間として必要で、午後3時くらいからイベントを行うとちょうどよかったりします。&lt;/p&gt;
+
+&lt;p&gt;インターネットによって情報の平準化が進んでいるように感じますが、それでも東京近辺と大阪、地方都市とで情報格差や技術浸透格差は存在します。東京でウケがよさそうなコンテンツであっても、地方でウケるとは限りません。イベントのテーマも都市に合わせて作成すべきでしょう。&lt;/p&gt;
+
+&lt;p&gt;国によって異なるのは利用しているツールも挙げられます。日本ではconnpassがイベントツールとして最も有名ですが、別な国ではMeetup.comであったりします。韓国や台湾の場合、Facebook Groupが開発者コミュニティで最も利用されているそうです。中国ではWeChatがコミュニティとしても使われています。グローバル = Meetup.comと単純に考えていると、集客やコミュニティ育成に大きな失敗を被るでしょう。これはソーシャルサービスやコミュニケーションツール全般にいえることでしょう。&lt;/p&gt;
+
+&lt;p&gt;言葉は一番シンプルな地域特性になります。日本において英語や欧米人というだけで、一定の距離感を置かれてしまいます。数年前、いくつかの企業では外国人のエバンジェリストを雇用していましたが、いまはどうなったのか分かりません（少なくとも2社はいなくなっています）。これは諸外国においても同様で、現地においては現地人のエバンジェリストの方が、より彼らの市場に入り込めるでしょう。&lt;/p&gt;
+
+&lt;h2 id=&quot;現地の学び方&quot;&gt;現地の学び方&lt;/h2&gt;
+
+&lt;p&gt;さて、実際にどうやって現地のことを学ぶかといえば、一番いいのは自分が実際にそこで体験することでしょう。1回、2回の話ではなく、何度も足繁く通って自分自身が現地化するのが一番です。そこで現地の状況に精通している人を見つけられれば、その人を通じて現地のことを学べるようになります。&lt;/p&gt;
+
+&lt;p&gt;地方のコミュニティなどは人が重複していることが殆どです。一人のコミュニティ強者が複数のコミュニティ運営に携わっているような状態です。そうしたコミュニティのコネクターと信頼関係を結ぶことが、成功への第一歩となるでしょう。&lt;/p&gt;
+
+&lt;p&gt;ヌーラボではシンガポールオフィス開設に伴い、イベントスペースを開設しています。こうしたイベントを開催するような強者との接触機会を増やすというのは、現地を学ぶ、現地に広める上でいい施策だと感じています。&lt;/p&gt;
+
+&lt;h2 id=&quot;まとめ&quot;&gt;まとめ&lt;/h2&gt;
+
+&lt;p&gt;もちろん現在はコロナ禍にあって、容易に都市を移動したり、海外に移動することはできません。とはいえ、オンラインサービスはインターネットを通じて世界中につながっています。やろうと思えばいつだってサービスのグローバル展開は可能でしょう。そうした時のDevRelの注意点としては「彼を知り己を知れば百戦殆からず」です。相手を知らずして、自分たちのやり方を押しつけることのないよう注意しましょう。&lt;/p&gt;</content><author><name>moongift</name></author><category term="海外" /><category term="イベント" /><summary type="html">DevRelは開発者個人と向き合った活動になります。そのため、現地化がとても重要です。特にこれから海外に進出する、グローバルにサービス提供する、逆にある地域（日本含む）に進出する場合においては、現地の開発者状況について学ばなければなりません。</summary></entry><entry><title type="html">コロナ禍にあって流行っている施策、廃れている施策</title><link href="https://devrel.jp/%E6%96%BD%E7%AD%96/%E3%82%B3%E3%83%AD%E3%83%8A/covid-19/2020/12/01/popular-method.html" rel="alternate" type="text/html" title="コロナ禍にあって流行っている施策、廃れている施策" /><published>2020-12-01T00:00:00+09:00</published><updated>2020-12-01T00:00:00+09:00</updated><id>https://devrel.jp/%E6%96%BD%E7%AD%96/%E3%82%B3%E3%83%AD%E3%83%8A/covid-19/2020/12/01/popular-method</id><content type="html" xml:base="https://devrel.jp/%E6%96%BD%E7%AD%96/%E3%82%B3%E3%83%AD%E3%83%8A/covid-19/2020/12/01/popular-method.html">&lt;p&gt;コロナウイルスが日本で流行はじめたのが2月頭のことですが、それから10ヶ月経って状況は改善していない状態です。むしろ徐々に悪化しているとさえいえるでしょう。そんな最中ではありますが、DevRelは継続して行われなければいけません。なぜなら、こんな閉鎖的な状況を打破し、ニューノーマルな中でも輝くようなサービスやソフトウェアを開発するのが開発者だからです。そしてDevRelではそんな彼らを鼓舞し、応援するものだからです。&lt;/p&gt;
+
+&lt;p&gt;コロナ禍において、DevRelの形式も様変わりしてきているのではないでしょうか。2020年を振り返って、その施策の変化を紹介します。&lt;/p&gt;
+
+&lt;p&gt;まず、コロナの影響を受けている施策です。&lt;/p&gt;
+
+&lt;h2 id=&quot;expo展示会&quot;&gt;EXPO・展示会&lt;/h2&gt;
+
+&lt;p&gt;5月や10月に行われることが多かったEXPOや展示会は軒並み中止になったり、オンライン化しています。オンライン化と言えば聞こえは良いですが、実際には単に動画を並べているだけの、これが展示会なのかと疑問符がつくようなものも多数あったようです。試行錯誤の状態だとは思いますが、従来の展示会のように見込みリストが作れたかは不明です。&lt;/p&gt;
+
+&lt;h2 id=&quot;コミュニティイベント&quot;&gt;コミュニティイベント&lt;/h2&gt;
+
+&lt;p&gt;従来は毎日、数十行われていたコミュニティイベントも3月以降中止したり、オンラインに移行しています。最初の頃こそ、オンラインという珍しさで引き寄せられた人たちも多かったですが、半年も経つと飽きてしまっているようです。コミュニティの地力が必要とされている段階といえるでしょう。特に地方コミュニティの衰退する傾向が強くなっています。&lt;/p&gt;
+
+&lt;h2 id=&quot;dm&quot;&gt;DM&lt;/h2&gt;
+
+&lt;p&gt;4月くらいにDMが一気に押し寄せられてきた時期がありました。マーケターの人たちが情報を広めることができなくなり、リストに飛びついた感があります。その結果、受信者たちが嫌になって解約が相次いでいました。今なおこの傾向が強いですが（特にメディアサイト）、解約率は高止まりしているようです。メールによる情報伝達、CTRは悪化していることでしょう。&lt;/p&gt;
+
+&lt;h2 id=&quot;ウェビナー&quot;&gt;ウェビナー&lt;/h2&gt;
+
+&lt;p&gt;こちらも最初の頃こそ、もの珍しさもありましたが、あっという間に廃れています。顔出しを強要する場合、それだけで嫌がられる傾向があります。顔出ししない場合、聞いているのかどうか（仕事しながら聞いている人も多いですが）も分かりません。繰り返して行ったところで、本当に意味があるのかと疑問を持つことになるでしょう。&lt;/p&gt;
+
+&lt;h2 id=&quot;もくもく会&quot;&gt;もくもく会&lt;/h2&gt;
+
+&lt;p&gt;オンラインでもくもく会を開催してみましたが、やはり反応は鈍いです。自宅で作業しているのと殆ど変わらず、一体感がありません。その場にいればちょっとしたことでも聞けたのが、オンラインになると途端に距離が発生してしまいます。この距離感の問題はオンライン施策のすべてに関わってくるでしょう。&lt;/p&gt;
+
+&lt;p&gt;逆にコロナ禍にあって注目度が上がっている施策です。&lt;/p&gt;
+
+&lt;h2 id=&quot;ブログ&quot;&gt;ブログ&lt;/h2&gt;
+
+&lt;p&gt;オンラインコンテンツを増やす施策は注目されています。情報の調査などにオンラインを用いざるを得なくなっていますので、オンラインコンテンツを増やすことで検索されやすくなります。個人による発信力が低下している傾向がありますが、公式からの発信力を強めるにはいい時期でしょう。&lt;/p&gt;
+
+&lt;h2 id=&quot;ハンズオン&quot;&gt;ハンズオン&lt;/h2&gt;
+
+&lt;p&gt;オンラインのハンズオンも人気が出てきています。個人的にやっているのは1時間程度の短いハンズオンです。リアルの場に集まっている際には2〜3時間程度のハンズオンを行っていましたが、オンラインでは集中力が持ちづらいという問題があります。また、わざわざ出向いた感もないため、カジュアルにさくっと終われるハンズオンコンテンツであれば就業時間中でも参加しやすくなります。&lt;/p&gt;
+
+&lt;h2 id=&quot;相談会&quot;&gt;相談会&lt;/h2&gt;
+
+&lt;p&gt;施策がオンラインに移行したために、リアルで会って相談できる場が減ってしまいました。そのため、いつでも相談できる場を用意しておくのが大事です。実際、相談を利用した方たちの有料顧客へのコンバージョン率は非常に高くなっています。情報発信と組み合わせることで、相談窓口は営業窓口としても十分活用できるでしょう。&lt;/p&gt;
+
+&lt;h2 id=&quot;twitchyoutuberperiscope&quot;&gt;Twitch/YouTuber/Periscope&lt;/h2&gt;
+
+&lt;p&gt;エバンジェリスト・アドボケイトが前面に出るべきかは議論が必要ですが、一定のキャラクター付けは必要でしょう。そうしたキャラを活かしてTwitchやYouTubeで配信している人が増えています。編集した動画の場合、収録と編集にかなり時間を要します。ライブ配信であれば、編集する必要がないので手軽にはじめられます。&lt;/p&gt;
+
+&lt;h2 id=&quot;オンラインイベント&quot;&gt;オンラインイベント&lt;/h2&gt;
+
+&lt;p&gt;オンラインイベントは従来のオフラインで行っていたイベントとは別物として捉える必要があるでしょう。熱量を重視したコミュニティはオンラインで形成するのが難しいです。一定の熱量があったとしても、それはオフライン時代からの参加者であったり、すでによく知る人たちだったりしないでしょうか。オンラインイベントにおいては、その目的と広がりを別な視点で捉えるべきです。&lt;/p&gt;
+
+&lt;p&gt;現在はオフラインができないから強制的にオンラインイベントが隆盛となっています。オフラインの代替くらいの雰囲気では行わない方がいいでしょう。&lt;/p&gt;
+
+&lt;h2 id=&quot;まとめ&quot;&gt;まとめ&lt;/h2&gt;
+
+&lt;p&gt;EXPOや展示会、ブース出展などが減った分、企業によっては予算が余っているところもあるようです。それでいて、売上はそれほど変わらないので従来のマーケティングが無駄だったかのようなとらえ方をされます。これはもちろん違って、従来のマーケティングのお陰（貯金）が今になって効いているだけです。貯金を取り崩してしまえば、次の一手が打ちづらくなるのは間違いありません。&lt;/p&gt;
+
+&lt;p&gt;コロナウイルスの影響は恐らく来年いっぱいは続くと考えられます。ワクチンの話を耳にするようになりましたが、それで一気に解決するものでもないでしょう。新しいマーケティング施策に乗り移るべき時期はすでにはじまっています。新しいDevRelをはじめていきましょう！&lt;/p&gt;</content><author><name>moongift</name></author><category term="施策" /><category term="コロナ" /><category term="COVID-19" /><summary type="html">コロナウイルスが日本で流行はじめたのが2月頭のことですが、それから10ヶ月経って状況は改善していない状態です。むしろ徐々に悪化しているとさえいえるでしょう。そんな最中ではありますが、DevRelは継続して行われなければいけません。なぜなら、こんな閉鎖的な状況を打破し、ニューノーマルな中でも輝くようなサービスやソフトウェアを開発するのが開発者だからです。そしてDevRelではそんな彼らを鼓舞し、応援するものだからです。</summary></entry><entry><title type="html">Devrel 2020</title><link href="https://devrel.jp/2020/11/19/devrel-2020.html" rel="alternate" type="text/html" title="Devrel 2020" /><published>2020-11-19T00:00:00+09:00</published><updated>2020-11-19T00:00:00+09:00</updated><id>https://devrel.jp/2020/11/19/devrel-2020</id><content type="html" xml:base="https://devrel.jp/2020/11/19/devrel-2020.html"></content><author><name></name></author><summary type="html"></summary></entry><entry><title type="html">DevRel/Asia 2020を開催しました</title><link href="https://devrel.jp/%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/2020/11/16/devrel-asia-2020.html" rel="alternate" type="text/html" title="DevRel/Asia 2020を開催しました" /><published>2020-11-16T01:00:00+09:00</published><updated>2020-11-16T01:00:00+09:00</updated><id>https://devrel.jp/%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/2020/11/16/devrel-asia-2020</id><content type="html" xml:base="https://devrel.jp/%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/2020/11/16/devrel-asia-2020.html">&lt;p&gt;11月14日にDevRel/Asia 2020というオンラインカンファレンスを開催しました。アジア各国の人たちと一緒に共同開催したオンラインカンファレンスになります。コロナ禍においてカンファレンスはオンラインカンファレンスに移行しがちですが、そうした中での苦労や、各国主催者とのコミュニケーション問題などを紹介できればと思います。&lt;/p&gt;
+
+&lt;h2 id=&quot;発端&quot;&gt;発端&lt;/h2&gt;
+
+&lt;p&gt;そもそもDevRel/Asia 2020を開催しようと考えたきっかけは、2月末に開催予定だったDevRelCon Tokyo 2020が中止になったことでした。2017年から開催を続けてきたDevRelCon Tokyoですが、2月20日を過ぎた辺りから日本でもコロナが広がりはじめ、やむなく中止という決断をせざるを得ませんでした。他のカンファレンスでは延期にしたり、オンラインに移行するケースがありました。しかしDevRelCon Tokyoの場合、海外からの登壇者が殆どであるため、タイムゾーンの問題もあって、中止という決断になりました。&lt;/p&gt;
+
+&lt;p&gt;2月末の時点では日本で広まりはじめただけで、欧米ではまだまだ問題視されていなかった時でした。また、4月を過ぎれば落ち着くだろうという根拠のない話も出ていたかと思います。結果として4月以降も広がって緊急事態宣言につながったり、欧米で一気に広まっていきました。その余波として、6月に開催予定だったDevRelCon SF 2020も中止ということになりました。&lt;/p&gt;
+
+&lt;h3 id=&quot;devrelcon-earth&quot;&gt;DevRelCon Earth&lt;/h3&gt;
+
+&lt;p&gt;このDevRelCon TokyoとSFの中止を受けて、各地域のDevRelCon主催者が考えたのがDevRelCon Earthでした。これは東京、ロンドン、サンフランシスコのそれぞれの主催者が共催するオンラインカンファレンスでしたが、タイムゾーンの問題や登壇者のアテンドなどを考えると、大したメリットのないカンファレンスになってしまいました。&lt;/p&gt;
+
+&lt;h3 id=&quot;devrelasiaへ&quot;&gt;DevRel/Asiaへ&lt;/h3&gt;
+
+&lt;p&gt;DevRelCon Earthの企画時点での微妙さを感じつつ、もっといいオンラインカンファレンスができると考えて私が企画したのがDevRel/Asia 2020になります。コンセプトは次の通りです。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;アジア各国の主催者と一緒に共催する&lt;/li&gt;
+  &lt;li&gt;オンラインカンファレンスである&lt;/li&gt;
+  &lt;li&gt;CFPは一緒に募集し、各地域に配分する&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;この企画を立ち上げたのは2020年5月くらいでした。そこからまず、各国の協力してくれそうな人たちへの声かけがはじまりました。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;インドはDevRel Meetup Bangaloreを一緒に運営しているアラビン、DevRelCon LondonやSFで会うことの多かったヤシュー&lt;/li&gt;
+  &lt;li&gt;シンガポールはDevRelFolksを立ち上げたサラやエリーシャ（DevRelCon Londonでも会っていた方たち）&lt;/li&gt;
+  &lt;li&gt;韓国はDevRelCon Tokyoに来ていたリーガン&lt;/li&gt;
+  &lt;li&gt;中国（香港）はDevRelCon Tokyoに来ていたポール&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;こうした方たちに声をかけるところからはじまりました。たまたまではありますが、DevRelCon Tokyoや、DevRel Meetupの海外版を展開していたことが、今回の各国主催者に声をかけるのに繋がったというのは感慨深いものです。お互い相手を知らない関係であったら、とても話が進まなかったことでしょう。&lt;/p&gt;
+
+&lt;h2 id=&quot;多発する問題点&quot;&gt;多発する問題点&lt;/h2&gt;
+
+&lt;p&gt;ではここからDevRel/Asia 2020で起こったさまざまな問題点を紹介していきます。海外の人たちとカンファレンスを企画する機会はあまり多くないと思いますが、参考になる部分があれば幸いです。&lt;/p&gt;
+
+&lt;h3 id=&quot;デュワリの襲来&quot;&gt;デュワリの襲来&lt;/h3&gt;
+
+&lt;p&gt;デュワリというのはヒンドゥー教のお祝いで、正月とクリスマスがくっついたような、インド界隈では1年で最も大きな行事になります。たぶん日本人でこのイベントを知っている人は殆どいないと思います。私もインドチームの人たちから教えられてはじめて知りました。&lt;/p&gt;
+
+&lt;p&gt;このデュワリは年によって日付が変わるらしいのですが、今年はなんとDevRel/Asia 2020の開催日である11月14日でした。そもそもはじめから知っていただろうと思うのですが、私が知らされたのが8月くらいになってからだったように記憶しています。&lt;/p&gt;
+
+&lt;p&gt;インドチームはデュワリによって参加者が減ってしまうこと、登壇も難しくなることから開催日を変更できないかと聞いてきました。しかしすでに告知していること、プロポーザルも集めていることから、それは却下しました。インドチームだけ開催日をずらすという話も出ていましたが、カンファレンス全体の価値が下がるので、それも承諾できませんでした。その後、開催時間を短くする案で一旦同意したのですが、その後も条件を変更したいと伝えてきたので、私の権限においてインドチームは解散としました。条件を色々変えようとするのを承諾していると、恐らくきりがなかったでしょう。&lt;/p&gt;
+
+&lt;p&gt;インドからは5人くらいの運営参加者がいましたが、残念ながら解散となりました。インドの人たちの特徴として、DMを好むという点がありました。人に夜かも知れませんが、少なくとも関わったインドの人たちがみんなDMで個別に裏でやり取りしようとするのです。何度も同じ話をしたくありませんし、裏でのやり取りはオープンディスカッションではないので、途中からすべて断るようにしました。これはインドではWhatsAppがメインコミュニケーションツールなのと何か関係があるのかも知れません。&lt;/p&gt;
+
+&lt;h3 id=&quot;アジア1トラックの作成&quot;&gt;アジア1トラックの作成&lt;/h3&gt;
+
+&lt;p&gt;インドチームは解散しましたが、良質なプロポーザルは多数集まっていました。結果として、110近いプロポーザルが集まりましたが、各トラックで10くらいしかセッションはできません。この時点で日本、韓国、中国（含む香港）、SEA（東南アジア）トラックを予定していましたが、これでは40くらいのプロポーザルしか採用できませんでした。&lt;/p&gt;
+
+&lt;p&gt;そこでアジア1トラックという新しいトラックを作成しました。その後、さらにアジア2トラックも作成しました。これで約60（最終的に70以上）のセッションが実現しました。オンラインカンファレンスの場合、運営で回す力さえあれば、トラック数を自由に増やせるのが魅力といえます。&lt;/p&gt;
+
+&lt;h3 id=&quot;sea東南アジアチームの崩壊&quot;&gt;SEA（東南アジア）チームの崩壊&lt;/h3&gt;
+
+&lt;p&gt;運営チームでは毎週状況報告、情報共有を行うミーティングを開催していました。これは個々の事情もあるため、参加を必須とはしていませんでした。その代わり、議事録だけは必ず確認するように伝えていました。しかし、徐々に個人の参加意欲が失われていったり、仕事が忙しくなったりと、情報共有がうまく進まなくなっていきました。これが顕著だったのはSEA（東南アジア）チームです。&lt;/p&gt;
+
+&lt;p&gt;明示されている期日までにやらない、批評はするが実働はしない、チャットメッセージを読まない、議事録を読まない…などなどとかなりひどい状態でした。その結果としてチームリーダーは離れていったのですが、彼女自身が持っている情報を他のメンバーに引き継ぎもしなかったので、さらに混迷を極めました。もちろん、それは人によるところが大きいでしょう。とはいえ、日本や中国、韓国ではそういった問題は殆ど起きていません。インドチームはデュワリによって残念ながら解散しましたが、彼らとのコミュニケーションも大きな問題はありませんでした。東南アジア（シンガポール、フィリピン、ベトナム、インドネシアなど）チーム固有の問題だったと感じています。&lt;/p&gt;
+
+&lt;p&gt;結果として、私の権限でチームを解散しようとSlackで書くところまでいきましたが、1人だけ残ったことと、もう1人が加わってくれたことでSEAトラックも無事開催できることとなりました。&lt;/p&gt;
+
+&lt;h3 id=&quot;アジアの範囲&quot;&gt;アジアの範囲&lt;/h3&gt;
+
+&lt;p&gt;これは私のミスなのですが、DevRel/Asiaといいつつ、今回は東アジアに限った領域で開催となってしまいました。UAE（アラブ首長国連邦）からも運営参加の申し出があったのですが、個人的に中東 ≠ アジアという考えが出てしまって（また、1人しかいなかったため）参加をお断りしてしまいました。アジアというとエジプトの東（場合によっては含むエジプト）、東欧までを含む範囲であるべきです。どこからどこまでがアジアなのか、あらかじめはっきりさせるべきだったと感じています。&lt;/p&gt;
+
+&lt;p&gt;とはいえ、インドでさえ3.5時間の時差がコミュニケーション上、課題になっていました。中東まで含むとさらに時差が大きくなり、運営に支障をもたらしていたと感じています。&lt;/p&gt;
+
+&lt;h3 id=&quot;チケットについて&quot;&gt;チケットについて&lt;/h3&gt;
+
+&lt;p&gt;元々、チケットは基本無料であり、ステッカーや特別なノベルティ付きのチケットを有料販売していました。その時感じたのは、配送の手間です。特に海外発送の場合、税関で問題になったり、配送時にトラブルが発生することも考えられます。その時点で日本人しか購入していなかったこともありますが、特別なチケットは日本限定としました。これは結果的に成功でしたが、グローバルなカンファレンスとしては課題感の残る施策でした。オンラインカンファレンスの場合、ノベルティがデジタルなものになり、心に残りづらくなります。それだけに物理的なノベルティや体験を提供する手段を用意しておきたいものです。&lt;/p&gt;
+
+&lt;p&gt;今回、結果的に550枚近くのチケットが販売できました。他地域の主催者からはマーケティングプランはどうなっているのか、広告を打たなくていいのかなどといわれましたが、ことDevRelにおいて広告はほとんど効果はありません（広告を使って開発者にリーチできないからDevRelを行っている訳で）。そのため広告を打つ考えは最初からありませんでした。マーケティングプランについてはほぼソーシャル上での口コミによって成り立っています。&lt;/p&gt;
+
+&lt;h3 id=&quot;セッション動画について&quot;&gt;セッション動画について&lt;/h3&gt;
+
+&lt;p&gt;オフラインのカンファレンスの場合、開催後のセッション動画を作成するのはとても大変です。まずセッションのスライドをきちんと録画できていないといけません。これが失敗していたら、スライドをPDFにして、画像として使う必要があります。途中で動画を流された日には目も当てられません。また、スピーカーを撮影しておく必要があります。DevRel界隈のスピーカーは登壇慣れしており、舞台を所狭しと動き回ります。このスライドとスピーカーの動画を合わせてセッション動画にします。これはかなりの日数と工数を要します。&lt;/p&gt;
+
+&lt;p&gt;それに対してオンラインの場合、元々StreamYardで配信したものがそのまま利用できます。オープニングとエンディングに動画を付けて、音声を調整すればいい程度です。このブログ記事を書いている時点で8割くらいの動画は作成済みです。セッション動画が簡単に作成できるのは大きなメリットです。&lt;/p&gt;
+
+&lt;h3 id=&quot;オープニングエンディングムービーについて&quot;&gt;オープニング・エンディングムービーについて&lt;/h3&gt;
+
+&lt;p&gt;今回はRender Forestを使ってオープニング・エンディングムービーを作成しています。インタビュー用、当日用、そしてセッション動画用の3種類となっています。セッション動画用ではあまり長くない形で15秒程度です。当日用は30秒、インタビュー用は45秒とそれぞれ長さを分けています。&lt;/p&gt;
+
+&lt;h2 id=&quot;devrelasia-2020で工夫したこと&quot;&gt;DevRel/Asia 2020で工夫したこと&lt;/h2&gt;
+
+&lt;h3 id=&quot;oviceの導入&quot;&gt;oViceの導入&lt;/h3&gt;
+
+&lt;p&gt;元々6月くらいの時点ではSpatial Chatをバーチャルベニューとして導入する考えでした。しかし1会場50人までという制限があること、1日利用した場合50人分で○万円かかることがネックでした。元々DevRel/Asia 2020では集客を400名以上と見込んでいました（根拠なし）。そうすると8会場必要になるので、1日利用となると○万円かかることになります。&lt;/p&gt;
+
+&lt;p&gt;安価にやるならばZoomを使う方法もあるでしょう。しかし、あの四角い画面で見るという行為はカンファレンスに参加している感じになりませんし、むしろ距離感を感じたり、参加意欲を削いでしまいます。単純にいうと面白くありません。参加者同士が可視化される仕組みが必要でした。&lt;/p&gt;
+
+&lt;p&gt;そんな折、9月くらいにoViceの存在を知りました。Spatial Chatのように、お互いのアイコンの距離に応じて音量が変わるのが魅力的でした。アイコン化されることで、顔出しを嫌がる人でも安心して利用できます。操作性は特殊ですが、慣れれば大丈夫だろうと見込んでいました。&lt;/p&gt;
+
+&lt;p&gt;oVice上でも画面共有を使ってプレゼンテーションを行う機能があります。しかし操作性が難しいこと、ストリーミング配信できないことがネックでした。そこでプレゼンテーション自体はStreamYardで行い、その内容をoVice上で閲覧する構成としました（結果的にoVice上で閲覧がうまくいかない状態になってしまったのですが）。oVice上での閲覧方法を工夫すれば、この方法の選択自体は間違っていなかったように思います。&lt;/p&gt;
+
+&lt;h3 id=&quot;多言語対応のcfp&quot;&gt;多言語対応のCFP&lt;/h3&gt;
+
+&lt;p&gt;CFP、いわゆる登壇希望を提出するシステムとしてよく使われているのがPaperCallです。DevRelCon Tokyoで利用する際には英語での説明と日本語とを並記しています。しかし日英を並べて書くだけでも文章量が2倍になり、可読性が悪くなります。今回はさらに中国語、韓国語などにも対応しなければなりませんでした。探してみた限り、多言語に対応したCFPシステムは存在しませんでした。&lt;/p&gt;
+
+&lt;p&gt;そうしたこともあり、今回はCFPフォームを自作しています。Webブラウザの対応言語によって、表記を変えられるように設定しています。HTML上にはすべての言語で出力し、JavaScriptで表示を切り替えています。CFPの提出はもちろん、その後の承諾処理なども自作しています。&lt;/p&gt;
+
+&lt;h3 id=&quot;中国対応&quot;&gt;中国対応&lt;/h3&gt;
+
+&lt;p&gt;今回の色々な場面でネックになったのは中国対応でした。中国では利用できるインターネットサービスが異なります。たとえばデータのほとんどはGoogleシートで管理していましたが、これは中国本土からアクセスできません。そのため、スピーカーなどがデータを操作する必要がある機能は、ニフクラ mobile backendにデータをコピーして対応していました。その結果、一部のデータはニフクラ mobile backendを真として、あるデータはGoogleシートを真とするといったアンバランスな運用になってしまいました。&lt;/p&gt;
+
+&lt;p&gt;さらにストリーミング配信においてもYouTube、Facebook Liveは中国本土では見られません。LinkedIn Liveで配信すればいいと直前になって思いついたのですが、審査に6週間かかるといわれて諦めざるを得ませんでした。中国トラックはBilibili動画に配信して、他のトラックは諦めようかと思ったのですが、中国にあるオンライン学習サービスへの配信が行えるようになりました。これはタイムラグが4分くらいあるのですが、結果として全トラックを中国本土へもストリーミング配信することができました。&lt;/p&gt;
+
+&lt;p&gt;なお、中国本土からバーチャルベニューであるoViceへアクセスできないのが判明したのは当日になってからでした。中国の主催者はVPNを使うのが当たり前だったので、気付かなかったようです。これは大きなミスでした。&lt;/p&gt;
+
+&lt;h3 id=&quot;日本主催者は一部集合&quot;&gt;日本主催者は一部集合&lt;/h3&gt;
+
+&lt;p&gt;オンラインカンファレンスの場合、主催者も自宅から配信できます。これは運用負荷が小さいですし、トラブルも対応しやすいでしょう。最近ではオフィスよりも自宅の方が快適な作業環境になっている人も多いです。しかし、面白さに欠けるのが残念です。そこで日本の主催者の中で希望者は当日、イベントスペースに集まって作業することとしました。もちろんソーシャルディスタンスを確保した上でです。&lt;/p&gt;
+
+&lt;p&gt;忘れ物があったり、ディスプレイの枚数が足りないなどの問題は多々あったものの、集まって行ったことによる熱量の共有は大きな価値があったと感じています。全員がオンラインで実施していたら、きっとここまでの達成感は味わえなかったでしょう。&lt;/p&gt;
+
+&lt;h3 id=&quot;スピーカーインタビュー&quot;&gt;スピーカーインタビュー&lt;/h3&gt;
+
+&lt;p&gt;マーケティング施策としてスピーカーと15分間のインタビューを実施しました。誰かと知り合いになる時、1対1で話すのが大事だと思います。複数人で話しても、なかなかその人となりを知ることはできません。1対1で話してこそ、相手を覚えられますし、逆に相手に覚えてもらえると考えています。せっかくカンファレンスを主催する訳ですし、知り合いになれないのは勿体ないことです。&lt;/p&gt;
+
+&lt;p&gt;今回のカンファレンスでは約30人の人たちとインタビューを実施しました。カンファレンスの準備も普段の仕事もある中ですが、相手の希望する時間に合わせてこまめに実施していきました。インタビュー内容はそのままストリーミング配信し、アーカイブもYouTube上に残してあります。スピーカーの人たちはその動画をシェアしてくれて、カンファレンスの存在をアピールするのに繋がりました。&lt;/p&gt;
+
+&lt;h2 id=&quot;オンラインカンファレンスの課題&quot;&gt;オンラインカンファレンスの課題&lt;/h2&gt;
+
+&lt;p&gt;今回、500名規模（当日のストリーミング閲覧者は1,000人以上）、多言語のカンファレンスを実施してみて分かったことが幾つかあります。&lt;/p&gt;
+
+&lt;h3 id=&quot;役割分担は当日までと当日で分ける&quot;&gt;役割分担は当日までと当日で分ける&lt;/h3&gt;
+
+&lt;p&gt;リアルで行うカンファレンスの場合、当日スタッフという役割が必要です。受付、案内、片付けなどです。カンファレンスの運営メンバーとして、最初から当日枠として参加している人もいます。しかし、オンラインカンファレンス場合、そうした役割は存在しません。当日だけやればいい役割というのはほぼありません。当日やることを事前に把握していないと、当日必ず失敗します。&lt;/p&gt;
+
+&lt;p&gt;また、当日スタッフが不要ということは、大人数のスタッフは不要です。1トラック最低3人いれば回せるでしょう。配信係やスピーカーのサポートなども必要ですが、トラック毎である必要はありません。2トラックのカンファレンスであれば、7人くらいいれば十分といえます。頭数よりも運営スタッフの熱量が成否を分けることになるでしょう。&lt;/p&gt;
+
+&lt;p&gt;やる気のない運営が紛れ込むと、全体の指揮に大きな悪影響を与えます。一人だけミーティングに参加しない、議事録に参加しない、チャットを読んでいないといった人が混ざると、他の人まで同じように態度が悪化します。結果として空中分解してしまうでしょう。そうならないためのアイディアとしては、常に関わるべき理由を与えることです。&lt;/p&gt;
+
+&lt;p&gt;ソーシャル係、メール配信係、スピーカー担当、Webサイト担当など確実に何らかの作業に関わらなければなりません。何もしない時間を作ると心まで離れてしまいます。リアルのカンファレンスの場合はそれでも当日スタッフとしての役割が残っていましたが、オンラインカンファレンスの場合は何のためにいる人なのか分からない状態になってしまうでしょう。&lt;/p&gt;
+
+&lt;p&gt;なお、担当は専任でつけるべきです。複数人でやると合議制になったり、決めるまでに時間を要するようになります。ある係については、一人が責任をもって対応し、決定権を持たなければいけません。オンラインだけで決めようと思うと無駄に時間がかかったり、誰が実行するのか分から状態で放置されたりします。&lt;/p&gt;
+
+&lt;p&gt;そして、批評しかしないメンバーも不要です。なにやら意見をいうので、それならば任せるからやってといってもやらないのです。あれが必要、これが必要と言い訳ばかりします。そうした必要なものを用意してなお、やらないのです。そうしたコンサルメンバーは時間と工数の無駄にしからないので、意見を聞かないのがベストです。&lt;/p&gt;
+
+&lt;h3 id=&quot;視聴スタイルを考える&quot;&gt;視聴スタイルを考える&lt;/h3&gt;
+
+&lt;p&gt;最もよくあるスタイルはZoomに集まって行うものですが、個人的に好きではありません。距離感を強く感じますし、一体感も感じられません。参加しているという実感にも乏しく、YouTubeや映画の方がよっぽども面白いコンテンツになるでしょう。スピーカーと参加者間のインタラクションが乏しく、参加者も可視化も弱いので話していていまいち反応が薄いと感じてしまいます。これでは登壇していても面白くはありません。今回はoViceを使いましたが、これは参加者の可視化が一番大きな機能です。登壇機能もありますが、UI/UXが悪いので利用していません。将来的に改善されれば導入してもよさそうです。&lt;/p&gt;
+
+&lt;p&gt;oViceにはYouTube動画の埋め込み機能があるのですが、YouTube Liveでは通常利用できません。広告アカウントとの紐付けが必要（今は必要ではないという情報も）とのことで、審査にしばらくかかります。そのため、今回は間に合いませんでした。その結果、Facebook Liveを埋め込み表示したのですが、トラックによって埋め込めたり、エラーだったりと不安定でした。配信部分の作り込み、確認は早めにやっておくべきでした。&lt;/p&gt;
+
+&lt;h3 id=&quot;デジタルノベルティを考える&quot;&gt;デジタルノベルティを考える&lt;/h3&gt;
+
+&lt;p&gt;ノベルティはカンファレンスの重要なコンテンツです。オンラインカンファレンスになって、何も作らないというところも多いのですが、主催者同士のやる気にも関わるので個人的には何か作成した方がいいかと思います。DevRel/Asia 2020の場合は当初はTシャツを作ろうかと思っていましたが、時期的なものとWebカメラではTシャツが映りづらいので、帽子に変更しました。また、ステッカーは6種類の色違いで作成しています。さらにスーベニアとしてレーザー刻印したノートを作成しています。&lt;/p&gt;
+
+&lt;p&gt;スポンサーにも当初はデジタルノベルティをお願いしていたのですが、途中で物理ノベルティを自宅に送ってもらうことにしました。そしてカンファレンス参加者の中から選ばれた人に、実際に配送することにしました。物理的なものを得ることが少ない今の時期だからこそ、物理ノベルティの嬉しさが感じられるかと思います。&lt;/p&gt;
+
+&lt;h3 id=&quot;翻訳システム&quot;&gt;翻訳システム&lt;/h3&gt;
+
+&lt;p&gt;翻訳システムも大きな課題でした。シンガポールやインドでは英語が母国語なので問題ないのですが、日本や韓国、中国では字幕機能が必要です。さらに登壇者も英語だけでなく、日本語、韓国語、中国語、ベトナム語などバラエティに富んでいます。この相互変換は難しいと考えていました。&lt;/p&gt;
+
+&lt;p&gt;そこで見つけたのがUDトークです。登壇者の音声をUDトークにマイクを通じて取り込むことで、音声からテキストに変換します。その結果を別なUDトークアプリ（自分のデバイス）で認識することで、自分の母国語に変換できます。変換認識精度はそこそこですが、補助的に使う分には十分かなと言ったところです。何よりある言語から母国語への変換は各参加者の端末に任せられるのが便利でした。&lt;/p&gt;
+
+&lt;p&gt;ただし、トラックごとに音声出力デバイスとUDトークアプリ（提供サービス上アプリのみ）が必要になります。また、マイク取り込み用のデバイスも必要です。今回は6トラック分用意する必要がありました。&lt;/p&gt;
+
+&lt;h2 id=&quot;作成したもの&quot;&gt;作成したもの&lt;/h2&gt;
+
+&lt;p&gt;DevRel/Asia 2020では多言語化、中国対応があったため、かなりのツールを自作しました。ここでは作成したものを列挙しておきます。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;CFP提出フォーム&lt;/li&gt;
+  &lt;li&gt;CFPを受け取った時の通知ツール（Slack）&lt;/li&gt;
+  &lt;li&gt;プロポーザル投票ツール&lt;/li&gt;
+  &lt;li&gt;プロポーザル承諾ツール&lt;/li&gt;
+  &lt;li&gt;プロポーザル拒否メール&lt;/li&gt;
+  &lt;li&gt;登壇者の情報更新ツール&lt;/li&gt;
+  &lt;li&gt;参加者宛にSlack案内メール&lt;/li&gt;
+  &lt;li&gt;参加者のメールアドレスをMailChimpに登録するツール&lt;/li&gt;
+  &lt;li&gt;スピーカー向けの個別メールシステム&lt;/li&gt;
+  &lt;li&gt;タイムスケジュール表示&lt;/li&gt;
+  &lt;li&gt;スーベニアゲット用の応募フォーム&lt;/li&gt;
+  &lt;li&gt;ラッキードローシステム&lt;/li&gt;
+  &lt;li&gt;幕間動画生成&lt;/li&gt;
+  &lt;li&gt;OGP生成&lt;/li&gt;
+  &lt;li&gt;全体的に他言語対応&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;今回のシステムはほぼGoogle Apps Script、ニフクラ mobile backendのスクリプト機能で実装しています。お金もかからず運営できたのでよかったです。元々GitHub ActionsのcronでWebサイトを定期更新していたのですが、8分ごとにしか実行できなかったので、ここだけは外部サーバで定期実行する形にしています。&lt;/p&gt;
+
+&lt;p&gt;幕間動画はベースになる画像を自動で生成して、それをFFMPEGで連結して1つの動画にしています。さらにその動画をFFMPEGで繰り返し動画にすることで作成しています。StreamYardでは動画は100MB以下、5分以内という制限があったので、音声は含まない形にしています。音声はPretzelを使っています。元々6トラックすべてに1つのGoogle Chromeタブを共有していたのですが、負荷が高かったようです。途中から2つのインスタンスに分けました。&lt;/p&gt;
+
+&lt;h2 id=&quot;来年に向けて&quot;&gt;来年に向けて&lt;/h2&gt;
+
+&lt;p&gt;今の時点で来年があるかどうかは分かりませんが。もし来年やるとしたらこういうところを注意すべきだったな、こうしたらよかったなと思うことを挙げておきます。&lt;/p&gt;
+
+&lt;h3 id=&quot;説明はイラストで&quot;&gt;説明はイラストで&lt;/h3&gt;
+
+&lt;p&gt;日本語であっても同じですが、言葉やテキストでつらつらと説明しても半分も理解されていません。分かったふりをして、実は分かっていないことがよくあります。プレゼン資料並に分かりやすく、明確な情報伝達を徹底しないといけないでしょう。&lt;/p&gt;
+
+&lt;h3 id=&quot;レギュレーションを決める&quot;&gt;レギュレーションを決める&lt;/h3&gt;
+
+&lt;p&gt;オンラインだと運営メンバーの熱量の違いがどんどん出ます。熱量が低いと判断する基準を明確にして、ダメだと判断したら抜けてもらう必要があります。そのための参加基準もあらかじめ明確にしておいた方がいいでしょう。今回はとにかく条件を緩くして人を集めるのに集中していましたが、後から考えればそこまで頭数は大事ではなかったと思います。&lt;/p&gt;
+
+&lt;h2 id=&quot;まとめ&quot;&gt;まとめ&lt;/h2&gt;
+
+&lt;p&gt;とりとめなく書いてみましたが、DevRel/Asia 2020は個人的にかなりチャレンジングな企画でした。オンラインカンファレンス、かつアジア各国の主催者と一緒にカンファレンスを開催するというのはそうそうある経験ではないでしょう。途中、かなり後悔しそうにもなりましたが、終わってみれば十分な数字を残せたので満足と言ったところです。&lt;/p&gt;
+
+&lt;p&gt;中国やインドなど、DevRelの勢いは各国で強まっています。今回のカンファレンスでもそうした地域からの登壇者、参加者が数多く参加しています。今後ますます発展していくことでしょう。&lt;/p&gt;</content><author><name>moongift</name></author><category term="カンファレンス" /><summary type="html">11月14日にDevRel/Asia 2020というオンラインカンファレンスを開催しました。アジア各国の人たちと一緒に共同開催したオンラインカンファレンスになります。コロナ禍においてカンファレンスはオンラインカンファレンスに移行しがちですが、そうした中での苦労や、各国主催者とのコミュニケーション問題などを紹介できればと思います。</summary></entry><entry><title type="html">行動経済学をDevRelで活かすには</title><link href="https://devrel.jp/%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/2020/08/24/behavioral-economics.html" rel="alternate" type="text/html" title="行動経済学をDevRelで活かすには" /><published>2020-08-24T09:00:00+09:00</published><updated>2020-08-24T09:00:00+09:00</updated><id>https://devrel.jp/%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/2020/08/24/behavioral-economics</id><content type="html" xml:base="https://devrel.jp/%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/2020/08/24/behavioral-economics.html">&lt;p&gt;最近読んでいる本が非常に面白く、DevRelでも活かせる知見が多いので紹介します。テーマとしてはすべて「行動経済学」に関するものです。今読んでいるのは次の3冊です。&lt;/p&gt;
+
+&lt;iframe style=&quot;width:120px;height:240px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;https://rcm-fe.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&amp;amp;t=moongift-22&amp;amp;m=amazon&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as1&amp;amp;IS1=1&amp;amp;detail=1&amp;amp;asins=B00K1A75N4&amp;amp;linkId=c5596ee7895dc6af8cad641cacfdff8e&amp;amp;bc1=ffffff&amp;amp;lt1=_top&amp;amp;fc1=333333&amp;amp;lc1=0066c0&amp;amp;bg1=ffffff&amp;amp;f=ifr&quot;&gt;
+&lt;/iframe&gt;
+
+&lt;iframe style=&quot;width:120px;height:240px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;https://rcm-fe.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&amp;amp;t=moongift-22&amp;amp;m=amazon&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as1&amp;amp;IS1=1&amp;amp;detail=1&amp;amp;asins=B00GU4R8M8&amp;amp;linkId=4249eb8478bf50613291f1fcf4eade27&amp;amp;bc1=ffffff&amp;amp;lt1=_top&amp;amp;fc1=333333&amp;amp;lc1=0066c0&amp;amp;bg1=ffffff&amp;amp;f=ifr&quot;&gt;
+&lt;/iframe&gt;
+
+&lt;iframe style=&quot;width:120px;height:240px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;https://rcm-fe.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&amp;amp;t=moongift-22&amp;amp;m=amazon&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as1&amp;amp;IS1=1&amp;amp;detail=1&amp;amp;asins=4620326402&amp;amp;linkId=eab192248be9ec4b517f304fd7f970e3&amp;amp;bc1=ffffff&amp;amp;lt1=_top&amp;amp;fc1=333333&amp;amp;lc1=0066c0&amp;amp;bg1=ffffff&amp;amp;f=ifr&quot;&gt;
+&lt;/iframe&gt;
+
+&lt;p&gt;ちなみに私は人は悪魔に熱狂するから入った口です。&lt;/p&gt;
+
+&lt;h2 id=&quot;行動経済学とは&quot;&gt;行動経済学とは？&lt;/h2&gt;
+
+&lt;p&gt;一般的な経済学というのは、経済に関わる人たちがすべて合理的、理性的な判断に基づいているという前提のもとに理論が成り立っています。つまり人はすべての製品、サービスに関する情報を網羅的に把握しており、少しでも安いものを選択します。もし別なものが安価であれば、素早く切り替えます。&lt;/p&gt;
+
+&lt;p&gt;こうした前提が間違っているのは普段の生活だけでも感じるはずです。あるお店でガジェットを買って、少し歩いたら別な店でもう少し安いものを見つけてしまった、なんて経験は誰しもがあるはずです。すべての店を満遍なくチェックすれば、ベストな価格のものが見つかるかも知れませんが、そんなに合理的になれる人は多くありません。たかが数百円のために数時間歩き回ったりするのは難しいはずです。&lt;/p&gt;
+
+&lt;p&gt;その反面、たった数百円安いもののために数時間並ぶこともいとわない人たちもいます。彼らが働いた時の時給を考えたらとても割に合わないコストを費やしています。iPhone購入のために1週間も路上に並ぶ人たちがいましたが、彼らのモチベーションは経済学だけでは説明できないものです。&lt;/p&gt;
+
+&lt;p&gt;そうした人の心理的な部分を含めて経済活動を考えるのが行動経済学になります。まだ比較的新しい学問のようです。&lt;/p&gt;
+
+&lt;h2 id=&quot;devrelとの関係は&quot;&gt;DevRelとの関係は？&lt;/h2&gt;
+
+&lt;p&gt;さて、次にDevRelと行動経済学の関係を見ていきます。まず真っ先に思いつくのは、製品やサービスの選定でしょう。すべての人が、あらゆる情報に精通し、新しい情報ももれなくキャッチアップし、合理的で正しい判断を下しているでしょうか。まさか、そんなことはないのは誰もが分かっているはずです。&lt;/p&gt;
+
+&lt;p&gt;IT系の情報刷新は素早く、日進月歩で進化しています。そうした中で、すべての情報に精通しているとは思えません。筆者自身、多くの情報を取りこぼしていると自負しています。&lt;/p&gt;
+
+&lt;p&gt;そうした中であっても、担当者（開発者）は製品やサービスを選定しなければなりません。その決定は万人にとって合理的である必要はなく、本人と同僚、そして上司にとって合理的または納得できるものであれば十分になります。この彼らにとって十分納得できる理由こそ、DevRelによる結びつきになるといえるでしょう。&lt;/p&gt;
+
+&lt;p&gt;書籍の中からのエッセンスを一部紹介します。&lt;/p&gt;
+
+&lt;h3 id=&quot;刷り込み効果&quot;&gt;刷り込み効果&lt;/h3&gt;
+
+&lt;p&gt;いわゆる「ヒヨコが初めて見た動くものを親だと思ってしまう現象」です。人は誰しも初対面の印象を強く残します。ましてやそれが好印象だった場合、長期的にその経験が利用されます。書籍の中では「過去の自分の列に並ぶ」と表現されていましたが、過去の経験が自分にとって満足なものである場合、次に同様の機会があった場合、無条件に選択しがちだということです。&lt;/p&gt;
+
+&lt;p&gt;つまり最初に十分満足できる経験を提供できれば、それが刷り込み効果となって選定時に大きな役割を果たすということです。こうした取り組みは新しい市場を開拓する際であったり、学生プログラムなどに活きてきます。&lt;/p&gt;
+
+&lt;h3 id=&quot;無料の罠&quot;&gt;無料の罠&lt;/h3&gt;
+
+&lt;p&gt;無料…なんと甘美な響きでしょう。例えば片方（製品A）が2000円、もう一つ（製品B）は1000円だったとします。この時に選ばれるパーセンテージが製品A:製品B = 30:70 だったとしましょう。やはり安価なものに寄りがちです。しかし、これが製品Aは1000円、製品Bが0円だったとします。価格差は1000円で変わっていませんが、この場合の選ばれる率は製品A:製品B = 5:95 くらいに変わってしまうことでしょう（実験をした訳ではありません）。価格差が同じであるにも関わらず、無料がもつパワーは凄まじいものがあります。&lt;/p&gt;
+
+&lt;p&gt;もちろん無料ではビジネスになりませんので、一時の販促なのか、特定の利用者限定（クーポンなど）になるのかは分かりません。しかし開発者のリソース（人数、開発にかけられる時間）が有限である以上、製品Bを使い始めたユーザは製品Aを使う時間がありません。刷り込み効果が伴えば、多少の値上げがあったとしても、製品Aに切り替えるには彼ら自身が感じるスイッチングコストは大きくなる可能性があります。&lt;/p&gt;
+
+&lt;h3 id=&quot;価格プラン&quot;&gt;価格プラン&lt;/h3&gt;
+
+&lt;p&gt;無料プラン（もちろん0円！）、プロプラン（月額1,000円）、チームプラン（月額5,000円）の3パターンがあった時、有料プランを選ばざるをえないなら、中央のプランを選びがちだという論理です。何となく思い当たるケースもあるのではないでしょうか。例えば銀座で高級ブランドのお店に行き、50〜100万円くらいのバッグを何時間も見続けたとします。とても手が出ない…と思っていたところ、入り口の近くに3万円の廉価版が置いてあったらどう思うでしょうか。お得に感じて、思わず財布に手が伸びてしまうかも知れません。&lt;/p&gt;
+
+&lt;p&gt;書籍では新聞会社の月額プランの話であったり、レストランで注文されることのない最高級メニューを用意するといった例が挙げられていました。価格というのは相対的なものなので、一番上のプランにはなかなか手が出しづらいのが人の心理です。しかし、一回そうした金額を見ていると（これはアンカーと呼ばれます）、他の金額が相対的に安く（または高く）感じられるようになるのです。&lt;/p&gt;
+
+&lt;h3 id=&quot;人のつながり&quot;&gt;人のつながり&lt;/h3&gt;
+
+&lt;p&gt;これは書籍の中にはなかったですが、コミュニティに代表される「人と人のつながり」は行動経済学の一環だと感じています。誰々さんがいっていたから、有名なブロガーの人（今ならYouTuberでしょうか）がいっていたから…といった理由で、考慮せず無条件で選んでしまっていたりしないでしょうか。口コミなどもそうですし、ソーシャルメディアを使ったみんなで弱者を叩くような文化もそういった行動の一つだといえそうです。&lt;/p&gt;
+
+&lt;p&gt;これは情報格差がある地方では特に強い傾向があるようです（情報はオンラインで得られるのに格差があるのも興味深いですが）。長い付き合いの担当者がおり、その人がそういっているので選ぶといったケースは少なくありません。そうした時に選んでもらうためには、選定者ではなく担当者に情報を届けないといけないということです。&lt;/p&gt;
+
+&lt;p&gt;コミュニティでの繋がりで製品やサービスに持っていたイメージが好転（またはネガティブ）になってしまったり、選ぶ切っ掛けになったというケースは少なくありません。中の人を知っているかどうかは選定時の大きな理由になります。&lt;/p&gt;
+
+&lt;h2 id=&quot;まとめ&quot;&gt;まとめ&lt;/h2&gt;
+
+&lt;p&gt;行動経済学から学べるポイントは相当多いと考えられます。DevRelが「開発者と製品/サービスを結びつける」「開発者との関係性を良好にする」ものである以上、「人」の存在は欠かせません。人は合理的に生きておらず、もし本人が合理的だと思っていたとしても、その多くは感情的（エモーショナル）、直感的であることのが多いでしょう。そうした「人」の理解がDevRelの成否に繋がっているのは間違いありません。&lt;/p&gt;
+
+&lt;h2 id=&quot;moongiftはdevrelのサポートを行っています&quot;&gt;MOONGIFTはDevRelのサポートを行っています&lt;/h2&gt;
+
+&lt;p&gt;MOONGIFTではDevRelのアウトソーシングを提供しています。DevRelに取り組みたいが、アイディアも人員も不足している…そんな場合はぜひ&lt;a href=&quot;/contact&quot;&gt;お問い合わせください&lt;/a&gt;。&lt;/p&gt;</content><author><name>moongift</name></author><category term="マーケティング" /><summary type="html">最近読んでいる本が非常に面白く、DevRelでも活かせる知見が多いので紹介します。テーマとしてはすべて「行動経済学」に関するものです。今読んでいるのは次の3冊です。</summary></entry></feed>

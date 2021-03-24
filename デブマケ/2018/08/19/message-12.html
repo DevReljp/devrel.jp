@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<script
+src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="/assets/css/style.css" media="screen">
+<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-48936410-1"></script>
+<!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>開発者に語ってもらえるメッセージの作り方 | DEVREL - 開発者向けマーケティング支援サービス -</title>
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="開発者に語ってもらえるメッセージの作り方" />
+<meta name="author" content="moongift" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="前回のDeveloper Marketingのススメ の続きです。前回は開発者向けサービスを広める上で大事になる「デベロッパーボイス」について紹介しました。もしあなたがWebサービスをリリースしたとして、開発者が勝手にメッセージを書いてくれる訳ではありません。そのためには必要な要素が幾つかあります。今回はそれらの要素について紹介します。" />
+<meta property="og:description" content="前回のDeveloper Marketingのススメ の続きです。前回は開発者向けサービスを広める上で大事になる「デベロッパーボイス」について紹介しました。もしあなたがWebサービスをリリースしたとして、開発者が勝手にメッセージを書いてくれる訳ではありません。そのためには必要な要素が幾つかあります。今回はそれらの要素について紹介します。" />
+<link rel="canonical" href="https://devrel.jp/%E3%83%87%E3%83%96%E3%83%9E%E3%82%B1/2018/08/19/message-12.html" />
+<meta property="og:url" content="https://devrel.jp/%E3%83%87%E3%83%96%E3%83%9E%E3%82%B1/2018/08/19/message-12.html" />
+<meta property="og:site_name" content="DEVREL - 開発者向けマーケティング支援サービス -" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2018-08-19T09:00:00+09:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="開発者に語ってもらえるメッセージの作り方" />
+<script type="application/ld+json">
+{"headline":"開発者に語ってもらえるメッセージの作り方","dateModified":"2018-08-19T09:00:00+09:00","datePublished":"2018-08-19T09:00:00+09:00","url":"https://devrel.jp/%E3%83%87%E3%83%96%E3%83%9E%E3%82%B1/2018/08/19/message-12.html","mainEntityOfPage":{"@type":"WebPage","@id":"https://devrel.jp/%E3%83%87%E3%83%96%E3%83%9E%E3%82%B1/2018/08/19/message-12.html"},"author":{"@type":"Person","name":"moongift"},"description":"前回のDeveloper Marketingのススメ の続きです。前回は開発者向けサービスを広める上で大事になる「デベロッパーボイス」について紹介しました。もしあなたがWebサービスをリリースしたとして、開発者が勝手にメッセージを書いてくれる訳ではありません。そのためには必要な要素が幾つかあります。今回はそれらの要素について紹介します。","@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+<body>
+    <header class="l-header">
+  <h1><a href="/" class="js-header-icon-logo"><img src="/assets/images/icon-logo.png" class="l-header__icon-logo" alt="MOONGIFT" /></a></h1>
+  <span class="l-header__lang">
+    <span onclick="changeLang('en')">EN</span> / 
+    <span onclick="changeLang('ja')">JA</span>
+  </span>
+  <div class="l-header__spmenu-btn js-spmenu-btn">
+    <div class="c-hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  <div class="l-header__inner">
+    <nav class="l-header__nav">
+      <ul class="l-header__navlist js-spmenu">
+        <li class="l-header__navlist-item"><a href="/#mission" class="l-header-navlist__link">MISSION</a></li>
+        <li class="l-header__navlist-item"><a href="/#service" class="l-header-navlist__link">SERVICE</a></li>
+        <li class="l-header__navlist-item"><a href="/#client" class="l-header-navlist__link">CLIENT</a></li>
+        <li class="l-header__navlist-item"><a href="/#blog" class="l-header-navlist__link">BLOG</a></li>
+        <li class="l-header__navlist-item"><a href="/#about" class="l-header-navlist__link">ABOUT</a></li>
+        <li class="l-header__navlist-item"><a href="/contact" class="l-header-navlist__link">CONTACT</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="c-sidebar">
+    <div class="c-sidebar__lang">
+      <span onclick="document.location.href='https://devrel.co/'" class="is-ja">EN</span>
+      <span onclick="changeLang('ja')" class="is-en">JA</span>
+    </div>
+    <img src="/assets/images/logo-vertical.png" class="c-sidebar__logo" />
+
+    <div class="c-sidebar__copyright">
+      COPYRIGHT ©️ 2018 MOONGIFT INC. ALL RIGHTS RESERVED.
+    </div>
+
+    <div class="c-sidebar__sns">
+      OFFICIAL SNS
+      <a href="https://www.facebook.com/devreljp/" target="_blank" class="c-sidebar__facebook"><img src="/assets/images/icon-facebook.png" alt="Facebook"></a>
+      <a href="https://twitter.com/devreljp" target="_blank" class="c-sidebar__twitter"><img src="/assets/images/icon-twitter.png" alt="Twitter"></a>
+    </div>
+  </div>
+</header>
+
+
+    <section class="tp-section tp-section">
+    	<div class="container mt9">
+    		<div class="row">
+    			<div class="col-md-12">
+    				<div class="blogHeader clearfix">
+    					<h1 class="blogHeader__title">開発者に語ってもらえるメッセージの作り方</h1>
+    					<ul class="blogHeader__meta clearfix">
+    						<li class="blogHeader__meta__date">2018/08/19</li>
+                
+                  <li class="blogHeader__meta__cat"><a href="/categories/%E3%83%87%E3%83%96%E3%83%9E%E3%82%B1/">デブマケ</a></li>
+                
+    					</ul>
+    				</div>
+    				<div class="postBody">
+              
+              <p>前回の<a href="/%E3%83%87%E3%83%96%E3%83%9E%E3%82%B1/2018/08/18/what-is-devmake.html">Developer Marketingのススメ</a> の続きです。前回は開発者向けサービスを広める上で大事になる「デベロッパーボイス」について紹介しました。もしあなたがWebサービスをリリースしたとして、開発者が勝手にメッセージを書いてくれる訳ではありません。そのためには必要な要素が幾つかあります。今回はそれらの要素について紹介します。</p>
+
+<h3 id="1-自慢ボースト">1. 自慢（ボースト）</h3>
+
+<p>開発者があなたのサービスに触れた時に、それを誰かに自慢したいと思うならば、彼らはソーシャルやブログなどで書いてくれるはずです。自慢したい要素があるとしたら、先進性（まだ誰も知らないだろうという思い）やユニークさ、読み手が「すごい」と感じてくれる要素があるかどうかが大事になります。すでに誰もが知っている、当たり前のものを敢えて紹介したいとは感じないはずです。</p>
+
+<h3 id="2-素敵クール">2. 素敵（クール）</h3>
+
+<p>格好良さは大事な要素です。誰も格好悪いものを取り上げたいなんて思わないはずです。これはデザインとして表れます。Webサイトのデザインや、APIデザイン、製品デザインを統一し、格好良いと感じてもらえるものにしましょう。ロゴやカラーリングにも気を配り、日本的な情報の詰め込みすぎには注意しましょう。</p>
+
+<h3 id="3-共感エンパシー">3. 共感（エンパシー）</h3>
+
+<p>なぜ自分たちがサービスを作ったのか、そしてそれがなぜ開発者にとって必要であるのかを分かりやすく伝えましょう。独りよがりなメッセージではなく、彼らの共感を得られなければなりません。自分たちの思いを語るのは大切ですが、それは開発者のことを一番に考えた上でのメッセージになっていなければなりません。</p>
+
+<h3 id="4-愉快ハッピー">4. 愉快（ハッピー）</h3>
+
+<p>使っていて楽しいと感じてもらえるかどうかは、とても大事なことです。さらにこのサービスを使うことで、世の中をハッピーにできると感じてもらえなければなりません。明るい未来感が得られるメッセージこそ心に刺さるものです。開発者はサービスに触れる時、そのサービスを使っている姿を想像します。それが素晴らしい未来を描けると感じてもらえなければ、能動的に使い続けたいと思わないでしょう。</p>
+
+<h3 id="5-自分マイセルフ">5. 自分（マイセルフ）</h3>
+
+<p>「ジブンゴト」にしてもらえるかどうかはとても大事です。まるで開発者自身が考えたような、そんな彼ら自身の口で語れるようなメッセージがベストです。サービスが好きで、自分のためにこそあるサービスだと感じてもらえなければなりません。そうしなければ、単に無料だから使っているだけであったり、他と比べて便利だから使っているだけといった程度の関係性しか築けないでしょう。</p>
+
+<h3 id="6-革命レボリューション">6. 革命（レボリューション）</h3>
+
+<p>これまでの概念を壊すような、開発者自身の古い価値観を覆すようなメッセージを打ち出しましょう。それでいて「ジブンゴト」になってもらわなければなりません。時に新しい概念は新しすぎる故に受け入れてもらえないことがあります。そうならないよう、開発者が理解できるメッセージでなければなりません。</p>
+
+<h3 id="7-秘密シークレット">7. 秘密（シークレット）</h3>
+
+<p>人が誰しも秘密が大好きです。メッセージの中にちょっとした秘密を隠しておきましょう。分かった人が「そうか！」と頷けるようなものです。サービスであれば、体験すると分かるものでも良いかも知れません。体験してもらうまでの敷居が高いのはもっての他ですが、そこで新しい発見があるとなお良いでしょう。</p>
+
+<h3 id="8-簡単シンプル">8. 簡単（シンプル）</h3>
+
+<p>分かりづらいものは、イコール語りづらいものです。説明に30分もかかるものを人に紹介したいなんて思わないでしょう。一言で言えば分かる、そんなシンプルさが大事です。シンプルだからこそ心に刺さるのだと考えましょう。簡単に試せるというのも大事なことです。色々な機能があるのを誇るのは間違いで、</p>
+
+<h3 id="9-高速スピード">9. 高速（スピード）</h3>
+<h3 id="10-物語ストーリー">10. 物語（ストーリー）</h3>
+<h3 id="11-驚きサプライズ">11. 驚き（サプライズ）</h3>
+<h3 id="12-質問クエスチョン">12. 質問（クエスチョン）</h3>
+
+    				</div><!--//.postBody-->
+    			</div>
+    		</div> <!-- / .row  -->
+    	</div><!-- /.container -->
+    </section>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.2.10.min.js"></script>
+<script>
+  var smoothScroll = function() {
+    var headerHeight = 80;
+    $('a[href^="/#"]').click(function(){
+      var speed = 500;
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : "a[name='" + href.replace('/#', '') + "']");
+      var position = target.offset().top - headerHeight;
+      $("html, body").animate({scrollTop:position}, speed, "swing");
+      return false;
+    });
+  };
+
+  var ToggleSpMenu = function () {
+    $('.js-spmenu-btn').on('click', function(){
+      $(this).toggleClass('is-on');
+      $(this).next().toggleClass('is-on');
+    })
+  };
+
+  var closeMenu = function () {
+    $('.js-spmenu-btn').removeClass('is-on');
+    $('.js-spmenu-btn').next().removeClass('is-on');
+  }
+
+  var changeLang = function (lang) {
+    switch (lang){
+      case 'ja':
+        $('.is-ja').show();
+        $('.is-en').hide();
+        break;
+      case 'en':
+        $('.is-en').show();
+        $('.is-ja').hide();
+        break;
+    }
+    $('.contact__errmsg').hide();
+  }
+
+  $(function(){
+    changeLang('ja');
+    smoothScroll();
+    ToggleSpMenu();
+    $('.js-spmenu a').on('click', function(){
+      closeMenu();
+    })
+  });
+
+  $("#submit").on("click", function(e) {
+    AWS.config.region = 'ap-northeast-1'; // Region
+    AWS.config.credentials = new AWS.CognitoIdentityCredentials({
+      IdentityPoolId: 'ap-northeast-1:bd469da6-ea5c-425d-9181-a4d854e95ce3'
+    });
+    e.preventDefault();
+    AWS.config.region = 'ap-northeast-1';
+    var s3BucketName = "mail.moongift.jp";
+    var now = new Date();
+    var obj = {
+      title: "DevRel.jp: お問い合わせ",
+      date: now.toLocaleString()
+    };
+    var ary = ['Company', 'Name', 'Email', 'Msg'];
+    var error = false;
+    for (var i = 0; i < ary.length; i += 1) {
+      var name = '#input' + ary[i];
+      if ($(name).val().trim() === '') {
+        $(name + 'Error').html('入力してください');
+        $(name + 'Error').show();
+        error = true;
+      } else {
+        $(name + 'Error').hide();
+        obj[ary[i].toLowerCase()] = $(name).val();
+      }
+    }
+    if (error) return;
+    var s3 = new AWS.S3({params: {Bucket: s3BucketName}});
+    var blob = new Blob([JSON.stringify(obj, null, 2)], {type:'text/plain'});
+    s3.putObject({
+      Key: "uploads/" +now.getTime()+".txt", 
+      ContentType: "text/plain", 
+      Body: blob, 
+      ACL: "public-read"
+    }, function(err, data){
+      if(data !== null){
+        $("#result").text("お問い合わせいただきありがとうございます。すぐに回答いたしますのでお待ちください。")
+        $("#result").addClass("alert-success");
+        $("form")[0].reset();
+        _gaq.push(['_trackPageview', '/contact/success']);
+      } else {
+        $("#result").html("問題が発生しました。<a href='mailto:info@devrel.jp'>info@devrel.jp</a>へメールにてお問い合わせください。");
+        $("#result").addClass("alert-danger");
+      }
+      $("#result").removeClass("hide");
+    });
+  });
+</script>
+
+    <section class="tp-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="tp-section-header">
+          <h2 class="tp-section-header__title">UPDATE</h2>
+          <h2 class="tp-section-header__title-ja is-ja">アップデートを受け取る</h2>
+        </div>
+      </div>
+      <div class="col-md-9">
+          <p class="is-ja">メールにてDevRelに関するニュース、アップデートをお送りします。</p>
+          <p class="is-en">Contact is below.</p>
+        <div class="u-align-center mt8">
+          <form autocomplete="false" role="form" method="post" action="https://ma.moongift.co.jp/form/submit?formId=2" id="mauticform_merugouduyongfomu" data-mautic-form="merugouduyongfomu" enctype="multipart/form-data" style="text-align:left;">
+          <div class="mauticform-error" id="mauticform_merugouduyongfomu_error"></div>
+          <div class="mauticform-message" id="mauticform_merugouduyongfomu_message"></div>
+              <input id="mauticform_input_merugouduyongfomu_meruadoresu" name="mauticform[meruadoresu]" value="" class="mauticform-input" type="email" style="font-size:2rem;width:60%">
+              <button type="submit" name="mauticform[submit]" id="mauticform_input_merugouduyongfomu_submit" value="" class="mauticform-button btn btn-default" style="font-size:2rem;">送信</button>
+          <input type="hidden" name="mauticform[formId]" id="mauticform_merugouduyongfomu_id" value="2">
+          <input type="hidden" name="mauticform[return]" id="mauticform_merugouduyongfomu_return" value="">
+          <input type="hidden" name="mauticform[formName]" id="mauticform_merugouduyongfomu_name" value="merugouduyongfomu">
+
+          </form>
+        </div>
+      </div>
+    </div> <!-- / .row  -->
+  </div><!-- /.container -->
+</section>
+
+<script type="text/javascript">
+    /** This section is only needed once per page if manually copying **/
+    if (typeof MauticSDKLoaded == 'undefined') {
+        var MauticSDKLoaded = true;
+        var head            = document.getElementsByTagName('head')[0];
+        var script          = document.createElement('script');
+        script.type         = 'text/javascript';
+        script.src          = 'https://ma.moongift.co.jp/media/js/mautic-form.js';
+        script.onload       = function() {
+            MauticSDK.onLoad();
+        };
+        head.appendChild(script);
+        var MauticDomain = 'https://ma.moongift.co.jp';
+        var MauticLang   = {
+            'submittingMessage': "お待ちください…"
+        }
+    }
+</script>
+
+    
+      <script>
+      (function(w,d,t,u,n,a,m){w['MauticTrackingObject']=n;
+          w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)},a=d.createElement(t),
+          m=d.getElementsByTagName(t)[0];a.async=1;a.src=u;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://ma.moongift.co.jp/mtc.js','mt');
+
+      mt('send', 'pageview');
+  </script>
+  <footer class="l-footer">
+    <span class="is-ja">株式会社MOONGIFT</span>
+    <span class="is-en">MOOGIFT Inc.</span>
+  </footer>
+</body>
+</html>
+
+  </body>
+</html>
