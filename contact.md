@@ -59,31 +59,31 @@ permalink: /contact/
 
 		            <div id="mauticform_devrelwenihewase_hui_she_ming" data-validate="hui_she_ming" data-validation-type="text" class="mauticform-row mauticform-text mauticform-field-1 mauticform-required">
 		                <label id="mauticform_label_devrelwenihewase_hui_she_ming" for="mauticform_input_devrelwenihewase_hui_she_ming" class="mauticform-label">会社名</label>
-		                <input id="mauticform_input_devrelwenihewase_hui_she_ming" name="company" value="株式会社MOONGIFT" class="mauticform-input" type="text" required>
+		                <input id="mauticform_input_devrelwenihewase_hui_she_ming" name="company" value="" class="mauticform-input" type="text" required>
 		                <span class="mauticform-errormsg" style="display: none;">This is required.</span>
 		            </div>
 
 		            <div id="mauticform_devrelwenihewase_xing" data-validate="xing" data-validation-type="text" class="mauticform-row mauticform-text mauticform-field-2 mauticform-required">
 		                <label id="mauticform_label_devrelwenihewase_xing" for="mauticform_input_devrelwenihewase_xing" class="mauticform-label">姓</label>
-		                <input id="mauticform_input_devrelwenihewase_xing" name="last" value="中津川" placeholder="中津川" class="mauticform-input" type="text" required>
+		                <input id="mauticform_input_devrelwenihewase_xing" name="last" value="" placeholder="中津川" class="mauticform-input" type="text" required>
 		                <span class="mauticform-errormsg" style="display: none;">This is required.</span>
 		            </div>
 
 		            <div id="mauticform_devrelwenihewase_ming" data-validate="ming" data-validation-type="text" class="mauticform-row mauticform-text mauticform-field-3 mauticform-required">
 		                <label id="mauticform_label_devrelwenihewase_ming" for="mauticform_input_devrelwenihewase_ming" class="mauticform-label">名</label>
-		                <input id="mauticform_input_devrelwenihewase_ming" name="first" value="篤司" placeholder="篤司" class="mauticform-input" type="text" required>
+		                <input id="mauticform_input_devrelwenihewase_ming" name="first" value="" placeholder="篤司" class="mauticform-input" type="text" required>
 		                <span class="mauticform-errormsg" style="display: none;">This is required.</span>
 		            </div>
 
 		            <div id="mauticform_devrelwenihewase_meruadoresu" data-validate="meruadoresu" data-validation-type="email" class="mauticform-row mauticform-email mauticform-field-4 mauticform-required">
 		                <label id="mauticform_label_devrelwenihewase_meruadoresu" for="mauticform_input_devrelwenihewase_meruadoresu" class="mauticform-label">メールアドレス</label>
-		                <input id="mauticform_input_devrelwenihewase_meruadoresu" name="email" value="atsushi@moongift.jp" placeholder="info@moongift.jp" class="mauticform-input" type="email" required>
+		                <input id="mauticform_input_devrelwenihewase_meruadoresu" name="email" value="" placeholder="info@moongift.jp" class="mauticform-input" type="email" required>
 		                <span class="mauticform-errormsg" style="display: none;">This is required.</span>
 		            </div>
 
 		            <div id="mauticform_devrelwenihewase_o_weni_hewase_nei_rong" data-validate="o_weni_hewase_nei_rong" data-validation-type="textarea" class="mauticform-row mauticform-text mauticform-field-5 mauticform-required">
 		                <label id="mauticform_label_devrelwenihewase_o_weni_hewase_nei_rong" for="mauticform_input_devrelwenihewase_o_weni_hewase_nei_rong" class="mauticform-label">お問い合わせ内容</label>
-		                <textarea id="mauticform_input_devrelwenihewase_o_weni_hewase_nei_rong" name="body" class="mauticform-textarea" required>testtest</textarea>
+		                <textarea id="mauticform_input_devrelwenihewase_o_weni_hewase_nei_rong" name="body" class="mauticform-textarea" required></textarea>
 		                <span class="mauticform-errormsg" style="display: none;">This is required.</span>
 		            </div>
 
