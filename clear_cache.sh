@@ -1,2 +1,0 @@
-AWS_ACCESS_KEY_ID=AKIAJR6SYRMXFAKMUIXA AWS_SECRET_ACCESS_KEY=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 aws cloudfront create-invalidation --distribution-id E2XCHL8YS1BR6Y --paths '/*'
-

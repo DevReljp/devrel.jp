@@ -1,4 +1,99 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://devrel.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://devrel.jp/" rel="alternate" type="text/html" /><updated>2021-04-07T15:18:21+09:00</updated><id>https://devrel.jp/feed.xml</id><title type="html">DEVREL - 開発者向けマーケティング支援サービス -</title><subtitle>DevRelは開発者向けマーケティング施策です。私たちは企業の製品、サービスを広く開発者に知ってもらうためのDevRelをサポート、代行しています。</subtitle><entry><title type="html">簡単に分かるDevRel戦略</title><link href="https://devrel.jp/%E6%88%A6%E7%95%A5/%E3%83%96%E3%83%AD%E3%82%B0/2021/03/24/devrel-as-business.html" rel="alternate" type="text/html" title="簡単に分かるDevRel戦略" /><published>2021-03-24T09:00:00+09:00</published><updated>2021-03-24T09:00:00+09:00</updated><id>https://devrel.jp/%E6%88%A6%E7%95%A5/%E3%83%96%E3%83%AD%E3%82%B0/2021/03/24/devrel-as-business</id><content type="html" xml:base="https://devrel.jp/%E6%88%A6%E7%95%A5/%E3%83%96%E3%83%AD%E3%82%B0/2021/03/24/devrel-as-business.html">&lt;p&gt;DevRelは企業の事業活動の一環として行われます。この点がコミュニティやオープンソース・ソフトウェアの開発とは異なります。そして活動範囲は大きく分けて3つに分類されると考えられます。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://devrel.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://devrel.jp/" rel="alternate" type="text/html" /><updated>2021-08-24T12:20:53+09:00</updated><id>https://devrel.jp/feed.xml</id><title type="html">DEVREL - 開発者向けマーケティング支援サービス -</title><subtitle>DevRelは開発者向けマーケティング施策です。私たちは企業の製品、サービスを広く開発者に知ってもらうためのDevRelをサポート、代行しています。</subtitle><entry><title type="html">成功するブログマーケティング10のルールを配布します</title><link href="https://devrel.jp/ebook/%E3%83%96%E3%83%AD%E3%82%B0/2021/08/20/devrel-content-marketing-guide.html" rel="alternate" type="text/html" title="成功するブログマーケティング10のルールを配布します" /><published>2021-08-20T09:00:00+09:00</published><updated>2021-08-20T09:00:00+09:00</updated><id>https://devrel.jp/ebook/%E3%83%96%E3%83%AD%E3%82%B0/2021/08/20/devrel-content-marketing-guide</id><content type="html" xml:base="https://devrel.jp/ebook/%E3%83%96%E3%83%AD%E3%82%B0/2021/08/20/devrel-content-marketing-guide.html">&lt;p&gt;コロナ禍において、カンファレンスやEXPOのような対面文化が失われつつあります。コミュニティイベントも軒並みオンライン化されており、コミュニケーション手段が制限されていることでしょう。&lt;/p&gt;
+
+&lt;p&gt;そんな中、ブログを中心としたコンテンツマーケティングにフォーカスする企業が増えています。MOONGIFTでも、ブログ作成に関する問い合わせが増えています。&lt;/p&gt;
+
+&lt;p&gt;ブログをはじめたいけれど、どうやったら良いか分からない場合や、何に注意したら良いか分からない企業向けに「成功するブログマーケティング10のルール」というeBookを作成しました。ぜひご覧ください！&lt;/p&gt;
+
+&lt;h2 id=&quot;目次&quot;&gt;目次&lt;/h2&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;目的を決める&lt;/li&gt;
+  &lt;li&gt;対象を知る&lt;/li&gt;
+  &lt;li&gt;書く場所を決める&lt;/li&gt;
+  &lt;li&gt;コンテンツの種類&lt;/li&gt;
+  &lt;li&gt;ゴールを決める&lt;/li&gt;
+  &lt;li&gt;発信力を付ける&lt;/li&gt;
+  &lt;li&gt;レギュレーション&lt;/li&gt;
+  &lt;li&gt;測定する&lt;/li&gt;
+  &lt;li&gt;改善する&lt;/li&gt;
+  &lt;li&gt;その他&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;こちらはその中の1ページです。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/images/blog-rule-10-1.jpeg&quot; style=&quot;width:300px !important&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;ダウンロード&quot;&gt;ダウンロード&lt;/h2&gt;
+
+&lt;p&gt;ダウンロードがこちらのフォームに入力いただければ可能です。なお、メールマガジンの購読が必須になるのでご注意ください。&lt;/p&gt;
+
+&lt;style type=&quot;text/css&quot; scoped=&quot;&quot;&gt;
+		.mauticform_wrapper { max-width: 600px; margin: 10px auto; }
+		.mauticform-innerform {}
+		.mauticform-post-success {}
+		.mauticform-name { font-weight: bold; font-size: 1.5em; margin-bottom: 3px; }
+		.mauticform-description { margin-top: 2px; margin-bottom: 10px; }
+		.mauticform-error { margin-bottom: 10px; color: red; }
+		.mauticform-message { margin-bottom: 10px;color: green; }
+		.mauticform-row { display: block; margin-bottom: 20px; }
+		.mauticform-label { font-size: 1.1em; display: block; font-weight: bold; margin-bottom: 5px; }
+		.mauticform-row.mauticform-required .mauticform-label:after { color: #e32; content: &quot; *&quot;; display: inline; }
+		.mauticform-helpmessage { display: block; font-size: 0.9em; margin-bottom: 3px; }
+		.mauticform-errormsg { display: block; color: red; margin-top: 2px; }
+		.mauticform-selectbox, .mauticform-input, .mauticform-textarea { width: 100%; padding: 0.5em 0.5em; border: 1px solid #CCC; background: #fff; box-shadow: 0px 0px 0px #fff inset; border-radius: 4px; box-sizing: border-box; }
+		.mauticform-checkboxgrp-row {}
+		.mauticform-checkboxgrp-label { font-weight: normal; }
+		.mauticform-checkboxgrp-checkbox {}
+		.mauticform-radiogrp-row {}
+		.mauticform-radiogrp-label { font-weight: normal; }
+		.mauticform-radiogrp-radio {}
+		.mauticform-button-wrapper .mauticform-button.btn-default, .mauticform-pagebreak-wrapper .mauticform-pagebreak.btn-default { color: #5d6c7c;background-color: #ffffff;border-color: #dddddd;}
+		.mauticform-button-wrapper .mauticform-button, .mauticform-pagebreak-wrapper .mauticform-pagebreak { display: inline-block;margin-bottom: 0;font-weight: 600;text-align: center;vertical-align: middle;cursor: pointer;background-image: none;border: 1px solid transparent;white-space: nowrap;padding: 6px 12px;font-size: 13px;line-height: 1.3856;border-radius: 3px;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
+		.mauticform-button-wrapper .mauticform-button.btn-default[disabled], .mauticform-pagebreak-wrapper .mauticform-pagebreak.btn-default[disabled] { background-color: #ffffff; border-color: #dddddd; opacity: 0.75; cursor: not-allowed; }
+		.mauticform-pagebreak-wrapper .mauticform-button-wrapper {  display: inline; }
+&lt;/style&gt;
+
+&lt;div id=&quot;mauticform_wrapper_devrelwenihewase&quot; class=&quot;mauticform_wrapper&quot;&gt;
+	&lt;form id=&quot;writing_ebook&quot;&gt;
+			&lt;div class=&quot;mauticform-innerform&quot;&gt;
+				&lt;div class=&quot;mauticform-page-wrapper mauticform-page-1&quot; data-mautic-form-page=&quot;1&quot;&gt;
+					&lt;div id=&quot;mauticform_devrelwenihewase_hui_she_ming&quot; data-validate=&quot;hui_she_ming&quot; data-validation-type=&quot;text&quot; class=&quot;mauticform-row mauticform-text mauticform-field-1 mauticform-required&quot;&gt;
+							&lt;label id=&quot;mauticform_label_devrelwenihewase_hui_she_ming&quot; for=&quot;mauticform_input_devrelwenihewase_hui_she_ming&quot; class=&quot;mauticform-label&quot;&gt;会社名&lt;/label&gt;
+							&lt;input id=&quot;mauticform_input_devrelwenihewase_hui_she_ming&quot; name=&quot;company&quot; value=&quot;&quot; class=&quot;mauticform-input&quot; type=&quot;text&quot; required=&quot;&quot; /&gt;
+							&lt;span class=&quot;mauticform-errormsg&quot; style=&quot;display: none;&quot;&gt;This is required.&lt;/span&gt;
+					&lt;/div&gt;
+					&lt;div id=&quot;mauticform_devrelwenihewase_xing&quot; data-validate=&quot;xing&quot; data-validation-type=&quot;text&quot; class=&quot;mauticform-row mauticform-text mauticform-field-2 mauticform-required&quot;&gt;
+							&lt;label id=&quot;mauticform_label_devrelwenihewase_xing&quot; for=&quot;mauticform_input_devrelwenihewase_xing&quot; class=&quot;mauticform-label&quot;&gt;姓&lt;/label&gt;
+							&lt;input id=&quot;mauticform_input_devrelwenihewase_xing&quot; name=&quot;last&quot; value=&quot;&quot; placeholder=&quot;中津川&quot; class=&quot;mauticform-input&quot; type=&quot;text&quot; required=&quot;&quot; /&gt;
+							&lt;span class=&quot;mauticform-errormsg&quot; style=&quot;display: none;&quot;&gt;This is required.&lt;/span&gt;
+					&lt;/div&gt;
+					&lt;div id=&quot;mauticform_devrelwenihewase_ming&quot; data-validate=&quot;ming&quot; data-validation-type=&quot;text&quot; class=&quot;mauticform-row mauticform-text mauticform-field-3 mauticform-required&quot;&gt;
+							&lt;label id=&quot;mauticform_label_devrelwenihewase_ming&quot; for=&quot;mauticform_input_devrelwenihewase_ming&quot; class=&quot;mauticform-label&quot;&gt;名&lt;/label&gt;
+							&lt;input id=&quot;mauticform_input_devrelwenihewase_ming&quot; name=&quot;first&quot; value=&quot;&quot; placeholder=&quot;篤司&quot; class=&quot;mauticform-input&quot; type=&quot;text&quot; required=&quot;&quot; /&gt;
+							&lt;span class=&quot;mauticform-errormsg&quot; style=&quot;display: none;&quot;&gt;This is required.&lt;/span&gt;
+					&lt;/div&gt;
+					&lt;div id=&quot;mauticform_devrelwenihewase_meruadoresu&quot; data-validate=&quot;meruadoresu&quot; data-validation-type=&quot;email&quot; class=&quot;mauticform-row mauticform-email mauticform-field-4 mauticform-required&quot;&gt;
+							&lt;label id=&quot;mauticform_label_devrelwenihewase_meruadoresu&quot; for=&quot;mauticform_input_devrelwenihewase_meruadoresu&quot; class=&quot;mauticform-label&quot;&gt;メールアドレス&lt;/label&gt;
+							&lt;input id=&quot;mauticform_input_devrelwenihewase_meruadoresu&quot; name=&quot;email&quot; value=&quot;&quot; placeholder=&quot;info@moongift.jp&quot; class=&quot;mauticform-input&quot; type=&quot;email&quot; required=&quot;&quot; /&gt;
+							&lt;span class=&quot;mauticform-errormsg&quot; style=&quot;display: none;&quot;&gt;This is required.&lt;/span&gt;
+					&lt;/div&gt;
+					&lt;div id=&quot;mauticform_devrelwenihewase_submit&quot; class=&quot;mauticform-row mauticform-button-wrapper mauticform-field-6&quot;&gt;
+				&lt;div class=&quot;mauticform-error&quot; id=&quot;mauticform_devrelwenihewase_error&quot;&gt;&lt;/div&gt;
+				&lt;div class=&quot;mauticform-message&quot; id=&quot;mauticform_devrelwenihewase_message&quot;&gt;&lt;/div&gt;
+				&lt;button type=&quot;submit&quot; name=&quot;submit&quot; id=&quot;mauticform_input_devrelwenihewase_submit&quot; value=&quot;&quot; class=&quot;mauticform-button btn btn-default&quot;&gt;送信&lt;/button&gt;
+			&lt;/div&gt;
+		&lt;/div&gt;
+	&lt;/div&gt;
+&lt;/form&gt;
+&lt;/div&gt;
+
+&lt;h2 id=&quot;お知らせ&quot;&gt;お知らせ&lt;/h2&gt;
+
+&lt;p&gt;MOONGIFTではDevRelのアウトソーシングを提供しています。ブログ執筆はもちろん、各種開発者マーケティングに関するご相談を承ります。DevRelに取り組みたいが、アイディアも人員も不足している…そんな場合はぜひ&lt;a href=&quot;/contact&quot;&gt;お問い合わせください&lt;/a&gt;。&lt;/p&gt;
+
+&lt;script src=&quot;/assets/js/ncmb.min.js&quot;&gt;&lt;/script&gt;
+
+&lt;script src=&quot;/assets/js/app.js&quot;&gt;&lt;/script&gt;</content><author><name>moongift</name></author><summary type="html">コロナ禍において、カンファレンスやEXPOのような対面文化が失われつつあります。コミュニティイベントも軒並みオンライン化されており、コミュニケーション手段が制限されていることでしょう。</summary></entry><entry><title type="html">簡単に分かるDevRel戦略</title><link href="https://devrel.jp/%E6%88%A6%E7%95%A5/%E3%83%96%E3%83%AD%E3%82%B0/2021/03/24/devrel-as-business.html" rel="alternate" type="text/html" title="簡単に分かるDevRel戦略" /><published>2021-03-24T09:00:00+09:00</published><updated>2021-03-24T09:00:00+09:00</updated><id>https://devrel.jp/%E6%88%A6%E7%95%A5/%E3%83%96%E3%83%AD%E3%82%B0/2021/03/24/devrel-as-business</id><content type="html" xml:base="https://devrel.jp/%E6%88%A6%E7%95%A5/%E3%83%96%E3%83%AD%E3%82%B0/2021/03/24/devrel-as-business.html">&lt;p&gt;DevRelは企業の事業活動の一環として行われます。この点がコミュニティやオープンソース・ソフトウェアの開発とは異なります。そして活動範囲は大きく分けて3つに分類されると考えられます。&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;認知獲得から利用開始まで&lt;/li&gt;
@@ -829,69 +924,4 @@
 
 &lt;p&gt;とりとめなく書いてみましたが、DevRel/Asia 2020は個人的にかなりチャレンジングな企画でした。オンラインカンファレンス、かつアジア各国の主催者と一緒にカンファレンスを開催するというのはそうそうある経験ではないでしょう。途中、かなり後悔しそうにもなりましたが、終わってみれば十分な数字を残せたので満足と言ったところです。&lt;/p&gt;
 
-&lt;p&gt;中国やインドなど、DevRelの勢いは各国で強まっています。今回のカンファレンスでもそうした地域からの登壇者、参加者が数多く参加しています。今後ますます発展していくことでしょう。&lt;/p&gt;</content><author><name>moongift</name></author><summary type="html">11月14日にDevRel/Asia 2020というオンラインカンファレンスを開催しました。アジア各国の人たちと一緒に共同開催したオンラインカンファレンスになります。コロナ禍においてカンファレンスはオンラインカンファレンスに移行しがちですが、そうした中での苦労や、各国主催者とのコミュニケーション問題などを紹介できればと思います。</summary></entry><entry><title type="html">行動経済学をDevRelで活かすには</title><link href="https://devrel.jp/%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/2020/08/24/behavioral-economics.html" rel="alternate" type="text/html" title="行動経済学をDevRelで活かすには" /><published>2020-08-24T09:00:00+09:00</published><updated>2020-08-24T09:00:00+09:00</updated><id>https://devrel.jp/%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/2020/08/24/behavioral-economics</id><content type="html" xml:base="https://devrel.jp/%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/2020/08/24/behavioral-economics.html">&lt;p&gt;最近読んでいる本が非常に面白く、DevRelでも活かせる知見が多いので紹介します。テーマとしてはすべて「行動経済学」に関するものです。今読んでいるのは次の3冊です。&lt;/p&gt;
-
-&lt;iframe style=&quot;width:120px;height:240px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;https://rcm-fe.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&amp;amp;t=moongift-22&amp;amp;m=amazon&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as1&amp;amp;IS1=1&amp;amp;detail=1&amp;amp;asins=B00K1A75N4&amp;amp;linkId=c5596ee7895dc6af8cad641cacfdff8e&amp;amp;bc1=ffffff&amp;amp;lt1=_top&amp;amp;fc1=333333&amp;amp;lc1=0066c0&amp;amp;bg1=ffffff&amp;amp;f=ifr&quot;&gt;
-&lt;/iframe&gt;
-
-&lt;iframe style=&quot;width:120px;height:240px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;https://rcm-fe.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&amp;amp;t=moongift-22&amp;amp;m=amazon&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as1&amp;amp;IS1=1&amp;amp;detail=1&amp;amp;asins=B00GU4R8M8&amp;amp;linkId=4249eb8478bf50613291f1fcf4eade27&amp;amp;bc1=ffffff&amp;amp;lt1=_top&amp;amp;fc1=333333&amp;amp;lc1=0066c0&amp;amp;bg1=ffffff&amp;amp;f=ifr&quot;&gt;
-&lt;/iframe&gt;
-
-&lt;iframe style=&quot;width:120px;height:240px;&quot; marginwidth=&quot;0&quot; marginheight=&quot;0&quot; scrolling=&quot;no&quot; frameborder=&quot;0&quot; src=&quot;https://rcm-fe.amazon-adsystem.com/e/cm?ref=qf_sp_asin_til&amp;amp;t=moongift-22&amp;amp;m=amazon&amp;amp;o=9&amp;amp;p=8&amp;amp;l=as1&amp;amp;IS1=1&amp;amp;detail=1&amp;amp;asins=4620326402&amp;amp;linkId=eab192248be9ec4b517f304fd7f970e3&amp;amp;bc1=ffffff&amp;amp;lt1=_top&amp;amp;fc1=333333&amp;amp;lc1=0066c0&amp;amp;bg1=ffffff&amp;amp;f=ifr&quot;&gt;
-&lt;/iframe&gt;
-
-&lt;p&gt;ちなみに私は人は悪魔に熱狂するから入った口です。&lt;/p&gt;
-
-&lt;h2 id=&quot;行動経済学とは&quot;&gt;行動経済学とは？&lt;/h2&gt;
-
-&lt;p&gt;一般的な経済学というのは、経済に関わる人たちがすべて合理的、理性的な判断に基づいているという前提のもとに理論が成り立っています。つまり人はすべての製品、サービスに関する情報を網羅的に把握しており、少しでも安いものを選択します。もし別なものが安価であれば、素早く切り替えます。&lt;/p&gt;
-
-&lt;p&gt;こうした前提が間違っているのは普段の生活だけでも感じるはずです。あるお店でガジェットを買って、少し歩いたら別な店でもう少し安いものを見つけてしまった、なんて経験は誰しもがあるはずです。すべての店を満遍なくチェックすれば、ベストな価格のものが見つかるかも知れませんが、そんなに合理的になれる人は多くありません。たかが数百円のために数時間歩き回ったりするのは難しいはずです。&lt;/p&gt;
-
-&lt;p&gt;その反面、たった数百円安いもののために数時間並ぶこともいとわない人たちもいます。彼らが働いた時の時給を考えたらとても割に合わないコストを費やしています。iPhone購入のために1週間も路上に並ぶ人たちがいましたが、彼らのモチベーションは経済学だけでは説明できないものです。&lt;/p&gt;
-
-&lt;p&gt;そうした人の心理的な部分を含めて経済活動を考えるのが行動経済学になります。まだ比較的新しい学問のようです。&lt;/p&gt;
-
-&lt;h2 id=&quot;devrelとの関係は&quot;&gt;DevRelとの関係は？&lt;/h2&gt;
-
-&lt;p&gt;さて、次にDevRelと行動経済学の関係を見ていきます。まず真っ先に思いつくのは、製品やサービスの選定でしょう。すべての人が、あらゆる情報に精通し、新しい情報ももれなくキャッチアップし、合理的で正しい判断を下しているでしょうか。まさか、そんなことはないのは誰もが分かっているはずです。&lt;/p&gt;
-
-&lt;p&gt;IT系の情報刷新は素早く、日進月歩で進化しています。そうした中で、すべての情報に精通しているとは思えません。筆者自身、多くの情報を取りこぼしていると自負しています。&lt;/p&gt;
-
-&lt;p&gt;そうした中であっても、担当者（開発者）は製品やサービスを選定しなければなりません。その決定は万人にとって合理的である必要はなく、本人と同僚、そして上司にとって合理的または納得できるものであれば十分になります。この彼らにとって十分納得できる理由こそ、DevRelによる結びつきになるといえるでしょう。&lt;/p&gt;
-
-&lt;p&gt;書籍の中からのエッセンスを一部紹介します。&lt;/p&gt;
-
-&lt;h3 id=&quot;刷り込み効果&quot;&gt;刷り込み効果&lt;/h3&gt;
-
-&lt;p&gt;いわゆる「ヒヨコが初めて見た動くものを親だと思ってしまう現象」です。人は誰しも初対面の印象を強く残します。ましてやそれが好印象だった場合、長期的にその経験が利用されます。書籍の中では「過去の自分の列に並ぶ」と表現されていましたが、過去の経験が自分にとって満足なものである場合、次に同様の機会があった場合、無条件に選択しがちだということです。&lt;/p&gt;
-
-&lt;p&gt;つまり最初に十分満足できる経験を提供できれば、それが刷り込み効果となって選定時に大きな役割を果たすということです。こうした取り組みは新しい市場を開拓する際であったり、学生プログラムなどに活きてきます。&lt;/p&gt;
-
-&lt;h3 id=&quot;無料の罠&quot;&gt;無料の罠&lt;/h3&gt;
-
-&lt;p&gt;無料…なんと甘美な響きでしょう。例えば片方（製品A）が2000円、もう一つ（製品B）は1000円だったとします。この時に選ばれるパーセンテージが製品A:製品B = 30:70 だったとしましょう。やはり安価なものに寄りがちです。しかし、これが製品Aは1000円、製品Bが0円だったとします。価格差は1000円で変わっていませんが、この場合の選ばれる率は製品A:製品B = 5:95 くらいに変わってしまうことでしょう（実験をした訳ではありません）。価格差が同じであるにも関わらず、無料がもつパワーは凄まじいものがあります。&lt;/p&gt;
-
-&lt;p&gt;もちろん無料ではビジネスになりませんので、一時の販促なのか、特定の利用者限定（クーポンなど）になるのかは分かりません。しかし開発者のリソース（人数、開発にかけられる時間）が有限である以上、製品Bを使い始めたユーザは製品Aを使う時間がありません。刷り込み効果が伴えば、多少の値上げがあったとしても、製品Aに切り替えるには彼ら自身が感じるスイッチングコストは大きくなる可能性があります。&lt;/p&gt;
-
-&lt;h3 id=&quot;価格プラン&quot;&gt;価格プラン&lt;/h3&gt;
-
-&lt;p&gt;無料プラン（もちろん0円！）、プロプラン（月額1,000円）、チームプラン（月額5,000円）の3パターンがあった時、有料プランを選ばざるをえないなら、中央のプランを選びがちだという論理です。何となく思い当たるケースもあるのではないでしょうか。例えば銀座で高級ブランドのお店に行き、50〜100万円くらいのバッグを何時間も見続けたとします。とても手が出ない…と思っていたところ、入り口の近くに3万円の廉価版が置いてあったらどう思うでしょうか。お得に感じて、思わず財布に手が伸びてしまうかも知れません。&lt;/p&gt;
-
-&lt;p&gt;書籍では新聞会社の月額プランの話であったり、レストランで注文されることのない最高級メニューを用意するといった例が挙げられていました。価格というのは相対的なものなので、一番上のプランにはなかなか手が出しづらいのが人の心理です。しかし、一回そうした金額を見ていると（これはアンカーと呼ばれます）、他の金額が相対的に安く（または高く）感じられるようになるのです。&lt;/p&gt;
-
-&lt;h3 id=&quot;人のつながり&quot;&gt;人のつながり&lt;/h3&gt;
-
-&lt;p&gt;これは書籍の中にはなかったですが、コミュニティに代表される「人と人のつながり」は行動経済学の一環だと感じています。誰々さんがいっていたから、有名なブロガーの人（今ならYouTuberでしょうか）がいっていたから…といった理由で、考慮せず無条件で選んでしまっていたりしないでしょうか。口コミなどもそうですし、ソーシャルメディアを使ったみんなで弱者を叩くような文化もそういった行動の一つだといえそうです。&lt;/p&gt;
-
-&lt;p&gt;これは情報格差がある地方では特に強い傾向があるようです（情報はオンラインで得られるのに格差があるのも興味深いですが）。長い付き合いの担当者がおり、その人がそういっているので選ぶといったケースは少なくありません。そうした時に選んでもらうためには、選定者ではなく担当者に情報を届けないといけないということです。&lt;/p&gt;
-
-&lt;p&gt;コミュニティでの繋がりで製品やサービスに持っていたイメージが好転（またはネガティブ）になってしまったり、選ぶ切っ掛けになったというケースは少なくありません。中の人を知っているかどうかは選定時の大きな理由になります。&lt;/p&gt;
-
-&lt;h2 id=&quot;まとめ&quot;&gt;まとめ&lt;/h2&gt;
-
-&lt;p&gt;行動経済学から学べるポイントは相当多いと考えられます。DevRelが「開発者と製品/サービスを結びつける」「開発者との関係性を良好にする」ものである以上、「人」の存在は欠かせません。人は合理的に生きておらず、もし本人が合理的だと思っていたとしても、その多くは感情的（エモーショナル）、直感的であることのが多いでしょう。そうした「人」の理解がDevRelの成否に繋がっているのは間違いありません。&lt;/p&gt;
-
-&lt;h2 id=&quot;moongiftはdevrelのサポートを行っています&quot;&gt;MOONGIFTはDevRelのサポートを行っています&lt;/h2&gt;
-
-&lt;p&gt;MOONGIFTではDevRelのアウトソーシングを提供しています。DevRelに取り組みたいが、アイディアも人員も不足している…そんな場合はぜひ&lt;a href=&quot;/contact&quot;&gt;お問い合わせください&lt;/a&gt;。&lt;/p&gt;</content><author><name>moongift</name></author><summary type="html">最近読んでいる本が非常に面白く、DevRelでも活かせる知見が多いので紹介します。テーマとしてはすべて「行動経済学」に関するものです。今読んでいるのは次の3冊です。</summary></entry></feed>
+&lt;p&gt;中国やインドなど、DevRelの勢いは各国で強まっています。今回のカンファレンスでもそうした地域からの登壇者、参加者が数多く参加しています。今後ますます発展していくことでしょう。&lt;/p&gt;</content><author><name>moongift</name></author><summary type="html">11月14日にDevRel/Asia 2020というオンラインカンファレンスを開催しました。アジア各国の人たちと一緒に共同開催したオンラインカンファレンスになります。コロナ禍においてカンファレンスはオンラインカンファレンスに移行しがちですが、そうした中での苦労や、各国主催者とのコミュニケーション問題などを紹介できればと思います。</summary></entry></feed>
