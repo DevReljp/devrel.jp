@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://devrel.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://devrel.jp/" rel="alternate" type="text/html" /><updated>2021-10-02T14:57:22+09:00</updated><id>https://devrel.jp/feed.xml</id><title type="html">DEVREL - 開発者向けマーケティング支援サービス -</title><subtitle>DevRelは開発者向けマーケティング施策です。私たちは企業の製品、サービスを広く開発者に知ってもらうためのDevRelをサポート、代行しています。</subtitle><entry><title type="html">成功するブログマーケティング10のルールを配布します</title><link href="https://devrel.jp/ebook/%E3%83%96%E3%83%AD%E3%82%B0/2021/08/20/devrel-content-marketing-guide.html" rel="alternate" type="text/html" title="成功するブログマーケティング10のルールを配布します" /><published>2021-08-20T09:00:00+09:00</published><updated>2021-08-20T09:00:00+09:00</updated><id>https://devrel.jp/ebook/%E3%83%96%E3%83%AD%E3%82%B0/2021/08/20/devrel-content-marketing-guide</id><content type="html" xml:base="https://devrel.jp/ebook/%E3%83%96%E3%83%AD%E3%82%B0/2021/08/20/devrel-content-marketing-guide.html">&lt;p&gt;コロナ禍において、カンファレンスやEXPOのような対面文化が失われつつあります。コミュニティイベントも軒並みオンライン化されており、コミュニケーション手段が制限されていることでしょう。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://devrel.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://devrel.jp/" rel="alternate" type="text/html" /><updated>2021-10-02T20:32:02+09:00</updated><id>https://devrel.jp/feed.xml</id><title type="html">DEVREL - 開発者向けマーケティング支援サービス -</title><subtitle>DevRelは開発者向けマーケティング施策です。私たちは企業の製品、サービスを広く開発者に知ってもらうためのDevRelをサポート、代行しています。</subtitle><entry><title type="html">成功するブログマーケティング10のルールを配布します</title><link href="https://devrel.jp/ebook/%E3%83%96%E3%83%AD%E3%82%B0/2021/08/20/devrel-content-marketing-guide.html" rel="alternate" type="text/html" title="成功するブログマーケティング10のルールを配布します" /><published>2021-08-20T09:00:00+09:00</published><updated>2021-08-20T09:00:00+09:00</updated><id>https://devrel.jp/ebook/%E3%83%96%E3%83%AD%E3%82%B0/2021/08/20/devrel-content-marketing-guide</id><content type="html" xml:base="https://devrel.jp/ebook/%E3%83%96%E3%83%AD%E3%82%B0/2021/08/20/devrel-content-marketing-guide.html">&lt;p&gt;コロナ禍において、カンファレンスやEXPOのような対面文化が失われつつあります。コミュニティイベントも軒並みオンライン化されており、コミュニケーション手段が制限されていることでしょう。&lt;/p&gt;
 
 &lt;p&gt;そんな中、ブログを中心としたコンテンツマーケティングにフォーカスする企業が増えています。MOONGIFTでも、ブログ作成に関する問い合わせが増えています。&lt;/p&gt;
 
@@ -27,65 +27,7 @@
 
 &lt;p&gt;ダウンロードがこちらのフォームに入力いただければ可能です。なお、メールマガジンの購読が必須になるのでご注意ください。&lt;/p&gt;
 
-&lt;style type=&quot;text/css&quot; scoped=&quot;&quot;&gt;
-		.mauticform_wrapper { max-width: 600px; margin: 10px auto; }
-		.mauticform-innerform {}
-		.mauticform-post-success {}
-		.mauticform-name { font-weight: bold; font-size: 1.5em; margin-bottom: 3px; }
-		.mauticform-description { margin-top: 2px; margin-bottom: 10px; }
-		.mauticform-error { margin-bottom: 10px; color: red; }
-		.mauticform-message { margin-bottom: 10px;color: green; }
-		.mauticform-row { display: block; margin-bottom: 20px; }
-		.mauticform-label { font-size: 1.1em; display: block; font-weight: bold; margin-bottom: 5px; }
-		.mauticform-row.mauticform-required .mauticform-label:after { color: #e32; content: &quot; *&quot;; display: inline; }
-		.mauticform-helpmessage { display: block; font-size: 0.9em; margin-bottom: 3px; }
-		.mauticform-errormsg { display: block; color: red; margin-top: 2px; }
-		.mauticform-selectbox, .mauticform-input, .mauticform-textarea { width: 100%; padding: 0.5em 0.5em; border: 1px solid #CCC; background: #fff; box-shadow: 0px 0px 0px #fff inset; border-radius: 4px; box-sizing: border-box; }
-		.mauticform-checkboxgrp-row {}
-		.mauticform-checkboxgrp-label { font-weight: normal; }
-		.mauticform-checkboxgrp-checkbox {}
-		.mauticform-radiogrp-row {}
-		.mauticform-radiogrp-label { font-weight: normal; }
-		.mauticform-radiogrp-radio {}
-		.mauticform-button-wrapper .mauticform-button.btn-default, .mauticform-pagebreak-wrapper .mauticform-pagebreak.btn-default { color: #5d6c7c;background-color: #ffffff;border-color: #dddddd;}
-		.mauticform-button-wrapper .mauticform-button, .mauticform-pagebreak-wrapper .mauticform-pagebreak { display: inline-block;margin-bottom: 0;font-weight: 600;text-align: center;vertical-align: middle;cursor: pointer;background-image: none;border: 1px solid transparent;white-space: nowrap;padding: 6px 12px;font-size: 13px;line-height: 1.3856;border-radius: 3px;-webkit-user-select: none;-moz-user-select: none;-ms-user-select: none;user-select: none;}
-		.mauticform-button-wrapper .mauticform-button.btn-default[disabled], .mauticform-pagebreak-wrapper .mauticform-pagebreak.btn-default[disabled] { background-color: #ffffff; border-color: #dddddd; opacity: 0.75; cursor: not-allowed; }
-		.mauticform-pagebreak-wrapper .mauticform-button-wrapper {  display: inline; }
-&lt;/style&gt;
-
-&lt;div id=&quot;mauticform_wrapper_devrelwenihewase&quot; class=&quot;mauticform_wrapper&quot;&gt;
-	&lt;form id=&quot;writing_ebook&quot;&gt;
-			&lt;div class=&quot;mauticform-innerform&quot;&gt;
-				&lt;div class=&quot;mauticform-page-wrapper mauticform-page-1&quot; data-mautic-form-page=&quot;1&quot;&gt;
-					&lt;div id=&quot;mauticform_devrelwenihewase_hui_she_ming&quot; data-validate=&quot;hui_she_ming&quot; data-validation-type=&quot;text&quot; class=&quot;mauticform-row mauticform-text mauticform-field-1 mauticform-required&quot;&gt;
-							&lt;label id=&quot;mauticform_label_devrelwenihewase_hui_she_ming&quot; for=&quot;mauticform_input_devrelwenihewase_hui_she_ming&quot; class=&quot;mauticform-label&quot;&gt;会社名&lt;/label&gt;
-							&lt;input id=&quot;mauticform_input_devrelwenihewase_hui_she_ming&quot; name=&quot;company&quot; value=&quot;&quot; class=&quot;mauticform-input&quot; type=&quot;text&quot; required=&quot;&quot; /&gt;
-							&lt;span class=&quot;mauticform-errormsg&quot; style=&quot;display: none;&quot;&gt;This is required.&lt;/span&gt;
-					&lt;/div&gt;
-					&lt;div id=&quot;mauticform_devrelwenihewase_xing&quot; data-validate=&quot;xing&quot; data-validation-type=&quot;text&quot; class=&quot;mauticform-row mauticform-text mauticform-field-2 mauticform-required&quot;&gt;
-							&lt;label id=&quot;mauticform_label_devrelwenihewase_xing&quot; for=&quot;mauticform_input_devrelwenihewase_xing&quot; class=&quot;mauticform-label&quot;&gt;姓&lt;/label&gt;
-							&lt;input id=&quot;mauticform_input_devrelwenihewase_xing&quot; name=&quot;last&quot; value=&quot;&quot; placeholder=&quot;中津川&quot; class=&quot;mauticform-input&quot; type=&quot;text&quot; required=&quot;&quot; /&gt;
-							&lt;span class=&quot;mauticform-errormsg&quot; style=&quot;display: none;&quot;&gt;This is required.&lt;/span&gt;
-					&lt;/div&gt;
-					&lt;div id=&quot;mauticform_devrelwenihewase_ming&quot; data-validate=&quot;ming&quot; data-validation-type=&quot;text&quot; class=&quot;mauticform-row mauticform-text mauticform-field-3 mauticform-required&quot;&gt;
-							&lt;label id=&quot;mauticform_label_devrelwenihewase_ming&quot; for=&quot;mauticform_input_devrelwenihewase_ming&quot; class=&quot;mauticform-label&quot;&gt;名&lt;/label&gt;
-							&lt;input id=&quot;mauticform_input_devrelwenihewase_ming&quot; name=&quot;first&quot; value=&quot;&quot; placeholder=&quot;篤司&quot; class=&quot;mauticform-input&quot; type=&quot;text&quot; required=&quot;&quot; /&gt;
-							&lt;span class=&quot;mauticform-errormsg&quot; style=&quot;display: none;&quot;&gt;This is required.&lt;/span&gt;
-					&lt;/div&gt;
-					&lt;div id=&quot;mauticform_devrelwenihewase_meruadoresu&quot; data-validate=&quot;meruadoresu&quot; data-validation-type=&quot;email&quot; class=&quot;mauticform-row mauticform-email mauticform-field-4 mauticform-required&quot;&gt;
-							&lt;label id=&quot;mauticform_label_devrelwenihewase_meruadoresu&quot; for=&quot;mauticform_input_devrelwenihewase_meruadoresu&quot; class=&quot;mauticform-label&quot;&gt;メールアドレス&lt;/label&gt;
-							&lt;input id=&quot;mauticform_input_devrelwenihewase_meruadoresu&quot; name=&quot;email&quot; value=&quot;&quot; placeholder=&quot;info@moongift.jp&quot; class=&quot;mauticform-input&quot; type=&quot;email&quot; required=&quot;&quot; /&gt;
-							&lt;span class=&quot;mauticform-errormsg&quot; style=&quot;display: none;&quot;&gt;This is required.&lt;/span&gt;
-					&lt;/div&gt;
-					&lt;div id=&quot;mauticform_devrelwenihewase_submit&quot; class=&quot;mauticform-row mauticform-button-wrapper mauticform-field-6&quot;&gt;
-				&lt;div class=&quot;mauticform-error&quot; id=&quot;mauticform_devrelwenihewase_error&quot;&gt;&lt;/div&gt;
-				&lt;div class=&quot;mauticform-message&quot; id=&quot;mauticform_devrelwenihewase_message&quot;&gt;&lt;/div&gt;
-				&lt;button type=&quot;submit&quot; name=&quot;submit&quot; id=&quot;mauticform_input_devrelwenihewase_submit&quot; value=&quot;&quot; class=&quot;mauticform-button btn btn-default&quot;&gt;送信&lt;/button&gt;
-			&lt;/div&gt;
-		&lt;/div&gt;
-	&lt;/div&gt;
-&lt;/form&gt;
-&lt;/div&gt;
+&lt;script type=&quot;text/javascript&quot; src=&quot;//ma.moongift.co.jp/form/generate.js?id=4&quot;&gt;&lt;/script&gt;
 
 &lt;h2 id=&quot;お知らせ&quot;&gt;お知らせ&lt;/h2&gt;
 
