@@ -24,7 +24,7 @@ permalink: /storategy-template/
 				<p>
 					下記のフォームからダウンロードできます。
 				</p>
-				<script type="text/javascript" src="//ma.moongift.co.jp/form/generate.js?id=4"></script>
+				<script type="text/javascript" src="//ma.moongift.co.jp/form/generate.js?id=1"></script>
       </div>
     </div>
   </div>
