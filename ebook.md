@@ -19,7 +19,7 @@ permalink: /ebook/
 					<img src="/images/articles/community-marketing.jpg" />
 				</p>
         <p class="tp-section__text is-ja tp-section__text--pc">DevRelにおける大事な施策の一つ、開発者コミュニティを構築するためのコミュニティマーケティングに関するeBookです。フォーマットはePubになります。</p>
-				<script type="text/javascript" src="//ma.moongift.co.jp/form/generate.js?id=3"></script>
+				<script type="text/javascript" src="//ma.moongift.co.jp/form/generate.js?id=2"></script>
       </div>
     </div>
   </div>
