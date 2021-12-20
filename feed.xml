@@ -1,4 +1,83 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://devrel.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://devrel.jp/" rel="alternate" type="text/html" /><updated>2021-12-05T17:07:41+09:00</updated><id>https://devrel.jp/feed.xml</id><title type="html">DEVREL - 開発者向けマーケティング支援サービス -</title><subtitle>DevRelは開発者向けマーケティング施策です。私たちは企業の製品、サービスを広く開発者に知ってもらうためのDevRelをサポート、代行しています。</subtitle><entry><title type="html">マーケティングから考えるDevRel戦略（発信編）</title><link href="https://devrel.jp/%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/2021/12/04/devrel-publishing.html" rel="alternate" type="text/html" title="マーケティングから考えるDevRel戦略（発信編）" /><published>2021-12-04T09:00:00+09:00</published><updated>2021-12-04T09:00:00+09:00</updated><id>https://devrel.jp/%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/2021/12/04/devrel-publishing</id><content type="html" xml:base="https://devrel.jp/%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/2021/12/04/devrel-publishing.html">&lt;p&gt;マーケティングが何かというと、幾つかの答えがあるようです。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://devrel.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://devrel.jp/" rel="alternate" type="text/html" /><updated>2021-12-20T09:04:00+09:00</updated><id>https://devrel.jp/feed.xml</id><title type="html">DEVREL - 開発者向けマーケティング支援サービス -</title><subtitle>DevRelは開発者向けマーケティング施策です。私たちは企業の製品、サービスを広く開発者に知ってもらうためのDevRelをサポート、代行しています。</subtitle><entry><title type="html">エラーメッセージから考えるよりよいDX（開発体験）とは</title><link href="https://devrel.jp/dx/2021/12/19/error-with-dx.html" rel="alternate" type="text/html" title="エラーメッセージから考えるよりよいDX（開発体験）とは" /><published>2021-12-19T09:00:00+09:00</published><updated>2021-12-19T09:00:00+09:00</updated><id>https://devrel.jp/dx/2021/12/19/error-with-dx</id><content type="html" xml:base="https://devrel.jp/dx/2021/12/19/error-with-dx.html">&lt;p&gt;開発していれば、自然と疑問が出てくるものです。SaaSをはじめ、APIベースでサービスを提供する場合、サーバ側で何が行われているかはブラックボックスになります。エラーが出たとしても、コードを追いかけながら確認することはできません。&lt;/p&gt;
+
+&lt;p&gt;よりよい開発体験（DX）を提供するためには、次の観点が必要です。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;ユーザ環境に近いこと&lt;/li&gt;
+  &lt;li&gt;レスポンスが早いこと&lt;/li&gt;
+  &lt;li&gt;コミュニケーションが少ないこと&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;この観点から、優れたサポートが何なのか解説します。&lt;/p&gt;
+
+&lt;h2 id=&quot;原因と対応が明確なエラーメッセージ&quot;&gt;原因と対応が明確なエラーメッセージ&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;数分&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;まずユーザ環境だけで解決するのが一番良いです。例えばSDKを使っている場合、SDKの中でエラー判定をし、処理をクラウド側に送る前にエラーメッセージを出せるようにします。必須項目漏れなどのエラーがこれに該当します。&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Something wrong&lt;/code&gt; は最もだめなエラーメッセージです。かつてPerlをCGIで動かすと、Internal Server Errorしか返ってこない時代がありました。この時にはデバッグが本当に大変で、コードを一つ一つ確認しながら解決していました。その後、エラーが起きた行数やトレースができるようになり、開発効率は大幅に向上しています。&lt;/p&gt;
+
+&lt;p&gt;APIでも同様に、ただ単にエラーですと出すのではなく、何のエラーなのかを明確にしなければなりません。さらに、そのエラーを回避する方法についてもメッセージを出すべきです。開発者はエラーメッセージを読んで修正を行ったり、必要があればメッセージに記載されたURLを開いて詳細を確認できます。&lt;/p&gt;
+
+&lt;p&gt;開発元に問い合わせることなく、ユーザ自身ですぐに解決できるのがベストです。なお、エラーメッセージを独特なものにしておくのもコツです。例えばOracleのエラーIDは常にORA-9999といった形式なので、エラーIDで検索すると検索で見つかりやすくなります。汎用的なエラーメッセージはかえって情報が増加し、探しづらくなる可能性があります。&lt;/p&gt;
+
+&lt;h2 id=&quot;エラーメッセージでドキュメントを記載する&quot;&gt;エラーメッセージでドキュメントを記載する&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;10分程度&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;エラー内容がよく分からない場合、開発者はそのエラーメッセージでWeb検索するでしょう。そうした時に備えて、ドキュメント（またはブログ）で解説しておきます。&lt;/p&gt;
+
+&lt;p&gt;この時、エラーメッセージ一覧表を用意するだけでは意味がありません。こうしたエラーメッセージ一覧表は、&lt;code class=&quot;highlighter-rouge&quot;&gt;NOT_FOUND&lt;/code&gt; を &lt;code class=&quot;highlighter-rouge&quot;&gt;リソースがない&lt;/code&gt; といった単に日本語化しただけの場合が多くなります。開発者が知りたいのはエラーを解決法であって、その意味ではありません。どうしたらエラーを回避できるのか、どういった修正を行えば良いのかを記事化する必要があります。&lt;/p&gt;
+
+&lt;h2 id=&quot;qaサービスを使う&quot;&gt;Q&amp;amp;Aサービスを使う&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;数時間〜回答なし&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Web検索で思ったような答えが見つからない場合、開発者はQ&amp;amp;Aサービスを使うでしょう。例えばTeratail、Stack overflowまたは独自のフォーラムなどです。&lt;/p&gt;
+
+&lt;p&gt;Q&amp;amp;Aサービスは善意の回答者が現れないと答えの得られないサービスです。すぐに答えが返ってくるかもしれませんが、永遠に返ってこないかもしれません。開発者は質問を投稿しますが、答えが来るまで黙って待っていられる訳ではないでしょう。そのため自己解決の道は模索しつつ、Q&amp;amp;Aによる答えを待つのが普通です。&lt;/p&gt;
+
+&lt;p&gt;Q&amp;amp;Aサービスは同じような課題に対して、2番目以降の人たちにとって役立つサービスになります。先進的な人たちは常に答えのない中、さまようことになるでしょう。&lt;/p&gt;
+
+&lt;p&gt;オープンなQ&amp;amp;Aサービスの場合、ある程度汎用的に聞く必要があります。自分たちのワークフローに寄りすぎていると、回答できる人も少なくなってしまうでしょう。エラー原因がよく分かっていない場合、質問すらできないかもしれません。&lt;/p&gt;
+
+&lt;h2 id=&quot;公式のサポートを頼る&quot;&gt;公式のサポートを頼る&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;数時間〜数日&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;Q&amp;amp;Aと前後して、公式のサポートを利用する開発者もいるでしょう。多くの場合、公式サポートは有償ユーザー向けに提供されます。また、チケットなどもあり、いつでも何でも使える訳ではありません。そのため、ある程度厳選して利用することでしょう。&lt;/p&gt;
+
+&lt;p&gt;公式サポートの場合、1対1で提供されるものが多いです。また、契約によっては詳細なワークフローに関係するものであったり、実際のソースコードを見せながら回答をもらえます。&lt;/p&gt;
+
+&lt;p&gt;公式サポートは契約次第ですが、翌営業日中の回答などというケースがあります。また、確実な回答ではなく、調査中といったステータスの報告である場合もあるでしょう。必ず解決できるとは限らないのはQ&amp;amp;Aサービスと同じくらいです。&lt;/p&gt;
+
+&lt;h2 id=&quot;ソースコードをあたる&quot;&gt;ソースコードをあたる&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;数時間〜不明&lt;/strong&gt;&lt;/p&gt;
+
+&lt;p&gt;SDKがオープンソース・ソフトウェア（またはソースコードが開示されている）の場合、実際のコードを見ながらエラー原因を探れます。大型なSDKの場合、ファイルや役割が細かく分担されているため、一目でエラーが分かることはないでしょう。また、JavaScriptのように難読化されていると、さらにコードを追いづらくなります。&lt;/p&gt;
+
+&lt;p&gt;とはいえ、ブラックボックスになっているSDKよりは幾分扱いやすいはずです。もちろんSDK側のコードを調べても、結局API側のエラーで何も分からなかったという結論になることもあります。&lt;/p&gt;
+
+&lt;h2 id=&quot;エラーが回避できない場合&quot;&gt;エラーが回避できない場合&lt;/h2&gt;
+
+&lt;p&gt;もし開発者が皆さんのサービスを使っていて、エラーをどうしても回避できなかったらどうするでしょうか。まずサービスの利用を止めるはずです。そして代替サービスの利用を検討するでしょう。&lt;/p&gt;
+
+&lt;p&gt;最も良くないのは「このサービスは難しい・利用しない方が良い」という印象を与えてしまうことです。一度与えてしまったネガティブな印象を払拭するのは困難です。&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;すでにエラーを解決できなかったというネガティブな経験がある&lt;/li&gt;
+  &lt;li&gt;回避できる手段を公開したとしても、それを届ける手段がない&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;一度サービスから離れてしまった開発者を取り戻すのは、ほぼ不可能です。もしもう一度類似技術の導入検討を行う必要があったとしても、検討の土俵に上げてもらえることはないでしょう。&lt;/p&gt;
+
+&lt;h2 id=&quot;まとめ&quot;&gt;まとめ&lt;/h2&gt;
+
+&lt;p&gt;開発時にエラーは付きものです。エラーなく開発が終わることは100%ありません。重要なのはエラーが出た後に、どう素早く解決できるかになります。素早く自己解決できれば、開発者はあなたのサービスに対して、ポジティブな印象を持つことでしょう。&lt;/p&gt;
+
+&lt;p&gt;大事なのは、ユーザの利用している環境に近いこと、セルフサポートできること、短時間で解決できることです。その観点からサービスやSDKのエラーメッセージを設計すると、よりよい開発体験の実現につながることでしょう。&lt;/p&gt;</content><author><name>moongift</name></author><summary type="html">開発していれば、自然と疑問が出てくるものです。SaaSをはじめ、APIベースでサービスを提供する場合、サーバ側で何が行われているかはブラックボックスになります。エラーが出たとしても、コードを追いかけながら確認することはできません。</summary></entry><entry><title type="html">マーケティングから考えるDevRel戦略（発信編）</title><link href="https://devrel.jp/%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/2021/12/04/devrel-publishing.html" rel="alternate" type="text/html" title="マーケティングから考えるDevRel戦略（発信編）" /><published>2021-12-04T09:00:00+09:00</published><updated>2021-12-04T09:00:00+09:00</updated><id>https://devrel.jp/%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/2021/12/04/devrel-publishing</id><content type="html" xml:base="https://devrel.jp/%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/2021/12/04/devrel-publishing.html">&lt;p&gt;マーケティングが何かというと、幾つかの答えがあるようです。&lt;/p&gt;
 
 &lt;ol&gt;
   &lt;li&gt;製品やサービスに関する情報を真に必要とする顧客へ届ける&lt;/li&gt;
@@ -767,4 +846,4 @@
 
 &lt;p&gt;EXPOや展示会、ブース出展などが減った分、企業によっては予算が余っているところもあるようです。それでいて、売上はそれほど変わらないので従来のマーケティングが無駄だったかのようなとらえ方をされます。これはもちろん違って、従来のマーケティングのお陰（貯金）が今になって効いているだけです。貯金を取り崩してしまえば、次の一手が打ちづらくなるのは間違いありません。&lt;/p&gt;
 
-&lt;p&gt;コロナウイルスの影響は恐らく来年いっぱいは続くと考えられます。ワクチンの話を耳にするようになりましたが、それで一気に解決するものでもないでしょう。新しいマーケティング施策に乗り移るべき時期はすでにはじまっています。新しいDevRelをはじめていきましょう！&lt;/p&gt;</content><author><name>moongift</name></author><summary type="html">コロナウイルスが日本で流行はじめたのが2月頭のことですが、それから10ヶ月経って状況は改善していない状態です。むしろ徐々に悪化しているとさえいえるでしょう。そんな最中ではありますが、DevRelは継続して行われなければいけません。なぜなら、こんな閉鎖的な状況を打破し、ニューノーマルな中でも輝くようなサービスやソフトウェアを開発するのが開発者だからです。そしてDevRelではそんな彼らを鼓舞し、応援するものだからです。</summary></entry><entry><title type="html">Devrel 2020</title><link href="https://devrel.jp/2020/11/19/devrel-2020.html" rel="alternate" type="text/html" title="Devrel 2020" /><published>2020-11-19T00:00:00+09:00</published><updated>2020-11-19T00:00:00+09:00</updated><id>https://devrel.jp/2020/11/19/devrel-2020</id><content type="html" xml:base="https://devrel.jp/2020/11/19/devrel-2020.html"></content><author><name></name></author><summary type="html"></summary></entry></feed>
+&lt;p&gt;コロナウイルスの影響は恐らく来年いっぱいは続くと考えられます。ワクチンの話を耳にするようになりましたが、それで一気に解決するものでもないでしょう。新しいマーケティング施策に乗り移るべき時期はすでにはじまっています。新しいDevRelをはじめていきましょう！&lt;/p&gt;</content><author><name>moongift</name></author><summary type="html">コロナウイルスが日本で流行はじめたのが2月頭のことですが、それから10ヶ月経って状況は改善していない状態です。むしろ徐々に悪化しているとさえいえるでしょう。そんな最中ではありますが、DevRelは継続して行われなければいけません。なぜなら、こんな閉鎖的な状況を打破し、ニューノーマルな中でも輝くようなサービスやソフトウェアを開発するのが開発者だからです。そしてDevRelではそんな彼らを鼓舞し、応援するものだからです。</summary></entry></feed>
