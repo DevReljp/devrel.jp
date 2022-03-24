@@ -1,4 +1,170 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://devrel.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://devrel.jp/" rel="alternate" type="text/html" /><updated>2022-03-21T15:02:15+09:00</updated><id>https://devrel.jp/feed.xml</id><title type="html">DEVREL - 開発者向けマーケティング支援サービス -</title><subtitle>DevRelは開発者向けマーケティング施策です。私たちは企業の製品、サービスを広く開発者に知ってもらうためのDevRelをサポート、代行しています。</subtitle><entry><title type="html">パネルディスカッションでの良いモデレーションとは？</title><link href="https://devrel.jp/%E3%83%91%E3%83%8D%E3%83%AB%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AB%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/03/21/good-panel-discussion.html" rel="alternate" type="text/html" title="パネルディスカッションでの良いモデレーションとは？" /><published>2022-03-21T09:00:00+09:00</published><updated>2022-03-21T09:00:00+09:00</updated><id>https://devrel.jp/%E3%83%91%E3%83%8D%E3%83%AB%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AB%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/03/21/good-panel-discussion</id><content type="html" xml:base="https://devrel.jp/%E3%83%91%E3%83%8D%E3%83%AB%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AB%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/03/21/good-panel-discussion.html">&lt;p&gt;最近、イベントをパネルディスカッション形式で行うことが増えています。その際、モデレーターを担当するのですが、意外と進行を褒めてもらえることが多いです。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://devrel.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://devrel.jp/" rel="alternate" type="text/html" /><updated>2022-03-24T21:54:16+09:00</updated><id>https://devrel.jp/feed.xml</id><title type="html">DEVREL - 開発者向けマーケティング支援サービス -</title><subtitle>DevRelは開発者向けマーケティング施策です。私たちは企業の製品、サービスを広く開発者に知ってもらうためのDevRelをサポート、代行しています。</subtitle><entry><title type="html">オンラインイベントを行うのに便利なサービスまとめ</title><link href="https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3/2022/03/24/online-event-tools.html" rel="alternate" type="text/html" title="オンラインイベントを行うのに便利なサービスまとめ" /><published>2022-03-24T09:00:00+09:00</published><updated>2022-03-24T09:00:00+09:00</updated><id>https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3/2022/03/24/online-event-tools</id><content type="html" xml:base="https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3/2022/03/24/online-event-tools.html">&lt;p&gt;オンラインイベントを行う際には、何らかのサービスを使うのが一般的です。企業イベントであれば予算も付くでしょうが、コミュニティの場合はなるべく安価なツールを選びたいでしょう。&lt;/p&gt;
+
+&lt;p&gt;そこで今回は各種あるオンラインイベントツールについて、料金や機能の差異含めて紹介します。なお、あまり高いところは選択肢から外しています。&lt;/p&gt;
+
+&lt;h2 id=&quot;ミーティング型&quot;&gt;ミーティング型&lt;/h2&gt;
+
+&lt;p&gt;いわゆるオンライン会議システムをミートアップなどのイベントで利用する場合です。使い慣れているサービスが使える反面、参加していて面白さを感じられるかは疑問です。&lt;/p&gt;
+
+&lt;h3 id=&quot;zoom&quot;&gt;&lt;a href=&quot;https://zoom.us/&quot;&gt;Zoom&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/online-event-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Zoomはおそらく社内外のミーティングで一番使われている会議システムではないでしょうか。Webブラウザでも利用できますが、基本的に専用アプリを利用するかと思います。&lt;/p&gt;
+
+&lt;p&gt;100人までのミーティングが月間2,000円（年間20,100円）で使えるのはかなり安価です。ただしベースが会議システムなので、ミートアップをしているというカジュアルな雰囲気になりづらいのが欠点です。いわば社内の会議室でミートアップをしているような雰囲気です。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://zoom.us/&quot;&gt;ビデオ カンファレンス、クラウド電話、ウェビナー、チャット、仮想イベント | Zoom&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;google-meet&quot;&gt;&lt;a href=&quot;https://apps.google.com/intl/ja/meet/&quot;&gt;Google Meet&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/online-event-8.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;無料版のGoogle Meetでは100人までの参加者が募れますが、1時間に制限されます。Google Workspace Individual（月間7.99ドル）を利用すると100名まで、最長24時間のミーティングが作成できます。&lt;/p&gt;
+
+&lt;p&gt;Google Meetでは自動文字起こし機能が便利です。また、背景のぼかし機能は他のツールと比べてWebブラウザベースながら綺麗にぼかされる印象です。&lt;/p&gt;
+
+&lt;p&gt;Google Workspaceの場合はBusiness Standardであれば150名まで、ノイズキャンセルやブレイクアウトルーム付きのGoogle Meetになります（月間1,360円）。Business Starter（月間680円）の場合は100名まで、ノイズキャンセルやブレイクアウトルームはありません。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://apps.google.com/intl/ja/meet/&quot;&gt;Google Meet（旧称 Hangouts Meet） - 無料のビデオ会議&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;バーチャルコミュニケーションツール&quot;&gt;バーチャルコミュニケーションツール&lt;/h2&gt;
+
+&lt;p&gt;コロナ禍になって一気に注目を集めたのがバーチャルコミュニケーションツールです。主に社内コミュニケーション促進のために使われていますが、コミュニティイベントでも利用できます。&lt;/p&gt;
+
+&lt;h3 id=&quot;ovice&quot;&gt;&lt;a href=&quot;https://ovice.in/ja/&quot;&gt;oVice&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/online-event-12.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;oViceは平面な空間上に丸いアイコンが表示されて、そのアイコン同士の距離感によって音声の強弱が変わるコミュニケーションツールです。会議室やコミュニケーションアイコンを作れば、そこでWebカメラを使ったコミュニケーションも可能です。Webブラウザだけ、専用アプリが不要なのは利点です。&lt;/p&gt;
+
+&lt;p&gt;かなり機能が多いですが、UIが分かりづらいのが難点です。初見で使いこなすのが難しいため、イベントの登壇者などに使い方を教えるのは時間がかかるでしょう。&lt;/p&gt;
+
+&lt;p&gt;20名までの利用で月間5,500円、50名までで月間22,000円となっています（上位プランあり）。単発イベント向けに1週間2,750円（20名まで）、11,000円（100名まで）などもあります。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://ovice.in/ja/&quot;&gt;oVice - Business Metaverse&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;spatialchat&quot;&gt;&lt;a href=&quot;https://spatial.chat/&quot;&gt;SpatialChat&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/online-event-11.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;SpatialChatはoVice同様に丸いアイコン同士の距離感で音量が変わるコミュニケーションツールです。oViceのような会議室機能はなく、平面空間だけでコミュニケーションをします。&lt;/p&gt;
+
+&lt;p&gt;セッションなどを行う時にはメガホン機能を使って、全体にアナウンスができます。Webブラウザだけで利用できるのが利点です。&lt;/p&gt;
+
+&lt;p&gt;料金は頻繁に変わるので注意が必要です。先日の料金改定によって、無料プランは25名までに変更されました。1日のイベントの場合、一人2ドルとなっています。これが25名を超えた場合の料金なのか、1名からなのかは不明です。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://spatial.chat/&quot;&gt;SpatialChat&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;gather--a-better-way-to-meet-online&quot;&gt;&lt;a href=&quot;https://www.gather.town/&quot;&gt;Gather | A better way to meet online.&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/online-event-10.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;8ビット風のデザインが特徴なオンラインコミュニケーションツールです。oViceやSpatialChatと同じく距離や向きによって音量が変わります。Webブラウザだけで利用できます。&lt;/p&gt;
+
+&lt;p&gt;会議室を作ったり、その中でホワイトボードやゲームをしたりできるなど、かなり細かい機能があります。セッションを行う際には登壇台に移動して画面を共有するなど、細かい部分にまで気が配られています。&lt;/p&gt;
+
+&lt;p&gt;料金は無料で25名まで、その後は2ドル/2時間/ユーザー（500名まで）、3ドル/日/ユーザーなどとなっています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.gather.town/&quot;&gt;Gather | A better way to meet online.&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;discord&quot;&gt;&lt;a href=&quot;https://discord.com/&quot;&gt;Discord&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/online-event-9.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Discordはゲーム界隈で有名なチャットサービスですが、最近はIT系でも利用が進んでいます。Slackでは提供されない音声チャットが無料で利用できるのが大きいです。専用アプリもありますが、Webブラウザだけでも利用できます。&lt;/p&gt;
+
+&lt;p&gt;画面共有を伴うイベントは25名までとなっています。Clubhouse的な音声のみのサービスStage Channelsは1,000名まで参加可能です。&lt;/p&gt;
+
+&lt;p&gt;料金は無料ですが、Discord Nitoroというサービスに個人で入れます（月間9.99ドル〜）。利用者がお金を払って便利な機能を手に入れるのが他と異なる部分です。なお、課金すると画面共有が1080p、または4Kになります。この辺りがゲーム向きの機能でしょう。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://discord.com/&quot;&gt;Discord | 会話や交流が楽しめるプラットフォーム&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;nework&quot;&gt;&lt;a href=&quot;https://nework.app/top&quot;&gt;NeWork&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/online-event-7.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;NTTコミュニケーションズが提供するサービスです。バブルと呼ばれる枠に入ることで、会話ができます。また、自分のステータスを色で表現することで、話しかけていいか分かるようになっています。&lt;/p&gt;
+
+&lt;p&gt;バブルの枠外にいると、聞き耳モードになります。会話には参加できませんが、画面共有を見たり、会話を聞けます。複数人で同時に画面共有を行えるのが便利です。&lt;/p&gt;
+
+&lt;p&gt;サービスはWebブラウザだけで利用できます。料金は20名までは無料、50名までが月額27,500円、100名までが月額55,000円となっています。ごく小さなグループであれば無料で利用できそうです。20名の場合はゲストを呼べないので、全員登録している必要があります。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://nework.app/top&quot;&gt;NeWork リアルより話しやすいオンラインワークスペース&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;3d&quot;&gt;3D&lt;/h2&gt;
+
+&lt;p&gt;3Dアバターを使ったコミュニケーションツールです。より没入感が感じられるものの、イベントの主体はコンテンツやコミュニケーションにあるので、3Dであることがどこまで意味を持つかは疑問です。リッチな分、負荷が高いのは難点です。&lt;/p&gt;
+
+&lt;h3 id=&quot;hubs&quot;&gt;&lt;a href=&quot;https://hubs.mozilla.com/&quot;&gt;Hubs&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/online-event-5.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Mozillaの提供する3D空間サービスです。オープンソースなので自分でサーバーを立てることもできますし、&lt;a href=&quot;https://hubs.mozilla.com/cloud&quot;&gt;Hubs Cloud&lt;/a&gt;を利用することもできます。Hubs CloudはAWSインスタンスです。&lt;/p&gt;
+
+&lt;p&gt;利用はWebブラウザだけで可能で、PWAとしてインストールもできます。1つのルームで25名程度というのが制限となっています。自分でサーバを立てる場合、強力なインスタンスを使えばもっと人数を増やせると言う話もあります。特に課金モデルはないようです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://hubs.mozilla.com/&quot;&gt;Hubs - Private, virtual 3D spaces in your browser&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;door&quot;&gt;&lt;a href=&quot;https://door.ntt/&quot;&gt;DOOR&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/online-event-4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Mozilla HubsをベースにNTTコミュニケーションズが提供するサービスです。同時参加人数は24名までとなっています。部屋を作成するツールが用意されており、自由にカスタマイズが可能です。&lt;/p&gt;
+
+&lt;p&gt;動画を配置したり、3Dオブジェクトをインポートしたりできます。アバターが使えますが、会話していても口が動かないので誰が話しているのか分からないのが欠点です。&lt;/p&gt;
+
+&lt;p&gt;現時点では明確な料金表はありません。24名までの利用であれば無料といった程度で、法人利用する場合は問い合わせが用意されています。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://door.ntt/&quot;&gt;DOOR　開け。次の世界 -&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;clusterクラスター&quot;&gt;&lt;a href=&quot;https://cluster.mu/&quot;&gt;cluster（クラスター）&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/online-event-3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;専用アプリやHMDを使って利用する3Dコミュニケーションツールです。様々な大型イベントでも使われているので、実績は十分にあります。あります。&lt;/p&gt;
+
+&lt;p&gt;イベントは無料で作成可能です。公開イベントの場合は500名まで、非公開イベントは50名までとなっています。画面共有はなく、PDFファイルのみ共有できます。そうした点を登壇者にも伝えておかないといけないのが注意点でしょう。&lt;/p&gt;
+
+&lt;p&gt;また、専用アプリをインストールしておく必要があるのが面倒ではあります。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://cluster.mu/&quot;&gt;メタバースプラットフォーム cluster（クラスター）&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;配信特化型&quot;&gt;配信特化型&lt;/h2&gt;
+
+&lt;p&gt;コミュニケーションツール内に参加者、運営者が集まるのではなく、配信側と聞く側で分かれる形式の場合です。この形式の場合は下記の配信サービスと、YouTube LiveやFacebook、Twitter Live Streamingなどを組み合わせる形になるでしょう。&lt;/p&gt;
+
+&lt;h3 id=&quot;streamyard&quot;&gt;&lt;a href=&quot;https://streamyard.com/teams/kPWTXgIk7U5n89HHnObem2N7/broadcasts&quot;&gt;StreamYard&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/online-event-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;StreamYardは月25ドルから利用できます（年間の場合は240ドル）。同時に10人の参加者で、3件の配信先を選択できます。無料の場合は6人まで、1ヶ月20時間までという制限があります。月25ドルの場合は720p、月39ドルで1080pによる配信が可能です。&lt;/p&gt;
+
+&lt;p&gt;配信内容はローカルファイルとして保存されており、ダウンロードできます。動画にはロゴや背景の変更、YouTubeやFacebook、Twitchなどからのコメントピックアップといった機能があります。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://streamyard.com/teams/kPWTXgIk7U5n89HHnObem2N7/broadcasts&quot;&gt;StreamYard&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;restream&quot;&gt;&lt;a href=&quot;https://www.g2.com/products/restream/reviews&quot;&gt;Restream&lt;/a&gt;&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/online-event-13.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;RestreamもStreamYardのようにクラウドベースの配信プラットフォームになります。有料の場合は16ドルからとなっています。配信先が5チャンネル選べますが、登録自体5チャンネルまでしかできない仕組みです（StreamYardはいくつでも登録は行えます）。また、以前は有料でもロゴが消せないといった欠点がありました（現在は消せるようです）。&lt;/p&gt;
+
+&lt;p&gt;機能的にはStreamYardよりも若干多いように見えます。ただ、個人的には使いづらい印象があります。OBSやZoomと接続する機能は便利そうです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.g2.com/products/restream/reviews&quot;&gt;Restream Reviews 2022: Details, Pricing, &amp;amp; Features | G2&lt;/a&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;まとめ&quot;&gt;まとめ&lt;/h2&gt;
+
+&lt;p&gt;イベントツールの選定としては、ブラウザだけで利用できるかどうかが一つ大きなポイントになります。できれば専用ソフトウェアは不要な方が良いでしょう。運営メンバーはともかく、初参加の人にとっては敷居が高くなります。&lt;/p&gt;
+
+&lt;p&gt;また、無料（または有料でも）で何人まで参加できるのかもポイントになります。イベント規模によって、収まらないケースもあるでしょう。&lt;/p&gt;
+
+&lt;p&gt;後は多機能なツールはありますが、独特な使い勝手を覚えないといけないケースも多いので注意が必要です。特に登壇者の方が不慣れな状態だと、操作するのに必死になってしまうと、せっかくのプレゼンが台無しになってしまいます。&lt;/p&gt;
+
+&lt;p&gt;こうしたサービスは正しく選定し、自分たちの目的やイベントの趣旨に合わせて選択しましょう。そうすればきっとオンラインイベントが成功するはずです。&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;/contact&quot;&gt;MOONGIFTではコミュニティ運営のサポートを提供していますので、ぜひお気軽にお問い合わせください&lt;/a&gt;。&lt;/p&gt;</content><author><name>moongift</name></author><summary type="html">オンラインイベントを行う際には、何らかのサービスを使うのが一般的です。企業イベントであれば予算も付くでしょうが、コミュニティの場合はなるべく安価なツールを選びたいでしょう。</summary></entry><entry><title type="html">パネルディスカッションでの良いモデレーションとは？</title><link href="https://devrel.jp/%E3%83%91%E3%83%8D%E3%83%AB%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AB%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/03/21/good-panel-discussion.html" rel="alternate" type="text/html" title="パネルディスカッションでの良いモデレーションとは？" /><published>2022-03-21T09:00:00+09:00</published><updated>2022-03-21T09:00:00+09:00</updated><id>https://devrel.jp/%E3%83%91%E3%83%8D%E3%83%AB%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AB%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/03/21/good-panel-discussion</id><content type="html" xml:base="https://devrel.jp/%E3%83%91%E3%83%8D%E3%83%AB%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AB%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/03/21/good-panel-discussion.html">&lt;p&gt;最近、イベントをパネルディスカッション形式で行うことが増えています。その際、モデレーターを担当するのですが、意外と進行を褒めてもらえることが多いです。&lt;/p&gt;
 
 &lt;p&gt;逆にモデレーターをうまく行うコツを聞かれることが増えてきたので、自分なりのやり方をまとめておきます。&lt;/p&gt;
 
@@ -973,30 +1139,4 @@
 
 &lt;h2 id=&quot;まとめ&quot;&gt;まとめ&lt;/h2&gt;
 
-&lt;p&gt;こんな感じでDevくん、Relちゃんの誕生秘話は以上です。DevRel Meetup in Tokyoはなんだかんだで5年くらい続いていますが、まだまだ浸透段階にあります。コロナ禍で消沈している暇などありません。どんどん盛り上げていきましょう！&lt;/p&gt;</content><author><name>moongift</name></author><summary type="html">数ヶ月前にSlackなどで発表はしていながら、告知もリリース文も書いていないのですが…。この機会に発表したいと思います。DevRelのキャラクターを作成しました。名前はDevくん、Relちゃんです。安直ですが、お見知りおきください。</summary></entry><entry><title type="html">DevRelのローカリゼーション</title><link href="https://devrel.jp/%E6%B5%B7%E5%A4%96/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2020/12/02/localization-devrel.html" rel="alternate" type="text/html" title="DevRelのローカリゼーション" /><published>2020-12-02T00:00:00+09:00</published><updated>2020-12-02T00:00:00+09:00</updated><id>https://devrel.jp/%E6%B5%B7%E5%A4%96/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2020/12/02/localization-devrel</id><content type="html" xml:base="https://devrel.jp/%E6%B5%B7%E5%A4%96/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2020/12/02/localization-devrel.html">&lt;p&gt;DevRelは開発者個人と向き合った活動になります。そのため、現地化がとても重要です。特にこれから海外に進出する、グローバルにサービス提供する、逆にある地域（日本含む）に進出する場合においては、現地の開発者状況について学ばなければなりません。&lt;/p&gt;
-
-&lt;p&gt;たとえば先日開催したDevRel/Asia 2020の場合、11月14日がインドのディーワーリーであることをほとんど誰も知りませんでした。ディーワーリーはヒンドゥー教のお祭りであり、日本で言えばクリスマスと正月が同時に来たような熱狂的お祭りになります。これがあったため、インドチームは運営に参加できなくなりました。あらかじめ知っていれば避けたのに…と思わずにはいられません。これは日本で言えばゴールデンウィークやお盆を避けたりするのと同じです。&lt;/p&gt;
-
-&lt;p&gt;さらにコミュニティのイベント開催方法も地域によって異なります。たとえばシンガポールではセッション前にご飯を食べます。懇親会のような時間が最初にあって、そこで食べながら参加メンバーたちと会話をします。そしてある程度集まった段階で椅子がある部屋に移動してセッションがはじまります。そして終わったら、すぐ解散します。日本とはまるきり逆ですし、20時前とかでも平気で終わってしまうので最初は驚きました。&lt;/p&gt;
-
-&lt;p&gt;コミュニティイベントは開催曜日、時間なども特色があります。シンガポールの場合、平日夜に行われるイベントも多数あります。インドでは平日はあまりなく、土曜日の午前中に行われたりします。この辺りの地域特性も分かっていないと、参加者が集められなかったり、彼らの満足度が低いものになってしまうでしょう。&lt;/p&gt;
-
-&lt;p&gt;これは日本でも同じで、地方都市の場合は平日夜でも大丈夫ですが、埼玉や神奈川、千葉などの東京周辺で開催する場合は週末の午後が都合がよかったりします。彼らは平日は東京の会社に出社しており、自宅は神奈川、千葉、埼玉にあります。自宅に戻るまでに1.5時間くらいかかるので、平日夜のイベントに参加するのは困難です。また、週末の午前中は休む時間として必要で、午後3時くらいからイベントを行うとちょうどよかったりします。&lt;/p&gt;
-
-&lt;p&gt;インターネットによって情報の平準化が進んでいるように感じますが、それでも東京近辺と大阪、地方都市とで情報格差や技術浸透格差は存在します。東京でウケがよさそうなコンテンツであっても、地方でウケるとは限りません。イベントのテーマも都市に合わせて作成すべきでしょう。&lt;/p&gt;
-
-&lt;p&gt;国によって異なるのは利用しているツールも挙げられます。日本ではconnpassがイベントツールとして最も有名ですが、別な国ではMeetup.comであったりします。韓国や台湾の場合、Facebook Groupが開発者コミュニティで最も利用されているそうです。中国ではWeChatがコミュニティとしても使われています。グローバル = Meetup.comと単純に考えていると、集客やコミュニティ育成に大きな失敗を被るでしょう。これはソーシャルサービスやコミュニケーションツール全般にいえることでしょう。&lt;/p&gt;
-
-&lt;p&gt;言葉は一番シンプルな地域特性になります。日本において英語や欧米人というだけで、一定の距離感を置かれてしまいます。数年前、いくつかの企業では外国人のエバンジェリストを雇用していましたが、いまはどうなったのか分かりません（少なくとも2社はいなくなっています）。これは諸外国においても同様で、現地においては現地人のエバンジェリストの方が、より彼らの市場に入り込めるでしょう。&lt;/p&gt;
-
-&lt;h2 id=&quot;現地の学び方&quot;&gt;現地の学び方&lt;/h2&gt;
-
-&lt;p&gt;さて、実際にどうやって現地のことを学ぶかといえば、一番いいのは自分が実際にそこで体験することでしょう。1回、2回の話ではなく、何度も足繁く通って自分自身が現地化するのが一番です。そこで現地の状況に精通している人を見つけられれば、その人を通じて現地のことを学べるようになります。&lt;/p&gt;
-
-&lt;p&gt;地方のコミュニティなどは人が重複していることが殆どです。一人のコミュニティ強者が複数のコミュニティ運営に携わっているような状態です。そうしたコミュニティのコネクターと信頼関係を結ぶことが、成功への第一歩となるでしょう。&lt;/p&gt;
-
-&lt;p&gt;ヌーラボではシンガポールオフィス開設に伴い、イベントスペースを開設しています。こうしたイベントを開催するような強者との接触機会を増やすというのは、現地を学ぶ、現地に広める上でいい施策だと感じています。&lt;/p&gt;
-
-&lt;h2 id=&quot;まとめ&quot;&gt;まとめ&lt;/h2&gt;
-
-&lt;p&gt;もちろん現在はコロナ禍にあって、容易に都市を移動したり、海外に移動することはできません。とはいえ、オンラインサービスはインターネットを通じて世界中につながっています。やろうと思えばいつだってサービスのグローバル展開は可能でしょう。そうした時のDevRelの注意点としては「彼を知り己を知れば百戦殆からず」です。相手を知らずして、自分たちのやり方を押しつけることのないよう注意しましょう。&lt;/p&gt;</content><author><name>moongift</name></author><summary type="html">DevRelは開発者個人と向き合った活動になります。そのため、現地化がとても重要です。特にこれから海外に進出する、グローバルにサービス提供する、逆にある地域（日本含む）に進出する場合においては、現地の開発者状況について学ばなければなりません。</summary></entry></feed>
+&lt;p&gt;こんな感じでDevくん、Relちゃんの誕生秘話は以上です。DevRel Meetup in Tokyoはなんだかんだで5年くらい続いていますが、まだまだ浸透段階にあります。コロナ禍で消沈している暇などありません。どんどん盛り上げていきましょう！&lt;/p&gt;</content><author><name>moongift</name></author><summary type="html">数ヶ月前にSlackなどで発表はしていながら、告知もリリース文も書いていないのですが…。この機会に発表したいと思います。DevRelのキャラクターを作成しました。名前はDevくん、Relちゃんです。安直ですが、お見知りおきください。</summary></entry></feed>
