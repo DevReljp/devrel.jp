@@ -2,7 +2,7 @@
 layout: post
 title: オンライン/オフライン同時開催型のパネルディスカッションで得られた知見
 date:   2022-04-07 00:00:00
-catch: 
+catch: hybrid-event.jpeg
 categories:
 - イベント
 author: moongift
@@ -16,17 +16,21 @@ author: moongift
 
 今回、全体としてのアーキテクチャは次のようになっています。
 
+![](./images/articles/hybrid-architecture.jpeg)
+
 各デバイスは次のように使われています。
 
 ### 会議室用スピーカー
 
 会議室用スピーカーとして[Anker PowerConf S500](https://www.amazon.co.jp/Anker-A3305011-PowerConf-S500/dp/B08VWKFPCR)を用意しました。執筆時点で2.5万円くらいです。会議室用スピーカーがあることで、各パネリストやモデレーターの方はマイクやイヤホンの用意が不要になります。発言が混じったとしても、聞き苦しくなりません。
 
+![](/images/articles/ankor.jpg)
+
 参加者がコミュニケーションしている声も遠くの方で聞こえるようで、多少なりともオフラインの雰囲気がオンラインの方々に聞こえたのは良かったと思います。
 
-Anker PowerConf S500の実力としては、10〜15名くらいの箱であれば十分に聞こえるレベルのスピーカーでした。マイクについては、遠くにいる人は少し声を張り上げた方が良さそうです。パネリストやモデレーターの声であればまったく問題なく届けられていました。
+Anker PowerConf S500の実力としては、10〜15名くらいの箱であれば十分に聞こえるレベルのスピーカーでした。マイクについては、遠くにいる人は少し声を張り上げた方が良さそうです。パネリストやモデレーターの声であればまったく問題なく届けられていました。[Anker PowerConf S500は2台接続も可能](https://www.ankerjapan.com/products/a3305)なので、20人規模の会場であれば2つあった方が良さそうです。
 
-ケーブルはUSB A - USB C（3m）を利用しています。ケーブルが短いと色々苦労するので、長いものを用意しておくのがお勧めです。
+ケーブルはUSB type-A - USB type-C（3m）を利用しています。ケーブルが短いと色々苦労するので、長いものを用意しておくのがお勧めです。
 
 ### iPhone
 
@@ -34,11 +38,13 @@ iPhoneはWebカメラとして利用しています。ノートPCのものでは
 
 iPhone 6sはOSがiOS12までしか使えないので、その制約で使えるアプリに限りがあります。今回は[Reincubate Camo](https://reincubate.com/ja/camo/)を使っています。フリー版もあるようですが、画質などで制約があるのでPro版にするのが良いでしょう。ライフタイム（買い切り）で79.99ドルでした。
 
-このReincubate CamoをノートPC、iPhone両方にインストールして、USBケーブルで接続します。ケーブルの取り回しが必要になるので、USB - lightningケーブル（3m）を使っています。また、iPhoneは三脚を用意して、そこで固定しています。
+このReincubate CamoをノートPC、iPhone両方にインストールして、USBケーブルで接続します。ケーブルの取り回しが必要になるので、USB type-A - lightningケーブル（3m）を使っています。また、iPhoneは三脚を用意して、そこで固定しています。
 
 ### TV
 
 テレビは予定外でしたが、たまたま部屋にあらかじめあったのでモニターとして利用しました。オンライン側のパネリストを映したり、画面共有を表示するのに使っています。イベントスペースにあるプロジェクターは大抵ルーメンが低く、会場を暗くする必要があります。それだと会場の様子が暗く、見づらいものになるので意外とTVは便利です。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/DevRelJP?src=hash&amp;ref_src=twsrc%5Etfw">#DevRelJP</a> <a href="https://twitter.com/hashtag/DevRel?src=hash&amp;ref_src=twsrc%5Etfw">#DevRel</a> はじまりー。久々のハイブリッド開催！ <a href="https://t.co/FjodVEtOSh">pic.twitter.com/FjodVEtOSh</a></p>&mdash; Atsushi 🇯🇵 DevRel Meetup in 🗼 4/6 (@goofmint) <a href="https://twitter.com/goofmint/status/1511649429522386950?ref_src=twsrc%5Etfw">April 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 なお、TVに付属していた細いHDMIケーブル（3mくらい）の調子が悪く、短いものにせざるを得ませんでした。HDMIケーブルだけでも用意しておけば良かったと後悔しています。
 
@@ -50,9 +56,12 @@ iPhone 6sはOSがiOS12までしか使えないので、その制約で使える�
 
 その他用意していたものです。
 
-#### スピーカー同士の飛沫感染を防止するフィルム
+#### パネリスト同士の飛沫感染を防止するフィルム
+
+![](/images/artciles/film.jpg)
 
 会場ではソファーを使う想定をしていたので、そのソファーの上にかけられる感染防止フィルムを用意しました。購入したのは[飛沫ブロッカー側面用タイプ](https://www.amazon.co.jp/gp/product/B0897KVTXV/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)です。価格は1万円弱になります。これは片足タイプなので、土台をソファーの下に滑り込ませることで、見た目に邪魔にならないように配置できます。
+
 
 ## 進行
 
@@ -60,9 +69,13 @@ iPhone 6sはOSがiOS12までしか使えないので、その制約で使える�
 
 実際のイベント中は、こんな感じです。
 
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/DevRelJP?src=hash&amp;ref_src=twsrc%5Etfw">#DevRelJP</a> <a href="https://twitter.com/hashtag/DevRel?src=hash&amp;ref_src=twsrc%5Etfw">#DevRel</a><br><br>会場からはこんな感じ。リアル感ありますね。 <a href="https://t.co/DBFHK6wv9O">pic.twitter.com/DBFHK6wv9O</a></p>&mdash; Shotaro Suzuki (@shosuz) <a href="https://twitter.com/shosuz/status/1511655855057354752?ref_src=twsrc%5Etfw">April 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+今から思ってみると、名刺を忘れていました。ちゃんと持っている方も多くて、素晴らしいなと思います。
+
 ## 結果
 
-ツイートは200超（速報値）なので、オンラインだけでイベントをやるよりも比較的伸びたのではないかと思っています。たいじさんからは運営している感があったという意見もあり、確かにそう感じます。オフラインで会場を準備したり、挨拶したりといった体験はオンラインではなかなか得づらいものだなと思います。
+ツイートは200超（速報値）なので、オンラインだけでイベントをやるよりも比較的伸びたのではないかと思っています。たいじさんからは運営している感があったという意見もあり、確かにそう感じます。オフラインで会場を準備したり、挨拶したりといった体験はオンラインではなかなか得づらいものだなと。
 
 他の人に紹介されて一緒に来たという方もいました。これもオンラインだけでイベントをやっていると、なかなか生まれづらかったものです。オンラインは拡大という意味においては有効ですが、コミュニケーション深度はオフラインには敵わないかと思います。そういった意味で、オンラインとオフラインのハイブリッド開催は両方の良いところ取りができるのでお勧めです。
 
@@ -86,6 +99,8 @@ WeWorkのようなコワーキングスペースを借りている方であれ�
 - イベント後の懇親会
 
 今回、一時的にネットワーク障害が発生し、パネルディスカッションが数分途絶えてしまいました。こうした不測の事態が発生した際に、オンライン会場側の場をつなぐのが役割です。オンラインにいる人たちは、リアルの会場でどういったトラブルが起こっているのか分かりません。何も分からないまま数分放置されるのは苦痛です。
+
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">カメラ高かったのにー！！(´Д` )←外出していない<br>とりあえず配信トラブルを救ってみましたd(´Д` )♪<a href="https://twitter.com/hashtag/DevReljp?src=hash&amp;ref_src=twsrc%5Etfw">#DevReljp</a> <a href="https://twitter.com/hashtag/DevRel?src=hash&amp;ref_src=twsrc%5Etfw">#DevRel</a> <a href="https://t.co/xGlWCLSq57">https://t.co/xGlWCLSq57</a></p>&mdash; odasho@5/25-26 Microsoft Build!! (@MS_odasho) <a href="https://twitter.com/MS_odasho/status/1511673302858997772?ref_src=twsrc%5Etfw">April 6, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 オンライン側の担当者は、現地のスタッフと連絡を取りつつ、場をつなぐのが大事な役割になります。
 
