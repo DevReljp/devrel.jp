@@ -58,7 +58,7 @@ iPhone 6sはOSがiOS12までしか使えないので、その制約で使える�
 
 #### パネリスト同士の飛沫感染を防止するフィルム
 
-![](/images/artciles/film.jpg)
+![](/images/articles/film.jpg)
 
 会場ではソファーを使う想定をしていたので、そのソファーの上にかけられる感染防止フィルムを用意しました。購入したのは[飛沫ブロッカー側面用タイプ](https://www.amazon.co.jp/gp/product/B0897KVTXV/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&psc=1)です。価格は1万円弱になります。これは片足タイプなので、土台をソファーの下に滑り込ませることで、見た目に邪魔にならないように配置できます。
 
