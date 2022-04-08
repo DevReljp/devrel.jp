@@ -3,6 +3,7 @@ layout: post
 title: オンライン/オフライン同時開催型のパネルディスカッションで得られた知見
 date:   2022-04-07 00:00:00
 catch: hybrid-event.jpeg
+image: /images/articles/hybrid-event.jpeg
 categories:
 - イベント
 author: moongift
@@ -16,7 +17,7 @@ author: moongift
 
 今回、全体としてのアーキテクチャは次のようになっています。
 
-![](./images/articles/hybrid-architecture.jpeg)
+![](/images/articles/hybrid-architecture.jpeg)
 
 各デバイスは次のように使われています。
 
