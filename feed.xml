@@ -1,4 +1,114 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://devrel.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://devrel.jp/" rel="alternate" type="text/html" /><updated>2022-03-24T21:54:16+09:00</updated><id>https://devrel.jp/feed.xml</id><title type="html">DEVREL - 開発者向けマーケティング支援サービス -</title><subtitle>DevRelは開発者向けマーケティング施策です。私たちは企業の製品、サービスを広く開発者に知ってもらうためのDevRelをサポート、代行しています。</subtitle><entry><title type="html">オンラインイベントを行うのに便利なサービスまとめ</title><link href="https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3/2022/03/24/online-event-tools.html" rel="alternate" type="text/html" title="オンラインイベントを行うのに便利なサービスまとめ" /><published>2022-03-24T09:00:00+09:00</published><updated>2022-03-24T09:00:00+09:00</updated><id>https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3/2022/03/24/online-event-tools</id><content type="html" xml:base="https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3/2022/03/24/online-event-tools.html">&lt;p&gt;オンラインイベントを行う際には、何らかのサービスを使うのが一般的です。企業イベントであれば予算も付くでしょうが、コミュニティの場合はなるべく安価なツールを選びたいでしょう。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://devrel.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://devrel.jp/" rel="alternate" type="text/html" /><updated>2022-04-08T14:09:06+09:00</updated><id>https://devrel.jp/feed.xml</id><title type="html">DEVREL - 開発者向けマーケティング支援サービス -</title><subtitle>DevRelは開発者向けマーケティング施策です。私たちは企業の製品、サービスを広く開発者に知ってもらうためのDevRelをサポート、代行しています。</subtitle><entry><title type="html">オンライン/オフライン同時開催型のパネルディスカッションで得られた知見</title><link href="https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/04/07/hybrid-event.html" rel="alternate" type="text/html" title="オンライン/オフライン同時開催型のパネルディスカッションで得られた知見" /><published>2022-04-07T09:00:00+09:00</published><updated>2022-04-07T09:00:00+09:00</updated><id>https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/04/07/hybrid-event</id><content type="html" xml:base="https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/04/07/hybrid-event.html">&lt;p&gt;4月6日に&lt;a href=&quot;https://devrel.connpass.com/event/243022/&quot;&gt;DevRel Meetup in Tokyo #73 〜ソーシャル活用術〜&lt;/a&gt;を開催しました。まん延防止等重点措置が解除され、久々のオフライン会場を用意してのイベントになります。2021年12月にもオンラインとオフライン一緒にイベントを開催したのですが、その時には久々ということもあって、色々足りていませんでした。&lt;/p&gt;
+
+&lt;p&gt;今回はその前回の反省を踏まえて取り組んだので、その知見を共有します。&lt;/p&gt;
+
+&lt;h2 id=&quot;アーキテクチャ&quot;&gt;アーキテクチャ&lt;/h2&gt;
+
+&lt;p&gt;今回、全体としてのアーキテクチャは次のようになっています。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;./images/articles/hybrid-architecture.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;各デバイスは次のように使われています。&lt;/p&gt;
+
+&lt;h3 id=&quot;会議室用スピーカー&quot;&gt;会議室用スピーカー&lt;/h3&gt;
+
+&lt;p&gt;会議室用スピーカーとして&lt;a href=&quot;https://www.amazon.co.jp/Anker-A3305011-PowerConf-S500/dp/B08VWKFPCR&quot;&gt;Anker PowerConf S500&lt;/a&gt;を用意しました。執筆時点で2.5万円くらいです。会議室用スピーカーがあることで、各パネリストやモデレーターの方はマイクやイヤホンの用意が不要になります。発言が混じったとしても、聞き苦しくなりません。&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/articles/ankor.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;参加者がコミュニケーションしている声も遠くの方で聞こえるようで、多少なりともオフラインの雰囲気がオンラインの方々に聞こえたのは良かったと思います。&lt;/p&gt;
+
+&lt;p&gt;Anker PowerConf S500の実力としては、10〜15名くらいの箱であれば十分に聞こえるレベルのスピーカーでした。マイクについては、遠くにいる人は少し声を張り上げた方が良さそうです。パネリストやモデレーターの声であればまったく問題なく届けられていました。&lt;a href=&quot;https://www.ankerjapan.com/products/a3305&quot;&gt;Anker PowerConf S500は2台接続も可能&lt;/a&gt;なので、20人規模の会場であれば2つあった方が良さそうです。&lt;/p&gt;
+
+&lt;p&gt;ケーブルはUSB type-A - USB type-C（3m）を利用しています。ケーブルが短いと色々苦労するので、長いものを用意しておくのがお勧めです。&lt;/p&gt;
+
+&lt;h3 id=&quot;iphone&quot;&gt;iPhone&lt;/h3&gt;
+
+&lt;p&gt;iPhoneはWebカメラとして利用しています。ノートPCのものではカメラ性能が良くありませんし、緊急時にノートPCの向きを変更することもできません。iPhone（またはAndroid）であれば使わなくなった端末があるかと思いますので、それを利用できます。今回はiPhone 6sを使っています。&lt;/p&gt;
+
+&lt;p&gt;iPhone 6sはOSがiOS12までしか使えないので、その制約で使えるアプリに限りがあります。今回は&lt;a href=&quot;https://reincubate.com/ja/camo/&quot;&gt;Reincubate Camo&lt;/a&gt;を使っています。フリー版もあるようですが、画質などで制約があるのでPro版にするのが良いでしょう。ライフタイム（買い切り）で79.99ドルでした。&lt;/p&gt;
+
+&lt;p&gt;このReincubate CamoをノートPC、iPhone両方にインストールして、USBケーブルで接続します。ケーブルの取り回しが必要になるので、USB type-A - lightningケーブル（3m）を使っています。また、iPhoneは三脚を用意して、そこで固定しています。&lt;/p&gt;
+
+&lt;h3 id=&quot;tv&quot;&gt;TV&lt;/h3&gt;
+
+&lt;p&gt;テレビは予定外でしたが、たまたま部屋にあらかじめあったのでモニターとして利用しました。オンライン側のパネリストを映したり、画面共有を表示するのに使っています。イベントスペースにあるプロジェクターは大抵ルーメンが低く、会場を暗くする必要があります。それだと会場の様子が暗く、見づらいものになるので意外とTVは便利です。&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/hashtag/DevRelJP?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#DevRelJP&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/DevRel?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#DevRel&lt;/a&gt; はじまりー。久々のハイブリッド開催！ &lt;a href=&quot;https://t.co/FjodVEtOSh&quot;&gt;pic.twitter.com/FjodVEtOSh&lt;/a&gt;&lt;/p&gt;&amp;mdash; Atsushi 🇯🇵 DevRel Meetup in 🗼 4/6 (@goofmint) &lt;a href=&quot;https://twitter.com/goofmint/status/1511649429522386950?ref_src=twsrc%5Etfw&quot;&gt;April 6, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;なお、TVに付属していた細いHDMIケーブル（3mくらい）の調子が悪く、短いものにせざるを得ませんでした。HDMIケーブルだけでも用意しておけば良かったと後悔しています。&lt;/p&gt;
+
+&lt;h3 id=&quot;usbハブ&quot;&gt;USBハブ&lt;/h3&gt;
+
+&lt;p&gt;配信用PCがMacBook Airだったこともあって、接続するUSBデバイスのポートが不足しがちです。USBハブを持っているのですが、久々に使ってみたら調子がとても悪く、接続が瞬断する状態でした…。定期的な確認が必要ですね。&lt;/p&gt;
+
+&lt;h3 id=&quot;その他&quot;&gt;その他&lt;/h3&gt;
+
+&lt;p&gt;その他用意していたものです。&lt;/p&gt;
+
+&lt;h4 id=&quot;パネリスト同士の飛沫感染を防止するフィルム&quot;&gt;パネリスト同士の飛沫感染を防止するフィルム&lt;/h4&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/artciles/film.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;会場ではソファーを使う想定をしていたので、そのソファーの上にかけられる感染防止フィルムを用意しました。購入したのは&lt;a href=&quot;https://www.amazon.co.jp/gp/product/B0897KVTXV/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&amp;amp;psc=1&quot;&gt;飛沫ブロッカー側面用タイプ&lt;/a&gt;です。価格は1万円弱になります。これは片足タイプなので、土台をソファーの下に滑り込ませることで、見た目に邪魔にならないように配置できます。&lt;/p&gt;
+
+&lt;h2 id=&quot;進行&quot;&gt;進行&lt;/h2&gt;
+
+&lt;p&gt;今回の進行はすべてモデレーターでもある&lt;a href=&quot;https://twitter.com/taiponrock&quot;&gt;Taiji Eddie Hagino (@taiponrock)&lt;/a&gt;さんにお任せとなっています。HDMIケーブルの問題、USBハブの問題があって、たいじさんのPCから画面共有、音声共有を行っています。&lt;/p&gt;
+
+&lt;p&gt;実際のイベント中は、こんな感じです。&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/hashtag/DevRelJP?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#DevRelJP&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/DevRel?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#DevRel&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;会場からはこんな感じ。リアル感ありますね。 &lt;a href=&quot;https://t.co/DBFHK6wv9O&quot;&gt;pic.twitter.com/DBFHK6wv9O&lt;/a&gt;&lt;/p&gt;&amp;mdash; Shotaro Suzuki (@shosuz) &lt;a href=&quot;https://twitter.com/shosuz/status/1511655855057354752?ref_src=twsrc%5Etfw&quot;&gt;April 6, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;今から思ってみると、名刺を忘れていました。ちゃんと持っている方も多くて、素晴らしいなと思います。&lt;/p&gt;
+
+&lt;h2 id=&quot;結果&quot;&gt;結果&lt;/h2&gt;
+
+&lt;p&gt;ツイートは200超（速報値）なので、オンラインだけでイベントをやるよりも比較的伸びたのではないかと思っています。たいじさんからは運営している感があったという意見もあり、確かにそう感じます。オフラインで会場を準備したり、挨拶したりといった体験はオンラインではなかなか得づらいものだなと。&lt;/p&gt;
+
+&lt;p&gt;他の人に紹介されて一緒に来たという方もいました。これもオンラインだけでイベントをやっていると、なかなか生まれづらかったものです。オンラインは拡大という意味においては有効ですが、コミュニケーション深度はオフラインには敵わないかと思います。そういった意味で、オンラインとオフラインのハイブリッド開催は両方の良いところ取りができるのでお勧めです。&lt;/p&gt;
+
+&lt;h2 id=&quot;tips&quot;&gt;Tips&lt;/h2&gt;
+
+&lt;p&gt;以下はハイブリッド開催にあたってのTipsです。&lt;/p&gt;
+
+&lt;h3 id=&quot;会場について&quot;&gt;会場について&lt;/h3&gt;
+
+&lt;p&gt;コロナ禍になって、オフィスを縮小したりリモートワークを強化している企業が増えています。かつてはイベント会場を貸してくれる企業が多数ありましたが、コロナ禍になって利用が難しくなっています。担当者の負担が大きいですし、万一感染が広がる原因になってしまった時のリスクは大きいでしょう。&lt;/p&gt;
+
+&lt;p&gt;WeWorkのようなコワーキングスペースを借りている方であればそういった場所を使うこともできます。私の場合はSpaceMarketで探して利用しています。この時大事なのは、単なる会議室ではなく、少しでも非日常が感じられるような空間を選ぶことです。&lt;/p&gt;
+
+&lt;h3 id=&quot;オンライン側のファシリテーション&quot;&gt;オンライン側のファシリテーション&lt;/h3&gt;
+
+&lt;p&gt;ハイブリッド開催になると、オフラインはもちろんのことオンライン側でもファシリテーターが必要です。運営メンバーも全員オフラインに集まるのではなく、オンライン側の担当者が必要です。&lt;/p&gt;
+
+&lt;p&gt;オンライン側の担当者は、以下を担当します。&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;万一のネットワーク問題が発生した際のつなぎ&lt;/li&gt;
+  &lt;li&gt;イベント後の懇親会&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;今回、一時的にネットワーク障害が発生し、パネルディスカッションが数分途絶えてしまいました。こうした不測の事態が発生した際に、オンライン会場側の場をつなぐのが役割です。オンラインにいる人たちは、リアルの会場でどういったトラブルが起こっているのか分かりません。何も分からないまま数分放置されるのは苦痛です。&lt;/p&gt;
+
+&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;カメラ高かったのにー！！(´Д` )←外出していない&lt;br /&gt;とりあえず配信トラブルを救ってみましたd(´Д` )♪&lt;a href=&quot;https://twitter.com/hashtag/DevReljp?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#DevReljp&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/DevRel?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#DevRel&lt;/a&gt; &lt;a href=&quot;https://t.co/xGlWCLSq57&quot;&gt;https://t.co/xGlWCLSq57&lt;/a&gt;&lt;/p&gt;&amp;mdash; odasho@5/25-26 Microsoft Build!! (@MS_odasho) &lt;a href=&quot;https://twitter.com/MS_odasho/status/1511673302858997772?ref_src=twsrc%5Etfw&quot;&gt;April 6, 2022&lt;/a&gt;&lt;/blockquote&gt;
+&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+
+&lt;p&gt;オンライン側の担当者は、現地のスタッフと連絡を取りつつ、場をつなぐのが大事な役割になります。&lt;/p&gt;
+
+&lt;p&gt;イベント後の懇親会についても大事です。試行錯誤しましたが、懇親会をハイブリッドで盛り上げるのはとても難しいです。そこで、今回はパネルディスカッションが終わったらリアル会場とオンライン側で分断し、コミュニケーションタイムとしました。&lt;/p&gt;
+
+&lt;p&gt;リアルで会っている場合は、参加者同士で勝手に話し始められるのですが、オンラインではなかなかうまくいかないものです。そうした時にコミュニケーションを促したり、場を盛り上げるのはオンライン側の担当者になります。&lt;/p&gt;
+
+&lt;h2 id=&quot;まとめ&quot;&gt;まとめ&lt;/h2&gt;
+
+&lt;p&gt;今回はパネルディスカッションでしたが、次回はセッション形式を予定しています。感染状況次第ですが、またハイブリッドでの開催を予定しています。セッション方式ではまた違った方式が最適になると思いますので、色々と試行錯誤してみたいと思います。&lt;/p&gt;
+
+&lt;p&gt;DevRel Meetup in Tokyoではそうしたトライ&amp;amp;エラーを通して、自社イベントに活かせる学びを得ています。ぜひご参加ください！&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://devrel.connpass.com/&quot;&gt;DevRel Meetup in Tokyo - connpass&lt;/a&gt;&lt;/p&gt;</content><author><name>moongift</name></author><summary type="html">4月6日にDevRel Meetup in Tokyo #73 〜ソーシャル活用術〜を開催しました。まん延防止等重点措置が解除され、久々のオフライン会場を用意してのイベントになります。2021年12月にもオンラインとオフライン一緒にイベントを開催したのですが、その時には久々ということもあって、色々足りていませんでした。</summary></entry><entry><title type="html">オンラインイベントを行うのに便利なサービスまとめ</title><link href="https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3/2022/03/24/online-event-tools.html" rel="alternate" type="text/html" title="オンラインイベントを行うのに便利なサービスまとめ" /><published>2022-03-24T09:00:00+09:00</published><updated>2022-03-24T09:00:00+09:00</updated><id>https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3/2022/03/24/online-event-tools</id><content type="html" xml:base="https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3/2022/03/24/online-event-tools.html">&lt;p&gt;オンラインイベントを行う際には、何らかのサービスを使うのが一般的です。企業イベントであれば予算も付くでしょうが、コミュニティの場合はなるべく安価なツールを選びたいでしょう。&lt;/p&gt;
 
 &lt;p&gt;そこで今回は各種あるオンラインイベントツールについて、料金や機能の差異含めて紹介します。なお、あまり高いところは選択肢から外しています。&lt;/p&gt;
 
@@ -1055,88 +1165,4 @@
 
 &lt;p&gt;技術書典9が終わって間もないですが、実はすでに&lt;a href=&quot;https://techbookfest.org/event/tbf10&quot;&gt;技術書典10が予定されています&lt;/a&gt;（10月26日より）。もちろんDevRel Meetupで参加登録済みです。次回は以前に書いた&lt;a href=&quot;https://www.amazon.co.jp/dp/B07Q86FNHB/&quot;&gt;英語で広がる開発者のキャリア&lt;/a&gt;を新たなメンバーとコンテンツで書き直します。実を言うと、前回の技術書典9で一番売れた本がこの英語本だったのです。英語やキャリアの話は注目されていることが分かっていますし、DevRelにおいてグローバルな活動は重視したいという考えがあります。そこで、再度英語×開発者×キャリアというテーマで書籍を書きます。&lt;/p&gt;
 
-&lt;p&gt;こちらも商業出版につながるとよいな、と願っています。&lt;/p&gt;</content><author><name>moongift</name></author><summary type="html">昨年（2019年）のDevRel Q&amp;amp;Aに引き続き、2020年もDevRelに関する書籍が出版されます！</summary></entry><entry><title type="html">DevRelのキャラクターが誕生（しています）！</title><link href="https://devrel.jp/%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC/2020/12/04/character.html" rel="alternate" type="text/html" title="DevRelのキャラクターが誕生（しています）！" /><published>2020-12-04T09:00:00+09:00</published><updated>2020-12-04T09:00:00+09:00</updated><id>https://devrel.jp/%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC/2020/12/04/character</id><content type="html" xml:base="https://devrel.jp/%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC/2020/12/04/character.html">&lt;p&gt;数ヶ月前にSlackなどで発表はしていながら、告知もリリース文も書いていないのですが…。この機会に発表したいと思います。DevRelのキャラクターを作成しました。名前はDevくん、Relちゃんです。安直ですが、お見知りおきください。&lt;/p&gt;
-
-&lt;h2 id=&quot;なぜ作成したのか&quot;&gt;なぜ作成したのか&lt;/h2&gt;
-
-&lt;p&gt;そもそも、なぜこのキャラクター達を作ったのか。それはこのコロナ禍の状況において、自然とコミュニティ活動全体がトーンダウンしているように見えたからです。オンラインイベントはオフラインのそれに比べて刺激が少なく感じられ、最初こそ大勢の人たちが集まったオンラインイベントも、結局のところ「合わない」人たちも大勢いたかと思います。半年くらい経って、結局オフラインの時と変わらないくらいの人数になってきています。3月くらいの人たちはどこにいってしまったのか…たぶんオンラインで参加できるから、とりあえずなんでも参加したという感じかなと思っています。&lt;/p&gt;
-
-&lt;p&gt;そんな訳で一瞬のバブル状態だった訳ですが、刺激が減ることによる熱量低下は大きな問題になります。そこで刺激物として投入したかったのがこのキャラクターになります。&lt;/p&gt;
-
-&lt;h2 id=&quot;キャラクターに込めた思い&quot;&gt;キャラクターに込めた思い&lt;/h2&gt;
-
-&lt;p&gt;こういった擬人化キャラクターはクラウドベンダーでよく行われています。奔りがどこだったかは記憶していませんが、Microsoftのクラウディアであったり、さくらインターネットの桜葉愛、クラスメソッドのめそ子など、キャラクターは多数存在します。しかし、これらはすべて女性キャラクターです。開発者界隈の男性比率が高いこともあり、そうした人たちに対するアプローチなのが見え見えなのがどうも気になりました。&lt;/p&gt;
-
-&lt;p&gt;DevRel界隈では著名な女性スピーカーも大勢います。また、個人的にはDevRel界隈においては性差を持ち込むのは厳禁と考えています。女性、男性を問わず、その人の技量で活躍できるのがDevRelの良いところでしょう。そういった事情もあり、男女のキャラクターで作成を依頼しました。&lt;/p&gt;
-
-&lt;p&gt;また、年齢的なところも考えました。DevRelにおいてはある程度の技術的、社会人としての経験が必要になります。新入社員1年目の方がエバンジェリストになっても、解決できる問題の幅は狭いでしょう。もちろん技術力だけであれば小学校くらいからオープンソース開発に関わっているという人もいますが、それは特殊な事例です。深い技術的知見と、これまでの経験がないと適切なアドバイス、サポートもできず、信頼を構築するのは難しいと思います。そのため、キャラクターは若々しさではなく、20代後半くらいのイメージで作ってもらっています。&lt;/p&gt;
-
-&lt;h2 id=&quot;キャラクタープロフィール&quot;&gt;キャラクタープロフィール&lt;/h2&gt;
-
-&lt;p&gt;各キャラクターのプロフィールは次のようになっています。&lt;/p&gt;
-
-&lt;h3 id=&quot;devくんのプロフィール&quot;&gt;Devくんのプロフィール&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;28歳&lt;/li&gt;
-  &lt;li&gt;大学時代に学生向けハッカソンに参加した経験あり&lt;/li&gt;
-  &lt;li&gt;新しい技術好き
-    &lt;ul&gt;
-      &lt;li&gt;気になるガジェットが出るとつい買ってしまう&lt;/li&gt;
-    &lt;/ul&gt;
-  &lt;/li&gt;
-  &lt;li&gt;新卒でオンラインサービスを提供する会社にプログラマーとして就職&lt;/li&gt;
-  &lt;li&gt;最近、社内で立ち上げたサービスのデベロッパーアドボケイトになる&lt;/li&gt;
-  &lt;li&gt;コミュニティは参加経験はあるが、立ち上げた経験はなし&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/articles/dev-kun.png&quot; style=&quot;height:500px !important;width:283px !important;&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;relちゃんのプロフィール&quot;&gt;Relちゃんのプロフィール&lt;/h3&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;年齢：秘密（20代後半）&lt;/li&gt;
-  &lt;li&gt;ツイ廃（会社にばれないようアカウントは分けている）&lt;/li&gt;
-  &lt;li&gt;大学時代はブログとソーシャルを利用&lt;/li&gt;
-  &lt;li&gt;新卒で入った会社は受託開発会社&lt;/li&gt;
-  &lt;li&gt;開発力はついたが、残業が多かったので転職&lt;/li&gt;
-  &lt;li&gt;現在は某外資系企業&lt;/li&gt;
-  &lt;li&gt;開発はUS本国。カスタマーサクセス兼コミュニティマネージャ&lt;/li&gt;
-  &lt;li&gt;コミュニティ立ち上げ経験はなし。現在勉強中&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/articles/rel-chan.png&quot; style=&quot;height:500px !important;width:260px !important;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;デザインについて&quot;&gt;デザインについて&lt;/h2&gt;
-
-&lt;p&gt;ここまでキャラクターを見せていれば分かる方もいると思いますが、デザインは&lt;a href=&quot;https://twitter.com/llminatoll&quot;&gt;湊川あいさん&lt;/a&gt;に依頼しました。こちらの期待する通りのキャラクターに仕上げてくれています。このDevくん、Relちゃんをベースに、何人かの絵師の方に依頼して派生版を描いてもらっています。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/articles/dev-left.gif&quot; style=&quot;width: 186px !important; height: 186px !important&quot; /&gt;&lt;img src=&quot;/images/articles/dev-front.gif&quot; style=&quot;width: 186px !important; height: 186px !important&quot; /&gt;&lt;img src=&quot;/images/articles/dev-back.gif&quot; style=&quot;width: 186px !important; height: 186px !important&quot; /&gt;&lt;img src=&quot;/images/articles/dev-right.gif&quot; style=&quot;width: 186px !important; height: 186px !important&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/articles/rel-left.gif&quot; style=&quot;width: 128px !important; height: 128px !important&quot; /&gt;&lt;img src=&quot;/images/articles/rel-front.gif&quot; style=&quot;width: 128px !important; height: 128px !important&quot; /&gt;&lt;img src=&quot;/images/articles/rel-back.gif&quot; style=&quot;width: 128px !important; height: 128px !important&quot; /&gt;&lt;img src=&quot;/images/articles/rel-right.gif&quot; style=&quot;width: 128px !important; height: 128px !important&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-custom-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-custom-3.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;LINEスタンプもあります（まだ販売していません…）。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-custom-2.png&quot; style=&quot;width: 364px !important; height: 355px !important&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;その内3Dモデルとか作ってみたいですね。&lt;/p&gt;
-
-&lt;h2 id=&quot;使いどころ&quot;&gt;使いどころ&lt;/h2&gt;
-
-&lt;p&gt;Devくん、RelちゃんはDevRelに関するところであれば自由に使ってもらって構いません。スライドに紛れ込ませたり、配信などで出してもOKです。DevRelに関するところなので当たり前ですが、公共良俗に反する使い方はしないでください。個人的にはDevRel Meetup in Tokyoであったり、DevRel/Asia 2020の道案内などで活躍してもらっています。まだまだ使い方を模索中で、皆さんにもぜひ使ってみてもらいたいです。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/articles/ovice.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;後、12月4日（この記事を書いている当日）から予約を開始した&lt;a href=&quot;https://nextpublishing.jp/book/12581.html&quot;&gt;一冊で分かる！オンラインイベントのはじめかた&lt;/a&gt;では表紙にDevくん、Relちゃんが描かれています。こちらの表紙も湊川あいさんの手によるものです。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/articles/online-event.jpg&quot; style=&quot;width: 354px !important; height: 500px !important&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;その内、マンガなどにも登場することでしょう。ステッカーも作りたい。&lt;/p&gt;
-
-&lt;h2 id=&quot;まとめ&quot;&gt;まとめ&lt;/h2&gt;
-
-&lt;p&gt;こんな感じでDevくん、Relちゃんの誕生秘話は以上です。DevRel Meetup in Tokyoはなんだかんだで5年くらい続いていますが、まだまだ浸透段階にあります。コロナ禍で消沈している暇などありません。どんどん盛り上げていきましょう！&lt;/p&gt;</content><author><name>moongift</name></author><summary type="html">数ヶ月前にSlackなどで発表はしていながら、告知もリリース文も書いていないのですが…。この機会に発表したいと思います。DevRelのキャラクターを作成しました。名前はDevくん、Relちゃんです。安直ですが、お見知りおきください。</summary></entry></feed>
+&lt;p&gt;こちらも商業出版につながるとよいな、と願っています。&lt;/p&gt;</content><author><name>moongift</name></author><summary type="html">昨年（2019年）のDevRel Q&amp;amp;Aに引き続き、2020年もDevRelに関する書籍が出版されます！</summary></entry></feed>
