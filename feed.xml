@@ -1,4 +1,64 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://devrel.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://devrel.jp/" rel="alternate" type="text/html" /><updated>2022-04-08T14:14:28+09:00</updated><id>https://devrel.jp/feed.xml</id><title type="html">DEVREL - 開発者向けマーケティング支援サービス -</title><subtitle>DevRelは開発者向けマーケティング施策です。私たちは企業の製品、サービスを広く開発者に知ってもらうためのDevRelをサポート、代行しています。</subtitle><entry><title type="html">オンライン/オフライン同時開催型のパネルディスカッションで得られた知見</title><link href="https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/04/07/hybrid-event.html" rel="alternate" type="text/html" title="オンライン/オフライン同時開催型のパネルディスカッションで得られた知見" /><published>2022-04-07T09:00:00+09:00</published><updated>2022-04-07T09:00:00+09:00</updated><id>https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/04/07/hybrid-event</id><content type="html" xml:base="https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/04/07/hybrid-event.html">&lt;p&gt;4月6日に&lt;a href=&quot;https://devrel.connpass.com/event/243022/&quot;&gt;DevRel Meetup in Tokyo #73 〜ソーシャル活用術〜&lt;/a&gt;を開催しました。まん延防止等重点措置が解除され、久々のオフライン会場を用意してのイベントになります。2021年12月にもオンラインとオフライン一緒にイベントを開催したのですが、その時には久々ということもあって、色々足りていませんでした。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://devrel.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://devrel.jp/" rel="alternate" type="text/html" /><updated>2022-04-10T22:55:15+09:00</updated><id>https://devrel.jp/feed.xml</id><title type="html">DEVREL - 開発者向けマーケティング支援サービス -</title><subtitle>DevRelは開発者向けマーケティング施策です。私たちは企業の製品、サービスを広く開発者に知ってもらうためのDevRelをサポート、代行しています。</subtitle><entry><title type="html">なぜ私はDevRelを愛しているのか</title><link href="https://devrel.jp/%E5%85%A8%E8%88%AC/2022/04/10/why-i-love-devrel.html" rel="alternate" type="text/html" title="なぜ私はDevRelを愛しているのか" /><published>2022-04-10T09:00:00+09:00</published><updated>2022-04-10T09:00:00+09:00</updated><id>https://devrel.jp/%E5%85%A8%E8%88%AC/2022/04/10/why-i-love-devrel</id><content type="html" xml:base="https://devrel.jp/%E5%85%A8%E8%88%AC/2022/04/10/why-i-love-devrel.html">&lt;p&gt;私はとても成績優秀な学生という訳ではなく、むしろ高専時代の5年生（高専は高校3年+短大2年の計5年間もあります。しかも1学科1クラス！）には落第寸前という状態でした。絶対落とせない授業を（自分のせいで）落としたからですが、この時に救ってくれたのが製図の授業を行っていた教諭でした。&lt;/p&gt;
+
+&lt;p&gt;そんな黒歴史は良いとして。その教諭は元々新幹線などの設計を行っていた方で、退職後に東京工業高等専門学校の教諭になったようです。そんな社会人としての経験も豊富な教授が授業で言った一言がとても印象に残っています。&lt;/p&gt;
+
+&lt;p&gt;「エンジニアだけで会社を建てたら幸せだろうな」&lt;/p&gt;
+
+&lt;p&gt;おそらく、その教諭は開発現場と他部署や経営層との軋轢を色々と感じてきたのだと思います。そしてエンジニアとしての物作りに対する技術力と情熱があれば、素晴らしい企業になると信じていたのでしょう。もちろん、それだけでビジネスが成り立つ訳ではありませんが、個人的に今なお共感する部分もあります。&lt;/p&gt;
+
+&lt;p&gt;なぜなら、個人的にエンジニアが大好きであり、彼らがまだ見ぬ素晴らしい未来を作り上げてくれると強く信じているからです。昨今、エンジニア不足が叫ばれるようになっており、その中でエンジニアの待遇がIT系を中心として大幅に改善しているのはとても良いことだと感じています。スタートアップの多くが技術力を武器に成長し、その結果として上場しているケースも増えており、まさにエンジニアが世界を変えている状態だと言えるでしょう。&lt;/p&gt;
+
+&lt;p&gt;教諭の夢を一足飛びに実現するのは難しいですが、一部の界隈においてはエンジニアにとって幸せな世界が実現できてきているのではないでしょうか。&lt;/p&gt;
+
+&lt;h2 id=&quot;moongiftの運営での学び&quot;&gt;MOONGIFTの運営での学び&lt;/h2&gt;
+
+&lt;p&gt;さて、学生時の話は終わって、次に私が社会人になった後の話をします。&lt;/p&gt;
+
+&lt;p&gt;3社目の転職をした後、私は&lt;a href=&quot;https://www.moongift.jp/&quot;&gt;MOONGIFT&lt;/a&gt;というブログを立ち上げました（現在は運営停止しています）。これはオープンソース・ソフトウェアを紹介するというテーマを持ったブログで、その後20年運営され続けることになります。このブログをはじめるきっかけは、自分が仕事の中で利用したり、探し出したオープンソース・ソフトウェアを他のエンジニアにも知って欲しいという思いからです。社内にこうした技術的会話を楽しめる人がいなかった（文字通りいなかった）こともあって、私はその矛先を外部に求めました。オープンソース・ソフトウェアというキーワードが盛り上がっていたこともあり、MOONGIFTはエンジニア周りではそれなりに知られる存在に成長していきました。&lt;/p&gt;
+
+&lt;p&gt;MOONGIFTで紹介したソフトウェアを利用して、彼らの開発（仕事、プライベートを問わず）をサポートできているという実感はとても嬉しいものでした。毎日チェックしていますと言われたり、新人の頃とても役立ちましたと言われたことも少なくありません。さらに、MOONGIFTで紹介されたことを誇らしく語ってくれる人たちも現れました。最近でもMOONGIFTで紹介されたことがあるんですよ、と教えてくれる人に会うことがあります。こういった話はとても嬉しいものです。&lt;/p&gt;
+
+&lt;p&gt;特に予想外だった思い出を2つほど紹介します。&lt;/p&gt;
+
+&lt;h3 id=&quot;zabbix-japanのケース&quot;&gt;Zabbix Japanのケース&lt;/h3&gt;
+
+&lt;p&gt;1つ目はMOONGIFT運営10周年を記念して特別な企画を考える中で、スポンサーとして&lt;a href=&quot;https://www.zabbix.com/jp&quot;&gt;Zabbix Japan&lt;/a&gt;社にコンタクトした時のことです（Zabbixは有名な監視ソフトウェアです）。ツテはなかったので、公式サイトのお問い合わせフォームから連絡したのですが、すぐにZabbix Japan代表の寺島さんから返信をいただきました。そして、二つ返事で会ってくださったのです。&lt;/p&gt;
+
+&lt;p&gt;会ってみて理由が分かったのですが、Zabbix Japan設立当時で全く知名度がなかった時にMOONGIFTで紹介したところ、Webサイトへの訪問者が一気に増えたらしいのです。お会いした頃には既に有名なソフトウェアになっていたのですが、寺島さんはその時のことを覚えてくれていて、とても感謝されました。その後、記念コンテンツへのスポンサードもしてくれて、こちらとしても知らぬところで作った縁とはいえ、MOONGIFTを運営して良かったと感じた覚えがあります。&lt;/p&gt;
+
+&lt;h3 id=&quot;concrete5-japanのケース&quot;&gt;Concrete5 Japanのケース&lt;/h3&gt;
+
+&lt;p&gt;もう1つは&lt;a href=&quot;https://concrete5-japan.org/&quot;&gt;Concrete5 Japan&lt;/a&gt;の榊さんとはじめて会った時の話です。Concrete5というのはWikiエンジンで、CMSになります。このConcrete5はとても素晴らしいソフトウェアで、MOONGIFTで紹介した記事を読んだ方がすぐにアメリカの開発元まで行って、販売契約を取り付けたというのです。そして、その結果としてConcrete5 Japanという企業設立に至ったのです。そんなことを全く知らなかった私としては、MOONGIFTでの紹介を通じて新しいビジネスを創出できたことに感動しました。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;他にもMOONGIFTを通じて生まれた出会いや思い出はいくつもあるのですが、今回はこの程度にします（本筋でもありませんので）。ただいえることは、MOONGIFTの運営を通じて開発者の生産性に寄与すること、彼らに正しい情報を正しく伝えることの重要性を理解したということです。&lt;/p&gt;
+
+&lt;h2 id=&quot;devrelとの出会い&quot;&gt;DevRelとの出会い&lt;/h2&gt;
+
+&lt;p&gt;そして2014年2月にDevRelという単語に出会います。ここに至る経緯として一番大きかったのは &lt;a href=&quot;https://twitter.com/masuidrive&quot;&gt;@masuidrive&lt;/a&gt; さんと知り合ったことでしょう。彼とは十数年来のチャット友達なのですが、彼が当時住んでいたアメリカを離れる際に直前でAppceleratorへ入社を決め、日本でTitaniumのエバンジェリスト活動を開始しました。これはおそらく2009〜10年頃でしたが、その頃はDevRelという単語はありませんし、私も気にしていませんでした。&lt;/p&gt;
+
+&lt;p&gt;そしてDevRelを意識するきっかけになったのは2014年2月頃になります。そのきっかけは、某クラウドサービスの展開が日米で全く異なるものだったのに起因します。その某クラウドサービスは本国のアメリカではハッカソンを開催したり、開発者コミュニティを立ち上げていました。それに対して日本では某電話会社との出資という形でマーケティング展開していました。その1つが本屋でプレミアムサービスのライセンス（半年間 or 年間）を販売するというものです。クラウドサービスなのに、です。&lt;/p&gt;
+
+&lt;p&gt;この日米の違いがとても気になりました。前者（アメリカ）は開発者を重視し、寄り添う形でサービスを拡大しています。対して日本では本屋でライセンス販売です。APIもSDKもまったく宣伝せず、知る人ぞ知る状態でした。私としてはすでに数多のサービスがAPIを公開し、連携サービスによってビジネスを拡大する様子を見てきたこともあり、前者の方が正しいやり方に思えました。むしろ後者は悪手に見えましたし、実際うまくいっているように見えませんでした。&lt;/p&gt;
+
+&lt;p&gt;そこで、アメリカで何が行われているのかを調べた結果、エバンジェリストと呼ばれる人たちがハッカソンや開発者とのコミュニケーションを主導していることが分かりました。そして、それは @masuidrive さんに聞いても同意がとれたことで、確信が得られました。しかし、エバンジェリストが何をやっているのかは分かりませんでした。よくよく調べた結果、当時Googleブラジル（確か）でそういった開発者向けの活動をDevRelと呼んでいることが分かったのです。この14年2月が、私とDevRelの出会った月になります（具体的な日付は不明）。&lt;/p&gt;
+
+&lt;p&gt;このDevRelがなぜ日本で流行っていないのかを考えたところ、エバンジェリストの素養の高さに気付きました。プレゼン能力が高く、ブログ記事が書けて、さらに開発者としてのスキルも高い人たちになります。こうした人たちはごく限られますし、雇用しようと思うと年収が当然高くなります。日本の雇用制度の中でマッチさせるのは非常に難しいでしょう。&lt;/p&gt;
+
+&lt;p&gt;そこでDevRelをサービス化し、100%のコミットではなく、複数社のDevRelサポートを機能に応じた費用で提供するサービスを考えました。これが2022年現在も続いているDevRelサービスになります。このDevRelサービスは3月17日にテスト販売し、4月からニフティ株式会社（当時。現FJCT）の&lt;a href=&quot;https://mbaas.nifcloud.com/&quot;&gt;ニフクラ mobile backend&lt;/a&gt;への提供を開始しました。すでに8年経った訳ですが、今なお継続的に提供しています。また、8年間にわたって国内外様々な企業様にサービス提供しています。&lt;/p&gt;
+
+&lt;h2 id=&quot;開発者へ正しい情報を正しい方法で届ける&quot;&gt;開発者へ正しい情報を正しい方法で届ける&lt;/h2&gt;
+
+&lt;p&gt;この8年間DevRelを続けてきて感じるのは、DevRelは「開発者と寄り添える存在である」ということです。私は常々、DevRelは「無敵の未来を作る開発者を支援する」ものだと言ってきました。コロナ禍のような、一見すると絶望的になる状況であっても開発者は前を向き、苦難を乗り越えるようなサービスやデバイスを開発しています。DevRelはそんな彼らを支援し、鼓舞し、共になければいけません。素晴らしい未来を作り上げるソフトウェアやサービスを生み出すきっかけになれるかも知れないのです。DevRelはそんな素晴らしい可能性を秘めています。&lt;/p&gt;
+
+&lt;p&gt;企業としての&lt;a href=&quot;https://moongift.co.jp/&quot;&gt;MOONGIFTのミッションは「開発者へ正しい情報を正しい方法で届ける」&lt;/a&gt;としています。オープンソース・ソフトウェアを紹介していた当時から、正しい情報を開発者に届けようとしてきました。現在のDevRelにおいても、その方針は変わっていません。そして、その正しい情報によって開発者の生産性が向上したり、最高のプロダクトが生み出されたら、思わず歓喜してしまうでしょう。&lt;/p&gt;
+
+&lt;p&gt;開発者に寄り添い、彼らと共にいることができる、DevRelはそれが実現できるから私は大好きなのです。願わくば、そうして少しでも手伝えたことでエンジニアにとって幸せな企業へ成長したり、個人のキャリアが幸せなものになればとても嬉しいです。それが教諭の言ったエンジニアの幸せに通じる道だと考えています。&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;そんなMOONGIFTではブログの執筆やコミュニティ支援を手伝ってくれる仲間を募集しています。DevRelに興味があれば、まず&lt;a href=&quot;/contact&quot;&gt;気軽にお話ししてみましょう&lt;/a&gt;！&lt;/p&gt;</content><author><name>moongift</name></author><summary type="html">私はとても成績優秀な学生という訳ではなく、むしろ高専時代の5年生（高専は高校3年+短大2年の計5年間もあります。しかも1学科1クラス！）には落第寸前という状態でした。絶対落とせない授業を（自分のせいで）落としたからですが、この時に救ってくれたのが製図の授業を行っていた教諭でした。</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://devrel.jp/images/articles/i-love-devrel.jpeg" /><media:content medium="image" url="https://devrel.jp/images/articles/i-love-devrel.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">オンライン/オフライン同時開催型のパネルディスカッションで得られた知見</title><link href="https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/04/07/hybrid-event.html" rel="alternate" type="text/html" title="オンライン/オフライン同時開催型のパネルディスカッションで得られた知見" /><published>2022-04-07T09:00:00+09:00</published><updated>2022-04-07T09:00:00+09:00</updated><id>https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/04/07/hybrid-event</id><content type="html" xml:base="https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/04/07/hybrid-event.html">&lt;p&gt;4月6日に&lt;a href=&quot;https://devrel.connpass.com/event/243022/&quot;&gt;DevRel Meetup in Tokyo #73 〜ソーシャル活用術〜&lt;/a&gt;を開催しました。まん延防止等重点措置が解除され、久々のオフライン会場を用意してのイベントになります。2021年12月にもオンラインとオフライン一緒にイベントを開催したのですが、その時には久々ということもあって、色々足りていませんでした。&lt;/p&gt;
 
 &lt;p&gt;今回はその前回の反省を踏まえて取り組んだので、その知見を共有します。&lt;/p&gt;
 
@@ -1028,141 +1088,4 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;MOONGIFTではDevRelのサポート、アウトソーシングを承っています。DevRelでのお悩みについてはお気軽に&lt;a href=&quot;/contact&quot;&gt;お問い合わせください&lt;/a&gt;。&lt;/p&gt;</content><author><name>moongift</name></author><summary type="html">こちらはDevRel/Asia 2020の発表内容を日本語化したものです。スライド画像は英語のままです。</summary></entry><entry><title type="html">オンラインイベントに関する書籍を出版します！</title><link href="https://devrel.jp/%E6%9B%B8%E7%B1%8D/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2020/12/05/online-event-book.html" rel="alternate" type="text/html" title="オンラインイベントに関する書籍を出版します！" /><published>2020-12-05T09:00:00+09:00</published><updated>2020-12-05T09:00:00+09:00</updated><id>https://devrel.jp/%E6%9B%B8%E7%B1%8D/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2020/12/05/online-event-book</id><content type="html" xml:base="https://devrel.jp/%E6%9B%B8%E7%B1%8D/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2020/12/05/online-event-book.html">&lt;p&gt;昨年（2019年）の&lt;a href=&quot;https://www.amazon.co.jp/dp/B0814N5WLW&quot;&gt;DevRel Q&amp;amp;A&lt;/a&gt;に引き続き、2020年もDevRelに関する書籍が出版されます！&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center&quot;&gt;
-  &lt;a href=&quot;https://nextpublishing.jp/book/12581.html&quot;&gt;&lt;img src=&quot;/images/articles/online-event.jpg&quot; style=&quot;width: 354px !important;height: 500px !important&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
-  &lt;a href=&quot;https://nextpublishing.jp/book/12581.html&quot;&gt;一冊で分かる！オンラインイベントのはじめかた&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;p&gt;今回はこの書籍出版に関する裏話を共有します。&lt;/p&gt;
-
-&lt;h2 id=&quot;スケジュール&quot;&gt;スケジュール&lt;/h2&gt;
-
-&lt;p&gt;もともと、この本は&lt;a href=&quot;https://techbookfest.org/event/tbf09&quot;&gt;技術書典9&lt;/a&gt;で頒布するために執筆開始しました。技術書典9が7月10日に発表されたことから端を発します。&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center&quot;&gt;
-  &lt;img src=&quot;/images/articles/book-backstage-2.png&quot; style=&quot;width: 600px !important;height: 268px !important&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;7月12日に専用のチャットチャンネルを作成しました。ちなみに技術書典9は9月12日開催です。つまり2ヶ月間しか猶予はありません。&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center&quot;&gt;
-  &lt;img src=&quot;/images/articles/book-backstage-3.png&quot; style=&quot;width: 600px !important;height: 330px !important&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;ネタは決まって、章立てもできていたのですが、7月29日時点でほぼ何も動いていません。言い訳をすると、7月は&lt;a href=&quot;https://2020.devrel.net/&quot;&gt;DevRelCon Earth 2020&lt;/a&gt;というオンラインカンファレンスがあり、そちらにマンパワーを取られていました。それも29日になって、そろそろ動き出せそうになってきたかなというタイミングです。&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center&quot;&gt;
-  &lt;img src=&quot;/images/articles/book-backstage-4.png&quot; style=&quot;width: 600px !important;height: 124px !important&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;8月2日に技術書典9へ申し込みました。審査が通ったのは8月10日で、約1週間審査にかかっていたようです。&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center&quot;&gt;
-  &lt;img src=&quot;/images/articles/book-backstage-5.png&quot; style=&quot;width: 600px !important;height: 192px !important&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;そこからレギュレーションを決めて、執筆を開始しました。今期はTextLintを利用し、日本語のチェックを行っています。締め切りは8月末としていたので、約20日間といったところです。&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center&quot;&gt;
-  &lt;img src=&quot;/images/articles/book-backstage-6.png&quot; style=&quot;width: 600px !important;height: 195px !important&quot; /&gt;
-&lt;/div&gt;
-
-&lt;p&gt;30日ごろから一気に執筆が進んでいったのですが、最終的に完了したのは9月10日でした。9月10日までに見本誌を提出して審査を受けないと9月12日のイベント開始時に頒布開始できないという問題があり、なんとか間に合いました。とはいえ、いくつかの修正ポイントも残っていたのですが…。&lt;/p&gt;
-
-&lt;p&gt;ちなみにこちらが元の表紙です。&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center&quot;&gt;
-  &lt;img src=&quot;/images/articles/online-community-cover.png&quot; style=&quot;width: 354px !important;height: 500px !important&quot; /&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;イベント当日&quot;&gt;イベント当日&lt;/h2&gt;
-
-&lt;p&gt;技術書典9では売れる度にメールが送られてくるしくみになっていました。後は売り上げ管理で数字を確認できるので、定期的にメッセージを送っていました。やはり売れるとうれしいもので、執筆者どうしでなるべく早く情報共有したいと考えていました。&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center&quot;&gt;
-  &lt;img src=&quot;/images/articles/book-backstage-8.png&quot; style=&quot;width: 600px !important;height: 615px !important&quot; /&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;座談会設定&quot;&gt;座談会設定&lt;/h2&gt;
-
-&lt;p&gt;さらに頒布数を伸ばすべく、急遽執筆記念イベントを設定しました。&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center&quot;&gt;
-  &lt;img src=&quot;/images/articles/online-envet-connpass.png&quot; style=&quot;width: 600px !important;height: 246px !important&quot; /&gt;&lt;br /&gt;
-  &lt;a href=&quot;https://devrel.connpass.com/event/189351/&quot;&gt;DevRel/Book 緊急座談会 〜オンラインイベント本を語ろう〜 - connpass&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;p&gt;こういったイベントをさくっと行えるのもオンラインのよさと言えるでしょう。動画を残すのも簡単で、アーカイブとしてすぐに使えます。&lt;/p&gt;
-
-&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube.com/embed/e30YEN3fWKw&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;h2 id=&quot;技術書典9の結果&quot;&gt;技術書典9の結果&lt;/h2&gt;
-
-&lt;p&gt;頒布数は公開しませんが、予定の冊数は無事達成できました。初のオンライン開催とあって、心配ごともいろいろあったのですが、数多く買っていただけてよかったです。&lt;/p&gt;
-
-&lt;h2 id=&quot;商業出版のお話&quot;&gt;商業出版のお話&lt;/h2&gt;
-
-&lt;p&gt;そして技術書典9が終了した1週間後くらいにインプレスR&amp;amp;Dの山城さんより、商業出版のお声がけをいただきました。これが10月3日です。&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center&quot;&gt;
-  &lt;img src=&quot;/images/articles/book-backstage-9.png&quot; style=&quot;width: 600px !important;height: 178px !important&quot; /&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;加筆修正&quot;&gt;加筆修正&lt;/h2&gt;
-
-&lt;p&gt;オンラインでのイベント、会議ツールは百花繚乱ともいうべき状態です。新しいツールが続々と登場し、既存ツールのバージョンアップも激しかった年でした。そんな中とあって、オンラインイベント本もすでに加筆修正ポイントがいくつもありました。この修正は10月末までを目処に行われました。&lt;/p&gt;
-
-&lt;h2 id=&quot;表紙のデザイン&quot;&gt;表紙のデザイン&lt;/h2&gt;
-
-&lt;p&gt;表紙のデザインは湊川さんが行っています。山城さんから湊川さんにお声がけがいったのは10月13日ごろだったようです。&lt;a href=&quot;/%E3%82%AD%E3%83%A3%E3%83%A9%E3%82%AF%E3%82%BF%E3%83%BC/2020/12/04/character.html&quot;&gt;DevRelのキャラクタであるDevくん、Relちゃん&lt;/a&gt;を使う形でデザインが進んでいきました。さらに表紙にある著者の似顔絵はアイコンしてもらっています。私のものは現在TwitterとFacebookアイコンになっています。&lt;a href=&quot;https://twitter.com/llminatoll&quot;&gt;湊川さん&lt;/a&gt;++！&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center&quot;&gt;
-  &lt;img src=&quot;/images/articles/book-backstage-10.png&quot; style=&quot;width: 600px !important;height: 314px !important&quot; /&gt;
-&lt;/div&gt;
-
-&lt;h2 id=&quot;出版に向けて&quot;&gt;出版に向けて&lt;/h2&gt;
-
-&lt;p&gt;加筆修正が10月末で終わり、その後細かな修正が11月16日ごろまで行われました。そして11月20日に発売日が12月14日と決定しました。&lt;/p&gt;
-
-&lt;h2 id=&quot;金額の確定&quot;&gt;金額の確定&lt;/h2&gt;
-
-&lt;p&gt;今回はスクリーンショットが多く、Webサイトによってはダークモードのものもあり、モノクロの印刷ではきちんと見えない可能性がありました。そのためカラー版のみの販売とし、電子版は2,000円、紙版は2,500円となっています。モノクロの場合はそこから一定額減らせるようです。&lt;/p&gt;
-
-&lt;h2 id=&quot;予約開始&quot;&gt;予約開始&lt;/h2&gt;
-
-&lt;p&gt;そして12月4日にオンラインで書籍情報が公開され、Amazonなどでも予約開始できるようになりました。10月3日にお声がけいただいて、そこから2ヵ月で出版されたことになります。このスピード感はオンデマンド印刷だからこそといえそうです。&lt;/p&gt;
-
-&lt;div style=&quot;text-align: center&quot;&gt;
-  &lt;a href=&quot;https://nextpublishing.jp/book/12581.html&quot;&gt;&lt;img src=&quot;/images/articles/online-event.jpg&quot; style=&quot;width: 354px !important;height: 500px !important&quot; /&gt;&lt;/a&gt;&lt;br /&gt;
-  &lt;a href=&quot;https://nextpublishing.jp/book/12581.html&quot;&gt;一冊で分かる！オンラインイベントのはじめかた&lt;/a&gt;
-&lt;/div&gt;
-
-&lt;p&gt;絶賛予約中なので、ぜひお願いします！&lt;/p&gt;
-
-&lt;h2 id=&quot;書籍について&quot;&gt;書籍について&lt;/h2&gt;
-
-&lt;p&gt;商業出版されたDevRelの書籍はこれで3冊目になります。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.jp/dp/B08PK5J8T1/&quot;&gt;一冊で分かる！オンラインイベントのはじめかた (技術の泉シリーズ（NextPublishing）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.jp/dp/B0814N5WLW/&quot;&gt;開発者向けマーケティング DevRel Q&amp;amp;A Apple、Slack、GitHub、Twitterが成長した裏にある秘密 (技術の泉シリーズ（NextPublishing）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.jp/dp/B07X8SD4PP/&quot;&gt;DevRel エンジニアフレンドリーになるための3C&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;いずれの書籍にも関わっているのですが、やはりコミュニティで書いた書籍はみんなの知恵と工夫、熱量がこもっているので感慨深いものがあります。ぜひ手にとってご覧ください（電子版もあります）。&lt;/p&gt;
-
-&lt;p&gt;後は個人的に書いた本もあります。&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://booth.pm/ja/items/1729492&quot;&gt;DevRelの教科書: 基礎から歴史、基本的な考え方まで（紙版）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.jp/dp/B082RPGMQV/&quot;&gt;DevRelの教科書: 基礎から歴史、基本的な考え方まで（Kindle版）&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.amazon.co.jp/dp/B07CNCYV83/&quot;&gt;DevRel: なぜ彼らのプロダクトが選ばれるのか&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h2 id=&quot;次の予定について&quot;&gt;次の予定について&lt;/h2&gt;
-
-&lt;p&gt;技術書典9が終わって間もないですが、実はすでに&lt;a href=&quot;https://techbookfest.org/event/tbf10&quot;&gt;技術書典10が予定されています&lt;/a&gt;（10月26日より）。もちろんDevRel Meetupで参加登録済みです。次回は以前に書いた&lt;a href=&quot;https://www.amazon.co.jp/dp/B07Q86FNHB/&quot;&gt;英語で広がる開発者のキャリア&lt;/a&gt;を新たなメンバーとコンテンツで書き直します。実を言うと、前回の技術書典9で一番売れた本がこの英語本だったのです。英語やキャリアの話は注目されていることが分かっていますし、DevRelにおいてグローバルな活動は重視したいという考えがあります。そこで、再度英語×開発者×キャリアというテーマで書籍を書きます。&lt;/p&gt;
-
-&lt;p&gt;こちらも商業出版につながるとよいな、と願っています。&lt;/p&gt;</content><author><name>moongift</name></author><summary type="html">昨年（2019年）のDevRel Q&amp;amp;Aに引き続き、2020年もDevRelに関する書籍が出版されます！</summary></entry></feed>
+&lt;p&gt;MOONGIFTではDevRelのサポート、アウトソーシングを承っています。DevRelでのお悩みについてはお気軽に&lt;a href=&quot;/contact&quot;&gt;お問い合わせください&lt;/a&gt;。&lt;/p&gt;</content><author><name>moongift</name></author><summary type="html">こちらはDevRel/Asia 2020の発表内容を日本語化したものです。スライド画像は英語のままです。</summary></entry></feed>
