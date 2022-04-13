@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<script
+src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="/assets/css/style.css" media="screen">
+<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-48936410-1"></script>
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>お前は今までに作成したSDKの数を覚えているか？ | DEVREL - 開発者向けマーケティング支援サービス -</title>
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="お前は今までに作成したSDKの数を覚えているか？" />
+<meta name="author" content="moongift" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="こんなツイートをたまたま見てしまったがために…。" />
+<meta property="og:description" content="こんなツイートをたまたま見てしまったがために…。" />
+<link rel="canonical" href="http://localhost:4000/%E9%96%8B%E7%99%BA/sdk/2022/04/13/development-sdk.html" />
+<meta property="og:url" content="http://localhost:4000/%E9%96%8B%E7%99%BA/sdk/2022/04/13/development-sdk.html" />
+<meta property="og:site_name" content="DEVREL - 開発者向けマーケティング支援サービス -" />
+<meta property="og:image" content="http://localhost:4000/images/articles/sdk.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-04-13T09:00:00+09:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="http://localhost:4000/images/articles/sdk.jpg" />
+<meta property="twitter:title" content="お前は今までに作成したSDKの数を覚えているか？" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"moongift"},"dateModified":"2022-04-13T09:00:00+09:00","datePublished":"2022-04-13T09:00:00+09:00","description":"こんなツイートをたまたま見てしまったがために…。","headline":"お前は今までに作成したSDKの数を覚えているか？","image":"http://localhost:4000/images/articles/sdk.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/%E9%96%8B%E7%99%BA/sdk/2022/04/13/development-sdk.html"},"url":"http://localhost:4000/%E9%96%8B%E7%99%BA/sdk/2022/04/13/development-sdk.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+<body>
+    <header class="l-header">
+  <h1><a href="/" class="js-header-icon-logo"><img src="/assets/images/icon-logo.png" class="l-header__icon-logo" alt="MOONGIFT" /></a></h1>
+  <span class="l-header__lang">
+    <span onclick="changeLang('en')">EN</span> / 
+    <span onclick="changeLang('ja')">JA</span>
+  </span>
+  <div class="l-header__spmenu-btn js-spmenu-btn">
+    <div class="c-hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  <div class="l-header__inner">
+    <nav class="l-header__nav">
+      <ul class="l-header__navlist js-spmenu">
+        <li class="l-header__navlist-item"><a href="/#mission" class="l-header-navlist__link">MISSION</a></li>
+        <li class="l-header__navlist-item"><a href="/#service" class="l-header-navlist__link">SERVICE</a></li>
+        <li class="l-header__navlist-item"><a href="/#client" class="l-header-navlist__link">CLIENT</a></li>
+        <li class="l-header__navlist-item"><a href="/#blog" class="l-header-navlist__link">BLOG</a></li>
+        <li class="l-header__navlist-item"><a href="/#about" class="l-header-navlist__link">ABOUT</a></li>
+        <li class="l-header__navlist-item"><a href="/contact" class="l-header-navlist__link">CONTACT</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="c-sidebar">
+    <div class="c-sidebar__lang">
+      <span onclick="document.location.href='https://devrel.co/'" class="is-ja">EN</span>
+      <span onclick="changeLang('ja')" class="is-en">JA</span>
+    </div>
+    <img src="/assets/images/logo-vertical.png" class="c-sidebar__logo" />
+
+    <div class="c-sidebar__copyright">
+      COPYRIGHT ©️ 2018 MOONGIFT INC. ALL RIGHTS RESERVED.
+    </div>
+
+    <div class="c-sidebar__sns">
+      OFFICIAL SNS
+      <a href="https://www.facebook.com/devreljp/" target="_blank" class="c-sidebar__facebook"><img src="/assets/images/icon-facebook.png" alt="Facebook"></a>
+      <a href="https://twitter.com/devreljp" target="_blank" class="c-sidebar__twitter"><img src="/assets/images/icon-twitter.png" alt="Twitter"></a>
+    </div>
+  </div>
+</header>
+
+
+    <section class="tp-section tp-section">
+    	<div class="container mt9">
+    		<div class="row">
+    			<div class="col-md-12">
+    				<div class="blogHeader clearfix">
+    					<h1 class="blogHeader__title">お前は今までに作成したSDKの数を覚えているか？</h1>
+    					<ul class="blogHeader__meta clearfix">
+    						<li class="blogHeader__meta__date">2022/04/13</li>
+                
+                  <li class="blogHeader__meta__cat"><a href="/categories/%E9%96%8B%E7%99%BA/">開発</a></li>
+                
+                  <li class="blogHeader__meta__cat"><a href="/categories/SDK/">SDK</a></li>
+                
+    					</ul>
+    				</div>
+    				<div class="postBody">
+              
+              <img src="/images/articles/sdk.jpg" style="width:100%" alt="お前は今までに作成したSDKの数を覚えているか？" />
+              
+              <p>こんなツイートをたまたま見てしまったがために…。</p>
+
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">DevRel と SDK 開発の兼任ってめちゃくちゃ格好いいですね……😍</p>&mdash; lettenj61 (@lettenj61) <a href="https://twitter.com/lettenj61/status/1514088366928973825?ref_src=twsrc%5Etfw">April 13, 2022</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+<p>ということで、これまでDevRelサポートを提供する中で開発してきたSDKをリストアップしてみようと思います。これは2022年4月現在です。</p>
+
+<h2 id="ncmbニフクラ-mobile-backend"><a href="https://mbaas.nifcloud.com/">NCMB（ニフクラ mobile backend）</a></h2>
+
+<p>NCMBは一番サービス提供の歴史が長いので、多いですね。私が開発していない<a href="https://github.com/NCMBMania/php-ncmb">PHP SDK</a>もあります。公式SDKはJavaScript/Swift/Objective-C/Java（Android）/Kotlin（Android）/Unity向けがあります。足りない部分を私が開発している形です。</p>
+
+<ul>
+  <li><a href="https://github.com/NCMBMania/ncmb-dart">Dart &amp; Flutter.</a></li>
+  <li><a href="https://github.com/NCMBMania/ncmb_deno">TypeScript &amp; Deno</a></li>
+  <li><a href="https://github.com/NCMBMania/ncmb_gas">Google Apps Script</a></li>
+  <li><a href="https://github.com/NCMBMania/ncmb_js_light">JavaScript SDK（軽量版）</a></li>
+  <li><a href="https://github.com/NCMBMania/ncmb-react-native">React Native</a></li>
+  <li><a href="https://github.com/NCMBMania/ncmb-ruby-client">Ruby</a></li>
+  <li><a href="https://github.com/NCMBMania/ncmb_xamarin">C# &amp; Xamarin</a></li>
+  <li><a href="https://github.com/NCMBMania/ncmb_py">Python</a></li>
+  <li><a href="https://github.com/NCMBMania/java-sdk">Java</a></li>
+  <li><a href="https://github.com/NCMBMania/ncmb-excel">Excel VBA</a></li>
+</ul>
+
+<h2 id="customers-mail-cloud"><a href="https://smtps.jp/">Customers Mail Cloud</a></h2>
+
+<p>メール配信サービスです。ブログ記事執筆を提供する中で生まれたSDKです。</p>
+
+<ul>
+  <li><a href="https://github.com/goofmint/CustomersMailCloud-js">Node.js</a></li>
+  <li><a href="https://github.com/goofmint/Customers-Mail-Cloud-Java">Java</a></li>
+  <li><a href="https://github.com/goofmint/Customers-Mail-Cloud-VBA">Excel VBA</a></li>
+  <li><a href="https://github.com/goofmint/CustmersMailCloud-rb">Ruby</a></li>
+  <li><a href="https://github.com/goofmint/CustomersMailCloudPy">Python</a></li>
+</ul>
+
+<h2 id="quality-forward"><a href="https://www.veriserve.co.jp/qualityforward/">Quality Forward</a></h2>
+
+<p>テストのクラウド管理サービスを提供しています。</p>
+
+<ul>
+  <li><a href="https://github.com/goofmint/qualityforward-rb">Ruby</a></li>
+  <li><a href="https://github.com/goofmint/qualityforward-py">Python</a></li>
+  <li><a href="https://github.com/goofmint/qualityforward-node">Node.js</a></li>
+</ul>
+
+<h2 id="blastengine"><a href="https://blastengine.jp/">blastengine</a></h2>
+
+<p>エンジニアフレンドリーなメール配信サービスです。最近サービス提供を開始したこともあり、今後SDK拡充予定です。</p>
+
+<ul>
+  <li><a href="https://github.com/blastengineMania/blastengine-java">Java</a></li>
+  <li><a href="https://github.com/blastengineMania/blastengine-node">Node.js</a></li>
+</ul>
+
+<h2 id="なぜsdkを開発するのか">なぜSDKを開発するのか</h2>
+
+<p>APIを提供するサービスがあったとして、それをわざわざHTTPライブラリから直接操作したいと思うでしょうか。コードがごちゃっとしますし、仕様を理解してコーディングするのは苦痛です。私ならSDKがあるサービスとないサービスの2つがあれば、SDKがあるサービスを選ぶでしょう。</p>
+
+<p>ということで、開発者にとってのペインポイントを除去し、かつ選ばれる理由を提供するためにSDKを開発しています。全機能を網羅していないものも多いですが、その辺りは利用者の需要に合わせて開発しています。</p>
+
+<p>後はブログ記事のネタとして使えるのが良いです。SDKを開発して、それの使い方をブログ記事にするというマッチポンプ的なことをよく行っています。</p>
+
+<p>例）<br />
+<a href="https://qiita.com/goofmint/items/b7498e17e6e3b136660d">blastengineのJava SDKを使ってメール送信を行う - Qiita</a></p>
+
+<h2 id="言語選定">言語選定</h2>
+
+<p>色々な言語で開発していますが、極力そのサービス利用者が使っている言語を優先的に採用しています。サーバーサイドの場合、Java需要が強いように感じます。その後はPHP、Node.js、Python、Rubyでしょうか。</p>
+
+<p>アプリ界隈であれば最近ならFlutter、ついでReact Nativeになるかなと。Xamarinはコロナ感染チェックアプリで一躍有名になったので、開発してみました。</p>
+
+<p>正直得意ではない言語も多いので、その辺りはテストを書きつつググりながら実装していたりします。C#とかJavaは得意ではないですが、IDEがあるので安心ですね（それでも苦戦することが多いですが）。</p>
+
+<h2 id="パッケージ管理への登録">パッケージ管理への登録</h2>
+
+<p>RubyであればRubygems、Pythonであればpipなどが有名なパッケージ管理システムです。この辺りへの登録はもちろん行っています。</p>
+
+<p>各パッケージ管理のプロフィールページです。</p>
+
+<ul>
+  <li><a href="https://pypi.org/user/goofmint/">PyPI</a></li>
+  <li><a href="https://rubygems.org/profiles/moongift">RubyGems.org</a></li>
+  <li><a href="https://www.npmjs.com/~moongift">npm</a></li>
+  <li><a href="https://www.nuget.org/profiles/goofmint">NuGet</a></li>
+  <li><a href="https://pub.dev/packages/ncmb">Dart</a></li>
+</ul>
+
+<p>この辺りはインストールのしやすさはもちろん、個人のブランディングとして行っている面もあります。なお、JavaのMaven Central Repositoryはとても面倒なイメージがあって登録していません…。</p>
+
+<h2 id="まとめ">まとめ</h2>
+
+<p>今後はGo言語やRust辺りでも開発していきたいのと、PHPは自分の中で歴史がバージョン5で終わってしまっているので、SDK開発を通して勉強し直したいと思っています。</p>
+
+<p>SDK開発はDevRelにおいて、コーディングスキルが活かせる場面だと思うので、ぜひ取り組んでみると良いでしょう。</p>
+
+<p><a href="/contact">MOONGIFTではブログ執筆を通してSDKを開発したり、単体でSDK開発も承りますのでぜひお問い合わせください</a>。</p>
+
+    				</div><!--//.postBody-->
+    			</div>
+    		</div> <!-- / .row  -->
+    	</div><!-- /.container -->
+    </section>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.2.10.min.js"></script>
+<script>
+  var smoothScroll = function() {
+    var headerHeight = 80;
+    $('a[href^="/#"]').click(function(){
+      var speed = 500;
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : "a[name='" + href.replace('/#', '') + "']");
+      var position = target.offset().top - headerHeight;
+      $("html, body").animate({scrollTop:position}, speed, "swing");
+      return false;
+    });
+  };
+
+  var ToggleSpMenu = function () {
+    $('.js-spmenu-btn').on('click', function(){
+      $(this).toggleClass('is-on');
+      $(this).next().toggleClass('is-on');
+    })
+  };
+
+  var closeMenu = function () {
+    $('.js-spmenu-btn').removeClass('is-on');
+    $('.js-spmenu-btn').next().removeClass('is-on');
+  }
+
+  var changeLang = function (lang) {
+    switch (lang){
+      case 'ja':
+        $('.is-ja').show();
+        $('.is-en').hide();
+        break;
+      case 'en':
+        $('.is-en').show();
+        $('.is-ja').hide();
+        break;
+    }
+    $('.contact__errmsg').hide();
+  }
+
+  $(function(){
+    changeLang('ja');
+    smoothScroll();
+    ToggleSpMenu();
+    $('.js-spmenu a').on('click', function(){
+      closeMenu();
+    })
+  });
+
+  $("#submit").on("click", function(e) {
+    AWS.config.region = 'ap-northeast-1'; // Region
+    AWS.config.credentials = new AWS.CognitoIdentityCredentials({
+      IdentityPoolId: 'ap-northeast-1:bd469da6-ea5c-425d-9181-a4d854e95ce3'
+    });
+    e.preventDefault();
+    AWS.config.region = 'ap-northeast-1';
+    var s3BucketName = "mail.moongift.jp";
+    var now = new Date();
+    var obj = {
+      title: "DevRel.jp: お問い合わせ",
+      date: now.toLocaleString()
+    };
+    var ary = ['Company', 'Name', 'Email', 'Msg'];
+    var error = false;
+    for (var i = 0; i < ary.length; i += 1) {
+      var name = '#input' + ary[i];
+      if ($(name).val().trim() === '') {
+        $(name + 'Error').html('入力してください');
+        $(name + 'Error').show();
+        error = true;
+      } else {
+        $(name + 'Error').hide();
+        obj[ary[i].toLowerCase()] = $(name).val();
+      }
+    }
+    if (error) return;
+    var s3 = new AWS.S3({params: {Bucket: s3BucketName}});
+    var blob = new Blob([JSON.stringify(obj, null, 2)], {type:'text/plain'});
+    s3.putObject({
+      Key: "uploads/" +now.getTime()+".txt", 
+      ContentType: "text/plain", 
+      Body: blob, 
+      ACL: "public-read"
+    }, function(err, data){
+      if(data !== null){
+        $("#result").text("お問い合わせいただきありがとうございます。すぐに回答いたしますのでお待ちください。")
+        $("#result").addClass("alert-success");
+        $("form")[0].reset();
+        _gaq.push(['_trackPageview', '/contact/success']);
+      } else {
+        $("#result").html("問題が発生しました。<a href='mailto:info@devrel.jp'>info@devrel.jp</a>へメールにてお問い合わせください。");
+        $("#result").addClass("alert-danger");
+      }
+      $("#result").removeClass("hide");
+    });
+  });
+</script>
+
+    <section class="tp-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="tp-section-header">
+          <h2 class="tp-section-header__title">UPDATE</h2>
+          <h2 class="tp-section-header__title-ja is-ja">アップデートを受け取る</h2>
+        </div>
+      </div>
+      <div class="col-md-9">
+          <p class="is-ja">メールにてDevRelに関するニュース、アップデートをお送りします。</p>
+          <p class="is-en">Contact is below.</p>
+        <div class="u-align-center mt8">
+          <form autocomplete="false" role="form" method="post" action="https://ma.moongift.co.jp/form/submit?formId=3" id="mauticform_merugouduyongfomu" data-mautic-form="merugouduyongfomu" enctype="multipart/form-data" style="text-align:left;">
+          <div class="mauticform-error" id="mauticform_merugouduyongfomu_error"></div>
+          <div class="mauticform-message" id="mauticform_merugouduyongfomu_message"></div>
+              <input id="mauticform_input_merugouduyongfomu_meruadoresu" name="mauticform[meruadoresu]" value="" class="mauticform-input" type="email" style="font-size:2rem;width:60%">
+              <button type="submit" name="mauticform[submit]" id="mauticform_input_merugouduyongfomu_submit" value="" class="mauticform-button btn btn-default" style="font-size:2rem;">送信</button>
+          <input type="hidden" name="mauticform[formId]" id="mauticform_merugouduyongfomu_id" value="3">
+          <input type="hidden" name="mauticform[return]" id="mauticform_merugouduyongfomu_return" value="">
+          <input type="hidden" name="mauticform[formName]" id="mauticform_merugouduyongfomu_name" value="merugouduyongfomu">
+
+          </form>
+        </div>
+      </div>
+    </div> <!-- / .row  -->
+  </div><!-- /.container -->
+</section>
+
+<script type="text/javascript">
+    /** This section is only needed once per page if manually copying **/
+    if (typeof MauticSDKLoaded == 'undefined') {
+        var MauticSDKLoaded = true;
+        var head            = document.getElementsByTagName('head')[0];
+        var script          = document.createElement('script');
+        script.type         = 'text/javascript';
+        script.src          = 'https://ma.moongift.co.jp/media/js/mautic-form.js';
+        script.onload       = function() {
+            MauticSDK.onLoad();
+        };
+        head.appendChild(script);
+        var MauticDomain = 'https://ma.moongift.co.jp';
+        var MauticLang   = {
+            'submittingMessage': "お待ちください…"
+        }
+    }
+</script>
+
+    
+      <script type="text/javascript">
+    /** This section is only needed once per page if manually copying **/
+    if (typeof MauticSDKLoaded == 'undefined') {
+        var MauticSDKLoaded = true;
+        var head            = document.getElementsByTagName('head')[0];
+        var script          = document.createElement('script');
+        script.type         = 'text/javascript';
+        script.src          = 'https://ma.moongift.co.jp/media/js/mautic-form.js';
+        script.onload       = function() {
+            MauticSDK.onLoad();
+        };
+        head.appendChild(script);
+        var MauticDomain = 'https://ma.moongift.co.jp';
+        var MauticLang   = {
+            'submittingMessage': "お待ちください…"
+        }
+    }
+  </script>
+
+  <script>
+      (function(w,d,t,u,n,a,m){w['MauticTrackingObject']=n;
+          w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)},a=d.createElement(t),
+          m=d.getElementsByTagName(t)[0];a.async=1;a.src=u;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://ma.moongift.co.jp/mtc.js','mt');
+
+      mt('send', 'pageview');
+  </script>
+  <footer class="l-footer">
+    <span class="is-ja">株式会社MOONGIFT</span>
+    <span class="is-en">MOOGIFT Inc.</span>
+  </footer>
+</body>
+</html>
+
+  </body>
+</html>

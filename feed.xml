@@ -1,1091 +1,1087 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="https://devrel.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://devrel.jp/" rel="alternate" type="text/html" /><updated>2022-04-10T22:55:15+09:00</updated><id>https://devrel.jp/feed.xml</id><title type="html">DEVREL - 開発者向けマーケティング支援サービス -</title><subtitle>DevRelは開発者向けマーケティング施策です。私たちは企業の製品、サービスを広く開発者に知ってもらうためのDevRelをサポート、代行しています。</subtitle><entry><title type="html">なぜ私はDevRelを愛しているのか</title><link href="https://devrel.jp/%E5%85%A8%E8%88%AC/2022/04/10/why-i-love-devrel.html" rel="alternate" type="text/html" title="なぜ私はDevRelを愛しているのか" /><published>2022-04-10T09:00:00+09:00</published><updated>2022-04-10T09:00:00+09:00</updated><id>https://devrel.jp/%E5%85%A8%E8%88%AC/2022/04/10/why-i-love-devrel</id><content type="html" xml:base="https://devrel.jp/%E5%85%A8%E8%88%AC/2022/04/10/why-i-love-devrel.html">&lt;p&gt;私はとても成績優秀な学生という訳ではなく、むしろ高専時代の5年生（高専は高校3年+短大2年の計5年間もあります。しかも1学科1クラス！）には落第寸前という状態でした。絶対落とせない授業を（自分のせいで）落としたからですが、この時に救ってくれたのが製図の授業を行っていた教諭でした。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-04-13T15:12:20+09:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">DEVREL - 開発者向けマーケティング支援サービス -</title><subtitle>DevRelは開発者向けマーケティング施策です。私たちは企業の製品、サービスを広く開発者に知ってもらうためのDevRelをサポート、代行しています。</subtitle><entry><title type="html">お前は今までに作成したSDKの数を覚えているか？</title><link href="http://localhost:4000/%E9%96%8B%E7%99%BA/sdk/2022/04/13/development-sdk.html" rel="alternate" type="text/html" title="お前は今までに作成したSDKの数を覚えているか？" /><published>2022-04-13T09:00:00+09:00</published><updated>2022-04-13T09:00:00+09:00</updated><id>http://localhost:4000/%E9%96%8B%E7%99%BA/sdk/2022/04/13/development-sdk</id><content type="html" xml:base="http://localhost:4000/%E9%96%8B%E7%99%BA/sdk/2022/04/13/development-sdk.html"><![CDATA[<p>こんなツイートをたまたま見てしまったがために…。</p>
 
-&lt;p&gt;そんな黒歴史は良いとして。その教諭は元々新幹線などの設計を行っていた方で、退職後に東京工業高等専門学校の教諭になったようです。そんな社会人としての経験も豊富な教授が授業で言った一言がとても印象に残っています。&lt;/p&gt;
+<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">DevRel と SDK 開発の兼任ってめちゃくちゃ格好いいですね……😍</p>&mdash; lettenj61 (@lettenj61) <a href="https://twitter.com/lettenj61/status/1514088366928973825?ref_src=twsrc%5Etfw">April 13, 2022</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-&lt;p&gt;「エンジニアだけで会社を建てたら幸せだろうな」&lt;/p&gt;
+<p>ということで、これまでDevRelサポートを提供する中で開発してきたSDKをリストアップしてみようと思います。これは2022年4月現在です。</p>
 
-&lt;p&gt;おそらく、その教諭は開発現場と他部署や経営層との軋轢を色々と感じてきたのだと思います。そしてエンジニアとしての物作りに対する技術力と情熱があれば、素晴らしい企業になると信じていたのでしょう。もちろん、それだけでビジネスが成り立つ訳ではありませんが、個人的に今なお共感する部分もあります。&lt;/p&gt;
+<h2 id="ncmbニフクラ-mobile-backend"><a href="https://mbaas.nifcloud.com/">NCMB（ニフクラ mobile backend）</a></h2>
 
-&lt;p&gt;なぜなら、個人的にエンジニアが大好きであり、彼らがまだ見ぬ素晴らしい未来を作り上げてくれると強く信じているからです。昨今、エンジニア不足が叫ばれるようになっており、その中でエンジニアの待遇がIT系を中心として大幅に改善しているのはとても良いことだと感じています。スタートアップの多くが技術力を武器に成長し、その結果として上場しているケースも増えており、まさにエンジニアが世界を変えている状態だと言えるでしょう。&lt;/p&gt;
+<p>NCMBは一番サービス提供の歴史が長いので、多いですね。私が開発していない<a href="https://github.com/NCMBMania/php-ncmb">PHP SDK</a>もあります。公式SDKはJavaScript/Swift/Objective-C/Java（Android）/Kotlin（Android）/Unity向けがあります。足りない部分を私が開発している形です。</p>
 
-&lt;p&gt;教諭の夢を一足飛びに実現するのは難しいですが、一部の界隈においてはエンジニアにとって幸せな世界が実現できてきているのではないでしょうか。&lt;/p&gt;
+<ul>
+  <li><a href="https://github.com/NCMBMania/ncmb-dart">Dart &amp; Flutter.</a></li>
+  <li><a href="https://github.com/NCMBMania/ncmb_deno">TypeScript &amp; Deno</a></li>
+  <li><a href="https://github.com/NCMBMania/ncmb_gas">Google Apps Script</a></li>
+  <li><a href="https://github.com/NCMBMania/ncmb_js_light">JavaScript SDK（軽量版）</a></li>
+  <li><a href="https://github.com/NCMBMania/ncmb-react-native">React Native</a></li>
+  <li><a href="https://github.com/NCMBMania/ncmb-ruby-client">Ruby</a></li>
+  <li><a href="https://github.com/NCMBMania/ncmb_xamarin">C# &amp; Xamarin</a></li>
+  <li><a href="https://github.com/NCMBMania/ncmb_py">Python</a></li>
+  <li><a href="https://github.com/NCMBMania/java-sdk">Java</a></li>
+  <li><a href="https://github.com/NCMBMania/ncmb-excel">Excel VBA</a></li>
+</ul>
 
-&lt;h2 id=&quot;moongiftの運営での学び&quot;&gt;MOONGIFTの運営での学び&lt;/h2&gt;
+<h2 id="customers-mail-cloud"><a href="https://smtps.jp/">Customers Mail Cloud</a></h2>
 
-&lt;p&gt;さて、学生時の話は終わって、次に私が社会人になった後の話をします。&lt;/p&gt;
+<p>メール配信サービスです。ブログ記事執筆を提供する中で生まれたSDKです。</p>
 
-&lt;p&gt;3社目の転職をした後、私は&lt;a href=&quot;https://www.moongift.jp/&quot;&gt;MOONGIFT&lt;/a&gt;というブログを立ち上げました（現在は運営停止しています）。これはオープンソース・ソフトウェアを紹介するというテーマを持ったブログで、その後20年運営され続けることになります。このブログをはじめるきっかけは、自分が仕事の中で利用したり、探し出したオープンソース・ソフトウェアを他のエンジニアにも知って欲しいという思いからです。社内にこうした技術的会話を楽しめる人がいなかった（文字通りいなかった）こともあって、私はその矛先を外部に求めました。オープンソース・ソフトウェアというキーワードが盛り上がっていたこともあり、MOONGIFTはエンジニア周りではそれなりに知られる存在に成長していきました。&lt;/p&gt;
+<ul>
+  <li><a href="https://github.com/goofmint/CustomersMailCloud-js">Node.js</a></li>
+  <li><a href="https://github.com/goofmint/Customers-Mail-Cloud-Java">Java</a></li>
+  <li><a href="https://github.com/goofmint/Customers-Mail-Cloud-VBA">Excel VBA</a></li>
+  <li><a href="https://github.com/goofmint/CustmersMailCloud-rb">Ruby</a></li>
+  <li><a href="https://github.com/goofmint/CustomersMailCloudPy">Python</a></li>
+</ul>
 
-&lt;p&gt;MOONGIFTで紹介したソフトウェアを利用して、彼らの開発（仕事、プライベートを問わず）をサポートできているという実感はとても嬉しいものでした。毎日チェックしていますと言われたり、新人の頃とても役立ちましたと言われたことも少なくありません。さらに、MOONGIFTで紹介されたことを誇らしく語ってくれる人たちも現れました。最近でもMOONGIFTで紹介されたことがあるんですよ、と教えてくれる人に会うことがあります。こういった話はとても嬉しいものです。&lt;/p&gt;
+<h2 id="quality-forward"><a href="https://www.veriserve.co.jp/qualityforward/">Quality Forward</a></h2>
 
-&lt;p&gt;特に予想外だった思い出を2つほど紹介します。&lt;/p&gt;
+<p>テストのクラウド管理サービスを提供しています。</p>
 
-&lt;h3 id=&quot;zabbix-japanのケース&quot;&gt;Zabbix Japanのケース&lt;/h3&gt;
+<ul>
+  <li><a href="https://github.com/goofmint/qualityforward-rb">Ruby</a></li>
+  <li><a href="https://github.com/goofmint/qualityforward-py">Python</a></li>
+  <li><a href="https://github.com/goofmint/qualityforward-node">Node.js</a></li>
+</ul>
 
-&lt;p&gt;1つ目はMOONGIFT運営10周年を記念して特別な企画を考える中で、スポンサーとして&lt;a href=&quot;https://www.zabbix.com/jp&quot;&gt;Zabbix Japan&lt;/a&gt;社にコンタクトした時のことです（Zabbixは有名な監視ソフトウェアです）。ツテはなかったので、公式サイトのお問い合わせフォームから連絡したのですが、すぐにZabbix Japan代表の寺島さんから返信をいただきました。そして、二つ返事で会ってくださったのです。&lt;/p&gt;
+<h2 id="blastengine"><a href="https://blastengine.jp/">blastengine</a></h2>
 
-&lt;p&gt;会ってみて理由が分かったのですが、Zabbix Japan設立当時で全く知名度がなかった時にMOONGIFTで紹介したところ、Webサイトへの訪問者が一気に増えたらしいのです。お会いした頃には既に有名なソフトウェアになっていたのですが、寺島さんはその時のことを覚えてくれていて、とても感謝されました。その後、記念コンテンツへのスポンサードもしてくれて、こちらとしても知らぬところで作った縁とはいえ、MOONGIFTを運営して良かったと感じた覚えがあります。&lt;/p&gt;
+<p>エンジニアフレンドリーなメール配信サービスです。最近サービス提供を開始したこともあり、今後SDK拡充予定です。</p>
 
-&lt;h3 id=&quot;concrete5-japanのケース&quot;&gt;Concrete5 Japanのケース&lt;/h3&gt;
+<ul>
+  <li><a href="https://github.com/blastengineMania/blastengine-java">Java</a></li>
+  <li><a href="https://github.com/blastengineMania/blastengine-node">Node.js</a></li>
+</ul>
 
-&lt;p&gt;もう1つは&lt;a href=&quot;https://concrete5-japan.org/&quot;&gt;Concrete5 Japan&lt;/a&gt;の榊さんとはじめて会った時の話です。Concrete5というのはWikiエンジンで、CMSになります。このConcrete5はとても素晴らしいソフトウェアで、MOONGIFTで紹介した記事を読んだ方がすぐにアメリカの開発元まで行って、販売契約を取り付けたというのです。そして、その結果としてConcrete5 Japanという企業設立に至ったのです。そんなことを全く知らなかった私としては、MOONGIFTでの紹介を通じて新しいビジネスを創出できたことに感動しました。&lt;/p&gt;
+<h2 id="なぜsdkを開発するのか">なぜSDKを開発するのか</h2>
 
-&lt;hr /&gt;
+<p>APIを提供するサービスがあったとして、それをわざわざHTTPライブラリから直接操作したいと思うでしょうか。コードがごちゃっとしますし、仕様を理解してコーディングするのは苦痛です。私ならSDKがあるサービスとないサービスの2つがあれば、SDKがあるサービスを選ぶでしょう。</p>
 
-&lt;p&gt;他にもMOONGIFTを通じて生まれた出会いや思い出はいくつもあるのですが、今回はこの程度にします（本筋でもありませんので）。ただいえることは、MOONGIFTの運営を通じて開発者の生産性に寄与すること、彼らに正しい情報を正しく伝えることの重要性を理解したということです。&lt;/p&gt;
+<p>ということで、開発者にとってのペインポイントを除去し、かつ選ばれる理由を提供するためにSDKを開発しています。全機能を網羅していないものも多いですが、その辺りは利用者の需要に合わせて開発しています。</p>
 
-&lt;h2 id=&quot;devrelとの出会い&quot;&gt;DevRelとの出会い&lt;/h2&gt;
+<p>後はブログ記事のネタとして使えるのが良いです。SDKを開発して、それの使い方をブログ記事にするというマッチポンプ的なことをよく行っています。</p>
 
-&lt;p&gt;そして2014年2月にDevRelという単語に出会います。ここに至る経緯として一番大きかったのは &lt;a href=&quot;https://twitter.com/masuidrive&quot;&gt;@masuidrive&lt;/a&gt; さんと知り合ったことでしょう。彼とは十数年来のチャット友達なのですが、彼が当時住んでいたアメリカを離れる際に直前でAppceleratorへ入社を決め、日本でTitaniumのエバンジェリスト活動を開始しました。これはおそらく2009〜10年頃でしたが、その頃はDevRelという単語はありませんし、私も気にしていませんでした。&lt;/p&gt;
+<p>例）<br />
+<a href="https://qiita.com/goofmint/items/b7498e17e6e3b136660d">blastengineのJava SDKを使ってメール送信を行う - Qiita</a></p>
 
-&lt;p&gt;そしてDevRelを意識するきっかけになったのは2014年2月頃になります。そのきっかけは、某クラウドサービスの展開が日米で全く異なるものだったのに起因します。その某クラウドサービスは本国のアメリカではハッカソンを開催したり、開発者コミュニティを立ち上げていました。それに対して日本では某電話会社との出資という形でマーケティング展開していました。その1つが本屋でプレミアムサービスのライセンス（半年間 or 年間）を販売するというものです。クラウドサービスなのに、です。&lt;/p&gt;
+<h2 id="言語選定">言語選定</h2>
 
-&lt;p&gt;この日米の違いがとても気になりました。前者（アメリカ）は開発者を重視し、寄り添う形でサービスを拡大しています。対して日本では本屋でライセンス販売です。APIもSDKもまったく宣伝せず、知る人ぞ知る状態でした。私としてはすでに数多のサービスがAPIを公開し、連携サービスによってビジネスを拡大する様子を見てきたこともあり、前者の方が正しいやり方に思えました。むしろ後者は悪手に見えましたし、実際うまくいっているように見えませんでした。&lt;/p&gt;
+<p>色々な言語で開発していますが、極力そのサービス利用者が使っている言語を優先的に採用しています。サーバーサイドの場合、Java需要が強いように感じます。その後はPHP、Node.js、Python、Rubyでしょうか。</p>
 
-&lt;p&gt;そこで、アメリカで何が行われているのかを調べた結果、エバンジェリストと呼ばれる人たちがハッカソンや開発者とのコミュニケーションを主導していることが分かりました。そして、それは @masuidrive さんに聞いても同意がとれたことで、確信が得られました。しかし、エバンジェリストが何をやっているのかは分かりませんでした。よくよく調べた結果、当時Googleブラジル（確か）でそういった開発者向けの活動をDevRelと呼んでいることが分かったのです。この14年2月が、私とDevRelの出会った月になります（具体的な日付は不明）。&lt;/p&gt;
+<p>アプリ界隈であれば最近ならFlutter、ついでReact Nativeになるかなと。Xamarinはコロナ感染チェックアプリで一躍有名になったので、開発してみました。</p>
 
-&lt;p&gt;このDevRelがなぜ日本で流行っていないのかを考えたところ、エバンジェリストの素養の高さに気付きました。プレゼン能力が高く、ブログ記事が書けて、さらに開発者としてのスキルも高い人たちになります。こうした人たちはごく限られますし、雇用しようと思うと年収が当然高くなります。日本の雇用制度の中でマッチさせるのは非常に難しいでしょう。&lt;/p&gt;
+<p>正直得意ではない言語も多いので、その辺りはテストを書きつつググりながら実装していたりします。C#とかJavaは得意ではないですが、IDEがあるので安心ですね（それでも苦戦することが多いですが）。</p>
 
-&lt;p&gt;そこでDevRelをサービス化し、100%のコミットではなく、複数社のDevRelサポートを機能に応じた費用で提供するサービスを考えました。これが2022年現在も続いているDevRelサービスになります。このDevRelサービスは3月17日にテスト販売し、4月からニフティ株式会社（当時。現FJCT）の&lt;a href=&quot;https://mbaas.nifcloud.com/&quot;&gt;ニフクラ mobile backend&lt;/a&gt;への提供を開始しました。すでに8年経った訳ですが、今なお継続的に提供しています。また、8年間にわたって国内外様々な企業様にサービス提供しています。&lt;/p&gt;
+<h2 id="パッケージ管理への登録">パッケージ管理への登録</h2>
 
-&lt;h2 id=&quot;開発者へ正しい情報を正しい方法で届ける&quot;&gt;開発者へ正しい情報を正しい方法で届ける&lt;/h2&gt;
+<p>RubyであればRubygems、Pythonであればpipなどが有名なパッケージ管理システムです。この辺りへの登録はもちろん行っています。</p>
 
-&lt;p&gt;この8年間DevRelを続けてきて感じるのは、DevRelは「開発者と寄り添える存在である」ということです。私は常々、DevRelは「無敵の未来を作る開発者を支援する」ものだと言ってきました。コロナ禍のような、一見すると絶望的になる状況であっても開発者は前を向き、苦難を乗り越えるようなサービスやデバイスを開発しています。DevRelはそんな彼らを支援し、鼓舞し、共になければいけません。素晴らしい未来を作り上げるソフトウェアやサービスを生み出すきっかけになれるかも知れないのです。DevRelはそんな素晴らしい可能性を秘めています。&lt;/p&gt;
+<p>各パッケージ管理のプロフィールページです。</p>
 
-&lt;p&gt;企業としての&lt;a href=&quot;https://moongift.co.jp/&quot;&gt;MOONGIFTのミッションは「開発者へ正しい情報を正しい方法で届ける」&lt;/a&gt;としています。オープンソース・ソフトウェアを紹介していた当時から、正しい情報を開発者に届けようとしてきました。現在のDevRelにおいても、その方針は変わっていません。そして、その正しい情報によって開発者の生産性が向上したり、最高のプロダクトが生み出されたら、思わず歓喜してしまうでしょう。&lt;/p&gt;
+<ul>
+  <li><a href="https://pypi.org/user/goofmint/">PyPI</a></li>
+  <li><a href="https://rubygems.org/profiles/moongift">RubyGems.org</a></li>
+  <li><a href="https://www.npmjs.com/~moongift">npm</a></li>
+  <li><a href="https://www.nuget.org/profiles/goofmint">NuGet</a></li>
+  <li><a href="https://pub.dev/packages/ncmb">Dart</a></li>
+</ul>
 
-&lt;p&gt;開発者に寄り添い、彼らと共にいることができる、DevRelはそれが実現できるから私は大好きなのです。願わくば、そうして少しでも手伝えたことでエンジニアにとって幸せな企業へ成長したり、個人のキャリアが幸せなものになればとても嬉しいです。それが教諭の言ったエンジニアの幸せに通じる道だと考えています。&lt;/p&gt;
+<p>この辺りはインストールのしやすさはもちろん、個人のブランディングとして行っている面もあります。なお、JavaのMaven Central Repositoryはとても面倒なイメージがあって登録していません…。</p>
 
-&lt;hr /&gt;
+<h2 id="まとめ">まとめ</h2>
 
-&lt;p&gt;そんなMOONGIFTではブログの執筆やコミュニティ支援を手伝ってくれる仲間を募集しています。DevRelに興味があれば、まず&lt;a href=&quot;/contact&quot;&gt;気軽にお話ししてみましょう&lt;/a&gt;！&lt;/p&gt;</content><author><name>moongift</name></author><summary type="html">私はとても成績優秀な学生という訳ではなく、むしろ高専時代の5年生（高専は高校3年+短大2年の計5年間もあります。しかも1学科1クラス！）には落第寸前という状態でした。絶対落とせない授業を（自分のせいで）落としたからですが、この時に救ってくれたのが製図の授業を行っていた教諭でした。</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://devrel.jp/images/articles/i-love-devrel.jpeg" /><media:content medium="image" url="https://devrel.jp/images/articles/i-love-devrel.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">オンライン/オフライン同時開催型のパネルディスカッションで得られた知見</title><link href="https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/04/07/hybrid-event.html" rel="alternate" type="text/html" title="オンライン/オフライン同時開催型のパネルディスカッションで得られた知見" /><published>2022-04-07T09:00:00+09:00</published><updated>2022-04-07T09:00:00+09:00</updated><id>https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/04/07/hybrid-event</id><content type="html" xml:base="https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/04/07/hybrid-event.html">&lt;p&gt;4月6日に&lt;a href=&quot;https://devrel.connpass.com/event/243022/&quot;&gt;DevRel Meetup in Tokyo #73 〜ソーシャル活用術〜&lt;/a&gt;を開催しました。まん延防止等重点措置が解除され、久々のオフライン会場を用意してのイベントになります。2021年12月にもオンラインとオフライン一緒にイベントを開催したのですが、その時には久々ということもあって、色々足りていませんでした。&lt;/p&gt;
+<p>今後はGo言語やRust辺りでも開発していきたいのと、PHPは自分の中で歴史がバージョン5で終わってしまっているので、SDK開発を通して勉強し直したいと思っています。</p>
 
-&lt;p&gt;今回はその前回の反省を踏まえて取り組んだので、その知見を共有します。&lt;/p&gt;
+<p>SDK開発はDevRelにおいて、コーディングスキルが活かせる場面だと思うので、ぜひ取り組んでみると良いでしょう。</p>
 
-&lt;h2 id=&quot;アーキテクチャ&quot;&gt;アーキテクチャ&lt;/h2&gt;
+<p><a href="/contact">MOONGIFTではブログ執筆を通してSDKを開発したり、単体でSDK開発も承りますのでぜひお問い合わせください</a>。</p>]]></content><author><name>moongift</name></author><category term="開発" /><category term="SDK" /><summary type="html"><![CDATA[こんなツイートをたまたま見てしまったがために…。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/articles/sdk.jpg" /><media:content medium="image" url="http://localhost:4000/images/articles/sdk.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">なぜ私はDevRelを愛しているのか</title><link href="http://localhost:4000/%E5%85%A8%E8%88%AC/2022/04/10/why-i-love-devrel.html" rel="alternate" type="text/html" title="なぜ私はDevRelを愛しているのか" /><published>2022-04-10T09:00:00+09:00</published><updated>2022-04-10T09:00:00+09:00</updated><id>http://localhost:4000/%E5%85%A8%E8%88%AC/2022/04/10/why-i-love-devrel</id><content type="html" xml:base="http://localhost:4000/%E5%85%A8%E8%88%AC/2022/04/10/why-i-love-devrel.html"><![CDATA[<p>私はとても成績優秀な学生という訳ではなく、むしろ高専時代の5年生（高専は高校3年+短大2年の計5年間もあります。しかも1学科1クラス！）には落第寸前という状態でした。絶対落とせない授業を（自分のせいで）落としたからですが、この時に救ってくれたのが製図の授業を行っていた教諭でした。</p>
 
-&lt;p&gt;今回、全体としてのアーキテクチャは次のようになっています。&lt;/p&gt;
+<p>そんな黒歴史は良いとして。その教諭は元々新幹線などの設計を行っていた方で、退職後に東京工業高等専門学校の教諭になったようです。そんな社会人としての経験も豊富な教授が授業で言った一言がとても印象に残っています。</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/articles/hybrid-architecture.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p>「エンジニアだけで会社を建てたら幸せだろうな」</p>
 
-&lt;p&gt;各デバイスは次のように使われています。&lt;/p&gt;
+<p>おそらく、その教諭は開発現場と他部署や経営層との軋轢を色々と感じてきたのだと思います。そしてエンジニアとしての物作りに対する技術力と情熱があれば、素晴らしい企業になると信じていたのでしょう。もちろん、それだけでビジネスが成り立つ訳ではありませんが、個人的に今なお共感する部分もあります。</p>
 
-&lt;h3 id=&quot;会議室用スピーカー&quot;&gt;会議室用スピーカー&lt;/h3&gt;
+<p>なぜなら、個人的にエンジニアが大好きであり、彼らがまだ見ぬ素晴らしい未来を作り上げてくれると強く信じているからです。昨今、エンジニア不足が叫ばれるようになっており、その中でエンジニアの待遇がIT系を中心として大幅に改善しているのはとても良いことだと感じています。スタートアップの多くが技術力を武器に成長し、その結果として上場しているケースも増えており、まさにエンジニアが世界を変えている状態だと言えるでしょう。</p>
 
-&lt;p&gt;会議室用スピーカーとして&lt;a href=&quot;https://www.amazon.co.jp/Anker-A3305011-PowerConf-S500/dp/B08VWKFPCR&quot;&gt;Anker PowerConf S500&lt;/a&gt;を用意しました。執筆時点で2.5万円くらいです。会議室用スピーカーがあることで、各パネリストやモデレーターの方はマイクやイヤホンの用意が不要になります。発言が混じったとしても、聞き苦しくなりません。&lt;/p&gt;
+<p>教諭の夢を一足飛びに実現するのは難しいですが、一部の界隈においてはエンジニアにとって幸せな世界が実現できてきているのではないでしょうか。</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/articles/ankor.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<h2 id="moongiftの運営での学び">MOONGIFTの運営での学び</h2>
 
-&lt;p&gt;参加者がコミュニケーションしている声も遠くの方で聞こえるようで、多少なりともオフラインの雰囲気がオンラインの方々に聞こえたのは良かったと思います。&lt;/p&gt;
+<p>さて、学生時の話は終わって、次に私が社会人になった後の話をします。</p>
 
-&lt;p&gt;Anker PowerConf S500の実力としては、10〜15名くらいの箱であれば十分に聞こえるレベルのスピーカーでした。マイクについては、遠くにいる人は少し声を張り上げた方が良さそうです。パネリストやモデレーターの声であればまったく問題なく届けられていました。&lt;a href=&quot;https://www.ankerjapan.com/products/a3305&quot;&gt;Anker PowerConf S500は2台接続も可能&lt;/a&gt;なので、20人規模の会場であれば2つあった方が良さそうです。&lt;/p&gt;
+<p>3社目の転職をした後、私は<a href="https://www.moongift.jp/">MOONGIFT</a>というブログを立ち上げました（現在は運営停止しています）。これはオープンソース・ソフトウェアを紹介するというテーマを持ったブログで、その後20年運営され続けることになります。このブログをはじめるきっかけは、自分が仕事の中で利用したり、探し出したオープンソース・ソフトウェアを他のエンジニアにも知って欲しいという思いからです。社内にこうした技術的会話を楽しめる人がいなかった（文字通りいなかった）こともあって、私はその矛先を外部に求めました。オープンソース・ソフトウェアというキーワードが盛り上がっていたこともあり、MOONGIFTはエンジニア周りではそれなりに知られる存在に成長していきました。</p>
 
-&lt;p&gt;ケーブルはUSB type-A - USB type-C（3m）を利用しています。ケーブルが短いと色々苦労するので、長いものを用意しておくのがお勧めです。&lt;/p&gt;
+<p>MOONGIFTで紹介したソフトウェアを利用して、彼らの開発（仕事、プライベートを問わず）をサポートできているという実感はとても嬉しいものでした。毎日チェックしていますと言われたり、新人の頃とても役立ちましたと言われたことも少なくありません。さらに、MOONGIFTで紹介されたことを誇らしく語ってくれる人たちも現れました。最近でもMOONGIFTで紹介されたことがあるんですよ、と教えてくれる人に会うことがあります。こういった話はとても嬉しいものです。</p>
 
-&lt;h3 id=&quot;iphone&quot;&gt;iPhone&lt;/h3&gt;
+<p>特に予想外だった思い出を2つほど紹介します。</p>
 
-&lt;p&gt;iPhoneはWebカメラとして利用しています。ノートPCのものではカメラ性能が良くありませんし、緊急時にノートPCの向きを変更することもできません。iPhone（またはAndroid）であれば使わなくなった端末があるかと思いますので、それを利用できます。今回はiPhone 6sを使っています。&lt;/p&gt;
+<h3 id="zabbix-japanのケース">Zabbix Japanのケース</h3>
 
-&lt;p&gt;iPhone 6sはOSがiOS12までしか使えないので、その制約で使えるアプリに限りがあります。今回は&lt;a href=&quot;https://reincubate.com/ja/camo/&quot;&gt;Reincubate Camo&lt;/a&gt;を使っています。フリー版もあるようですが、画質などで制約があるのでPro版にするのが良いでしょう。ライフタイム（買い切り）で79.99ドルでした。&lt;/p&gt;
+<p>1つ目はMOONGIFT運営10周年を記念して特別な企画を考える中で、スポンサーとして<a href="https://www.zabbix.com/jp">Zabbix Japan</a>社にコンタクトした時のことです（Zabbixは有名な監視ソフトウェアです）。ツテはなかったので、公式サイトのお問い合わせフォームから連絡したのですが、すぐにZabbix Japan代表の寺島さんから返信をいただきました。そして、二つ返事で会ってくださったのです。</p>
 
-&lt;p&gt;このReincubate CamoをノートPC、iPhone両方にインストールして、USBケーブルで接続します。ケーブルの取り回しが必要になるので、USB type-A - lightningケーブル（3m）を使っています。また、iPhoneは三脚を用意して、そこで固定しています。&lt;/p&gt;
+<p>会ってみて理由が分かったのですが、Zabbix Japan設立当時で全く知名度がなかった時にMOONGIFTで紹介したところ、Webサイトへの訪問者が一気に増えたらしいのです。お会いした頃には既に有名なソフトウェアになっていたのですが、寺島さんはその時のことを覚えてくれていて、とても感謝されました。その後、記念コンテンツへのスポンサードもしてくれて、こちらとしても知らぬところで作った縁とはいえ、MOONGIFTを運営して良かったと感じた覚えがあります。</p>
 
-&lt;h3 id=&quot;tv&quot;&gt;TV&lt;/h3&gt;
+<h3 id="concrete5-japanのケース">Concrete5 Japanのケース</h3>
 
-&lt;p&gt;テレビは予定外でしたが、たまたま部屋にあらかじめあったのでモニターとして利用しました。オンライン側のパネリストを映したり、画面共有を表示するのに使っています。イベントスペースにあるプロジェクターは大抵ルーメンが低く、会場を暗くする必要があります。それだと会場の様子が暗く、見づらいものになるので意外とTVは便利です。&lt;/p&gt;
+<p>もう1つは<a href="https://concrete5-japan.org/">Concrete5 Japan</a>の榊さんとはじめて会った時の話です。Concrete5というのはWikiエンジンで、CMSになります。このConcrete5はとても素晴らしいソフトウェアで、MOONGIFTで紹介した記事を読んだ方がすぐにアメリカの開発元まで行って、販売契約を取り付けたというのです。そして、その結果としてConcrete5 Japanという企業設立に至ったのです。そんなことを全く知らなかった私としては、MOONGIFTでの紹介を通じて新しいビジネスを創出できたことに感動しました。</p>
 
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/hashtag/DevRelJP?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#DevRelJP&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/DevRel?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#DevRel&lt;/a&gt; はじまりー。久々のハイブリッド開催！ &lt;a href=&quot;https://t.co/FjodVEtOSh&quot;&gt;pic.twitter.com/FjodVEtOSh&lt;/a&gt;&lt;/p&gt;&amp;mdash; Atsushi 🇯🇵 DevRel Meetup in 🗼 4/6 (@goofmint) &lt;a href=&quot;https://twitter.com/goofmint/status/1511649429522386950?ref_src=twsrc%5Etfw&quot;&gt;April 6, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+<hr />
 
-&lt;p&gt;なお、TVに付属していた細いHDMIケーブル（3mくらい）の調子が悪く、短いものにせざるを得ませんでした。HDMIケーブルだけでも用意しておけば良かったと後悔しています。&lt;/p&gt;
+<p>他にもMOONGIFTを通じて生まれた出会いや思い出はいくつもあるのですが、今回はこの程度にします（本筋でもありませんので）。ただいえることは、MOONGIFTの運営を通じて開発者の生産性に寄与すること、彼らに正しい情報を正しく伝えることの重要性を理解したということです。</p>
 
-&lt;h3 id=&quot;usbハブ&quot;&gt;USBハブ&lt;/h3&gt;
+<h2 id="devrelとの出会い">DevRelとの出会い</h2>
 
-&lt;p&gt;配信用PCがMacBook Airだったこともあって、接続するUSBデバイスのポートが不足しがちです。USBハブを持っているのですが、久々に使ってみたら調子がとても悪く、接続が瞬断する状態でした…。定期的な確認が必要ですね。&lt;/p&gt;
+<p>そして2014年2月にDevRelという単語に出会います。ここに至る経緯として一番大きかったのは <a href="https://twitter.com/masuidrive">@masuidrive</a> さんと知り合ったことでしょう。彼とは十数年来のチャット友達なのですが、彼が当時住んでいたアメリカを離れる際に直前でAppceleratorへ入社を決め、日本でTitaniumのエバンジェリスト活動を開始しました。これはおそらく2009〜10年頃でしたが、その頃はDevRelという単語はありませんし、私も気にしていませんでした。</p>
 
-&lt;h3 id=&quot;その他&quot;&gt;その他&lt;/h3&gt;
+<p>そしてDevRelを意識するきっかけになったのは2014年2月頃になります。そのきっかけは、某クラウドサービスの展開が日米で全く異なるものだったのに起因します。その某クラウドサービスは本国のアメリカではハッカソンを開催したり、開発者コミュニティを立ち上げていました。それに対して日本では某電話会社との出資という形でマーケティング展開していました。その1つが本屋でプレミアムサービスのライセンス（半年間 or 年間）を販売するというものです。クラウドサービスなのに、です。</p>
 
-&lt;p&gt;その他用意していたものです。&lt;/p&gt;
+<p>この日米の違いがとても気になりました。前者（アメリカ）は開発者を重視し、寄り添う形でサービスを拡大しています。対して日本では本屋でライセンス販売です。APIもSDKもまったく宣伝せず、知る人ぞ知る状態でした。私としてはすでに数多のサービスがAPIを公開し、連携サービスによってビジネスを拡大する様子を見てきたこともあり、前者の方が正しいやり方に思えました。むしろ後者は悪手に見えましたし、実際うまくいっているように見えませんでした。</p>
 
-&lt;h4 id=&quot;パネリスト同士の飛沫感染を防止するフィルム&quot;&gt;パネリスト同士の飛沫感染を防止するフィルム&lt;/h4&gt;
+<p>そこで、アメリカで何が行われているのかを調べた結果、エバンジェリストと呼ばれる人たちがハッカソンや開発者とのコミュニケーションを主導していることが分かりました。そして、それは @masuidrive さんに聞いても同意がとれたことで、確信が得られました。しかし、エバンジェリストが何をやっているのかは分かりませんでした。よくよく調べた結果、当時Googleブラジル（確か）でそういった開発者向けの活動をDevRelと呼んでいることが分かったのです。この14年2月が、私とDevRelの出会った月になります（具体的な日付は不明）。</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/articles/film.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p>このDevRelがなぜ日本で流行っていないのかを考えたところ、エバンジェリストの素養の高さに気付きました。プレゼン能力が高く、ブログ記事が書けて、さらに開発者としてのスキルも高い人たちになります。こうした人たちはごく限られますし、雇用しようと思うと年収が当然高くなります。日本の雇用制度の中でマッチさせるのは非常に難しいでしょう。</p>
 
-&lt;p&gt;会場ではソファーを使う想定をしていたので、そのソファーの上にかけられる感染防止フィルムを用意しました。購入したのは&lt;a href=&quot;https://www.amazon.co.jp/gp/product/B0897KVTXV/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&amp;amp;psc=1&quot;&gt;飛沫ブロッカー側面用タイプ&lt;/a&gt;です。価格は1万円弱になります。これは片足タイプなので、土台をソファーの下に滑り込ませることで、見た目に邪魔にならないように配置できます。&lt;/p&gt;
+<p>そこでDevRelをサービス化し、100%のコミットではなく、複数社のDevRelサポートを機能に応じた費用で提供するサービスを考えました。これが2022年現在も続いているDevRelサービスになります。このDevRelサービスは3月17日にテスト販売し、4月からニフティ株式会社（当時。現FJCT）の<a href="https://mbaas.nifcloud.com/">ニフクラ mobile backend</a>への提供を開始しました。すでに8年経った訳ですが、今なお継続的に提供しています。また、8年間にわたって国内外様々な企業様にサービス提供しています。</p>
 
-&lt;h2 id=&quot;進行&quot;&gt;進行&lt;/h2&gt;
+<h2 id="開発者へ正しい情報を正しい方法で届ける">開発者へ正しい情報を正しい方法で届ける</h2>
 
-&lt;p&gt;今回の進行はすべてモデレーターでもある&lt;a href=&quot;https://twitter.com/taiponrock&quot;&gt;Taiji Eddie Hagino (@taiponrock)&lt;/a&gt;さんにお任せとなっています。HDMIケーブルの問題、USBハブの問題があって、たいじさんのPCから画面共有、音声共有を行っています。&lt;/p&gt;
+<p>この8年間DevRelを続けてきて感じるのは、DevRelは「開発者と寄り添える存在である」ということです。私は常々、DevRelは「無敵の未来を作る開発者を支援する」ものだと言ってきました。コロナ禍のような、一見すると絶望的になる状況であっても開発者は前を向き、苦難を乗り越えるようなサービスやデバイスを開発しています。DevRelはそんな彼らを支援し、鼓舞し、共になければいけません。素晴らしい未来を作り上げるソフトウェアやサービスを生み出すきっかけになれるかも知れないのです。DevRelはそんな素晴らしい可能性を秘めています。</p>
 
-&lt;p&gt;実際のイベント中は、こんな感じです。&lt;/p&gt;
+<p>企業としての<a href="https://moongift.co.jp/">MOONGIFTのミッションは「開発者へ正しい情報を正しい方法で届ける」</a>としています。オープンソース・ソフトウェアを紹介していた当時から、正しい情報を開発者に届けようとしてきました。現在のDevRelにおいても、その方針は変わっていません。そして、その正しい情報によって開発者の生産性が向上したり、最高のプロダクトが生み出されたら、思わず歓喜してしまうでしょう。</p>
 
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;&lt;a href=&quot;https://twitter.com/hashtag/DevRelJP?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#DevRelJP&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/DevRel?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#DevRel&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;会場からはこんな感じ。リアル感ありますね。 &lt;a href=&quot;https://t.co/DBFHK6wv9O&quot;&gt;pic.twitter.com/DBFHK6wv9O&lt;/a&gt;&lt;/p&gt;&amp;mdash; Shotaro Suzuki (@shosuz) &lt;a href=&quot;https://twitter.com/shosuz/status/1511655855057354752?ref_src=twsrc%5Etfw&quot;&gt;April 6, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+<p>開発者に寄り添い、彼らと共にいることができる、DevRelはそれが実現できるから私は大好きなのです。願わくば、そうして少しでも手伝えたことでエンジニアにとって幸せな企業へ成長したり、個人のキャリアが幸せなものになればとても嬉しいです。それが教諭の言ったエンジニアの幸せに通じる道だと考えています。</p>
 
-&lt;p&gt;今から思ってみると、名刺を忘れていました。ちゃんと持っている方も多くて、素晴らしいなと思います。&lt;/p&gt;
+<hr />
 
-&lt;h2 id=&quot;結果&quot;&gt;結果&lt;/h2&gt;
+<p>そんなMOONGIFTではブログの執筆やコミュニティ支援を手伝ってくれる仲間を募集しています。DevRelに興味があれば、まず<a href="/contact">気軽にお話ししてみましょう</a>！</p>]]></content><author><name>moongift</name></author><category term="全般" /><summary type="html"><![CDATA[私はとても成績優秀な学生という訳ではなく、むしろ高専時代の5年生（高専は高校3年+短大2年の計5年間もあります。しかも1学科1クラス！）には落第寸前という状態でした。絶対落とせない授業を（自分のせいで）落としたからですが、この時に救ってくれたのが製図の授業を行っていた教諭でした。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/articles/i-love-devrel.jpeg" /><media:content medium="image" url="http://localhost:4000/images/articles/i-love-devrel.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">オンライン/オフライン同時開催型のパネルディスカッションで得られた知見</title><link href="http://localhost:4000/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/04/07/hybrid-event.html" rel="alternate" type="text/html" title="オンライン/オフライン同時開催型のパネルディスカッションで得られた知見" /><published>2022-04-07T09:00:00+09:00</published><updated>2022-04-07T09:00:00+09:00</updated><id>http://localhost:4000/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/04/07/hybrid-event</id><content type="html" xml:base="http://localhost:4000/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/04/07/hybrid-event.html"><![CDATA[<p>4月6日に<a href="https://devrel.connpass.com/event/243022/">DevRel Meetup in Tokyo #73 〜ソーシャル活用術〜</a>を開催しました。まん延防止等重点措置が解除され、久々のオフライン会場を用意してのイベントになります。2021年12月にもオンラインとオフライン一緒にイベントを開催したのですが、その時には久々ということもあって、色々足りていませんでした。</p>
 
-&lt;p&gt;ツイートは200超（速報値）なので、オンラインだけでイベントをやるよりも比較的伸びたのではないかと思っています。たいじさんからは運営している感があったという意見もあり、確かにそう感じます。オフラインで会場を準備したり、挨拶したりといった体験はオンラインではなかなか得づらいものだなと。&lt;/p&gt;
+<p>今回はその前回の反省を踏まえて取り組んだので、その知見を共有します。</p>
 
-&lt;p&gt;他の人に紹介されて一緒に来たという方もいました。これもオンラインだけでイベントをやっていると、なかなか生まれづらかったものです。オンラインは拡大という意味においては有効ですが、コミュニケーション深度はオフラインには敵わないかと思います。そういった意味で、オンラインとオフラインのハイブリッド開催は両方の良いところ取りができるのでお勧めです。&lt;/p&gt;
+<h2 id="アーキテクチャ">アーキテクチャ</h2>
 
-&lt;h2 id=&quot;tips&quot;&gt;Tips&lt;/h2&gt;
+<p>今回、全体としてのアーキテクチャは次のようになっています。</p>
 
-&lt;p&gt;以下はハイブリッド開催にあたってのTipsです。&lt;/p&gt;
+<p><img src="/images/articles/hybrid-architecture.jpeg" alt="" /></p>
 
-&lt;h3 id=&quot;会場について&quot;&gt;会場について&lt;/h3&gt;
+<p>各デバイスは次のように使われています。</p>
 
-&lt;p&gt;コロナ禍になって、オフィスを縮小したりリモートワークを強化している企業が増えています。かつてはイベント会場を貸してくれる企業が多数ありましたが、コロナ禍になって利用が難しくなっています。担当者の負担が大きいですし、万一感染が広がる原因になってしまった時のリスクは大きいでしょう。&lt;/p&gt;
+<h3 id="会議室用スピーカー">会議室用スピーカー</h3>
 
-&lt;p&gt;WeWorkのようなコワーキングスペースを借りている方であればそういった場所を使うこともできます。私の場合はSpaceMarketで探して利用しています。この時大事なのは、単なる会議室ではなく、少しでも非日常が感じられるような空間を選ぶことです。&lt;/p&gt;
+<p>会議室用スピーカーとして<a href="https://www.amazon.co.jp/Anker-A3305011-PowerConf-S500/dp/B08VWKFPCR">Anker PowerConf S500</a>を用意しました。執筆時点で2.5万円くらいです。会議室用スピーカーがあることで、各パネリストやモデレーターの方はマイクやイヤホンの用意が不要になります。発言が混じったとしても、聞き苦しくなりません。</p>
 
-&lt;h3 id=&quot;オンライン側のファシリテーション&quot;&gt;オンライン側のファシリテーション&lt;/h3&gt;
+<p><img src="/images/articles/ankor.jpg" alt="" /></p>
 
-&lt;p&gt;ハイブリッド開催になると、オフラインはもちろんのことオンライン側でもファシリテーターが必要です。運営メンバーも全員オフラインに集まるのではなく、オンライン側の担当者が必要です。&lt;/p&gt;
+<p>参加者がコミュニケーションしている声も遠くの方で聞こえるようで、多少なりともオフラインの雰囲気がオンラインの方々に聞こえたのは良かったと思います。</p>
 
-&lt;p&gt;オンライン側の担当者は、以下を担当します。&lt;/p&gt;
+<p>Anker PowerConf S500の実力としては、10〜15名くらいの箱であれば十分に聞こえるレベルのスピーカーでした。マイクについては、遠くにいる人は少し声を張り上げた方が良さそうです。パネリストやモデレーターの声であればまったく問題なく届けられていました。<a href="https://www.ankerjapan.com/products/a3305">Anker PowerConf S500は2台接続も可能</a>なので、20人規模の会場であれば2つあった方が良さそうです。</p>
 
-&lt;ul&gt;
-  &lt;li&gt;万一のネットワーク問題が発生した際のつなぎ&lt;/li&gt;
-  &lt;li&gt;イベント後の懇親会&lt;/li&gt;
-&lt;/ul&gt;
+<p>ケーブルはUSB type-A - USB type-C（3m）を利用しています。ケーブルが短いと色々苦労するので、長いものを用意しておくのがお勧めです。</p>
 
-&lt;p&gt;今回、一時的にネットワーク障害が発生し、パネルディスカッションが数分途絶えてしまいました。こうした不測の事態が発生した際に、オンライン会場側の場をつなぐのが役割です。オンラインにいる人たちは、リアルの会場でどういったトラブルが起こっているのか分かりません。何も分からないまま数分放置されるのは苦痛です。&lt;/p&gt;
+<h3 id="iphone">iPhone</h3>
 
-&lt;blockquote class=&quot;twitter-tweet&quot;&gt;&lt;p lang=&quot;ja&quot; dir=&quot;ltr&quot;&gt;カメラ高かったのにー！！(´Д` )←外出していない&lt;br /&gt;とりあえず配信トラブルを救ってみましたd(´Д` )♪&lt;a href=&quot;https://twitter.com/hashtag/DevReljp?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#DevReljp&lt;/a&gt; &lt;a href=&quot;https://twitter.com/hashtag/DevRel?src=hash&amp;amp;ref_src=twsrc%5Etfw&quot;&gt;#DevRel&lt;/a&gt; &lt;a href=&quot;https://t.co/xGlWCLSq57&quot;&gt;https://t.co/xGlWCLSq57&lt;/a&gt;&lt;/p&gt;&amp;mdash; odasho@5/25-26 Microsoft Build!! (@MS_odasho) &lt;a href=&quot;https://twitter.com/MS_odasho/status/1511673302858997772?ref_src=twsrc%5Etfw&quot;&gt;April 6, 2022&lt;/a&gt;&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;
+<p>iPhoneはWebカメラとして利用しています。ノートPCのものではカメラ性能が良くありませんし、緊急時にノートPCの向きを変更することもできません。iPhone（またはAndroid）であれば使わなくなった端末があるかと思いますので、それを利用できます。今回はiPhone 6sを使っています。</p>
 
-&lt;p&gt;オンライン側の担当者は、現地のスタッフと連絡を取りつつ、場をつなぐのが大事な役割になります。&lt;/p&gt;
+<p>iPhone 6sはOSがiOS12までしか使えないので、その制約で使えるアプリに限りがあります。今回は<a href="https://reincubate.com/ja/camo/">Reincubate Camo</a>を使っています。フリー版もあるようですが、画質などで制約があるのでPro版にするのが良いでしょう。ライフタイム（買い切り）で79.99ドルでした。</p>
 
-&lt;p&gt;イベント後の懇親会についても大事です。試行錯誤しましたが、懇親会をハイブリッドで盛り上げるのはとても難しいです。そこで、今回はパネルディスカッションが終わったらリアル会場とオンライン側で分断し、コミュニケーションタイムとしました。&lt;/p&gt;
+<p>このReincubate CamoをノートPC、iPhone両方にインストールして、USBケーブルで接続します。ケーブルの取り回しが必要になるので、USB type-A - lightningケーブル（3m）を使っています。また、iPhoneは三脚を用意して、そこで固定しています。</p>
 
-&lt;p&gt;リアルで会っている場合は、参加者同士で勝手に話し始められるのですが、オンラインではなかなかうまくいかないものです。そうした時にコミュニケーションを促したり、場を盛り上げるのはオンライン側の担当者になります。&lt;/p&gt;
+<h3 id="tv">TV</h3>
 
-&lt;h2 id=&quot;まとめ&quot;&gt;まとめ&lt;/h2&gt;
+<p>テレビは予定外でしたが、たまたま部屋にあらかじめあったのでモニターとして利用しました。オンライン側のパネリストを映したり、画面共有を表示するのに使っています。イベントスペースにあるプロジェクターは大抵ルーメンが低く、会場を暗くする必要があります。それだと会場の様子が暗く、見づらいものになるので意外とTVは便利です。</p>
 
-&lt;p&gt;今回はパネルディスカッションでしたが、次回はセッション形式を予定しています。感染状況次第ですが、またハイブリッドでの開催を予定しています。セッション方式ではまた違った方式が最適になると思いますので、色々と試行錯誤してみたいと思います。&lt;/p&gt;
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/DevRelJP?src=hash&amp;ref_src=twsrc%5Etfw">#DevRelJP</a> <a href="https://twitter.com/hashtag/DevRel?src=hash&amp;ref_src=twsrc%5Etfw">#DevRel</a> はじまりー。久々のハイブリッド開催！ <a href="https://t.co/FjodVEtOSh">pic.twitter.com/FjodVEtOSh</a></p>&mdash; Atsushi 🇯🇵 DevRel Meetup in 🗼 4/6 (@goofmint) <a href="https://twitter.com/goofmint/status/1511649429522386950?ref_src=twsrc%5Etfw">April 6, 2022</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-&lt;p&gt;DevRel Meetup in Tokyoではそうしたトライ&amp;amp;エラーを通して、自社イベントに活かせる学びを得ています。ぜひご参加ください！&lt;/p&gt;
+<p>なお、TVに付属していた細いHDMIケーブル（3mくらい）の調子が悪く、短いものにせざるを得ませんでした。HDMIケーブルだけでも用意しておけば良かったと後悔しています。</p>
 
-&lt;p&gt;&lt;a href=&quot;https://devrel.connpass.com/&quot;&gt;DevRel Meetup in Tokyo - connpass&lt;/a&gt;&lt;/p&gt;</content><author><name>moongift</name></author><summary type="html">4月6日にDevRel Meetup in Tokyo #73 〜ソーシャル活用術〜を開催しました。まん延防止等重点措置が解除され、久々のオフライン会場を用意してのイベントになります。2021年12月にもオンラインとオフライン一緒にイベントを開催したのですが、その時には久々ということもあって、色々足りていませんでした。</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://devrel.jp/images/articles/hybrid-event.jpeg" /><media:content medium="image" url="https://devrel.jp/images/articles/hybrid-event.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">オンラインイベントを行うのに便利なサービスまとめ</title><link href="https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3/2022/03/24/online-event-tools.html" rel="alternate" type="text/html" title="オンラインイベントを行うのに便利なサービスまとめ" /><published>2022-03-24T09:00:00+09:00</published><updated>2022-03-24T09:00:00+09:00</updated><id>https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3/2022/03/24/online-event-tools</id><content type="html" xml:base="https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3/2022/03/24/online-event-tools.html">&lt;p&gt;オンラインイベントを行う際には、何らかのサービスを使うのが一般的です。企業イベントであれば予算も付くでしょうが、コミュニティの場合はなるべく安価なツールを選びたいでしょう。&lt;/p&gt;
+<h3 id="usbハブ">USBハブ</h3>
 
-&lt;p&gt;そこで今回は各種あるオンラインイベントツールについて、料金や機能の差異含めて紹介します。なお、あまり高いところは選択肢から外しています。&lt;/p&gt;
+<p>配信用PCがMacBook Airだったこともあって、接続するUSBデバイスのポートが不足しがちです。USBハブを持っているのですが、久々に使ってみたら調子がとても悪く、接続が瞬断する状態でした…。定期的な確認が必要ですね。</p>
 
-&lt;h2 id=&quot;ミーティング型&quot;&gt;ミーティング型&lt;/h2&gt;
+<h3 id="その他">その他</h3>
 
-&lt;p&gt;いわゆるオンライン会議システムをミートアップなどのイベントで利用する場合です。使い慣れているサービスが使える反面、参加していて面白さを感じられるかは疑問です。&lt;/p&gt;
+<p>その他用意していたものです。</p>
 
-&lt;h3 id=&quot;zoom&quot;&gt;&lt;a href=&quot;https://zoom.us/&quot;&gt;Zoom&lt;/a&gt;&lt;/h3&gt;
+<h4 id="パネリスト同士の飛沫感染を防止するフィルム">パネリスト同士の飛沫感染を防止するフィルム</h4>
 
-&lt;p&gt;&lt;img src=&quot;/images/articles/online-event-1.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/articles/film.jpg" alt="" /></p>
 
-&lt;p&gt;Zoomはおそらく社内外のミーティングで一番使われている会議システムではないでしょうか。Webブラウザでも利用できますが、基本的に専用アプリを利用するかと思います。&lt;/p&gt;
+<p>会場ではソファーを使う想定をしていたので、そのソファーの上にかけられる感染防止フィルムを用意しました。購入したのは<a href="https://www.amazon.co.jp/gp/product/B0897KVTXV/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&amp;psc=1">飛沫ブロッカー側面用タイプ</a>です。価格は1万円弱になります。これは片足タイプなので、土台をソファーの下に滑り込ませることで、見た目に邪魔にならないように配置できます。</p>
 
-&lt;p&gt;100人までのミーティングが月間2,000円（年間20,100円）で使えるのはかなり安価です。ただしベースが会議システムなので、ミートアップをしているというカジュアルな雰囲気になりづらいのが欠点です。いわば社内の会議室でミートアップをしているような雰囲気です。&lt;/p&gt;
+<h2 id="進行">進行</h2>
 
-&lt;p&gt;&lt;a href=&quot;https://zoom.us/&quot;&gt;ビデオ カンファレンス、クラウド電話、ウェビナー、チャット、仮想イベント | Zoom&lt;/a&gt;&lt;/p&gt;
+<p>今回の進行はすべてモデレーターでもある<a href="https://twitter.com/taiponrock">Taiji Eddie Hagino (@taiponrock)</a>さんにお任せとなっています。HDMIケーブルの問題、USBハブの問題があって、たいじさんのPCから画面共有、音声共有を行っています。</p>
 
-&lt;h3 id=&quot;google-meet&quot;&gt;&lt;a href=&quot;https://apps.google.com/intl/ja/meet/&quot;&gt;Google Meet&lt;/a&gt;&lt;/h3&gt;
+<p>実際のイベント中は、こんな感じです。</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/articles/online-event-8.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/DevRelJP?src=hash&amp;ref_src=twsrc%5Etfw">#DevRelJP</a> <a href="https://twitter.com/hashtag/DevRel?src=hash&amp;ref_src=twsrc%5Etfw">#DevRel</a><br /><br />会場からはこんな感じ。リアル感ありますね。 <a href="https://t.co/DBFHK6wv9O">pic.twitter.com/DBFHK6wv9O</a></p>&mdash; Shotaro Suzuki (@shosuz) <a href="https://twitter.com/shosuz/status/1511655855057354752?ref_src=twsrc%5Etfw">April 6, 2022</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-&lt;p&gt;無料版のGoogle Meetでは100人までの参加者が募れますが、1時間に制限されます。Google Workspace Individual（月間7.99ドル）を利用すると100名まで、最長24時間のミーティングが作成できます。&lt;/p&gt;
+<p>今から思ってみると、名刺を忘れていました。ちゃんと持っている方も多くて、素晴らしいなと思います。</p>
 
-&lt;p&gt;Google Meetでは自動文字起こし機能が便利です。また、背景のぼかし機能は他のツールと比べてWebブラウザベースながら綺麗にぼかされる印象です。&lt;/p&gt;
+<h2 id="結果">結果</h2>
 
-&lt;p&gt;Google Workspaceの場合はBusiness Standardであれば150名まで、ノイズキャンセルやブレイクアウトルーム付きのGoogle Meetになります（月間1,360円）。Business Starter（月間680円）の場合は100名まで、ノイズキャンセルやブレイクアウトルームはありません。&lt;/p&gt;
+<p>ツイートは200超（速報値）なので、オンラインだけでイベントをやるよりも比較的伸びたのではないかと思っています。たいじさんからは運営している感があったという意見もあり、確かにそう感じます。オフラインで会場を準備したり、挨拶したりといった体験はオンラインではなかなか得づらいものだなと。</p>
 
-&lt;p&gt;&lt;a href=&quot;https://apps.google.com/intl/ja/meet/&quot;&gt;Google Meet（旧称 Hangouts Meet） - 無料のビデオ会議&lt;/a&gt;&lt;/p&gt;
+<p>他の人に紹介されて一緒に来たという方もいました。これもオンラインだけでイベントをやっていると、なかなか生まれづらかったものです。オンラインは拡大という意味においては有効ですが、コミュニケーション深度はオフラインには敵わないかと思います。そういった意味で、オンラインとオフラインのハイブリッド開催は両方の良いところ取りができるのでお勧めです。</p>
 
-&lt;h2 id=&quot;バーチャルコミュニケーションツール&quot;&gt;バーチャルコミュニケーションツール&lt;/h2&gt;
+<h2 id="tips">Tips</h2>
 
-&lt;p&gt;コロナ禍になって一気に注目を集めたのがバーチャルコミュニケーションツールです。主に社内コミュニケーション促進のために使われていますが、コミュニティイベントでも利用できます。&lt;/p&gt;
+<p>以下はハイブリッド開催にあたってのTipsです。</p>
 
-&lt;h3 id=&quot;ovice&quot;&gt;&lt;a href=&quot;https://ovice.in/ja/&quot;&gt;oVice&lt;/a&gt;&lt;/h3&gt;
+<h3 id="会場について">会場について</h3>
 
-&lt;p&gt;&lt;img src=&quot;/images/articles/online-event-12.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p>コロナ禍になって、オフィスを縮小したりリモートワークを強化している企業が増えています。かつてはイベント会場を貸してくれる企業が多数ありましたが、コロナ禍になって利用が難しくなっています。担当者の負担が大きいですし、万一感染が広がる原因になってしまった時のリスクは大きいでしょう。</p>
 
-&lt;p&gt;oViceは平面な空間上に丸いアイコンが表示されて、そのアイコン同士の距離感によって音声の強弱が変わるコミュニケーションツールです。会議室やコミュニケーションアイコンを作れば、そこでWebカメラを使ったコミュニケーションも可能です。Webブラウザだけ、専用アプリが不要なのは利点です。&lt;/p&gt;
+<p>WeWorkのようなコワーキングスペースを借りている方であればそういった場所を使うこともできます。私の場合はSpaceMarketで探して利用しています。この時大事なのは、単なる会議室ではなく、少しでも非日常が感じられるような空間を選ぶことです。</p>
 
-&lt;p&gt;かなり機能が多いですが、UIが分かりづらいのが難点です。初見で使いこなすのが難しいため、イベントの登壇者などに使い方を教えるのは時間がかかるでしょう。&lt;/p&gt;
+<h3 id="オンライン側のファシリテーション">オンライン側のファシリテーション</h3>
 
-&lt;p&gt;20名までの利用で月間5,500円、50名までで月間22,000円となっています（上位プランあり）。単発イベント向けに1週間2,750円（20名まで）、11,000円（100名まで）などもあります。&lt;/p&gt;
+<p>ハイブリッド開催になると、オフラインはもちろんのことオンライン側でもファシリテーターが必要です。運営メンバーも全員オフラインに集まるのではなく、オンライン側の担当者が必要です。</p>
 
-&lt;p&gt;&lt;a href=&quot;https://ovice.in/ja/&quot;&gt;oVice - Business Metaverse&lt;/a&gt;&lt;/p&gt;
+<p>オンライン側の担当者は、以下を担当します。</p>
 
-&lt;h3 id=&quot;spatialchat&quot;&gt;&lt;a href=&quot;https://spatial.chat/&quot;&gt;SpatialChat&lt;/a&gt;&lt;/h3&gt;
+<ul>
+  <li>万一のネットワーク問題が発生した際のつなぎ</li>
+  <li>イベント後の懇親会</li>
+</ul>
 
-&lt;p&gt;&lt;img src=&quot;/images/articles/online-event-11.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p>今回、一時的にネットワーク障害が発生し、パネルディスカッションが数分途絶えてしまいました。こうした不測の事態が発生した際に、オンライン会場側の場をつなぐのが役割です。オンラインにいる人たちは、リアルの会場でどういったトラブルが起こっているのか分かりません。何も分からないまま数分放置されるのは苦痛です。</p>
 
-&lt;p&gt;SpatialChatはoVice同様に丸いアイコン同士の距離感で音量が変わるコミュニケーションツールです。oViceのような会議室機能はなく、平面空間だけでコミュニケーションをします。&lt;/p&gt;
+<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">カメラ高かったのにー！！(´Д` )←外出していない<br />とりあえず配信トラブルを救ってみましたd(´Д` )♪<a href="https://twitter.com/hashtag/DevReljp?src=hash&amp;ref_src=twsrc%5Etfw">#DevReljp</a> <a href="https://twitter.com/hashtag/DevRel?src=hash&amp;ref_src=twsrc%5Etfw">#DevRel</a> <a href="https://t.co/xGlWCLSq57">https://t.co/xGlWCLSq57</a></p>&mdash; odasho@5/25-26 Microsoft Build!! (@MS_odasho) <a href="https://twitter.com/MS_odasho/status/1511673302858997772?ref_src=twsrc%5Etfw">April 6, 2022</a></blockquote>
+<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
-&lt;p&gt;セッションなどを行う時にはメガホン機能を使って、全体にアナウンスができます。Webブラウザだけで利用できるのが利点です。&lt;/p&gt;
+<p>オンライン側の担当者は、現地のスタッフと連絡を取りつつ、場をつなぐのが大事な役割になります。</p>
 
-&lt;p&gt;料金は頻繁に変わるので注意が必要です。先日の料金改定によって、無料プランは25名までに変更されました。1日のイベントの場合、一人2ドルとなっています。これが25名を超えた場合の料金なのか、1名からなのかは不明です。&lt;/p&gt;
+<p>イベント後の懇親会についても大事です。試行錯誤しましたが、懇親会をハイブリッドで盛り上げるのはとても難しいです。そこで、今回はパネルディスカッションが終わったらリアル会場とオンライン側で分断し、コミュニケーションタイムとしました。</p>
 
-&lt;p&gt;&lt;a href=&quot;https://spatial.chat/&quot;&gt;SpatialChat&lt;/a&gt;&lt;/p&gt;
+<p>リアルで会っている場合は、参加者同士で勝手に話し始められるのですが、オンラインではなかなかうまくいかないものです。そうした時にコミュニケーションを促したり、場を盛り上げるのはオンライン側の担当者になります。</p>
 
-&lt;h3 id=&quot;gather--a-better-way-to-meet-online&quot;&gt;&lt;a href=&quot;https://www.gather.town/&quot;&gt;Gather | A better way to meet online.&lt;/a&gt;&lt;/h3&gt;
+<h2 id="まとめ">まとめ</h2>
 
-&lt;p&gt;&lt;img src=&quot;/images/articles/online-event-10.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p>今回はパネルディスカッションでしたが、次回はセッション形式を予定しています。感染状況次第ですが、またハイブリッドでの開催を予定しています。セッション方式ではまた違った方式が最適になると思いますので、色々と試行錯誤してみたいと思います。</p>
 
-&lt;p&gt;8ビット風のデザインが特徴なオンラインコミュニケーションツールです。oViceやSpatialChatと同じく距離や向きによって音量が変わります。Webブラウザだけで利用できます。&lt;/p&gt;
+<p>DevRel Meetup in Tokyoではそうしたトライ&amp;エラーを通して、自社イベントに活かせる学びを得ています。ぜひご参加ください！</p>
 
-&lt;p&gt;会議室を作ったり、その中でホワイトボードやゲームをしたりできるなど、かなり細かい機能があります。セッションを行う際には登壇台に移動して画面を共有するなど、細かい部分にまで気が配られています。&lt;/p&gt;
+<p><a href="https://devrel.connpass.com/">DevRel Meetup in Tokyo - connpass</a></p>]]></content><author><name>moongift</name></author><category term="イベント" /><summary type="html"><![CDATA[4月6日にDevRel Meetup in Tokyo #73 〜ソーシャル活用術〜を開催しました。まん延防止等重点措置が解除され、久々のオフライン会場を用意してのイベントになります。2021年12月にもオンラインとオフライン一緒にイベントを開催したのですが、その時には久々ということもあって、色々足りていませんでした。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/images/articles/hybrid-event.jpeg" /><media:content medium="image" url="http://localhost:4000/images/articles/hybrid-event.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">オンラインイベントを行うのに便利なサービスまとめ</title><link href="http://localhost:4000/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3/2022/03/24/online-event-tools.html" rel="alternate" type="text/html" title="オンラインイベントを行うのに便利なサービスまとめ" /><published>2022-03-24T09:00:00+09:00</published><updated>2022-03-24T09:00:00+09:00</updated><id>http://localhost:4000/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3/2022/03/24/online-event-tools</id><content type="html" xml:base="http://localhost:4000/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3/2022/03/24/online-event-tools.html"><![CDATA[<p>オンラインイベントを行う際には、何らかのサービスを使うのが一般的です。企業イベントであれば予算も付くでしょうが、コミュニティの場合はなるべく安価なツールを選びたいでしょう。</p>
 
-&lt;p&gt;料金は無料で25名まで、その後は2ドル/2時間/ユーザー（500名まで）、3ドル/日/ユーザーなどとなっています。&lt;/p&gt;
+<p>そこで今回は各種あるオンラインイベントツールについて、料金や機能の差異含めて紹介します。なお、あまり高いところは選択肢から外しています。</p>
 
-&lt;p&gt;&lt;a href=&quot;https://www.gather.town/&quot;&gt;Gather | A better way to meet online.&lt;/a&gt;&lt;/p&gt;
+<h2 id="ミーティング型">ミーティング型</h2>
 
-&lt;h3 id=&quot;discord&quot;&gt;&lt;a href=&quot;https://discord.com/&quot;&gt;Discord&lt;/a&gt;&lt;/h3&gt;
+<p>いわゆるオンライン会議システムをミートアップなどのイベントで利用する場合です。使い慣れているサービスが使える反面、参加していて面白さを感じられるかは疑問です。</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/articles/online-event-9.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<h3 id="zoom"><a href="https://zoom.us/">Zoom</a></h3>
 
-&lt;p&gt;Discordはゲーム界隈で有名なチャットサービスですが、最近はIT系でも利用が進んでいます。Slackでは提供されない音声チャットが無料で利用できるのが大きいです。専用アプリもありますが、Webブラウザだけでも利用できます。&lt;/p&gt;
+<p><img src="/images/articles/online-event-1.jpg" alt="" /></p>
 
-&lt;p&gt;画面共有を伴うイベントは25名までとなっています。Clubhouse的な音声のみのサービスStage Channelsは1,000名まで参加可能です。&lt;/p&gt;
+<p>Zoomはおそらく社内外のミーティングで一番使われている会議システムではないでしょうか。Webブラウザでも利用できますが、基本的に専用アプリを利用するかと思います。</p>
 
-&lt;p&gt;料金は無料ですが、Discord Nitoroというサービスに個人で入れます（月間9.99ドル〜）。利用者がお金を払って便利な機能を手に入れるのが他と異なる部分です。なお、課金すると画面共有が1080p、または4Kになります。この辺りがゲーム向きの機能でしょう。&lt;/p&gt;
+<p>100人までのミーティングが月間2,000円（年間20,100円）で使えるのはかなり安価です。ただしベースが会議システムなので、ミートアップをしているというカジュアルな雰囲気になりづらいのが欠点です。いわば社内の会議室でミートアップをしているような雰囲気です。</p>
 
-&lt;p&gt;&lt;a href=&quot;https://discord.com/&quot;&gt;Discord | 会話や交流が楽しめるプラットフォーム&lt;/a&gt;&lt;/p&gt;
+<p><a href="https://zoom.us/">ビデオ カンファレンス、クラウド電話、ウェビナー、チャット、仮想イベント | Zoom</a></p>
 
-&lt;h3 id=&quot;nework&quot;&gt;&lt;a href=&quot;https://nework.app/top&quot;&gt;NeWork&lt;/a&gt;&lt;/h3&gt;
+<h3 id="google-meet"><a href="https://apps.google.com/intl/ja/meet/">Google Meet</a></h3>
 
-&lt;p&gt;&lt;img src=&quot;/images/articles/online-event-7.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/articles/online-event-8.jpg" alt="" /></p>
 
-&lt;p&gt;NTTコミュニケーションズが提供するサービスです。バブルと呼ばれる枠に入ることで、会話ができます。また、自分のステータスを色で表現することで、話しかけていいか分かるようになっています。&lt;/p&gt;
+<p>無料版のGoogle Meetでは100人までの参加者が募れますが、1時間に制限されます。Google Workspace Individual（月間7.99ドル）を利用すると100名まで、最長24時間のミーティングが作成できます。</p>
 
-&lt;p&gt;バブルの枠外にいると、聞き耳モードになります。会話には参加できませんが、画面共有を見たり、会話を聞けます。複数人で同時に画面共有を行えるのが便利です。&lt;/p&gt;
+<p>Google Meetでは自動文字起こし機能が便利です。また、背景のぼかし機能は他のツールと比べてWebブラウザベースながら綺麗にぼかされる印象です。</p>
 
-&lt;p&gt;サービスはWebブラウザだけで利用できます。料金は20名までは無料、50名までが月額27,500円、100名までが月額55,000円となっています。ごく小さなグループであれば無料で利用できそうです。20名の場合はゲストを呼べないので、全員登録している必要があります。&lt;/p&gt;
+<p>Google Workspaceの場合はBusiness Standardであれば150名まで、ノイズキャンセルやブレイクアウトルーム付きのGoogle Meetになります（月間1,360円）。Business Starter（月間680円）の場合は100名まで、ノイズキャンセルやブレイクアウトルームはありません。</p>
 
-&lt;p&gt;&lt;a href=&quot;https://nework.app/top&quot;&gt;NeWork リアルより話しやすいオンラインワークスペース&lt;/a&gt;&lt;/p&gt;
+<p><a href="https://apps.google.com/intl/ja/meet/">Google Meet（旧称 Hangouts Meet） - 無料のビデオ会議</a></p>
 
-&lt;h2 id=&quot;3d&quot;&gt;3D&lt;/h2&gt;
+<h2 id="バーチャルコミュニケーションツール">バーチャルコミュニケーションツール</h2>
 
-&lt;p&gt;3Dアバターを使ったコミュニケーションツールです。より没入感が感じられるものの、イベントの主体はコンテンツやコミュニケーションにあるので、3Dであることがどこまで意味を持つかは疑問です。リッチな分、負荷が高いのは難点です。&lt;/p&gt;
+<p>コロナ禍になって一気に注目を集めたのがバーチャルコミュニケーションツールです。主に社内コミュニケーション促進のために使われていますが、コミュニティイベントでも利用できます。</p>
 
-&lt;h3 id=&quot;hubs&quot;&gt;&lt;a href=&quot;https://hubs.mozilla.com/&quot;&gt;Hubs&lt;/a&gt;&lt;/h3&gt;
+<h3 id="ovice"><a href="https://ovice.in/ja/">oVice</a></h3>
 
-&lt;p&gt;&lt;img src=&quot;/images/articles/online-event-5.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/articles/online-event-12.jpg" alt="" /></p>
 
-&lt;p&gt;Mozillaの提供する3D空間サービスです。オープンソースなので自分でサーバーを立てることもできますし、&lt;a href=&quot;https://hubs.mozilla.com/cloud&quot;&gt;Hubs Cloud&lt;/a&gt;を利用することもできます。Hubs CloudはAWSインスタンスです。&lt;/p&gt;
+<p>oViceは平面な空間上に丸いアイコンが表示されて、そのアイコン同士の距離感によって音声の強弱が変わるコミュニケーションツールです。会議室やコミュニケーションアイコンを作れば、そこでWebカメラを使ったコミュニケーションも可能です。Webブラウザだけ、専用アプリが不要なのは利点です。</p>
 
-&lt;p&gt;利用はWebブラウザだけで可能で、PWAとしてインストールもできます。1つのルームで25名程度というのが制限となっています。自分でサーバを立てる場合、強力なインスタンスを使えばもっと人数を増やせると言う話もあります。特に課金モデルはないようです。&lt;/p&gt;
+<p>かなり機能が多いですが、UIが分かりづらいのが難点です。初見で使いこなすのが難しいため、イベントの登壇者などに使い方を教えるのは時間がかかるでしょう。</p>
 
-&lt;p&gt;&lt;a href=&quot;https://hubs.mozilla.com/&quot;&gt;Hubs - Private, virtual 3D spaces in your browser&lt;/a&gt;&lt;/p&gt;
+<p>20名までの利用で月間5,500円、50名までで月間22,000円となっています（上位プランあり）。単発イベント向けに1週間2,750円（20名まで）、11,000円（100名まで）などもあります。</p>
 
-&lt;h3 id=&quot;door&quot;&gt;&lt;a href=&quot;https://door.ntt/&quot;&gt;DOOR&lt;/a&gt;&lt;/h3&gt;
+<p><a href="https://ovice.in/ja/">oVice - Business Metaverse</a></p>
 
-&lt;p&gt;&lt;img src=&quot;/images/articles/online-event-4.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<h3 id="spatialchat"><a href="https://spatial.chat/">SpatialChat</a></h3>
 
-&lt;p&gt;Mozilla HubsをベースにNTTコミュニケーションズが提供するサービスです。同時参加人数は24名までとなっています。部屋を作成するツールが用意されており、自由にカスタマイズが可能です。&lt;/p&gt;
+<p><img src="/images/articles/online-event-11.jpg" alt="" /></p>
 
-&lt;p&gt;動画を配置したり、3Dオブジェクトをインポートしたりできます。アバターが使えますが、会話していても口が動かないので誰が話しているのか分からないのが欠点です。&lt;/p&gt;
+<p>SpatialChatはoVice同様に丸いアイコン同士の距離感で音量が変わるコミュニケーションツールです。oViceのような会議室機能はなく、平面空間だけでコミュニケーションをします。</p>
 
-&lt;p&gt;現時点では明確な料金表はありません。24名までの利用であれば無料といった程度で、法人利用する場合は問い合わせが用意されています。&lt;/p&gt;
+<p>セッションなどを行う時にはメガホン機能を使って、全体にアナウンスができます。Webブラウザだけで利用できるのが利点です。</p>
 
-&lt;p&gt;&lt;a href=&quot;https://door.ntt/&quot;&gt;DOOR　開け。次の世界 -&lt;/a&gt;&lt;/p&gt;
+<p>料金は頻繁に変わるので注意が必要です。先日の料金改定によって、無料プランは25名までに変更されました。1日のイベントの場合、一人2ドルとなっています。これが25名を超えた場合の料金なのか、1名からなのかは不明です。</p>
 
-&lt;h3 id=&quot;clusterクラスター&quot;&gt;&lt;a href=&quot;https://cluster.mu/&quot;&gt;cluster（クラスター）&lt;/a&gt;&lt;/h3&gt;
+<p><a href="https://spatial.chat/">SpatialChat</a></p>
 
-&lt;p&gt;&lt;img src=&quot;/images/articles/online-event-3.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<h3 id="gather--a-better-way-to-meet-online"><a href="https://www.gather.town/">Gather | A better way to meet online.</a></h3>
 
-&lt;p&gt;専用アプリやHMDを使って利用する3Dコミュニケーションツールです。様々な大型イベントでも使われているので、実績は十分にあります。あります。&lt;/p&gt;
+<p><img src="/images/articles/online-event-10.jpg" alt="" /></p>
 
-&lt;p&gt;イベントは無料で作成可能です。公開イベントの場合は500名まで、非公開イベントは50名までとなっています。画面共有はなく、PDFファイルのみ共有できます。そうした点を登壇者にも伝えておかないといけないのが注意点でしょう。&lt;/p&gt;
+<p>8ビット風のデザインが特徴なオンラインコミュニケーションツールです。oViceやSpatialChatと同じく距離や向きによって音量が変わります。Webブラウザだけで利用できます。</p>
 
-&lt;p&gt;また、専用アプリをインストールしておく必要があるのが面倒ではあります。&lt;/p&gt;
+<p>会議室を作ったり、その中でホワイトボードやゲームをしたりできるなど、かなり細かい機能があります。セッションを行う際には登壇台に移動して画面を共有するなど、細かい部分にまで気が配られています。</p>
 
-&lt;p&gt;&lt;a href=&quot;https://cluster.mu/&quot;&gt;メタバースプラットフォーム cluster（クラスター）&lt;/a&gt;&lt;/p&gt;
+<p>料金は無料で25名まで、その後は2ドル/2時間/ユーザー（500名まで）、3ドル/日/ユーザーなどとなっています。</p>
 
-&lt;h2 id=&quot;配信特化型&quot;&gt;配信特化型&lt;/h2&gt;
+<p><a href="https://www.gather.town/">Gather | A better way to meet online.</a></p>
 
-&lt;p&gt;コミュニケーションツール内に参加者、運営者が集まるのではなく、配信側と聞く側で分かれる形式の場合です。この形式の場合は下記の配信サービスと、YouTube LiveやFacebook、Twitter Live Streamingなどを組み合わせる形になるでしょう。&lt;/p&gt;
+<h3 id="discord"><a href="https://discord.com/">Discord</a></h3>
 
-&lt;h3 id=&quot;streamyard&quot;&gt;&lt;a href=&quot;https://streamyard.com/teams/kPWTXgIk7U5n89HHnObem2N7/broadcasts&quot;&gt;StreamYard&lt;/a&gt;&lt;/h3&gt;
+<p><img src="/images/articles/online-event-9.jpg" alt="" /></p>
 
-&lt;p&gt;&lt;img src=&quot;/images/articles/online-event-2.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p>Discordはゲーム界隈で有名なチャットサービスですが、最近はIT系でも利用が進んでいます。Slackでは提供されない音声チャットが無料で利用できるのが大きいです。専用アプリもありますが、Webブラウザだけでも利用できます。</p>
 
-&lt;p&gt;StreamYardは月25ドルから利用できます（年間の場合は240ドル）。同時に10人の参加者で、3件の配信先を選択できます。無料の場合は6人まで、1ヶ月20時間までという制限があります。月25ドルの場合は720p、月39ドルで1080pによる配信が可能です。&lt;/p&gt;
+<p>画面共有を伴うイベントは25名までとなっています。Clubhouse的な音声のみのサービスStage Channelsは1,000名まで参加可能です。</p>
 
-&lt;p&gt;配信内容はローカルファイルとして保存されており、ダウンロードできます。動画にはロゴや背景の変更、YouTubeやFacebook、Twitchなどからのコメントピックアップといった機能があります。&lt;/p&gt;
+<p>料金は無料ですが、Discord Nitoroというサービスに個人で入れます（月間9.99ドル〜）。利用者がお金を払って便利な機能を手に入れるのが他と異なる部分です。なお、課金すると画面共有が1080p、または4Kになります。この辺りがゲーム向きの機能でしょう。</p>
 
-&lt;p&gt;&lt;a href=&quot;https://streamyard.com/teams/kPWTXgIk7U5n89HHnObem2N7/broadcasts&quot;&gt;StreamYard&lt;/a&gt;&lt;/p&gt;
+<p><a href="https://discord.com/">Discord | 会話や交流が楽しめるプラットフォーム</a></p>
 
-&lt;h3 id=&quot;restream&quot;&gt;&lt;a href=&quot;https://www.g2.com/products/restream/reviews&quot;&gt;Restream&lt;/a&gt;&lt;/h3&gt;
+<h3 id="nework"><a href="https://nework.app/top">NeWork</a></h3>
 
-&lt;p&gt;&lt;img src=&quot;/images/articles/online-event-13.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/articles/online-event-7.jpg" alt="" /></p>
 
-&lt;p&gt;RestreamもStreamYardのようにクラウドベースの配信プラットフォームになります。有料の場合は16ドルからとなっています。配信先が5チャンネル選べますが、登録自体5チャンネルまでしかできない仕組みです（StreamYardはいくつでも登録は行えます）。また、以前は有料でもロゴが消せないといった欠点がありました（現在は消せるようです）。&lt;/p&gt;
+<p>NTTコミュニケーションズが提供するサービスです。バブルと呼ばれる枠に入ることで、会話ができます。また、自分のステータスを色で表現することで、話しかけていいか分かるようになっています。</p>
 
-&lt;p&gt;機能的にはStreamYardよりも若干多いように見えます。ただ、個人的には使いづらい印象があります。OBSやZoomと接続する機能は便利そうです。&lt;/p&gt;
+<p>バブルの枠外にいると、聞き耳モードになります。会話には参加できませんが、画面共有を見たり、会話を聞けます。複数人で同時に画面共有を行えるのが便利です。</p>
 
-&lt;p&gt;&lt;a href=&quot;https://www.g2.com/products/restream/reviews&quot;&gt;Restream Reviews 2022: Details, Pricing, &amp;amp; Features | G2&lt;/a&gt;&lt;/p&gt;
+<p>サービスはWebブラウザだけで利用できます。料金は20名までは無料、50名までが月額27,500円、100名までが月額55,000円となっています。ごく小さなグループであれば無料で利用できそうです。20名の場合はゲストを呼べないので、全員登録している必要があります。</p>
 
-&lt;h2 id=&quot;まとめ&quot;&gt;まとめ&lt;/h2&gt;
+<p><a href="https://nework.app/top">NeWork リアルより話しやすいオンラインワークスペース</a></p>
 
-&lt;p&gt;イベントツールの選定としては、ブラウザだけで利用できるかどうかが一つ大きなポイントになります。できれば専用ソフトウェアは不要な方が良いでしょう。運営メンバーはともかく、初参加の人にとっては敷居が高くなります。&lt;/p&gt;
+<h2 id="3d">3D</h2>
 
-&lt;p&gt;また、無料（または有料でも）で何人まで参加できるのかもポイントになります。イベント規模によって、収まらないケースもあるでしょう。&lt;/p&gt;
+<p>3Dアバターを使ったコミュニケーションツールです。より没入感が感じられるものの、イベントの主体はコンテンツやコミュニケーションにあるので、3Dであることがどこまで意味を持つかは疑問です。リッチな分、負荷が高いのは難点です。</p>
 
-&lt;p&gt;後は多機能なツールはありますが、独特な使い勝手を覚えないといけないケースも多いので注意が必要です。特に登壇者の方が不慣れな状態だと、操作するのに必死になってしまうと、せっかくのプレゼンが台無しになってしまいます。&lt;/p&gt;
+<h3 id="hubs"><a href="https://hubs.mozilla.com/">Hubs</a></h3>
 
-&lt;p&gt;こうしたサービスは正しく選定し、自分たちの目的やイベントの趣旨に合わせて選択しましょう。そうすればきっとオンラインイベントが成功するはずです。&lt;/p&gt;
+<p><img src="/images/articles/online-event-5.jpg" alt="" /></p>
 
-&lt;p&gt;&lt;a href=&quot;/contact&quot;&gt;MOONGIFTではコミュニティ運営のサポートを提供していますので、ぜひお気軽にお問い合わせください&lt;/a&gt;。&lt;/p&gt;</content><author><name>moongift</name></author><summary type="html">オンラインイベントを行う際には、何らかのサービスを使うのが一般的です。企業イベントであれば予算も付くでしょうが、コミュニティの場合はなるべく安価なツールを選びたいでしょう。</summary></entry><entry><title type="html">パネルディスカッションでの良いモデレーションとは？</title><link href="https://devrel.jp/%E3%83%91%E3%83%8D%E3%83%AB%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AB%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/03/21/good-panel-discussion.html" rel="alternate" type="text/html" title="パネルディスカッションでの良いモデレーションとは？" /><published>2022-03-21T09:00:00+09:00</published><updated>2022-03-21T09:00:00+09:00</updated><id>https://devrel.jp/%E3%83%91%E3%83%8D%E3%83%AB%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AB%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/03/21/good-panel-discussion</id><content type="html" xml:base="https://devrel.jp/%E3%83%91%E3%83%8D%E3%83%AB%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AB%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/03/21/good-panel-discussion.html">&lt;p&gt;最近、イベントをパネルディスカッション形式で行うことが増えています。その際、モデレーターを担当するのですが、意外と進行を褒めてもらえることが多いです。&lt;/p&gt;
+<p>Mozillaの提供する3D空間サービスです。オープンソースなので自分でサーバーを立てることもできますし、<a href="https://hubs.mozilla.com/cloud">Hubs Cloud</a>を利用することもできます。Hubs CloudはAWSインスタンスです。</p>
 
-&lt;p&gt;逆にモデレーターをうまく行うコツを聞かれることが増えてきたので、自分なりのやり方をまとめておきます。&lt;/p&gt;
+<p>利用はWebブラウザだけで可能で、PWAとしてインストールもできます。1つのルームで25名程度というのが制限となっています。自分でサーバを立てる場合、強力なインスタンスを使えばもっと人数を増やせると言う話もあります。特に課金モデルはないようです。</p>
 
-&lt;h2 id=&quot;個人的な経験&quot;&gt;個人的な経験&lt;/h2&gt;
+<p><a href="https://hubs.mozilla.com/">Hubs - Private, virtual 3D spaces in your browser</a></p>
 
-&lt;p&gt;私が最初にパネルディスカッションでモデレーターを担当したのはCROSS 2015の&lt;a href=&quot;https://web.archive.org/web/20160321151348/http://2015.cross-party.com/program/d3&quot;&gt;Webエンジニアなら抑えておきたい最近のOSS事情&lt;/a&gt;だったようです（Internet Archiveより）。その後、CROSSで何回かと、DevRel Meetup in TokyoやDevRel/Asia 2020、DevRel/Japan 2021などのカンファレンスで担当したり、このコロナ禍になってからオンラインイベントの幾つかでモデレーターを担当しています。&lt;/p&gt;
+<h3 id="door"><a href="https://door.ntt/">DOOR</a></h3>
 
-&lt;p&gt;動画で残っているものとしては以下の通りです。&lt;/p&gt;
+<p><img src="/images/articles/online-event-4.jpg" alt="" /></p>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=i_TIWPaqAMg&quot;&gt;DevRel Practices from Japan to Asia/Global by 寺尾 英作さん/千代田まどか (ちょまど)さん/吉澤穀さん - YouTube&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=p9MMl6Yu00w&quot;&gt;日本企業によるDevRel 【DevRel/Japan CONFERENCE 2021】 - YouTube&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=QDP2SycaAFs&amp;amp;t=10s&quot;&gt;Language Night vol.1 〜スクリプト言語〜 - YouTube&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=Vsly03eJSZc&quot;&gt;Language Night vol.2 〜コンパイル型言語〜 - YouTube&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<p>Mozilla HubsをベースにNTTコミュニケーションズが提供するサービスです。同時参加人数は24名までとなっています。部屋を作成するツールが用意されており、自由にカスタマイズが可能です。</p>
 
-&lt;h2 id=&quot;セッションとパネルディスカッションの違い&quot;&gt;セッションとパネルディスカッションの違い&lt;/h2&gt;
+<p>動画を配置したり、3Dオブジェクトをインポートしたりできます。アバターが使えますが、会話していても口が動かないので誰が話しているのか分からないのが欠点です。</p>
 
-&lt;p&gt;まず通常のセッション形式とパネルディスカッションの違いを解説します。&lt;/p&gt;
+<p>現時点では明確な料金表はありません。24名までの利用であれば無料といった程度で、法人利用する場合は問い合わせが用意されています。</p>
 
-&lt;table class=&quot;table&quot;&gt;
-  &lt;thead&gt;
-    &lt;tr&gt;
-      &lt;th&gt;形式&lt;/th&gt;
-      &lt;th&gt;時間&lt;/th&gt;
-      &lt;th&gt;登壇&lt;/th&gt;
-    &lt;/tr&gt;
-  &lt;/thead&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;セッション&lt;/td&gt;
-      &lt;td&gt;15〜30分&lt;/td&gt;
-      &lt;td&gt;1〜2人&lt;/td&gt;
-    &lt;/tr&gt;
-    &lt;tr&gt;
-      &lt;td&gt;パネルディスカッション&lt;/td&gt;
-      &lt;td&gt;60〜90分&lt;/td&gt;
-      &lt;td&gt;4〜5人&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
+<p><a href="https://door.ntt/">DOOR　開け。次の世界 -</a></p>
 
-&lt;p&gt;セッションの場合は1〜2人の登壇者に対して、あらかじめ決めた時間の範囲で自由に喋ってもらいます。パネルディスカッションの場合は、人数はもう少し多めで、テーマに沿って順番に喋る形式です。&lt;/p&gt;
+<h3 id="clusterクラスター"><a href="https://cluster.mu/">cluster（クラスター）</a></h3>
 
-&lt;p&gt;この違いがどんな意味を生むでしょうか。&lt;/p&gt;
+<p><img src="/images/articles/online-event-3.jpg" alt="" /></p>
 
-&lt;h3 id=&quot;虚無に向かって喋るセッションと人と語り合うパネルディスカッション&quot;&gt;虚無に向かって喋るセッションと、人と語り合うパネルディスカッション&lt;/h3&gt;
+<p>専用アプリやHMDを使って利用する3Dコミュニケーションツールです。様々な大型イベントでも使われているので、実績は十分にあります。あります。</p>
 
-&lt;p&gt;先日freeeさんのブログ記事&lt;a href=&quot;https://developers.freee.co.jp/entry/freee-tech-night-83-reflections&quot;&gt;技術イベント（freee Tech Night）開催の反省＆失敗体験 83選&lt;/a&gt;にて、指摘がありました。&lt;/p&gt;
+<p>イベントは無料で作成可能です。公開イベントの場合は500名まで、非公開イベントは50名までとなっています。画面共有はなく、PDFファイルのみ共有できます。そうした点を登壇者にも伝えておかないといけないのが注意点でしょう。</p>
 
-&lt;blockquote&gt;
-  &lt;p&gt;24. 登壇しづらそう、虚無に向かって発表するやつ、反応が見られない&lt;/p&gt;
+<p>また、専用アプリをインストールしておく必要があるのが面倒ではあります。</p>
 
-  &lt;p&gt;オフラインイベントのように資料を用意して、一人で話す登壇スタイルだと難易度が高いと考えました。 ここ最近では登壇スタイルのオンラインイベントはfreeeの内外でも色々な所で行われていますが、当時懸念点が上がったのは自然な流れでした。&lt;/p&gt;
+<p><a href="https://cluster.mu/">メタバースプラットフォーム cluster（クラスター）</a></p>
 
-  &lt;p&gt;当時は全くの未知だったのでやりやすい方法で進めたいと考えました。私が司会というかオーガナイザーになってパネルディスカッションというか雑談のような形式で技術の話をするというスタイルです。これは今でも同様のスタイルで配信しています。&lt;/p&gt;
-&lt;/blockquote&gt;
+<h2 id="配信特化型">配信特化型</h2>
 
-&lt;p&gt;これはまさにその通りで、画面に向かって15〜30分も喋り続けるのはかなりしんどいです。スライドをプレゼンテーションモードにすると画面いっぱいにスライドが表示されて、参加者の反応も見えません（最近はウィンドウモードもありますが、似たようなものです）。オーディエンスの反応が分からないプレゼンほど、やっていて意義を感じないものはありません。&lt;/p&gt;
+<p>コミュニケーションツール内に参加者、運営者が集まるのではなく、配信側と聞く側で分かれる形式の場合です。この形式の場合は下記の配信サービスと、YouTube LiveやFacebook、Twitter Live Streamingなどを組み合わせる形になるでしょう。</p>
 
-&lt;p&gt;パネルディスカッションの場合は、少なくともモデレーターとのコミュニケーション、そしてパネリスト同士のコミュニケーションが発生します。孤独な登壇にはなりません。これだけでも登壇者の心の安らぎが違います。&lt;/p&gt;
+<h3 id="streamyard"><a href="https://streamyard.com/teams/kPWTXgIk7U5n89HHnObem2N7/broadcasts">StreamYard</a></h3>
 
-&lt;h3 id=&quot;喋る時間の割り当て&quot;&gt;喋る時間の割り当て&lt;/h3&gt;
+<p><img src="/images/articles/online-event-2.jpg" alt="" /></p>
 
-&lt;p&gt;セッションの場合は与えられた時間をすべて自分の時間にできます。ポジティブに言えば全時間を独占できますが、ネガティブに言うと15〜30分喋り続けないといけません。オフラインの場合は途中で水を飲むのも苦ではなかったのですが、最近ではそうした行為さえ避けてしまいます。つまらない時間があると、あっと言う間に接続を切られてしまうのではないかとビクビクしてしまいます。&lt;/p&gt;
+<p>StreamYardは月25ドルから利用できます（年間の場合は240ドル）。同時に10人の参加者で、3件の配信先を選択できます。無料の場合は6人まで、1ヶ月20時間までという制限があります。月25ドルの場合は720p、月39ドルで1080pによる配信が可能です。</p>
 
-&lt;p&gt;オフラインイベントの時には、椅子にある程度の拘束力がありました。よほど酷いプレゼンでもない限り、途中退室する人は少なかったでしょう。それに対してオンラインの場合は、クリック一つで簡単に会場から抜けられます。YouTubeで配信している場合は、後からでも見られる安心感（？）で、あっと言う間に観客がいなくなります。&lt;/p&gt;
+<p>配信内容はローカルファイルとして保存されており、ダウンロードできます。動画にはロゴや背景の変更、YouTubeやFacebook、Twitchなどからのコメントピックアップといった機能があります。</p>
 
-&lt;p&gt;パネルディスカッションの場合はトータルで60〜90分などですが、パネリストごとに割ると一人あたりの時間は15〜20分程度です。しかもそれはテーマごとに細切れの時間です。万一一人が面白くなかったとしても、次の人にトークが移れば面白い内容になるでしょう。つまらない時間が15分続くと苦痛ですが、1テーマごとに一人が喋る時間はせいぜい2〜3分なので、我慢する時間はさほど長くありません。&lt;/p&gt;
+<p><a href="https://streamyard.com/teams/kPWTXgIk7U5n89HHnObem2N7/broadcasts">StreamYard</a></p>
 
-&lt;h2 id=&quot;パネルディスカッションのメリット&quot;&gt;パネルディスカッションのメリット&lt;/h2&gt;
+<h3 id="restream"><a href="https://www.g2.com/products/restream/reviews">Restream</a></h3>
 
-&lt;p&gt;ここから、個人的に考えるパネルディスカッションのメリットです。&lt;/p&gt;
+<p><img src="/images/articles/online-event-13.jpg" alt="" /></p>
 
-&lt;h3 id=&quot;登壇する敷居が低い&quot;&gt;登壇する敷居が低い&lt;/h3&gt;
+<p>RestreamもStreamYardのようにクラウドベースの配信プラットフォームになります。有料の場合は16ドルからとなっています。配信先が5チャンネル選べますが、登録自体5チャンネルまでしかできない仕組みです（StreamYardはいくつでも登録は行えます）。また、以前は有料でもロゴが消せないといった欠点がありました（現在は消せるようです）。</p>
 
-&lt;p&gt;セッションの場合、登壇者は資料を作る必要があったり、得られの部分を考えたりと負担が大きいのが実情です。それに対して参加者の反応も薄く、感じづらいのでは登壇メリットが感じづらいでしょう。&lt;/p&gt;
+<p>機能的にはStreamYardよりも若干多いように見えます。ただ、個人的には使いづらい印象があります。OBSやZoomと接続する機能は便利そうです。</p>
 
-&lt;p&gt;それに対してパネルディスカッションの場合は、資料を用意する必要はなく（自己紹介スライドくらいは必要かも知れません）、コンテンツ（テーマ）はモデレーターが考えてくれます。用意する手間がセッションに比べて大幅に低いのが利点です。そのため、適切なイベントテーマであれば、登壇を断られる可能性が大幅に低いです。&lt;/p&gt;
+<p><a href="https://www.g2.com/products/restream/reviews">Restream Reviews 2022: Details, Pricing, &amp; Features | G2</a></p>
 
-&lt;h3 id=&quot;ライブ感がある&quot;&gt;ライブ感がある&lt;/h3&gt;
+<h2 id="まとめ">まとめ</h2>
 
-&lt;p&gt;セッションの場合、その内容は始まる前に決まっています。スライドは事前に作られており、トークスクリプトも出来上がっています。実は録画を流しても気付かないかも知れません。これはオンラインイベントになると、特に顕著です。&lt;/p&gt;
+<p>イベントツールの選定としては、ブラウザだけで利用できるかどうかが一つ大きなポイントになります。できれば専用ソフトウェアは不要な方が良いでしょう。運営メンバーはともかく、初参加の人にとっては敷居が高くなります。</p>
 
-&lt;p&gt;なぜこうなるかと言うと、セッション形式の場合スピーカーは事前に用意された時間を完璧に使おうとするからです。与えられた20分（たとえば）を、すべて使い切って参加者のためになる話をしようと考えるからです。そうなると、イベントツールに流れてくるコメントやツイートに対応している余裕なんてありません。&lt;/p&gt;
+<p>また、無料（または有料でも）で何人まで参加できるのかもポイントになります。イベント規模によって、収まらないケースもあるでしょう。</p>
 
-&lt;p&gt;私が行うパネルディスカッションの場合、積極的にツイートやコメントを拾っていきます。時間管理は後述しますが、バッファーを見ながら行っていきます。コメントを拾うことで、参加者は参加意識が高まり、より多くのコメントを促せます。そうすれば、オンラインイベントであっても盛り上がり感をえんしゅつできる演出できるでしょう。&lt;/p&gt;
+<p>後は多機能なツールはありますが、独特な使い勝手を覚えないといけないケースも多いので注意が必要です。特に登壇者の方が不慣れな状態だと、操作するのに必死になってしまうと、せっかくのプレゼンが台無しになってしまいます。</p>
 
-&lt;h2 id=&quot;モデレーションのコツ&quot;&gt;モデレーションのコツ&lt;/h2&gt;
+<p>こうしたサービスは正しく選定し、自分たちの目的やイベントの趣旨に合わせて選択しましょう。そうすればきっとオンラインイベントが成功するはずです。</p>
 
-&lt;p&gt;では、ここからは実際にモデレーションを行う上でのコツを解説します。&lt;/p&gt;
+<p><a href="/contact">MOONGIFTではコミュニティ運営のサポートを提供していますので、ぜひお気軽にお問い合わせください</a>。</p>]]></content><author><name>moongift</name></author><category term="イベント" /><category term="オンライン" /><summary type="html"><![CDATA[オンラインイベントを行う際には、何らかのサービスを使うのが一般的です。企業イベントであれば予算も付くでしょうが、コミュニティの場合はなるべく安価なツールを選びたいでしょう。]]></summary></entry><entry><title type="html">パネルディスカッションでの良いモデレーションとは？</title><link href="http://localhost:4000/%E3%83%91%E3%83%8D%E3%83%AB%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AB%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/03/21/good-panel-discussion.html" rel="alternate" type="text/html" title="パネルディスカッションでの良いモデレーションとは？" /><published>2022-03-21T09:00:00+09:00</published><updated>2022-03-21T09:00:00+09:00</updated><id>http://localhost:4000/%E3%83%91%E3%83%8D%E3%83%AB%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AB%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/03/21/good-panel-discussion</id><content type="html" xml:base="http://localhost:4000/%E3%83%91%E3%83%8D%E3%83%AB%E3%83%87%E3%82%A3%E3%82%B9%E3%82%AB%E3%83%83%E3%82%B7%E3%83%A7%E3%83%B3/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/03/21/good-panel-discussion.html"><![CDATA[<p>最近、イベントをパネルディスカッション形式で行うことが増えています。その際、モデレーターを担当するのですが、意外と進行を褒めてもらえることが多いです。</p>
 
-&lt;h3 id=&quot;相手テーマを理解する&quot;&gt;相手、テーマを理解する&lt;/h3&gt;
+<p>逆にモデレーターをうまく行うコツを聞かれることが増えてきたので、自分なりのやり方をまとめておきます。</p>
 
-&lt;p&gt;まずパネリストの方たちや、イベントのテーマを理解しましょう。パネリストを理解せずに、良いモデレーションは絶対にできません。たとえばパネリストについて、以下の情報をチェックします。&lt;/p&gt;
+<h2 id="個人的な経験">個人的な経験</h2>
 
-&lt;ul&gt;
-  &lt;li&gt;ソーシャル&lt;/li&gt;
-  &lt;li&gt;最近のツイート&lt;/li&gt;
-  &lt;li&gt;ブログ&lt;/li&gt;
-  &lt;li&gt;著書&lt;/li&gt;
-  &lt;li&gt;最近の登壇&lt;/li&gt;
-&lt;/ul&gt;
+<p>私が最初にパネルディスカッションでモデレーターを担当したのはCROSS 2015の<a href="https://web.archive.org/web/20160321151348/http://2015.cross-party.com/program/d3">Webエンジニアなら抑えておきたい最近のOSS事情</a>だったようです（Internet Archiveより）。その後、CROSSで何回かと、DevRel Meetup in TokyoやDevRel/Asia 2020、DevRel/Japan 2021などのカンファレンスで担当したり、このコロナ禍になってからオンラインイベントの幾つかでモデレーターを担当しています。</p>
 
-&lt;p&gt;こういった情報をチェックして、その人が最近どんな技術に注目しているか、どんなニュースに反応したか、個人的なアップデートがあるのかを把握しておきます。個人的なアップデート（引っ越した、転職した、ブログ記事を書いたなど）は自己紹介のフェーズで軽く触れたりします。&lt;/p&gt;
+<p>動画で残っているものとしては以下の通りです。</p>
 
-&lt;p&gt;人は自分に興味を持ってくれる人に対して好感を持ちます。その逆に相手が自分のことを知らない、または知ろうとしていないことが分かると、途端に冷めた対応になるものです。&lt;/p&gt;
+<ul>
+  <li><a href="https://www.youtube.com/watch?v=i_TIWPaqAMg">DevRel Practices from Japan to Asia/Global by 寺尾 英作さん/千代田まどか (ちょまど)さん/吉澤穀さん - YouTube</a></li>
+  <li><a href="https://www.youtube.com/watch?v=p9MMl6Yu00w">日本企業によるDevRel 【DevRel/Japan CONFERENCE 2021】 - YouTube</a></li>
+  <li><a href="https://www.youtube.com/watch?v=QDP2SycaAFs&amp;t=10s">Language Night vol.1 〜スクリプト言語〜 - YouTube</a></li>
+  <li><a href="https://www.youtube.com/watch?v=Vsly03eJSZc">Language Night vol.2 〜コンパイル型言語〜 - YouTube</a></li>
+</ul>
 
-&lt;p&gt;テーマについてもそうです。自分に全く関係のないテーマの場合は、そもそもモデレーションを請けないのが一番です。しかし、自分と関連しているテーマであっても、最近のアップデートなどはきちんと下調べしておきます。パネルディスカッションでは予期せぬ方向に話が飛んだり、キーワードが出てくることがありますが、それを知らないと不勉強なモデレーターという烙印が押されます。その分野のスペシャリストであるパネリストの知識に追いつくのは難しいですが、ある程度事前学習はしなければなりません。&lt;/p&gt;
+<h2 id="セッションとパネルディスカッションの違い">セッションとパネルディスカッションの違い</h2>
 
-&lt;h3 id=&quot;狭いテーマにしすぎない&quot;&gt;狭いテーマにしすぎない&lt;/h3&gt;
+<p>まず通常のセッション形式とパネルディスカッションの違いを解説します。</p>
 
-&lt;p&gt;パネルディスカッションのテーマ感は大切です。あまり範囲が広いテーマはよくありませんが、絞り込み過ぎるのも駄目です。絞り込み過ぎて、対象になるパネリストが特定の人しかいない状態になると、意見も似通ったものになります。そうすると、最初の人が答えたのがすべてで、膨らませるのが難しいでしょう。また、それで複数の質問を展開するのも難しいです。&lt;/p&gt;
+<table class="table">
+  <thead>
+    <tr>
+      <th>形式</th>
+      <th>時間</th>
+      <th>登壇</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>セッション</td>
+      <td>15〜30分</td>
+      <td>1〜2人</td>
+    </tr>
+    <tr>
+      <td>パネルディスカッション</td>
+      <td>60〜90分</td>
+      <td>4〜5人</td>
+    </tr>
+  </tbody>
+</table>
 
-&lt;p&gt;あるテーマを考えた時に、それぞれの立場から話せる人を3〜4人想定できるのがベストです。パネリストは「かくあるべき」を語る訳ではありません。これはセッション形式です。パネリストは「自分の経験によるオピニオン」を話してもらいましょう。「かくあるべき」を語るパネリストを集めると、パネリスト同士の意見が戦ってしまうかも知れません。&lt;/p&gt;
+<p>セッションの場合は1〜2人の登壇者に対して、あらかじめ決めた時間の範囲で自由に喋ってもらいます。パネルディスカッションの場合は、人数はもう少し多めで、テーマに沿って順番に喋る形式です。</p>
 
-&lt;h3 id=&quot;プロレスにしない&quot;&gt;プロレスにしない&lt;/h3&gt;
+<p>この違いがどんな意味を生むでしょうか。</p>
 
-&lt;p&gt;似たようなパネリストだけを集めてもパネルディスカッションは盛り上がりません。最初のパネリストが答えた内容がすべてになってしまうからです。やはりパネリストは少しずつ経験やバックグラウンドの異なる方に登壇してもらうのが良いでしょう。そして、似たような人たちを集めると、周囲がプロレス（パネリスト同士の戦い）を期待したりします。&lt;/p&gt;
+<h3 id="虚無に向かって喋るセッションと人と語り合うパネルディスカッション">虚無に向かって喋るセッションと、人と語り合うパネルディスカッション</h3>
 
-&lt;p&gt;オフラインの場合はプロレスでも大丈夫かも知れません。マイクが複数あっても、聞き苦しくないからです。さらに互いの表情や仕草がよく見えるので、あくまでも台本通り、お互い納得ずくで行われたりします。&lt;/p&gt;
+<p>先日freeeさんのブログ記事<a href="https://developers.freee.co.jp/entry/freee-tech-night-83-reflections">技術イベント（freee Tech Night）開催の反省＆失敗体験 83選</a>にて、指摘がありました。</p>
 
-&lt;p&gt;しかしオンラインの場合はマイクが一つしかないため、一人が独占していると他の人が割り込めません。割り込んでしまうと、とても聞き苦しいものになります。また、感情的になるとついつい話す時間が長くなったり、相手の意見を無理矢理遮ってしまうでしょう。そうなると、とても良いパネルディスカッションとは言えなくなります。&lt;/p&gt;
+<blockquote>
+  <p>24. 登壇しづらそう、虚無に向かって発表するやつ、反応が見られない</p>
 
-&lt;p&gt;そうならないために、モデレーターは意見対立を煽ったり、プロレス形式に組み立てるべきではないと考えます。パネリストの方同士の良好なディスカッションを作り出し、彼らにも登壇して良かったと思ってもらうのが一番です。&lt;/p&gt;
+  <p>オフラインイベントのように資料を用意して、一人で話す登壇スタイルだと難易度が高いと考えました。 ここ最近では登壇スタイルのオンラインイベントはfreeeの内外でも色々な所で行われていますが、当時懸念点が上がったのは自然な流れでした。</p>
 
-&lt;h3 id=&quot;時間管理を適切に行う&quot;&gt;時間管理を適切に行う&lt;/h3&gt;
+  <p>当時は全くの未知だったのでやりやすい方法で進めたいと考えました。私が司会というかオーガナイザーになってパネルディスカッションというか雑談のような形式で技術の話をするというスタイルです。これは今でも同様のスタイルで配信しています。</p>
+</blockquote>
 
-&lt;p&gt;モデレーターの大事な役割の一つが時間管理です。たとえば事前に用意した3つのテーマについて話す場合を想定します。この場合、スケジュールは次のようになります。&lt;/p&gt;
+<p>これはまさにその通りで、画面に向かって15〜30分も喋り続けるのはかなりしんどいです。スライドをプレゼンテーションモードにすると画面いっぱいにスライドが表示されて、参加者の反応も見えません（最近はウィンドウモードもありますが、似たようなものです）。オーディエンスの反応が分からないプレゼンほど、やっていて意義を感じないものはありません。</p>
 
-&lt;ol&gt;
-  &lt;li&gt;パネリスト紹介&lt;/li&gt;
-  &lt;li&gt;テーマ1&lt;/li&gt;
-  &lt;li&gt;テーマ2&lt;/li&gt;
-  &lt;li&gt;テーマ3&lt;/li&gt;
-  &lt;li&gt;参加者からの質問&lt;/li&gt;
-&lt;/ol&gt;
+<p>パネルディスカッションの場合は、少なくともモデレーターとのコミュニケーション、そしてパネリスト同士のコミュニケーションが発生します。孤独な登壇にはなりません。これだけでも登壇者の心の安らぎが違います。</p>
 
-&lt;p&gt;最初にパネリストを紹介する時間を設けます。日本人パネリストの場合、自己紹介は2分も見ておけば十分でしょう。そこにモデレーターから1つくらい質問をしたとして、一人3分あれば大丈夫です。パネリストが3〜4人であれば9〜12分になります。イベントが90分であれば、残りは78〜81分になります（60分なら48〜51分です）。&lt;/p&gt;
+<h3 id="喋る時間の割り当て">喋る時間の割り当て</h3>
 
-&lt;p&gt;&lt;img src=&quot;/images/articles/time-management.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p>セッションの場合は与えられた時間をすべて自分の時間にできます。ポジティブに言えば全時間を独占できますが、ネガティブに言うと15〜30分喋り続けないといけません。オフラインの場合は途中で水を飲むのも苦ではなかったのですが、最近ではそうした行為さえ避けてしまいます。つまらない時間があると、あっと言う間に接続を切られてしまうのではないかとビクビクしてしまいます。</p>
 
-&lt;p&gt;そして残りを4分割すると、90分のイベントの場合は約20分/テーマ、60分の場合は約12分/テーマになります。さらにパネリストの人数が3人だったら、一人あたり5分（90分イベント）または3分（60分イベント）と考えられます。少しバッファーがあるのはモデレーターから質問をしたり、パネリストから別なパネリストへ質問する時間です。こう考えると、意外と時間は短かったりします。パネリストの人が少し喋りすぎるだけであっと言う間に時間がなくなります。&lt;/p&gt;
+<p>オフラインイベントの時には、椅子にある程度の拘束力がありました。よほど酷いプレゼンでもない限り、途中退室する人は少なかったでしょう。それに対してオンラインの場合は、クリック一つで簡単に会場から抜けられます。YouTubeで配信している場合は、後からでも見られる安心感（？）で、あっと言う間に観客がいなくなります。</p>
 
-&lt;p&gt;なお、外国人パネリストの場合は自己紹介すら長い傾向があります。一人あたり5分程度は考えておくと良いでしょう。&lt;/p&gt;
+<p>パネルディスカッションの場合はトータルで60〜90分などですが、パネリストごとに割ると一人あたりの時間は15〜20分程度です。しかもそれはテーマごとに細切れの時間です。万一一人が面白くなかったとしても、次の人にトークが移れば面白い内容になるでしょう。つまらない時間が15分続くと苦痛ですが、1テーマごとに一人が喋る時間はせいぜい2〜3分なので、我慢する時間はさほど長くありません。</p>
 
-&lt;h3 id=&quot;質問しよう&quot;&gt;質問しよう&lt;/h3&gt;
+<h2 id="パネルディスカッションのメリット">パネルディスカッションのメリット</h2>
 
-&lt;p&gt;事前に決めた質問に対してパネリストが答えるのは当たり前で、それをパネリストの人数だけ繰り返すのではイベントは面白くありません。モデレーターはパネリストの意見をしっかり聞いて、質問を投げかけましょう。&lt;/p&gt;
+<p>ここから、個人的に考えるパネルディスカッションのメリットです。</p>
 
-&lt;p&gt;質問するタイミングはモデレーターによりますが、パネリストが答えたタイミングで個別に行うか、全員答え終わった後に行うことになるでしょう。個人的には記憶が新鮮な内の方がパネリストも答えやすいと思うので、随時質問を差し込むようにしています。ただし、時間管理の観点からはさらに一人あたりの持ち時間が長くなりがちなので注意が必要です。&lt;/p&gt;
+<h3 id="登壇する敷居が低い">登壇する敷居が低い</h3>
 
-&lt;h3 id=&quot;話しすぎない&quot;&gt;話しすぎない&lt;/h3&gt;
+<p>セッションの場合、登壇者は資料を作る必要があったり、得られの部分を考えたりと負担が大きいのが実情です。それに対して参加者の反応も薄く、感じづらいのでは登壇メリットが感じづらいでしょう。</p>
 
-&lt;p&gt;パネルディスカッションの主役はあくまでもパネリストです。ついついモデレーターが自分の体験や意見を言いたくなることもありますが、そこはぐっと堪えましょう。ツッコミ程度ならば良いですが、モデレーターはパネリストではないことを把握しましょう。&lt;/p&gt;
+<p>それに対してパネルディスカッションの場合は、資料を用意する必要はなく（自己紹介スライドくらいは必要かも知れません）、コンテンツ（テーマ）はモデレーターが考えてくれます。用意する手間がセッションに比べて大幅に低いのが利点です。そのため、適切なイベントテーマであれば、登壇を断られる可能性が大幅に低いです。</p>
 
-&lt;p&gt;モデレーターの役割は以下の通りです。&lt;/p&gt;
+<h3 id="ライブ感がある">ライブ感がある</h3>
 
-&lt;ul&gt;
-  &lt;li&gt;パネリストが話しやすい雰囲気を作る&lt;/li&gt;
-  &lt;li&gt;参加者が質問しやすい雰囲気を作る&lt;/li&gt;
-  &lt;li&gt;滞りない進行を行う&lt;/li&gt;
-&lt;/ul&gt;
+<p>セッションの場合、その内容は始まる前に決まっています。スライドは事前に作られており、トークスクリプトも出来上がっています。実は録画を流しても気付かないかも知れません。これはオンラインイベントになると、特に顕著です。</p>
 
-&lt;p&gt;パネリストからさらなる意見を引き出すために質問を投げかけるのは良いことです。しかし、もし参加者から別な質問が来ているならばそちらを優先する方が良いでしょう。&lt;/p&gt;
+<p>なぜこうなるかと言うと、セッション形式の場合スピーカーは事前に用意された時間を完璧に使おうとするからです。与えられた20分（たとえば）を、すべて使い切って参加者のためになる話をしようと考えるからです。そうなると、イベントツールに流れてくるコメントやツイートに対応している余裕なんてありません。</p>
 
-&lt;h2 id=&quot;事前質問を設定しよう&quot;&gt;事前質問を設定しよう&lt;/h2&gt;
+<p>私が行うパネルディスカッションの場合、積極的にツイートやコメントを拾っていきます。時間管理は後述しますが、バッファーを見ながら行っていきます。コメントを拾うことで、参加者は参加意識が高まり、より多くのコメントを促せます。そうすれば、オンラインイベントであっても盛り上がり感をえんしゅつできる演出できるでしょう。</p>
 
-&lt;p&gt;出たとこ勝負のパネルディスカッションは危険です。参加者からの質問はむしろ予期せぬものが出てくる方が面白いかも知れません。しかし、そこに至るまでの道筋はモデレーターとして整えてあげる方が良いでしょう。&lt;/p&gt;
+<h2 id="モデレーションのコツ">モデレーションのコツ</h2>
 
-&lt;p&gt;そのため、私がモデレーターを務める場合には事前質問をパネリストに対して共有しています。この質問を適切に設定することで、パネルディスカッション全体がうまくいくかどうか決まってくるでしょう。&lt;/p&gt;
+<p>では、ここからは実際にモデレーションを行う上でのコツを解説します。</p>
 
-&lt;h3 id=&quot;答えを決めつけない&quot;&gt;答えを決めつけない&lt;/h3&gt;
+<h3 id="相手テーマを理解する">相手、テーマを理解する</h3>
 
-&lt;p&gt;当たり前ですが、YES/NOで答えるような質問を設定してはいけません。質問に対してパネリストが答えた時に、話を膨らませられるのが良いテーマです。答えが決まっているような質問だとパネリスト同士の意見の違いが出づらいでしょう。それでは多様性が見いだせず、話が膨らみません。パネリストが別な人の答えを聞いた時に「そういう考え方もあるのか」と思ってもらえるのがベストです。&lt;/p&gt;
+<p>まずパネリストの方たちや、イベントのテーマを理解しましょう。パネリストを理解せずに、良いモデレーションは絶対にできません。たとえばパネリストについて、以下の情報をチェックします。</p>
 
-&lt;h3 id=&quot;余分に考えておく&quot;&gt;余分に考えておく&lt;/h3&gt;
+<ul>
+  <li>ソーシャル</li>
+  <li>最近のツイート</li>
+  <li>ブログ</li>
+  <li>著書</li>
+  <li>最近の登壇</li>
+</ul>
 
-&lt;p&gt;パネルディスカッションの時間管理はとても難しく、思いのほか早く進んでしまうこともあるでしょう。そうなった時のために、質問事項は余分に考えておきましょう。パネリストの方にはタイムスケジュール次第では取り上げないことがある、質問リストの上から優先順位が高いと説明しておくと良いでしょう。&lt;/p&gt;
+<p>こういった情報をチェックして、その人が最近どんな技術に注目しているか、どんなニュースに反応したか、個人的なアップデートがあるのかを把握しておきます。個人的なアップデート（引っ越した、転職した、ブログ記事を書いたなど）は自己紹介のフェーズで軽く触れたりします。</p>
 
-&lt;p&gt;余分に考えておけば、参加者からの質問が来なかった時の時間稼ぎとしても使えます。&lt;/p&gt;
+<p>人は自分に興味を持ってくれる人に対して好感を持ちます。その逆に相手が自分のことを知らない、または知ろうとしていないことが分かると、途端に冷めた対応になるものです。</p>
 
-&lt;h3 id=&quot;パネリスト自身の言葉で語れるものを用意する&quot;&gt;パネリスト自身の言葉で語れるものを用意する&lt;/h3&gt;
+<p>テーマについてもそうです。自分に全く関係のないテーマの場合は、そもそもモデレーションを請けないのが一番です。しかし、自分と関連しているテーマであっても、最近のアップデートなどはきちんと下調べしておきます。パネルディスカッションでは予期せぬ方向に話が飛んだり、キーワードが出てくることがありますが、それを知らないと不勉強なモデレーターという烙印が押されます。その分野のスペシャリストであるパネリストの知識に追いつくのは難しいですが、ある程度事前学習はしなければなりません。</p>
 
-&lt;p&gt;もしかするとパネリストの選定に関係するかも知れません。事前に質問を共有した時に「社内に確認しておきます」といった連絡をもらった時には要注意です。回答は完璧かも知れません、しかしその回答に質問しても答えられない可能性が高いです。自分の言葉で回答できないパネリストは、パネリスト向きではない、または事前質問が良くない可能性があります。&lt;/p&gt;
+<h3 id="狭いテーマにしすぎない">狭いテーマにしすぎない</h3>
 
-&lt;h2 id=&quot;tips&quot;&gt;Tips&lt;/h2&gt;
+<p>パネルディスカッションのテーマ感は大切です。あまり範囲が広いテーマはよくありませんが、絞り込み過ぎるのも駄目です。絞り込み過ぎて、対象になるパネリストが特定の人しかいない状態になると、意見も似通ったものになります。そうすると、最初の人が答えたのがすべてで、膨らませるのが難しいでしょう。また、それで複数の質問を展開するのも難しいです。</p>
 
-&lt;h3 id=&quot;コメントを随時拾う&quot;&gt;コメントを随時拾う&lt;/h3&gt;
+<p>あるテーマを考えた時に、それぞれの立場から話せる人を3〜4人想定できるのがベストです。パネリストは「かくあるべき」を語る訳ではありません。これはセッション形式です。パネリストは「自分の経験によるオピニオン」を話してもらいましょう。「かくあるべき」を語るパネリストを集めると、パネリスト同士の意見が戦ってしまうかも知れません。</p>
 
-&lt;p&gt;実際にパネルディスカッションを進行する際には、参加者からの質問やコメントが飛び交っているのが理想と言えます。リアルでパネルディスカッションを行う場合、最初に事前質問に合わせた内容を行った後、質問タイムをもうけることが多かったかと思います。この時、参加者は聞くモードから質問するモードに突然頭を切り替えないといけません。これで良い質問が矢継ぎ早に出てくると期待するのが間違っています。&lt;/p&gt;
+<h3 id="プロレスにしない">プロレスにしない</h3>
 
-&lt;p&gt;オンラインの場合、質問をYouTubeコメントやTwitter、Zoomのコメントなどに投稿してもらうと良いでしょう。そして、それを適宜拾いながらパネルディスカッションを行うと良いと思います。そうすることで、参加者が疑問に思ったタイミングで質問を投稿できるようになります。なお、コメントを拾う際には投稿者の名前を読んだり、コメントに対するお礼を忘れずに。コメントしてくれて嬉しいという気持ちをちゃんと表現しましょう。&lt;/p&gt;
+<p>似たようなパネリストだけを集めてもパネルディスカッションは盛り上がりません。最初のパネリストが答えた内容がすべてになってしまうからです。やはりパネリストは少しずつ経験やバックグラウンドの異なる方に登壇してもらうのが良いでしょう。そして、似たような人たちを集めると、周囲がプロレス（パネリスト同士の戦い）を期待したりします。</p>
 
-&lt;h3 id=&quot;話す順番に気をつける&quot;&gt;話す順番に気をつける&lt;/h3&gt;
+<p>オフラインの場合はプロレスでも大丈夫かも知れません。マイクが複数あっても、聞き苦しくないからです。さらに互いの表情や仕草がよく見えるので、あくまでも台本通り、お互い納得ずくで行われたりします。</p>
 
-&lt;p&gt;答えてもらう順番ですが、私の場合は自己紹介は個人名や社名の昇順など理由が説明しやすい順番にしています。表立って言われることはありませんが、パネリストの中にはなぜ自分が最後なのかと気にする方がいるかも知れません。そうしたちょっとしたストレスを取り除くことで、スムーズな進行につながります。&lt;/p&gt;
+<p>しかしオンラインの場合はマイクが一つしかないため、一人が独占していると他の人が割り込めません。割り込んでしまうと、とても聞き苦しいものになります。また、感情的になるとついつい話す時間が長くなったり、相手の意見を無理矢理遮ってしまうでしょう。そうなると、とても良いパネルディスカッションとは言えなくなります。</p>
 
-&lt;p&gt;そしてテーマごとに最初に発言する方を一人ずつずらします。そうすることで、自分の意見が言われてしまったという経験を少なくできます。常に同じ順番で喋っていると、最初の人の方が新鮮な意見を出せて、徐々に補足的なものになってしまうでしょう。それでは毎回最後に発言する方は、発言しづらくなってしまいます。&lt;/p&gt;
+<p>そうならないために、モデレーターは意見対立を煽ったり、プロレス形式に組み立てるべきではないと考えます。パネリストの方同士の良好なディスカッションを作り出し、彼らにも登壇して良かったと思ってもらうのが一番です。</p>
 
-&lt;h2 id=&quot;まとめ&quot;&gt;まとめ&lt;/h2&gt;
+<h3 id="時間管理を適切に行う">時間管理を適切に行う</h3>
 
-&lt;p&gt;パネルディスカッションは個人的にも参加感が強く感じられるので面白いです。また、セッション形式と比べて参加者の反応が分かりやすいので、登壇される方にとっても嬉しいかと思います。&lt;/p&gt;
+<p>モデレーターの大事な役割の一つが時間管理です。たとえば事前に用意した3つのテーマについて話す場合を想定します。この場合、スケジュールは次のようになります。</p>
 
-&lt;p&gt;モデレーションを苦手としている方も意外と多そうなので、ぜひ参考にしてください。&lt;/p&gt;
+<ol>
+  <li>パネリスト紹介</li>
+  <li>テーマ1</li>
+  <li>テーマ2</li>
+  <li>テーマ3</li>
+  <li>参加者からの質問</li>
+</ol>
 
-&lt;p&gt;&lt;a href=&quot;/contact&quot;&gt;MOONGIFTではコミュニティ運営のサポートを提供していますので、ぜひお気軽にお問い合わせください&lt;/a&gt;。&lt;/p&gt;</content><author><name>moongift</name></author><summary type="html">最近、イベントをパネルディスカッション形式で行うことが増えています。その際、モデレーターを担当するのですが、意外と進行を褒めてもらえることが多いです。</summary></entry><entry><title type="html">エラーメッセージから考えるよりよいDX（開発体験）とは</title><link href="https://devrel.jp/dx/2021/12/19/error-with-dx.html" rel="alternate" type="text/html" title="エラーメッセージから考えるよりよいDX（開発体験）とは" /><published>2021-12-19T09:00:00+09:00</published><updated>2021-12-19T09:00:00+09:00</updated><id>https://devrel.jp/dx/2021/12/19/error-with-dx</id><content type="html" xml:base="https://devrel.jp/dx/2021/12/19/error-with-dx.html">&lt;p&gt;開発していれば、自然と疑問が出てくるものです。SaaSをはじめ、APIベースでサービスを提供する場合、サーバ側で何が行われているかはブラックボックスになります。エラーが出たとしても、コードを追いかけながら確認することはできません。&lt;/p&gt;
+<p>最初にパネリストを紹介する時間を設けます。日本人パネリストの場合、自己紹介は2分も見ておけば十分でしょう。そこにモデレーターから1つくらい質問をしたとして、一人3分あれば大丈夫です。パネリストが3〜4人であれば9〜12分になります。イベントが90分であれば、残りは78〜81分になります（60分なら48〜51分です）。</p>
 
-&lt;p&gt;よりよい開発体験（DX）を提供するためには、次の観点が必要です。&lt;/p&gt;
+<p><img src="/images/articles/time-management.jpg" alt="" /></p>
 
-&lt;ul&gt;
-  &lt;li&gt;ユーザ環境に近いこと&lt;/li&gt;
-  &lt;li&gt;レスポンスが早いこと&lt;/li&gt;
-  &lt;li&gt;コミュニケーションが少ないこと&lt;/li&gt;
-&lt;/ul&gt;
+<p>そして残りを4分割すると、90分のイベントの場合は約20分/テーマ、60分の場合は約12分/テーマになります。さらにパネリストの人数が3人だったら、一人あたり5分（90分イベント）または3分（60分イベント）と考えられます。少しバッファーがあるのはモデレーターから質問をしたり、パネリストから別なパネリストへ質問する時間です。こう考えると、意外と時間は短かったりします。パネリストの人が少し喋りすぎるだけであっと言う間に時間がなくなります。</p>
 
-&lt;p&gt;この観点から、優れたサポートが何なのか解説します。&lt;/p&gt;
+<p>なお、外国人パネリストの場合は自己紹介すら長い傾向があります。一人あたり5分程度は考えておくと良いでしょう。</p>
 
-&lt;h2 id=&quot;原因と対応が明確なエラーメッセージ&quot;&gt;原因と対応が明確なエラーメッセージ&lt;/h2&gt;
+<h3 id="質問しよう">質問しよう</h3>
 
-&lt;p&gt;&lt;strong&gt;数分&lt;/strong&gt;&lt;/p&gt;
+<p>事前に決めた質問に対してパネリストが答えるのは当たり前で、それをパネリストの人数だけ繰り返すのではイベントは面白くありません。モデレーターはパネリストの意見をしっかり聞いて、質問を投げかけましょう。</p>
 
-&lt;p&gt;まずユーザ環境だけで解決するのが一番良いです。例えばSDKを使っている場合、SDKの中でエラー判定をし、処理をクラウド側に送る前にエラーメッセージを出せるようにします。必須項目漏れなどのエラーがこれに該当します。&lt;/p&gt;
+<p>質問するタイミングはモデレーターによりますが、パネリストが答えたタイミングで個別に行うか、全員答え終わった後に行うことになるでしょう。個人的には記憶が新鮮な内の方がパネリストも答えやすいと思うので、随時質問を差し込むようにしています。ただし、時間管理の観点からはさらに一人あたりの持ち時間が長くなりがちなので注意が必要です。</p>
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;Something wrong&lt;/code&gt; は最もだめなエラーメッセージです。かつてPerlをCGIで動かすと、Internal Server Errorしか返ってこない時代がありました。この時にはデバッグが本当に大変で、コードを一つ一つ確認しながら解決していました。その後、エラーが起きた行数やトレースができるようになり、開発効率は大幅に向上しています。&lt;/p&gt;
+<h3 id="話しすぎない">話しすぎない</h3>
 
-&lt;p&gt;APIでも同様に、ただ単にエラーですと出すのではなく、何のエラーなのかを明確にしなければなりません。さらに、そのエラーを回避する方法についてもメッセージを出すべきです。開発者はエラーメッセージを読んで修正を行ったり、必要があればメッセージに記載されたURLを開いて詳細を確認できます。&lt;/p&gt;
+<p>パネルディスカッションの主役はあくまでもパネリストです。ついついモデレーターが自分の体験や意見を言いたくなることもありますが、そこはぐっと堪えましょう。ツッコミ程度ならば良いですが、モデレーターはパネリストではないことを把握しましょう。</p>
 
-&lt;p&gt;開発元に問い合わせることなく、ユーザ自身ですぐに解決できるのがベストです。なお、エラーメッセージを独特なものにしておくのもコツです。例えばOracleのエラーIDは常にORA-9999といった形式なので、エラーIDで検索すると検索で見つかりやすくなります。汎用的なエラーメッセージはかえって情報が増加し、探しづらくなる可能性があります。&lt;/p&gt;
+<p>モデレーターの役割は以下の通りです。</p>
 
-&lt;h2 id=&quot;エラーメッセージでドキュメントを記載する&quot;&gt;エラーメッセージでドキュメントを記載する&lt;/h2&gt;
+<ul>
+  <li>パネリストが話しやすい雰囲気を作る</li>
+  <li>参加者が質問しやすい雰囲気を作る</li>
+  <li>滞りない進行を行う</li>
+</ul>
 
-&lt;p&gt;&lt;strong&gt;10分程度&lt;/strong&gt;&lt;/p&gt;
+<p>パネリストからさらなる意見を引き出すために質問を投げかけるのは良いことです。しかし、もし参加者から別な質問が来ているならばそちらを優先する方が良いでしょう。</p>
 
-&lt;p&gt;エラー内容がよく分からない場合、開発者はそのエラーメッセージでWeb検索するでしょう。そうした時に備えて、ドキュメント（またはブログ）で解説しておきます。&lt;/p&gt;
+<h2 id="事前質問を設定しよう">事前質問を設定しよう</h2>
 
-&lt;p&gt;この時、エラーメッセージ一覧表を用意するだけでは意味がありません。こうしたエラーメッセージ一覧表は、&lt;code class=&quot;highlighter-rouge&quot;&gt;NOT_FOUND&lt;/code&gt; を &lt;code class=&quot;highlighter-rouge&quot;&gt;リソースがない&lt;/code&gt; といった単に日本語化しただけの場合が多くなります。開発者が知りたいのはエラーを解決法であって、その意味ではありません。どうしたらエラーを回避できるのか、どういった修正を行えば良いのかを記事化する必要があります。&lt;/p&gt;
+<p>出たとこ勝負のパネルディスカッションは危険です。参加者からの質問はむしろ予期せぬものが出てくる方が面白いかも知れません。しかし、そこに至るまでの道筋はモデレーターとして整えてあげる方が良いでしょう。</p>
 
-&lt;h2 id=&quot;qaサービスを使う&quot;&gt;Q&amp;amp;Aサービスを使う&lt;/h2&gt;
+<p>そのため、私がモデレーターを務める場合には事前質問をパネリストに対して共有しています。この質問を適切に設定することで、パネルディスカッション全体がうまくいくかどうか決まってくるでしょう。</p>
 
-&lt;p&gt;&lt;strong&gt;数時間〜回答なし&lt;/strong&gt;&lt;/p&gt;
+<h3 id="答えを決めつけない">答えを決めつけない</h3>
 
-&lt;p&gt;Web検索で思ったような答えが見つからない場合、開発者はQ&amp;amp;Aサービスを使うでしょう。例えばTeratail、Stack overflowまたは独自のフォーラムなどです。&lt;/p&gt;
+<p>当たり前ですが、YES/NOで答えるような質問を設定してはいけません。質問に対してパネリストが答えた時に、話を膨らませられるのが良いテーマです。答えが決まっているような質問だとパネリスト同士の意見の違いが出づらいでしょう。それでは多様性が見いだせず、話が膨らみません。パネリストが別な人の答えを聞いた時に「そういう考え方もあるのか」と思ってもらえるのがベストです。</p>
 
-&lt;p&gt;Q&amp;amp;Aサービスは善意の回答者が現れないと答えの得られないサービスです。すぐに答えが返ってくるかもしれませんが、永遠に返ってこないかもしれません。開発者は質問を投稿しますが、答えが来るまで黙って待っていられる訳ではないでしょう。そのため自己解決の道は模索しつつ、Q&amp;amp;Aによる答えを待つのが普通です。&lt;/p&gt;
+<h3 id="余分に考えておく">余分に考えておく</h3>
 
-&lt;p&gt;Q&amp;amp;Aサービスは同じような課題に対して、2番目以降の人たちにとって役立つサービスになります。先進的な人たちは常に答えのない中、さまようことになるでしょう。&lt;/p&gt;
+<p>パネルディスカッションの時間管理はとても難しく、思いのほか早く進んでしまうこともあるでしょう。そうなった時のために、質問事項は余分に考えておきましょう。パネリストの方にはタイムスケジュール次第では取り上げないことがある、質問リストの上から優先順位が高いと説明しておくと良いでしょう。</p>
 
-&lt;p&gt;オープンなQ&amp;amp;Aサービスの場合、ある程度汎用的に聞く必要があります。自分たちのワークフローに寄りすぎていると、回答できる人も少なくなってしまうでしょう。エラー原因がよく分かっていない場合、質問すらできないかもしれません。&lt;/p&gt;
+<p>余分に考えておけば、参加者からの質問が来なかった時の時間稼ぎとしても使えます。</p>
 
-&lt;h2 id=&quot;公式のサポートを頼る&quot;&gt;公式のサポートを頼る&lt;/h2&gt;
+<h3 id="パネリスト自身の言葉で語れるものを用意する">パネリスト自身の言葉で語れるものを用意する</h3>
 
-&lt;p&gt;&lt;strong&gt;数時間〜数日&lt;/strong&gt;&lt;/p&gt;
+<p>もしかするとパネリストの選定に関係するかも知れません。事前に質問を共有した時に「社内に確認しておきます」といった連絡をもらった時には要注意です。回答は完璧かも知れません、しかしその回答に質問しても答えられない可能性が高いです。自分の言葉で回答できないパネリストは、パネリスト向きではない、または事前質問が良くない可能性があります。</p>
 
-&lt;p&gt;Q&amp;amp;Aと前後して、公式のサポートを利用する開発者もいるでしょう。多くの場合、公式サポートは有償ユーザー向けに提供されます。また、チケットなどもあり、いつでも何でも使える訳ではありません。そのため、ある程度厳選して利用することでしょう。&lt;/p&gt;
+<h2 id="tips">Tips</h2>
 
-&lt;p&gt;公式サポートの場合、1対1で提供されるものが多いです。また、契約によっては詳細なワークフローに関係するものであったり、実際のソースコードを見せながら回答をもらえます。&lt;/p&gt;
+<h3 id="コメントを随時拾う">コメントを随時拾う</h3>
 
-&lt;p&gt;公式サポートは契約次第ですが、翌営業日中の回答などというケースがあります。また、確実な回答ではなく、調査中といったステータスの報告である場合もあるでしょう。必ず解決できるとは限らないのはQ&amp;amp;Aサービスと同じくらいです。&lt;/p&gt;
+<p>実際にパネルディスカッションを進行する際には、参加者からの質問やコメントが飛び交っているのが理想と言えます。リアルでパネルディスカッションを行う場合、最初に事前質問に合わせた内容を行った後、質問タイムをもうけることが多かったかと思います。この時、参加者は聞くモードから質問するモードに突然頭を切り替えないといけません。これで良い質問が矢継ぎ早に出てくると期待するのが間違っています。</p>
 
-&lt;h2 id=&quot;ソースコードをあたる&quot;&gt;ソースコードをあたる&lt;/h2&gt;
+<p>オンラインの場合、質問をYouTubeコメントやTwitter、Zoomのコメントなどに投稿してもらうと良いでしょう。そして、それを適宜拾いながらパネルディスカッションを行うと良いと思います。そうすることで、参加者が疑問に思ったタイミングで質問を投稿できるようになります。なお、コメントを拾う際には投稿者の名前を読んだり、コメントに対するお礼を忘れずに。コメントしてくれて嬉しいという気持ちをちゃんと表現しましょう。</p>
 
-&lt;p&gt;&lt;strong&gt;数時間〜不明&lt;/strong&gt;&lt;/p&gt;
+<h3 id="話す順番に気をつける">話す順番に気をつける</h3>
 
-&lt;p&gt;SDKがオープンソース・ソフトウェア（またはソースコードが開示されている）の場合、実際のコードを見ながらエラー原因を探れます。大型なSDKの場合、ファイルや役割が細かく分担されているため、一目でエラーが分かることはないでしょう。また、JavaScriptのように難読化されていると、さらにコードを追いづらくなります。&lt;/p&gt;
+<p>答えてもらう順番ですが、私の場合は自己紹介は個人名や社名の昇順など理由が説明しやすい順番にしています。表立って言われることはありませんが、パネリストの中にはなぜ自分が最後なのかと気にする方がいるかも知れません。そうしたちょっとしたストレスを取り除くことで、スムーズな進行につながります。</p>
 
-&lt;p&gt;とはいえ、ブラックボックスになっているSDKよりは幾分扱いやすいはずです。もちろんSDK側のコードを調べても、結局API側のエラーで何も分からなかったという結論になることもあります。&lt;/p&gt;
+<p>そしてテーマごとに最初に発言する方を一人ずつずらします。そうすることで、自分の意見が言われてしまったという経験を少なくできます。常に同じ順番で喋っていると、最初の人の方が新鮮な意見を出せて、徐々に補足的なものになってしまうでしょう。それでは毎回最後に発言する方は、発言しづらくなってしまいます。</p>
 
-&lt;h2 id=&quot;エラーが回避できない場合&quot;&gt;エラーが回避できない場合&lt;/h2&gt;
+<h2 id="まとめ">まとめ</h2>
 
-&lt;p&gt;もし開発者が皆さんのサービスを使っていて、エラーをどうしても回避できなかったらどうするでしょうか。まずサービスの利用を止めるはずです。そして代替サービスの利用を検討するでしょう。&lt;/p&gt;
+<p>パネルディスカッションは個人的にも参加感が強く感じられるので面白いです。また、セッション形式と比べて参加者の反応が分かりやすいので、登壇される方にとっても嬉しいかと思います。</p>
 
-&lt;p&gt;最も良くないのは「このサービスは難しい・利用しない方が良い」という印象を与えてしまうことです。一度与えてしまったネガティブな印象を払拭するのは困難です。&lt;/p&gt;
+<p>モデレーションを苦手としている方も意外と多そうなので、ぜひ参考にしてください。</p>
 
-&lt;ol&gt;
-  &lt;li&gt;すでにエラーを解決できなかったというネガティブな経験がある&lt;/li&gt;
-  &lt;li&gt;回避できる手段を公開したとしても、それを届ける手段がない&lt;/li&gt;
-&lt;/ol&gt;
+<p><a href="/contact">MOONGIFTではコミュニティ運営のサポートを提供していますので、ぜひお気軽にお問い合わせください</a>。</p>]]></content><author><name>moongift</name></author><category term="パネルディスカッション" /><category term="イベント" /><summary type="html"><![CDATA[最近、イベントをパネルディスカッション形式で行うことが増えています。その際、モデレーターを担当するのですが、意外と進行を褒めてもらえることが多いです。]]></summary></entry><entry><title type="html">エラーメッセージから考えるよりよいDX（開発体験）とは</title><link href="http://localhost:4000/dx/2021/12/19/error-with-dx.html" rel="alternate" type="text/html" title="エラーメッセージから考えるよりよいDX（開発体験）とは" /><published>2021-12-19T09:00:00+09:00</published><updated>2021-12-19T09:00:00+09:00</updated><id>http://localhost:4000/dx/2021/12/19/error-with-dx</id><content type="html" xml:base="http://localhost:4000/dx/2021/12/19/error-with-dx.html"><![CDATA[<p>開発していれば、自然と疑問が出てくるものです。SaaSをはじめ、APIベースでサービスを提供する場合、サーバ側で何が行われているかはブラックボックスになります。エラーが出たとしても、コードを追いかけながら確認することはできません。</p>
 
-&lt;p&gt;一度サービスから離れてしまった開発者を取り戻すのは、ほぼ不可能です。もしもう一度類似技術の導入検討を行う必要があったとしても、検討の土俵に上げてもらえることはないでしょう。&lt;/p&gt;
+<p>よりよい開発体験（DX）を提供するためには、次の観点が必要です。</p>
 
-&lt;h2 id=&quot;まとめ&quot;&gt;まとめ&lt;/h2&gt;
+<ul>
+  <li>ユーザ環境に近いこと</li>
+  <li>レスポンスが早いこと</li>
+  <li>コミュニケーションが少ないこと</li>
+</ul>
 
-&lt;p&gt;開発時にエラーは付きものです。エラーなく開発が終わることは100%ありません。重要なのはエラーが出た後に、どう素早く解決できるかになります。素早く自己解決できれば、開発者はあなたのサービスに対して、ポジティブな印象を持つことでしょう。&lt;/p&gt;
+<p>この観点から、優れたサポートが何なのか解説します。</p>
 
-&lt;p&gt;大事なのは、ユーザの利用している環境に近いこと、セルフサポートできること、短時間で解決できることです。その観点からサービスやSDKのエラーメッセージを設計すると、よりよい開発体験の実現につながることでしょう。&lt;/p&gt;</content><author><name>moongift</name></author><summary type="html">開発していれば、自然と疑問が出てくるものです。SaaSをはじめ、APIベースでサービスを提供する場合、サーバ側で何が行われているかはブラックボックスになります。エラーが出たとしても、コードを追いかけながら確認することはできません。</summary></entry><entry><title type="html">マーケティングから考えるDevRel戦略（発信編）</title><link href="https://devrel.jp/%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/2021/12/04/devrel-publishing.html" rel="alternate" type="text/html" title="マーケティングから考えるDevRel戦略（発信編）" /><published>2021-12-04T09:00:00+09:00</published><updated>2021-12-04T09:00:00+09:00</updated><id>https://devrel.jp/%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/2021/12/04/devrel-publishing</id><content type="html" xml:base="https://devrel.jp/%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/2021/12/04/devrel-publishing.html">&lt;p&gt;マーケティングが何かというと、幾つかの答えがあるようです。&lt;/p&gt;
+<h2 id="原因と対応が明確なエラーメッセージ">原因と対応が明確なエラーメッセージ</h2>
 
-&lt;ol&gt;
-  &lt;li&gt;製品やサービスに関する情報を真に必要とする顧客へ届ける&lt;/li&gt;
-  &lt;li&gt;宣伝せずに売れるための仕組みを作る&lt;/li&gt;
-&lt;/ol&gt;
+<p><strong>数分</strong></p>
 
-&lt;p&gt;たぶんこのあたりがよく聞くところかと思います。そこで、この考え方をDevRelに適用した時にどんな戦略が取り得るのか考えてみます。今回は特に発信にフォーカスします。&lt;/p&gt;
+<p>まずユーザ環境だけで解決するのが一番良いです。例えばSDKを使っている場合、SDKの中でエラー判定をし、処理をクラウド側に送る前にエラーメッセージを出せるようにします。必須項目漏れなどのエラーがこれに該当します。</p>
 
-&lt;h2 id=&quot;適切なチャネルを使った適切な発信&quot;&gt;適切なチャネルを使った適切な発信&lt;/h2&gt;
+<p><code class="highlighter-rouge">Something wrong</code> は最もだめなエラーメッセージです。かつてPerlをCGIで動かすと、Internal Server Errorしか返ってこない時代がありました。この時にはデバッグが本当に大変で、コードを一つ一つ確認しながら解決していました。その後、エラーが起きた行数やトレースができるようになり、開発効率は大幅に向上しています。</p>
 
-&lt;p&gt;マーケティングでは製品やサービスに関する情報を発信し、顧客に届ける必要があります。Googleにない情報は存在しないのと同義と言われるのと同じく、情報が届いていない製品は存在しないのと同じことです。&lt;/p&gt;
+<p>APIでも同様に、ただ単にエラーですと出すのではなく、何のエラーなのかを明確にしなければなりません。さらに、そのエラーを回避する方法についてもメッセージを出すべきです。開発者はエラーメッセージを読んで修正を行ったり、必要があればメッセージに記載されたURLを開いて詳細を確認できます。</p>
 
-&lt;p&gt;情報の発信方法として、従来では広告が一般的に行われてきました。チャネルは時代に合わせて変化していますが、概ね次のようなマスメディアが多かったと思います。&lt;/p&gt;
+<p>開発元に問い合わせることなく、ユーザ自身ですぐに解決できるのがベストです。なお、エラーメッセージを独特なものにしておくのもコツです。例えばOracleのエラーIDは常にORA-9999といった形式なので、エラーIDで検索すると検索で見つかりやすくなります。汎用的なエラーメッセージはかえって情報が増加し、探しづらくなる可能性があります。</p>
 
-&lt;ul&gt;
-  &lt;li&gt;テレビ&lt;/li&gt;
-  &lt;li&gt;ラジオ&lt;/li&gt;
-  &lt;li&gt;新聞&lt;/li&gt;
-  &lt;li&gt;雑誌&lt;/li&gt;
-&lt;/ul&gt;
+<h2 id="エラーメッセージでドキュメントを記載する">エラーメッセージでドキュメントを記載する</h2>
 
-&lt;p&gt;そこに新しいチャネルとしてインターネットが入ってきました。しかし、インターネットの場合はセグメントが細かく決められるので、全体としてはマスメディアである一方、対象はより細かくピンポイントに絞って届けられるのが利点です。配信対象を狭められれば、費用対効果が高くなります。&lt;/p&gt;
+<p><strong>10分程度</strong></p>
 
-&lt;p&gt;なお、現在Appleをはじめとして広告トラッキングへ反対する動きが高まっています。トラッキングが防止されれば、セグメントがぼやけてしまい、費用対効果は悪化するでしょう。&lt;/p&gt;
+<p>エラー内容がよく分からない場合、開発者はそのエラーメッセージでWeb検索するでしょう。そうした時に備えて、ドキュメント（またはブログ）で解説しておきます。</p>
 
-&lt;h3 id=&quot;対開発者で考える&quot;&gt;対開発者で考える&lt;/h3&gt;
+<p>この時、エラーメッセージ一覧表を用意するだけでは意味がありません。こうしたエラーメッセージ一覧表は、<code class="highlighter-rouge">NOT_FOUND</code> を <code class="highlighter-rouge">リソースがない</code> といった単に日本語化しただけの場合が多くなります。開発者が知りたいのはエラーを解決法であって、その意味ではありません。どうしたらエラーを回避できるのか、どういった修正を行えば良いのかを記事化する必要があります。</p>
 
-&lt;p&gt;開発者は他の職種に比べるとコンピュータの利用時間が長く、インターネットサービスの利用率も高い傾向にあります。その結果、普段から浴びるように広告と触れ続けています。その結果、広告を単なるノイズとして捉えるようになり、自然とフィルタリングするようになります。&lt;/p&gt;
+<h2 id="qaサービスを使う">Q&amp;Aサービスを使う</h2>
 
-&lt;p&gt;そのため、対開発者サービスにおいてインターネット広告は費用対効果が悪く、成果が得づらいものになっています。これはインターネット広告ビジネスが伸びれば伸びるほど、悪化していくことでしょう。&lt;/p&gt;
+<p><strong>数時間〜回答なし</strong></p>
 
-&lt;p&gt;そこでDevRelでは発信チャネルとして、別なものを考えなければなりません。&lt;/p&gt;
+<p>Web検索で思ったような答えが見つからない場合、開発者はQ&amp;Aサービスを使うでしょう。例えばTeratail、Stack overflowまたは独自のフォーラムなどです。</p>
 
-&lt;h2 id=&quot;チャネルのカテゴリ&quot;&gt;チャネルのカテゴリ&lt;/h2&gt;
+<p>Q&amp;Aサービスは善意の回答者が現れないと答えの得られないサービスです。すぐに答えが返ってくるかもしれませんが、永遠に返ってこないかもしれません。開発者は質問を投稿しますが、答えが来るまで黙って待っていられる訳ではないでしょう。そのため自己解決の道は模索しつつ、Q&amp;Aによる答えを待つのが普通です。</p>
 
-&lt;p&gt;チャネルを雑多に挙げていくとキリがないので、カテゴリごとに考えましょう。&lt;/p&gt;
+<p>Q&amp;Aサービスは同じような課題に対して、2番目以降の人たちにとって役立つサービスになります。先進的な人たちは常に答えのない中、さまようことになるでしょう。</p>
 
-&lt;p&gt;インターネットで扱えるコンテンツ（メディア）は次の通りです。&lt;/p&gt;
+<p>オープンなQ&amp;Aサービスの場合、ある程度汎用的に聞く必要があります。自分たちのワークフローに寄りすぎていると、回答できる人も少なくなってしまうでしょう。エラー原因がよく分かっていない場合、質問すらできないかもしれません。</p>
 
-&lt;ul&gt;
-  &lt;li&gt;テキスト&lt;/li&gt;
-  &lt;li&gt;画像&lt;/li&gt;
-  &lt;li&gt;音声&lt;/li&gt;
-  &lt;li&gt;動画&lt;/li&gt;
-&lt;/ul&gt;
+<h2 id="公式のサポートを頼る">公式のサポートを頼る</h2>
 
-&lt;h3 id=&quot;テキスト&quot;&gt;テキスト&lt;/h3&gt;
+<p><strong>数時間〜数日</strong></p>
 
-&lt;p&gt;テキストコンテンツの筆頭に挙げられるのがブログです。ドキュメントよりは手軽で、気軽に発信できるツールでしょう。自社ブログであれば、発信責任は自分たちにあり、責任範囲が最も広く自由度が高くなります。&lt;/p&gt;
+<p>Q&amp;Aと前後して、公式のサポートを利用する開発者もいるでしょう。多くの場合、公式サポートは有償ユーザー向けに提供されます。また、チケットなどもあり、いつでも何でも使える訳ではありません。そのため、ある程度厳選して利用することでしょう。</p>
 
-&lt;p&gt;ブログよりも更新頻度を落とす代わりに、より適切な内容が求められるのがドキュメントになります（ブログが適当で良いという訳ではありません）。APIドキュメントやチュートリアル、ヘルプドキュメントなどが該当します。&lt;/p&gt;
+<p>公式サポートの場合、1対1で提供されるものが多いです。また、契約によっては詳細なワークフローに関係するものであったり、実際のソースコードを見せながら回答をもらえます。</p>
 
-&lt;p&gt;もう少し責任範囲を絞るとQiitaやZennといったサービスになるでしょう。外部サービスの場合は掲載して良い情報に制限がありますので、適したコンテンツを発信する心がけましょう。&lt;/p&gt;
+<p>公式サポートは契約次第ですが、翌営業日中の回答などというケースがあります。また、確実な回答ではなく、調査中といったステータスの報告である場合もあるでしょう。必ず解決できるとは限らないのはQ&amp;Aサービスと同じくらいです。</p>
 
-&lt;p&gt;さらに絞ると、外部のメディア（商用メディアなど）になります。外部のメディアに企画を持ち込む場合、その技術カテゴリーに対する深い知見や概要を適切に把握していなければなりません。しかし、そうした発信ができれば、自社やサービスをその市場における権威として認識づけられるようになります。&lt;/p&gt;
+<h2 id="ソースコードをあたる">ソースコードをあたる</h2>
 
-&lt;p&gt;DevRelに限っていえば、ソースコードも大きなテキストコンテンツの一つになります。デモアプリ、Kitchen Sink（機能を網羅したデモアプリ）、ライブラリやSDKなどが含まれます。実際に動くソフトウェアのコードは、サービスの利用方法について学ぶ上で大事な資料になります。&lt;/p&gt;
+<p><strong>数時間〜不明</strong></p>
 
-&lt;h3 id=&quot;画像&quot;&gt;画像&lt;/h3&gt;
+<p>SDKがオープンソース・ソフトウェア（またはソースコードが開示されている）の場合、実際のコードを見ながらエラー原因を探れます。大型なSDKの場合、ファイルや役割が細かく分担されているため、一目でエラーが分かることはないでしょう。また、JavaScriptのように難読化されていると、さらにコードを追いづらくなります。</p>
 
-&lt;p&gt;画像というとInstagramやPinterestを思い浮かべますが、こと開発者向けにおいて有効活用されている画像系サービスは皆無な気がします。Appleのように一般消費者向けに発信するには最適ですが、開発者には向かないでしょう。&lt;/p&gt;
+<p>とはいえ、ブラックボックスになっているSDKよりは幾分扱いやすいはずです。もちろんSDK側のコードを調べても、結局API側のエラーで何も分からなかったという結論になることもあります。</p>
 
-&lt;p&gt;もしあるとすれば、スライド共有サービスにおける画像としてのスライドでしょう。SlideshareやSpeakerDeckのようなスライド共有サービスでは、アップロードしたスライドを画像に変換した上で表示します。多くのサービスではテキスト化もしてくれるので、スライドをWeb検索で見つけやすくなります。&lt;/p&gt;
+<h2 id="エラーが回避できない場合">エラーが回避できない場合</h2>
 
-&lt;h3 id=&quot;音声&quot;&gt;音声&lt;/h3&gt;
+<p>もし開発者が皆さんのサービスを使っていて、エラーをどうしても回避できなかったらどうするでしょうか。まずサービスの利用を止めるはずです。そして代替サービスの利用を検討するでしょう。</p>
 
-&lt;p&gt;音声の場合は、さらに2つに分けて考えられるでしょう。&lt;/p&gt;
+<p>最も良くないのは「このサービスは難しい・利用しない方が良い」という印象を与えてしまうことです。一度与えてしまったネガティブな印象を払拭するのは困難です。</p>
 
-&lt;ul&gt;
-  &lt;li&gt;リアルタイム&lt;/li&gt;
-  &lt;li&gt;アップロード&lt;/li&gt;
-&lt;/ul&gt;
+<ol>
+  <li>すでにエラーを解決できなかったというネガティブな経験がある</li>
+  <li>回避できる手段を公開したとしても、それを届ける手段がない</li>
+</ol>
 
-&lt;p&gt;リアルタイムな音声発信としてはTwitter SpacesやClubhouseを使った発信が考えられます。音声だけなので、発信側も聞く側も心理的な障壁は低い傾向にあります。&lt;/p&gt;
+<p>一度サービスから離れてしまった開発者を取り戻すのは、ほぼ不可能です。もしもう一度類似技術の導入検討を行う必要があったとしても、検討の土俵に上げてもらえることはないでしょう。</p>
 
-&lt;p&gt;アップロード型としてはポッドキャスティングが考えられます。聞く側はポッドキャスティングを購読することで、より自分の好きなタイミングで聞けるようになるでしょう。開発者向けのポッドキャスティング（ネットラジオ）として有名なものは次のようなものがあります。&lt;/p&gt;
+<h2 id="まとめ">まとめ</h2>
 
-&lt;h3 id=&quot;動画&quot;&gt;動画&lt;/h3&gt;
+<p>開発時にエラーは付きものです。エラーなく開発が終わることは100%ありません。重要なのはエラーが出た後に、どう素早く解決できるかになります。素早く自己解決できれば、開発者はあなたのサービスに対して、ポジティブな印象を持つことでしょう。</p>
 
-&lt;p&gt;こちらもまた、リアルタイムとアップロード型の2つが考えられます。とはいえ、どちらかに特化しているものは多くないようです。動画として最も有名なチャネルはYouTubeになるでしょう。&lt;/p&gt;
+<p>大事なのは、ユーザの利用している環境に近いこと、セルフサポートできること、短時間で解決できることです。その観点からサービスやSDKのエラーメッセージを設計すると、よりよい開発体験の実現につながることでしょう。</p>]]></content><author><name>moongift</name></author><category term="DX" /><summary type="html"><![CDATA[開発していれば、自然と疑問が出てくるものです。SaaSをはじめ、APIベースでサービスを提供する場合、サーバ側で何が行われているかはブラックボックスになります。エラーが出たとしても、コードを追いかけながら確認することはできません。]]></summary></entry><entry><title type="html">マーケティングから考えるDevRel戦略（発信編）</title><link href="http://localhost:4000/%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/2021/12/04/devrel-publishing.html" rel="alternate" type="text/html" title="マーケティングから考えるDevRel戦略（発信編）" /><published>2021-12-04T09:00:00+09:00</published><updated>2021-12-04T09:00:00+09:00</updated><id>http://localhost:4000/%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/2021/12/04/devrel-publishing</id><content type="html" xml:base="http://localhost:4000/%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/2021/12/04/devrel-publishing.html"><![CDATA[<p>マーケティングが何かというと、幾つかの答えがあるようです。</p>
 
-&lt;p&gt;リアルタイムであればYouTube LiveやTwitch、Twitter Live Streamingが挙げられます。配信した後はそのままアーカイブとして残せるので、リアルタイム配信サービスはそのまま動画配信サービスとして使われることが多いでしょう。&lt;/p&gt;
+<ol>
+  <li>製品やサービスに関する情報を真に必要とする顧客へ届ける</li>
+  <li>宣伝せずに売れるための仕組みを作る</li>
+</ol>
 
-&lt;h2 id=&quot;ミックスする&quot;&gt;ミックスする&lt;/h2&gt;
+<p>たぶんこのあたりがよく聞くところかと思います。そこで、この考え方をDevRelに適用した時にどんな戦略が取り得るのか考えてみます。今回は特に発信にフォーカスします。</p>
 
-&lt;p&gt;Twitterは通常のテキストや画像の投稿、音声のSpaces、動画のLive Streamingと幅広くサポートしています。また、ブログの中にYouTube動画を埋め込んだり、スライドを埋め込むこともできるでしょう。&lt;/p&gt;
+<h2 id="適切なチャネルを使った適切な発信">適切なチャネルを使った適切な発信</h2>
 
-&lt;p&gt;ハンズオンはベースになるコードをアップロードしておき、それを使って動画とともに展開されます。各メディアは独立して使うのではなく、ミックスすることで相乗効果が生まれたり、再活用できます。接触的に組み合わせましょう。&lt;/p&gt;
+<p>マーケティングでは製品やサービスに関する情報を発信し、顧客に届ける必要があります。Googleにない情報は存在しないのと同義と言われるのと同じく、情報が届いていない製品は存在しないのと同じことです。</p>
 
-&lt;h2 id=&quot;まとめ&quot;&gt;まとめ&lt;/h2&gt;
+<p>情報の発信方法として、従来では広告が一般的に行われてきました。チャネルは時代に合わせて変化していますが、概ね次のようなマスメディアが多かったと思います。</p>
 
-&lt;p&gt;発信は公式情報を開発者に届けるのに利用されます。開発者の心に刺されば、使ってみようと考えてくれるでしょう。開発者は1カ所にいるのではなく、様々な場所に存在します。彼らのいる場所へ、最適なチャネルを使ってコンテンツを配信するようにしましょう。&lt;/p&gt;
+<ul>
+  <li>テレビ</li>
+  <li>ラジオ</li>
+  <li>新聞</li>
+  <li>雑誌</li>
+</ul>
 
-&lt;hr /&gt;
+<p>そこに新しいチャネルとしてインターネットが入ってきました。しかし、インターネットの場合はセグメントが細かく決められるので、全体としてはマスメディアである一方、対象はより細かくピンポイントに絞って届けられるのが利点です。配信対象を狭められれば、費用対効果が高くなります。</p>
 
-&lt;h2 id=&quot;お知らせ&quot;&gt;お知らせ&lt;/h2&gt;
+<p>なお、現在Appleをはじめとして広告トラッキングへ反対する動きが高まっています。トラッキングが防止されれば、セグメントがぼやけてしまい、費用対効果は悪化するでしょう。</p>
 
-&lt;p&gt;MOONGIFTではDevRelのアウトソーシングを提供しています。ブログ執筆はもちろん、各種開発者マーケティングに関するご相談を承ります。DevRelに取り組みたいが、アイディアも人員も不足している…そんな場合はぜひ&lt;a href=&quot;/contact&quot;&gt;お問い合わせください&lt;/a&gt;。&lt;/p&gt;
+<h3 id="対開発者で考える">対開発者で考える</h3>
 
-&lt;script src=&quot;/assets/js/ncmb.min.js&quot;&gt;&lt;/script&gt;
+<p>開発者は他の職種に比べるとコンピュータの利用時間が長く、インターネットサービスの利用率も高い傾向にあります。その結果、普段から浴びるように広告と触れ続けています。その結果、広告を単なるノイズとして捉えるようになり、自然とフィルタリングするようになります。</p>
 
-&lt;script src=&quot;/assets/js/app.js&quot;&gt;&lt;/script&gt;</content><author><name>moongift</name></author><summary type="html">マーケティングが何かというと、幾つかの答えがあるようです。</summary></entry><entry><title type="html">成功するブログマーケティング10のルールを配布します</title><link href="https://devrel.jp/ebook/%E3%83%96%E3%83%AD%E3%82%B0/2021/08/20/devrel-content-marketing-guide.html" rel="alternate" type="text/html" title="成功するブログマーケティング10のルールを配布します" /><published>2021-08-20T09:00:00+09:00</published><updated>2021-08-20T09:00:00+09:00</updated><id>https://devrel.jp/ebook/%E3%83%96%E3%83%AD%E3%82%B0/2021/08/20/devrel-content-marketing-guide</id><content type="html" xml:base="https://devrel.jp/ebook/%E3%83%96%E3%83%AD%E3%82%B0/2021/08/20/devrel-content-marketing-guide.html">&lt;p&gt;コロナ禍において、カンファレンスやEXPOのような対面文化が失われつつあります。コミュニティイベントも軒並みオンライン化されており、コミュニケーション手段が制限されていることでしょう。&lt;/p&gt;
+<p>そのため、対開発者サービスにおいてインターネット広告は費用対効果が悪く、成果が得づらいものになっています。これはインターネット広告ビジネスが伸びれば伸びるほど、悪化していくことでしょう。</p>
 
-&lt;p&gt;そんな中、ブログを中心としたコンテンツマーケティングにフォーカスする企業が増えています。MOONGIFTでも、ブログ作成に関する問い合わせが増えています。&lt;/p&gt;
+<p>そこでDevRelでは発信チャネルとして、別なものを考えなければなりません。</p>
 
-&lt;p&gt;ブログをはじめたいけれど、どうやったら良いか分からない場合や、何に注意したら良いか分からない企業向けに「成功するブログマーケティング10のルール」というeBookを作成しました。ぜひご覧ください！&lt;/p&gt;
+<h2 id="チャネルのカテゴリ">チャネルのカテゴリ</h2>
 
-&lt;h2 id=&quot;目次&quot;&gt;目次&lt;/h2&gt;
+<p>チャネルを雑多に挙げていくとキリがないので、カテゴリごとに考えましょう。</p>
 
-&lt;ol&gt;
-  &lt;li&gt;目的を決める&lt;/li&gt;
-  &lt;li&gt;対象を知る&lt;/li&gt;
-  &lt;li&gt;書く場所を決める&lt;/li&gt;
-  &lt;li&gt;コンテンツの種類&lt;/li&gt;
-  &lt;li&gt;ゴールを決める&lt;/li&gt;
-  &lt;li&gt;発信力を付ける&lt;/li&gt;
-  &lt;li&gt;レギュレーション&lt;/li&gt;
-  &lt;li&gt;測定する&lt;/li&gt;
-  &lt;li&gt;改善する&lt;/li&gt;
-  &lt;li&gt;その他&lt;/li&gt;
-&lt;/ol&gt;
+<p>インターネットで扱えるコンテンツ（メディア）は次の通りです。</p>
 
-&lt;p&gt;こちらはその中の1ページです。&lt;/p&gt;
+<ul>
+  <li>テキスト</li>
+  <li>画像</li>
+  <li>音声</li>
+  <li>動画</li>
+</ul>
 
-&lt;p&gt;&lt;img src=&quot;/assets/images/blog-rule-10-1.jpeg&quot; style=&quot;width:300px !important&quot; /&gt;&lt;/p&gt;
+<h3 id="テキスト">テキスト</h3>
 
-&lt;h2 id=&quot;ダウンロード&quot;&gt;ダウンロード&lt;/h2&gt;
+<p>テキストコンテンツの筆頭に挙げられるのがブログです。ドキュメントよりは手軽で、気軽に発信できるツールでしょう。自社ブログであれば、発信責任は自分たちにあり、責任範囲が最も広く自由度が高くなります。</p>
 
-&lt;p&gt;ダウンロードがこちらのフォームに入力いただければ可能です。なお、メールマガジンの購読が必須になるのでご注意ください。&lt;/p&gt;
+<p>ブログよりも更新頻度を落とす代わりに、より適切な内容が求められるのがドキュメントになります（ブログが適当で良いという訳ではありません）。APIドキュメントやチュートリアル、ヘルプドキュメントなどが該当します。</p>
 
-&lt;script type=&quot;text/javascript&quot; src=&quot;//ma.moongift.co.jp/form/generate.js?id=4&quot;&gt;&lt;/script&gt;
+<p>もう少し責任範囲を絞るとQiitaやZennといったサービスになるでしょう。外部サービスの場合は掲載して良い情報に制限がありますので、適したコンテンツを発信する心がけましょう。</p>
 
-&lt;h2 id=&quot;お知らせ&quot;&gt;お知らせ&lt;/h2&gt;
+<p>さらに絞ると、外部のメディア（商用メディアなど）になります。外部のメディアに企画を持ち込む場合、その技術カテゴリーに対する深い知見や概要を適切に把握していなければなりません。しかし、そうした発信ができれば、自社やサービスをその市場における権威として認識づけられるようになります。</p>
 
-&lt;p&gt;MOONGIFTではDevRelのアウトソーシングを提供しています。ブログ執筆はもちろん、各種開発者マーケティングに関するご相談を承ります。DevRelに取り組みたいが、アイディアも人員も不足している…そんな場合はぜひ&lt;a href=&quot;/contact&quot;&gt;お問い合わせください&lt;/a&gt;。&lt;/p&gt;
+<p>DevRelに限っていえば、ソースコードも大きなテキストコンテンツの一つになります。デモアプリ、Kitchen Sink（機能を網羅したデモアプリ）、ライブラリやSDKなどが含まれます。実際に動くソフトウェアのコードは、サービスの利用方法について学ぶ上で大事な資料になります。</p>
 
-&lt;script src=&quot;/assets/js/ncmb.min.js&quot;&gt;&lt;/script&gt;
+<h3 id="画像">画像</h3>
 
-&lt;script src=&quot;/assets/js/app.js&quot;&gt;&lt;/script&gt;</content><author><name>moongift</name></author><summary type="html">コロナ禍において、カンファレンスやEXPOのような対面文化が失われつつあります。コミュニティイベントも軒並みオンライン化されており、コミュニケーション手段が制限されていることでしょう。</summary></entry><entry><title type="html">簡単に分かるDevRel戦略</title><link href="https://devrel.jp/%E6%88%A6%E7%95%A5/%E3%83%96%E3%83%AD%E3%82%B0/2021/03/24/devrel-as-business.html" rel="alternate" type="text/html" title="簡単に分かるDevRel戦略" /><published>2021-03-24T09:00:00+09:00</published><updated>2021-03-24T09:00:00+09:00</updated><id>https://devrel.jp/%E6%88%A6%E7%95%A5/%E3%83%96%E3%83%AD%E3%82%B0/2021/03/24/devrel-as-business</id><content type="html" xml:base="https://devrel.jp/%E6%88%A6%E7%95%A5/%E3%83%96%E3%83%AD%E3%82%B0/2021/03/24/devrel-as-business.html">&lt;p&gt;DevRelは企業の事業活動の一環として行われます。この点がコミュニティやオープンソース・ソフトウェアの開発とは異なります。そして活動範囲は大きく分けて3つに分類されると考えられます。&lt;/p&gt;
+<p>画像というとInstagramやPinterestを思い浮かべますが、こと開発者向けにおいて有効活用されている画像系サービスは皆無な気がします。Appleのように一般消費者向けに発信するには最適ですが、開発者には向かないでしょう。</p>
 
-&lt;ol&gt;
-  &lt;li&gt;認知獲得から利用開始まで&lt;/li&gt;
-  &lt;li&gt;利用開始から促進&lt;/li&gt;
-  &lt;li&gt;求人、広告費用の低減&lt;/li&gt;
-&lt;/ol&gt;
+<p>もしあるとすれば、スライド共有サービスにおける画像としてのスライドでしょう。SlideshareやSpeakerDeckのようなスライド共有サービスでは、アップロードしたスライドを画像に変換した上で表示します。多くのサービスではテキスト化もしてくれるので、スライドをWeb検索で見つけやすくなります。</p>
 
-&lt;h2 id=&quot;認知獲得から利用開始まで&quot;&gt;認知獲得から利用開始まで&lt;/h2&gt;
+<h3 id="音声">音声</h3>
 
-&lt;p&gt;DevRelが得意とする範囲として、認知度の獲得が挙げられます。マーケティングのAARRRモデルで言う最初のAAであるAcquisition（新規ユーザー獲得）とActivation（利用開始）に相当する部分です。DevRel版AARRRモデルであるAAARRRPモデルに当てはめると最初のA（Awareness：認知する）も含まれます。ハッカソンや登壇、セミナーなどを通じてまず知ってもらう、体験してもらう、ユーザ登録してもらうまでのフェーズになります。&lt;/p&gt;
+<p>音声の場合は、さらに2つに分けて考えられるでしょう。</p>
 
-&lt;p&gt;知ってもらうのがなぜ大事かというと、知らないとそのユーザは他社の類似サービスを利用するからです。開発者の数は有限であり、一つのサービスを採用したら別なサービスを選択しないでしょう。あえてプロジェクトの中でRuby on RailsとDjangoとLaravelを組み合わせたりしないでしょう。特に開発者向けのサービスはプロジェクトの中に組み込まれると、よほどのことがない限り載せ替えをしません。あるサービスにとっての1ユーザ獲得は、他のサービスにとっての-1なのです。&lt;/p&gt;
+<ul>
+  <li>リアルタイム</li>
+  <li>アップロード</li>
+</ul>
 
-&lt;p&gt;知ってもらった上で選ばれないとしたら、それはサービス側の問題です。機能や価格、ドキュメント、UIなどが問題なのかも知れません。それはそれで大きな問題ですが、まず知らないと選定の土俵にすら上げてもらえません。その状態を避けるべきです。&lt;/p&gt;
+<p>リアルタイムな音声発信としてはTwitter SpacesやClubhouseを使った発信が考えられます。音声だけなので、発信側も聞く側も心理的な障壁は低い傾向にあります。</p>
 
-&lt;h2 id=&quot;利用開始から促進&quot;&gt;利用開始から促進&lt;/h2&gt;
+<p>アップロード型としてはポッドキャスティングが考えられます。聞く側はポッドキャスティングを購読することで、より自分の好きなタイミングで聞けるようになるでしょう。開発者向けのポッドキャスティング（ネットラジオ）として有名なものは次のようなものがあります。</p>
 
-&lt;p&gt;利用開始から別なフェーズがはじまります。ここは主にサポートやカスタマーサクセスの分野になります。また、ドキュメントや管理画面の使い勝手なども大きな要素になります。使い始めてから何か違うと感じて離れてしまうと、実は知らない時以上に大きなマイナスにつながる可能性があります。つまり一旦失望してしまった、ネガティブな印象をぬぐい去るのは大変だからです。顧客との関係性で言えば、マイナスになってしまった状態です。知ってもらうからには良い印象を持ち続けてもらう必要があります。&lt;/p&gt;
+<h3 id="動画">動画</h3>
 
-&lt;p&gt;困った、と感じてしまう状態にならないのがベストです。しかし、すべてのユースケースを全方位的に予期するのは不可能です。そのため、困った状態になるのは当たり前だと考えるべきです。その上で困った状態からいかに素早く、軽やかに解決に導けるかが大きな課題になります。それは画面のエラーメッセージで、セルフサポートできる仕組みかも知れません。困った時にWeb検索して解決できるようにコンテンツを用意することかも知れません。さらにQ&amp;amp;Aフォーラムやメール、電話でのサポートかも知れません。&lt;/p&gt;
+<p>こちらもまた、リアルタイムとアップロード型の2つが考えられます。とはいえ、どちらかに特化しているものは多くないようです。動画として最も有名なチャネルはYouTubeになるでしょう。</p>
 
-&lt;p&gt;利用が進むと課金のフェーズになります。利用量や機能によって課金される場合、この最初の課金が大きな壁になります。1円と500円に大きな差はありませんが、0円と1円には非常に大きな壁があります。特にデジタルの世界においては費用が目に見えづらく、課金を嫌がる声が強いのは間違いありません。この課金部分はDevRelよりもビジネスモデルが大きく関わることでしょう。&lt;/p&gt;
+<p>リアルタイムであればYouTube LiveやTwitch、Twitter Live Streamingが挙げられます。配信した後はそのままアーカイブとして残せるので、リアルタイム配信サービスはそのまま動画配信サービスとして使われることが多いでしょう。</p>
 
-&lt;p&gt;一旦課金されたユーザにおいては、カスタマーサクセスによる手厚いサポートが提供されます。アップセル（さらなる高機能版への移行）とクロスセル（別な製品と組み合わせる）が主な手段になります。企業がサービスを利用する場合、それが彼らのビジネスを拡大させたり、費用を低減するのに利用されます。そこでアップセル・クロスセルを通じてさらなる利益拡大、費用減少が狙えるならば、課金を拡大するのを躊躇する理由はないでしょう。&lt;/p&gt;
+<h2 id="ミックスする">ミックスする</h2>
 
-&lt;p&gt;このフェーズで起きる問題は課金額の低減です。つまり他社サービスに流れたり、顧客のサービスが縮小している場合に起こります。この点をフォローアップできるのもカスタマーサクセスの責任範囲になるでしょう。&lt;/p&gt;
+<p>Twitterは通常のテキストや画像の投稿、音声のSpaces、動画のLive Streamingと幅広くサポートしています。また、ブログの中にYouTube動画を埋め込んだり、スライドを埋め込むこともできるでしょう。</p>
 
-&lt;h2 id=&quot;求人広告費用の低減&quot;&gt;求人、広告費用の低減&lt;/h2&gt;
+<p>ハンズオンはベースになるコードをアップロードしておき、それを使って動画とともに展開されます。各メディアは独立して使うのではなく、ミックスすることで相乗効果が生まれたり、再活用できます。接触的に組み合わせましょう。</p>
 
-&lt;p&gt;DevRelによる認知度拡大と、顧客満足度向上による紹介（リファラル）が増えると、新規獲得コストや宣伝コストが下がります。DevRelにおいては広告は信用度を下げていますので、利用者自身の声とエバンジェリスト・アドボケイトによる開発者目線の声の方が届きやすくなります。DevRelに取り組む人事部の活動も同様です。企業の知名度が上がれば、より良い人材が獲得しやすくなるでしょう。&lt;/p&gt;
+<h2 id="まとめ">まとめ</h2>
 
-&lt;p&gt;DevRelで自社製品の売り上げ拡大を狙う一方で、認知度や信頼性を上げることで費用の減少を狙うのも大きな目的になります。&lt;/p&gt;
+<p>発信は公式情報を開発者に届けるのに利用されます。開発者の心に刺されば、使ってみようと考えてくれるでしょう。開発者は1カ所にいるのではなく、様々な場所に存在します。彼らのいる場所へ、最適なチャネルを使ってコンテンツを配信するようにしましょう。</p>
 
-&lt;h2 id=&quot;その他&quot;&gt;その他&lt;/h2&gt;
+<hr />
 
-&lt;p&gt;その他のDevRelによるメリットとしては、利用者からのフィードバックを得るという点があります。これはマーケティングで言うところのプロダクトマーケットフィット（PMF）になります。ユーザの声を聞くことで、彼らに必要なものを開発できます。余計な機能の開発に工数を割かれることなく、市場にフィットした製品を作り続けることが企業としての生き残り戦略につながるでしょう。&lt;/p&gt;
+<h2 id="お知らせ">お知らせ</h2>
 
-&lt;h2 id=&quot;実現する戦術について&quot;&gt;実現する戦術について&lt;/h2&gt;
+<p>MOONGIFTではDevRelのアウトソーシングを提供しています。ブログ執筆はもちろん、各種開発者マーケティングに関するご相談を承ります。DevRelに取り組みたいが、アイディアも人員も不足している…そんな場合はぜひ<a href="/contact">お問い合わせください</a>。</p>
 
-&lt;p&gt;こうしたDevRelの戦略を進めるための戦術として次のようなものが考えられます。&lt;/p&gt;
+<script src="/assets/js/ncmb.min.js"></script>
 
-&lt;ul&gt;
-  &lt;li&gt;ドキュメント整備&lt;/li&gt;
-  &lt;li&gt;コンテンツマーケティング&lt;/li&gt;
-  &lt;li&gt;ハンズオン&lt;/li&gt;
-  &lt;li&gt;ハッカソン&lt;/li&gt;
-  &lt;li&gt;コミュニティマーケティング&lt;/li&gt;
-  &lt;li&gt;コンテスト&lt;/li&gt;
-  &lt;li&gt;動画&lt;/li&gt;
-  &lt;li&gt;SDK/ライブラリ&lt;/li&gt;
-  &lt;li&gt;メールマガジン&lt;/li&gt;
-  &lt;li&gt;eBook&lt;/li&gt;
-  &lt;li&gt;その他いろいろ&lt;/li&gt;
-&lt;/ul&gt;
+<script src="/assets/js/app.js"></script>]]></content><author><name>moongift</name></author><category term="マーケティング" /><summary type="html"><![CDATA[マーケティングが何かというと、幾つかの答えがあるようです。]]></summary></entry><entry><title type="html">成功するブログマーケティング10のルールを配布します</title><link href="http://localhost:4000/ebook/%E3%83%96%E3%83%AD%E3%82%B0/2021/08/20/devrel-content-marketing-guide.html" rel="alternate" type="text/html" title="成功するブログマーケティング10のルールを配布します" /><published>2021-08-20T09:00:00+09:00</published><updated>2021-08-20T09:00:00+09:00</updated><id>http://localhost:4000/ebook/%E3%83%96%E3%83%AD%E3%82%B0/2021/08/20/devrel-content-marketing-guide</id><content type="html" xml:base="http://localhost:4000/ebook/%E3%83%96%E3%83%AD%E3%82%B0/2021/08/20/devrel-content-marketing-guide.html"><![CDATA[<p>コロナ禍において、カンファレンスやEXPOのような対面文化が失われつつあります。コミュニティイベントも軒並みオンライン化されており、コミュニケーション手段が制限されていることでしょう。</p>
 
-&lt;p&gt;この辺りはサービスの特性、費用に合わせて考えるべきでしょう。&lt;/p&gt;
+<p>そんな中、ブログを中心としたコンテンツマーケティングにフォーカスする企業が増えています。MOONGIFTでも、ブログ作成に関する問い合わせが増えています。</p>
 
-&lt;h2 id=&quot;まとめ&quot;&gt;まとめ&lt;/h2&gt;
+<p>ブログをはじめたいけれど、どうやったら良いか分からない場合や、何に注意したら良いか分からない企業向けに「成功するブログマーケティング10のルール」というeBookを作成しました。ぜひご覧ください！</p>
 
-&lt;p&gt;DevRelの戦略はそれほど複雑ではありません。やること（戦術）が多すぎて複雑に見えてしまいますが、企業（または製品）メリットから考えれば良いだけです。ぜひ皆さんのすべき、できる点を模索してください。&lt;/p&gt;
+<h2 id="目次">目次</h2>
 
-&lt;p&gt;MOONGIFTではDevRelのアウトソーシングを提供しています。DevRelに取り組みたいが、アイディアも人員も不足している…そんな場合はぜひ&lt;a href=&quot;/contact&quot;&gt;お問い合わせください&lt;/a&gt;。コンサルティングも可能です！&lt;/p&gt;</content><author><name>moongift</name></author><summary type="html">DevRelは企業の事業活動の一環として行われます。この点がコミュニティやオープンソース・ソフトウェアの開発とは異なります。そして活動範囲は大きく分けて3つに分類されると考えられます。</summary></entry><entry><title type="html">2020年のDevRel活動を振り返る</title><link href="https://devrel.jp/%E3%83%96%E3%83%AD%E3%82%B0/2020/12/25/2020-devrel.html" rel="alternate" type="text/html" title="2020年のDevRel活動を振り返る" /><published>2020-12-25T09:00:00+09:00</published><updated>2020-12-25T09:00:00+09:00</updated><id>https://devrel.jp/%E3%83%96%E3%83%AD%E3%82%B0/2020/12/25/2020-devrel</id><content type="html" xml:base="https://devrel.jp/%E3%83%96%E3%83%AD%E3%82%B0/2020/12/25/2020-devrel.html">&lt;p&gt;&lt;a href=&quot;https://adventar.org/calendars/5163&quot;&gt;2020年のDevRelアドベントカレンダー&lt;/a&gt;もついに25日、最終日になりました。せっかくなので、2020年における自分自身のDevRelに関する活動について振り返りたいと思います。&lt;/p&gt;
+<ol>
+  <li>目的を決める</li>
+  <li>対象を知る</li>
+  <li>書く場所を決める</li>
+  <li>コンテンツの種類</li>
+  <li>ゴールを決める</li>
+  <li>発信力を付ける</li>
+  <li>レギュレーション</li>
+  <li>測定する</li>
+  <li>改善する</li>
+  <li>その他</li>
+</ol>
 
-&lt;h2 id=&quot;webサイト&quot;&gt;Webサイト&lt;/h2&gt;
+<p>こちらはその中の1ページです。</p>
 
-&lt;p&gt;ひとりで管理できるようなシンプルなWebサイトをちょくちょく作るのですが、今年は次のようなページを作っていました。&lt;/p&gt;
+<p><img src="/assets/images/blog-rule-10-1.jpeg" style="width:300px !important" /></p>
 
-&lt;h3 id=&quot;online-meetup&quot;&gt;Online Meetup&lt;/h3&gt;
+<h2 id="ダウンロード">ダウンロード</h2>
 
-&lt;p&gt;2月末から広まったコロナウイルスの影響によってコミュニティイベントが一気にオンライン化しました。最初、オンライン化したイベントが探しづらくて自分で作ったのがOnline Meetupです。&lt;/p&gt;
+<p>ダウンロードがこちらのフォームに入力いただければ可能です。なお、メールマガジンの購読が必須になるのでご注意ください。</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-2020-1.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<script type="text/javascript" src="//ma.moongift.co.jp/form/generate.js?id=4"></script>
 
-&lt;p&gt;いくつかのメディアでも取り上げられて良かったなと。数時間で作った覚えがあります。connpassがすでにオンラインイベントの検索に対応していることもあり、お役御免かなと思っています。オンラインカンファレンス版が欲しいなと思っているこの頃。&lt;/p&gt;
+<h2 id="お知らせ">お知らせ</h2>
 
-&lt;p&gt;アーキテクチャは次の通り。&lt;/p&gt;
+<p>MOONGIFTではDevRelのアウトソーシングを提供しています。ブログ執筆はもちろん、各種開発者マーケティングに関するご相談を承ります。DevRelに取り組みたいが、アイディアも人員も不足している…そんな場合はぜひ<a href="/contact">お問い合わせください</a>。</p>
 
-&lt;ul&gt;
-  &lt;li&gt;GitHub Pages&lt;/li&gt;
-  &lt;li&gt;Google スプレッドシート&lt;/li&gt;
-&lt;/ul&gt;
+<script src="/assets/js/ncmb.min.js"></script>
 
-&lt;p&gt;&lt;a href=&quot;https://online-meetup.dev/&quot;&gt;Online Meetup&lt;/a&gt;&lt;/p&gt;
+<script src="/assets/js/app.js"></script>]]></content><author><name>moongift</name></author><category term="eBook" /><category term="ブログ" /><summary type="html"><![CDATA[コロナ禍において、カンファレンスやEXPOのような対面文化が失われつつあります。コミュニティイベントも軒並みオンライン化されており、コミュニケーション手段が制限されていることでしょう。]]></summary></entry><entry><title type="html">簡単に分かるDevRel戦略</title><link href="http://localhost:4000/%E6%88%A6%E7%95%A5/%E3%83%96%E3%83%AD%E3%82%B0/2021/03/24/devrel-as-business.html" rel="alternate" type="text/html" title="簡単に分かるDevRel戦略" /><published>2021-03-24T09:00:00+09:00</published><updated>2021-03-24T09:00:00+09:00</updated><id>http://localhost:4000/%E6%88%A6%E7%95%A5/%E3%83%96%E3%83%AD%E3%82%B0/2021/03/24/devrel-as-business</id><content type="html" xml:base="http://localhost:4000/%E6%88%A6%E7%95%A5/%E3%83%96%E3%83%AD%E3%82%B0/2021/03/24/devrel-as-business.html"><![CDATA[<p>DevRelは企業の事業活動の一環として行われます。この点がコミュニティやオープンソース・ソフトウェアの開発とは異なります。そして活動範囲は大きく分けて3つに分類されると考えられます。</p>
 
-&lt;h3 id=&quot;devclebookmark&quot;&gt;DevCle::Bookmark&lt;/h3&gt;
+<ol>
+  <li>認知獲得から利用開始まで</li>
+  <li>利用開始から促進</li>
+  <li>求人、広告費用の低減</li>
+</ol>
 
-&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-2020-2.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<h2 id="認知獲得から利用開始まで">認知獲得から利用開始まで</h2>
 
-&lt;p&gt;DevRelに役立つリソースをまとめたサイトです。こういったリソースは個人的にまとめていたのですが、それを見せられる形にしました。あくまでも個人のブックマークの延長線上ですが、情報をまとめると役立つものになるでしょう。こちらも上のサイトと同じアーキテクチャ、仕組みで運用しています。&lt;/p&gt;
+<p>DevRelが得意とする範囲として、認知度の獲得が挙げられます。マーケティングのAARRRモデルで言う最初のAAであるAcquisition（新規ユーザー獲得）とActivation（利用開始）に相当する部分です。DevRel版AARRRモデルであるAAARRRPモデルに当てはめると最初のA（Awareness：認知する）も含まれます。ハッカソンや登壇、セミナーなどを通じてまず知ってもらう、体験してもらう、ユーザ登録してもらうまでのフェーズになります。</p>
 
-&lt;p&gt;&lt;a href=&quot;https://bookmark.devcle.com/&quot;&gt;DevCle::Bookmark&lt;/a&gt;&lt;/p&gt;
+<p>知ってもらうのがなぜ大事かというと、知らないとそのユーザは他社の類似サービスを利用するからです。開発者の数は有限であり、一つのサービスを採用したら別なサービスを選択しないでしょう。あえてプロジェクトの中でRuby on RailsとDjangoとLaravelを組み合わせたりしないでしょう。特に開発者向けのサービスはプロジェクトの中に組み込まれると、よほどのことがない限り載せ替えをしません。あるサービスにとっての1ユーザ獲得は、他のサービスにとっての-1なのです。</p>
 
-&lt;h2 id=&quot;コミュニティ&quot;&gt;コミュニティ&lt;/h2&gt;
+<p>知ってもらった上で選ばれないとしたら、それはサービス側の問題です。機能や価格、ドキュメント、UIなどが問題なのかも知れません。それはそれで大きな問題ですが、まず知らないと選定の土俵にすら上げてもらえません。その状態を避けるべきです。</p>
 
-&lt;p&gt;オンライン化が進んだときにDevRel/Onlineというのを立ち上げました。2回くらいイベントをやって、そこから続いていないですね…。オンライン化するのが当たり前になり、浸透してしまったことで新しい知見を得るのが難しくなっているのかも知れません。でも配信ネタとか、まだ深掘りはできる余地はあるかな…。&lt;/p&gt;
+<h2 id="利用開始から促進">利用開始から促進</h2>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://devrel.connpass.com/event/168692/&quot;&gt;DevRel/Online #1 〜初のオンライン開催〜 - connpass&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://devrel.connpass.com/event/178317/&quot;&gt;DevRel/Online #2 〜オンラインのファシリテーションを考える〜 - connpass&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<p>利用開始から別なフェーズがはじまります。ここは主にサポートやカスタマーサクセスの分野になります。また、ドキュメントや管理画面の使い勝手なども大きな要素になります。使い始めてから何か違うと感じて離れてしまうと、実は知らない時以上に大きなマイナスにつながる可能性があります。つまり一旦失望してしまった、ネガティブな印象をぬぐい去るのは大変だからです。顧客との関係性で言えば、マイナスになってしまった状態です。知ってもらうからには良い印象を持ち続けてもらう必要があります。</p>
 
-&lt;h2 id=&quot;ブログ&quot;&gt;ブログ&lt;/h2&gt;
+<p>困った、と感じてしまう状態にならないのがベストです。しかし、すべてのユースケースを全方位的に予期するのは不可能です。そのため、困った状態になるのは当たり前だと考えるべきです。その上で困った状態からいかに素早く、軽やかに解決に導けるかが大きな課題になります。それは画面のエラーメッセージで、セルフサポートできる仕組みかも知れません。困った時にWeb検索して解決できるようにコンテンツを用意することかも知れません。さらにQ&amp;Aフォーラムやメール、電話でのサポートかも知れません。</p>
 
-&lt;p&gt;クライアント向けのブログ記事で言うと、約300記事書いたようです。今年はJava、Google Apps Script、Python、Node.jsを使った記事が多かったように思います。Flutterも一部の記事で書いています。&lt;/p&gt;
+<p>利用が進むと課金のフェーズになります。利用量や機能によって課金される場合、この最初の課金が大きな壁になります。1円と500円に大きな差はありませんが、0円と1円には非常に大きな壁があります。特にデジタルの世界においては費用が目に見えづらく、課金を嫌がる声が強いのは間違いありません。この課金部分はDevRelよりもビジネスモデルが大きく関わることでしょう。</p>
 
-&lt;h2 id=&quot;ライブラリ&quot;&gt;ライブラリ&lt;/h2&gt;
+<p>一旦課金されたユーザにおいては、カスタマーサクセスによる手厚いサポートが提供されます。アップセル（さらなる高機能版への移行）とクロスセル（別な製品と組み合わせる）が主な手段になります。企業がサービスを利用する場合、それが彼らのビジネスを拡大させたり、費用を低減するのに利用されます。そこでアップセル・クロスセルを通じてさらなる利益拡大、費用減少が狙えるならば、課金を拡大するのを躊躇する理由はないでしょう。</p>
 
-&lt;p&gt;今年個人で書いてリリースしたライブラリは次の通りです。言語的にいうとJavaScript(含むTypeScript)、Java、C#、Dart、Ruby、Python、VBAになります。&lt;/p&gt;
+<p>このフェーズで起きる問題は課金額の低減です。つまり他社サービスに流れたり、顧客のサービスが縮小している場合に起こります。この点をフォローアップできるのもカスタマーサクセスの責任範囲になるでしょう。</p>
 
-&lt;h3 id=&quot;ncmbmaniancmb_deno-deno用のsdkです&quot;&gt;&lt;a href=&quot;https://github.com/NCMBMania/ncmb_deno&quot;&gt;NCMBMania/ncmb_deno: deno用のSDKです&lt;/a&gt;&lt;/h3&gt;
+<h2 id="求人広告費用の低減">求人、広告費用の低減</h2>
 
-&lt;p&gt;TypeScript/Denoで作ったNCMB SDKです。DenoはTypeScriptが動きますが、ライブラリのインポート周りで癖があります。その辺りを吸収して同じコードベースで動くようにしています。&lt;/p&gt;
+<p>DevRelによる認知度拡大と、顧客満足度向上による紹介（リファラル）が増えると、新規獲得コストや宣伝コストが下がります。DevRelにおいては広告は信用度を下げていますので、利用者自身の声とエバンジェリスト・アドボケイトによる開発者目線の声の方が届きやすくなります。DevRelに取り組む人事部の活動も同様です。企業の知名度が上がれば、より良い人材が獲得しやすくなるでしょう。</p>
 
-&lt;h3 id=&quot;ncmbmaniancmb_xamarin-xamarin-sdk-for-ncmb&quot;&gt;&lt;a href=&quot;https://github.com/NCMBMania/ncmb_xamarin&quot;&gt;NCMBMania/ncmb_xamarin: Xamarin SDK for NCMB&lt;/a&gt;&lt;/h3&gt;
+<p>DevRelで自社製品の売り上げ拡大を狙う一方で、認知度や信頼性を上げることで費用の減少を狙うのも大きな目的になります。</p>
 
-&lt;p&gt;はじめてC#で作ったライブラリです。Xamarinはもちろん.NET 2.0で動くのでWindowsやmacOSでも動作します。&lt;a href=&quot;https://github.com/runceel&quot;&gt;Microsoftの太田さん（エンベデッドエバンジェリスト）&lt;/a&gt;にお手伝いいただいています。&lt;/p&gt;
+<h2 id="その他">その他</h2>
 
-&lt;p&gt;&lt;a href=&quot;https://www.nuget.org/packages/NCMBClient/&quot;&gt;NuGet Gallery - NCMBClient 0.4.0&lt;/a&gt;&lt;/p&gt;
+<p>その他のDevRelによるメリットとしては、利用者からのフィードバックを得るという点があります。これはマーケティングで言うところのプロダクトマーケットフィット（PMF）になります。ユーザの声を聞くことで、彼らに必要なものを開発できます。余計な機能の開発に工数を割かれることなく、市場にフィットした製品を作り続けることが企業としての生き残り戦略につながるでしょう。</p>
 
-&lt;h3 id=&quot;ncmbmaniancmb-dart-ncmb-library-for-dart-and-flutter&quot;&gt;&lt;a href=&quot;https://github.com/NCMBMania/ncmb-dart&quot;&gt;NCMBMania/ncmb-dart: NCMB library for Dart and Flutter.&lt;/a&gt;&lt;/h3&gt;
+<h2 id="実現する戦術について">実現する戦術について</h2>
 
-&lt;p&gt;Dart/Flutterで動作するNCMB用SDKです。元々Flutter Webでも動作していたのですが、プッシュ通知周りを利用する際にネイティブ限定になってしまいました。プッシュ通知周りだけ別ライブラリ化して、Flutter Webでも使えるようにしたい…と思いつつ年を越してしまいます。&lt;/p&gt;
+<p>こうしたDevRelの戦略を進めるための戦術として次のようなものが考えられます。</p>
 
-&lt;p&gt;&lt;a href=&quot;https://pub.dev/packages/ncmb&quot;&gt;ncmb - Dart Package&lt;/a&gt;&lt;/p&gt;
+<ul>
+  <li>ドキュメント整備</li>
+  <li>コンテンツマーケティング</li>
+  <li>ハンズオン</li>
+  <li>ハッカソン</li>
+  <li>コミュニティマーケティング</li>
+  <li>コンテスト</li>
+  <li>動画</li>
+  <li>SDK/ライブラリ</li>
+  <li>メールマガジン</li>
+  <li>eBook</li>
+  <li>その他いろいろ</li>
+</ul>
 
-&lt;h3 id=&quot;goofmintncmb_py-ncmbのpython-sdkです&quot;&gt;&lt;a href=&quot;https://github.com/goofmint/ncmb_py&quot;&gt;goofmint/ncmb_py: NCMBのPython SDKです&lt;/a&gt;&lt;/h3&gt;
+<p>この辺りはサービスの特性、費用に合わせて考えるべきでしょう。</p>
 
-&lt;p&gt;最近大学でNCMBを利用するケースがあり、その中でIoTとの連携が求められているという文脈で開発をはじめています。ユースケースが分かっていると作りやすいですね。&lt;/p&gt;
+<h2 id="まとめ">まとめ</h2>
 
-&lt;p&gt;&lt;a href=&quot;https://pypi.org/project/NCMB/&quot;&gt;NCMB · PyPI&lt;/a&gt;&lt;/p&gt;
+<p>DevRelの戦略はそれほど複雑ではありません。やること（戦術）が多すぎて複雑に見えてしまいますが、企業（または製品）メリットから考えれば良いだけです。ぜひ皆さんのすべき、できる点を模索してください。</p>
 
-&lt;h3 id=&quot;goofmintcustomers-mail-cloud-java-customers-mail-cloudのjava用sdkです&quot;&gt;&lt;a href=&quot;https://github.com/goofmint/Customers-Mail-Cloud-Java&quot;&gt;goofmint/Customers-Mail-Cloud-Java: Customers Mail CloudのJava用SDKです&lt;/a&gt;&lt;/h3&gt;
+<p>MOONGIFTではDevRelのアウトソーシングを提供しています。DevRelに取り組みたいが、アイディアも人員も不足している…そんな場合はぜひ<a href="/contact">お問い合わせください</a>。コンサルティングも可能です！</p>]]></content><author><name>moongift</name></author><category term="戦略" /><category term="ブログ" /><summary type="html"><![CDATA[DevRelは企業の事業活動の一環として行われます。この点がコミュニティやオープンソース・ソフトウェアの開発とは異なります。そして活動範囲は大きく分けて3つに分類されると考えられます。]]></summary></entry><entry><title type="html">2020年のDevRel活動を振り返る</title><link href="http://localhost:4000/%E3%83%96%E3%83%AD%E3%82%B0/2020/12/25/2020-devrel.html" rel="alternate" type="text/html" title="2020年のDevRel活動を振り返る" /><published>2020-12-25T09:00:00+09:00</published><updated>2020-12-25T09:00:00+09:00</updated><id>http://localhost:4000/%E3%83%96%E3%83%AD%E3%82%B0/2020/12/25/2020-devrel</id><content type="html" xml:base="http://localhost:4000/%E3%83%96%E3%83%AD%E3%82%B0/2020/12/25/2020-devrel.html"><![CDATA[<p><a href="https://adventar.org/calendars/5163">2020年のDevRelアドベントカレンダー</a>もついに25日、最終日になりました。せっかくなので、2020年における自分自身のDevRelに関する活動について振り返りたいと思います。</p>
 
-&lt;p&gt;Customers Mail Cloud用のJava SDKです。メール送信しかできませんが、Web API経由なのでLambdaで動かすこともできます。&lt;/p&gt;
+<h2 id="webサイト">Webサイト</h2>
 
-&lt;h3 id=&quot;goofmintcustomers-mail-cloud-vba-vbaexcelからcustomers-mail-cloudを実行します&quot;&gt;&lt;a href=&quot;https://github.com/goofmint/Customers-Mail-Cloud-VBA&quot;&gt;goofmint/Customers-Mail-Cloud-VBA: VBA（Excel）からCustomers Mail Cloudを実行します。&lt;/a&gt;&lt;/h3&gt;
+<p>ひとりで管理できるようなシンプルなWebサイトをちょくちょく作るのですが、今年は次のようなページを作っていました。</p>
 
-&lt;p&gt;同じくCustomers Mail Cloud用のVBA SDKです。簡単にいえばExcelからのメール送信を想定しています。&lt;/p&gt;
+<h3 id="online-meetup">Online Meetup</h3>
 
-&lt;h3 id=&quot;goofmintcustomersmailcloud-js-customers-mail-cloud用のnodejsライブラリです&quot;&gt;&lt;a href=&quot;https://github.com/goofmint/CustomersMailCloud-js&quot;&gt;goofmint/CustomersMailCloud-js: Customers Mail Cloud用のNode.jsライブラリです&lt;/a&gt;&lt;/h3&gt;
+<p>2月末から広まったコロナウイルスの影響によってコミュニティイベントが一気にオンライン化しました。最初、オンライン化したイベントが探しづらくて自分で作ったのがOnline Meetupです。</p>
 
-&lt;p&gt;同じくCustomers Mail Cloud用のNode.js SDKです。こちらはメール送信以外にも配信結果を取得するような機能も追加されています。TypeScriptで書かれています。&lt;/p&gt;
+<p><img src="/images/articles/devrel-2020-1.png" alt="" /></p>
 
-&lt;p&gt;&lt;a href=&quot;https://www.npmjs.com/package/@moongift/customers-mail-cloud&quot;&gt;@moongift/customers-mail-cloud - npm&lt;/a&gt;&lt;/p&gt;
+<p>いくつかのメディアでも取り上げられて良かったなと。数時間で作った覚えがあります。connpassがすでにオンラインイベントの検索に対応していることもあり、お役御免かなと思っています。オンラインカンファレンス版が欲しいなと思っているこの頃。</p>
 
-&lt;h3 id=&quot;goofmintcustmersmailcloud-rb-customers-mail-cloudのrubyライブラリです&quot;&gt;&lt;a href=&quot;https://github.com/goofmint/CustmersMailCloud-rb&quot;&gt;goofmint/CustmersMailCloud-rb: Customers Mail CloudのRubyライブラリです&lt;/a&gt;&lt;/h3&gt;
+<p>アーキテクチャは次の通り。</p>
 
-&lt;p&gt;同じくCustomers Mail Cloud用のRuby SDKです。こちらもメール送信以外にも配信結果を取得するような機能も追加されています。&lt;/p&gt;
+<ul>
+  <li>GitHub Pages</li>
+  <li>Google スプレッドシート</li>
+</ul>
 
-&lt;p&gt;&lt;a href=&quot;https://libraries.io/rubygems/customers_mail_cloud&quot;&gt;customers_mail_cloud 0.3.0 on Rubygems - Libraries.io&lt;/a&gt;&lt;/p&gt;
+<p><a href="https://online-meetup.dev/">Online Meetup</a></p>
 
-&lt;h3 id=&quot;goofmintcustomersmailcloudpy-python-library-for-customers-mail-cloud&quot;&gt;&lt;a href=&quot;https://github.com/goofmint/CustomersMailCloudPy&quot;&gt;goofmint/CustomersMailCloudPy: Python library for Customers Mail Cloud&lt;/a&gt;&lt;/h3&gt;
+<h3 id="devclebookmark">DevCle::Bookmark</h3>
 
-&lt;p&gt;同じくCustomers Mail Cloud用のPython SDKです。こちらもメール送信以外にも配信結果を取得するような機能も追加されています。&lt;/p&gt;
+<p><img src="/images/articles/devrel-2020-2.png" alt="" /></p>
 
-&lt;p&gt;&lt;a href=&quot;https://pypi.org/project/CustomersMailCloud/&quot;&gt;CustomersMailCloud · PyPI&lt;/a&gt;&lt;/p&gt;
+<p>DevRelに役立つリソースをまとめたサイトです。こういったリソースは個人的にまとめていたのですが、それを見せられる形にしました。あくまでも個人のブックマークの延長線上ですが、情報をまとめると役立つものになるでしょう。こちらも上のサイトと同じアーキテクチャ、仕組みで運用しています。</p>
 
-&lt;h2 id=&quot;ハンズオン&quot;&gt;ハンズオン&lt;/h2&gt;
+<p><a href="https://bookmark.devcle.com/">DevCle::Bookmark</a></p>
 
-&lt;p&gt;今年はハンズオンコンテンツに注力していました。リアルで行っている場合、せっかく来てもらっていることもあって2〜3時間のコンテンツが多かったですが、オンラインではなかなか集中力が続きません。そこで1時間のショートハンズオンを開催しています。たとえば利用している資料は次のようなものです。&lt;/p&gt;
+<h2 id="コミュニティ">コミュニティ</h2>
 
-&lt;p&gt;&lt;a href=&quot;https://qiita.com/goofmint/items/928258011ac57e79e0ca&quot;&gt;Monacaとニフクラ mobile backendを使ってタスク管理アプリを作ろう【ハンズオンスライド】 - Qiita&lt;/a&gt;&lt;/p&gt;
+<p>オンライン化が進んだときにDevRel/Onlineというのを立ち上げました。2回くらいイベントをやって、そこから続いていないですね…。オンライン化するのが当たり前になり、浸透してしまったことで新しい知見を得るのが難しくなっているのかも知れません。でも配信ネタとか、まだ深掘りはできる余地はあるかな…。</p>
 
-&lt;p&gt;ハンズオンはDiscord上で行っています。Discordに登録してもらうことで、サービス体験者を可視化しています。また、その上でコミュニケーションを取ることで、タッチポイントを増やしています。&lt;/p&gt;
+<ul>
+  <li><a href="https://devrel.connpass.com/event/168692/">DevRel/Online #1 〜初のオンライン開催〜 - connpass</a></li>
+  <li><a href="https://devrel.connpass.com/event/178317/">DevRel/Online #2 〜オンラインのファシリテーションを考える〜 - connpass</a></li>
+</ul>
 
-&lt;h2 id=&quot;twitch&quot;&gt;Twitch&lt;/h2&gt;
+<h2 id="ブログ">ブログ</h2>
 
-&lt;p&gt;TwitchやYouTube Liveを使って開発中、ブログ執筆中の配信を行っています。まだ実験段階で、どういったコンテンツが向いているのか試行錯誤しています。&lt;/p&gt;
+<p>クライアント向けのブログ記事で言うと、約300記事書いたようです。今年はJava、Google Apps Script、Python、Node.jsを使った記事が多かったように思います。Flutterも一部の記事で書いています。</p>
 
-&lt;p&gt;エバンジェリストが目立ちすぎるのはよくないと思う部分もありますが、オンラインでの活動が増えていく中ではYouTuberやDJのような分かりやすいシンボル化も必要だと考えています。そういった形になるのが目標です。&lt;/p&gt;
+<h2 id="ライブラリ">ライブラリ</h2>
 
-&lt;h2 id=&quot;カンファレンス運営&quot;&gt;カンファレンス運営&lt;/h2&gt;
+<p>今年個人で書いてリリースしたライブラリは次の通りです。言語的にいうとJavaScript(含むTypeScript)、Java、C#、Dart、Ruby、Python、VBAになります。</p>
 
-&lt;p&gt;今年運営に関わったカンファレンスは次の通りです。&lt;/p&gt;
+<h3 id="ncmbmaniancmb_deno-deno用のsdkです"><a href="https://github.com/NCMBMania/ncmb_deno">NCMBMania/ncmb_deno: deno用のSDKです</a></h3>
 
-&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-asia.png&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p>TypeScript/Denoで作ったNCMB SDKです。DenoはTypeScriptが動きますが、ライブラリのインポート周りで癖があります。その辺りを吸収して同じコードベースで動くようにしています。</p>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://conf2020.pwanight.jp/&quot;&gt;PWA Night CONFERENCE 2020&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://tokyo-2020.devrel.net/&quot;&gt;DevRelCon Tokyo 2020&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://2020.devrel.net/&quot;&gt;DevRelCon Earth 2020&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://www.cross-party.com/&quot;&gt;CROSS2020&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://devrel.dev/asia-2020/&quot;&gt;DevRel/Asia 2020&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<h3 id="ncmbmaniancmb_xamarin-xamarin-sdk-for-ncmb"><a href="https://github.com/NCMBMania/ncmb_xamarin">NCMBMania/ncmb_xamarin: Xamarin SDK for NCMB</a></h3>
 
-&lt;p&gt;PWA Night CONFERENCE 2020は2月1日開催で、コロナショックを受ける直前のカンファレンスでした。DevRelCon Tokyo 2020は中止、その他のカンファレンスはすべてオンラインカンファレンスとなっています。一番感慨深いのはやはりDevRel/Asia 2020になります。約半年間の準備で、新しいチャレンジしかない楽しい試みでした。&lt;/p&gt;
+<p>はじめてC#で作ったライブラリです。Xamarinはもちろん.NET 2.0で動くのでWindowsやmacOSでも動作します。<a href="https://github.com/runceel">Microsoftの太田さん（エンベデッドエバンジェリスト）</a>にお手伝いいただいています。</p>
 
-&lt;p&gt;&lt;a href=&quot;https://devrel.jp/%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/2020/11/16/devrel-asia-2020.html&quot;&gt;DevRel/Asia 2020を開催しました - DEVREL - 開発者向けマーケティング支援サービス -&lt;/a&gt;&lt;/p&gt;
+<p><a href="https://www.nuget.org/packages/NCMBClient/">NuGet Gallery - NCMBClient 0.4.0</a></p>
 
-&lt;h2 id=&quot;英語登壇&quot;&gt;英語登壇&lt;/h2&gt;
+<h3 id="ncmbmaniancmb-dart-ncmb-library-for-dart-and-flutter"><a href="https://github.com/NCMBMania/ncmb-dart">NCMBMania/ncmb-dart: NCMB library for Dart and Flutter.</a></h3>
 
-&lt;p&gt;今年は3つでした。&lt;/p&gt;
+<p>Dart/Flutterで動作するNCMB用SDKです。元々Flutter Webでも動作していたのですが、プッシュ通知周りを利用する際にネイティブ限定になってしまいました。プッシュ通知周りだけ別ライブラリ化して、Flutter Webでも使えるようにしたい…と思いつつ年を越してしまいます。</p>
 
-&lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://2020.devrel.net/&quot;&gt;DevRelCon Earth 2020&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://devrel.dev/asia-2020/&quot;&gt;DevRel/Asia 2020&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://apidayshongkong.virtualconference.com/#/event&quot;&gt;apidays LIVE HONG KONG&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<p><a href="https://pub.dev/packages/ncmb">ncmb - Dart Package</a></p>
 
-&lt;p&gt;DevRelConやDevRel/Asiaについては運営側と言うこともあって下駄を履いているところがあるでしょう。apidaysは1週間くらい前に突然登壇を依頼されたものになります。香港開催ですが、時差は1時間程度ですし、現地入りする必要がないのはオンラインカンファレンスのメリットと言えそうです。&lt;/p&gt;
+<h3 id="goofmintncmb_py-ncmbのpython-sdkです"><a href="https://github.com/goofmint/ncmb_py">goofmint/ncmb_py: NCMBのPython SDKです</a></h3>
 
-&lt;h2 id=&quot;書籍&quot;&gt;書籍&lt;/h2&gt;
+<p>最近大学でNCMBを利用するケースがあり、その中でIoTとの連携が求められているという文脈で開発をはじめています。ユースケースが分かっていると作りやすいですね。</p>
 
-&lt;p&gt;DevRelに関連した書籍は2冊書いています。&lt;/p&gt;
+<p><a href="https://pypi.org/project/NCMB/">NCMB · PyPI</a></p>
 
-&lt;p&gt;&lt;img src=&quot;/images/articles/online-event.jpg&quot; style=&quot;width: 350px !important&quot; /&gt;&lt;/p&gt;
+<h3 id="goofmintcustomers-mail-cloud-java-customers-mail-cloudのjava用sdkです"><a href="https://github.com/goofmint/Customers-Mail-Cloud-Java">goofmint/Customers-Mail-Cloud-Java: Customers Mail CloudのJava用SDKです</a></h3>
 
-&lt;ul&gt;
-  &lt;li&gt;[一冊で分かる！オンラインイベントのはじめかた (技術の泉シリーズ（NextPublishing）)https://www.amazon.co.jp/dp/4844379291/)&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://techbookfest.org/product/5638666120593408&quot;&gt;英語で広がる開発者のキャリア&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+<p>Customers Mail Cloud用のJava SDKです。メール送信しかできませんが、Web API経由なのでLambdaで動かすこともできます。</p>
 
-&lt;p&gt;どちらも技術書典に合わせてコミュニティメンバーと一緒に書いた本になります。徐々に執筆環境も整いつつあって、書きやすくなってきました。2021年も良いネタがあればぜひ書きたいですね。&lt;/p&gt;
+<h3 id="goofmintcustomers-mail-cloud-vba-vbaexcelからcustomers-mail-cloudを実行します"><a href="https://github.com/goofmint/Customers-Mail-Cloud-VBA">goofmint/Customers-Mail-Cloud-VBA: VBA（Excel）からCustomers Mail Cloudを実行します。</a></h3>
 
-&lt;h2 id=&quot;devくんrelちゃんの制作&quot;&gt;Devくん、Relちゃんの制作&lt;/h2&gt;
+<p>同じくCustomers Mail Cloud用のVBA SDKです。簡単にいえばExcelからのメール送信を想定しています。</p>
 
-&lt;p&gt;コロナ禍でなんとなく元気のなくなったDevRel界隈を盛り上げようと作成したのがDevくん、Relちゃんです。このイメージキャラクターはミートアップイベントやDevRel/Asia 2020でも活躍してくれました。&lt;/p&gt;
+<h3 id="goofmintcustomersmailcloud-js-customers-mail-cloud用のnodejsライブラリです"><a href="https://github.com/goofmint/CustomersMailCloud-js">goofmint/CustomersMailCloud-js: Customers Mail Cloud用のNode.jsライブラリです</a></h3>
 
-&lt;p&gt;&lt;img src=&quot;/images/articles/devkun-relchan.png&quot; style=&quot;width: 500px !important&quot; /&gt;&lt;/p&gt;
+<p>同じくCustomers Mail Cloud用のNode.js SDKです。こちらはメール送信以外にも配信結果を取得するような機能も追加されています。TypeScriptで書かれています。</p>
 
-&lt;h2 id=&quot;まとめ&quot;&gt;まとめ&lt;/h2&gt;
+<p><a href="https://www.npmjs.com/package/@moongift/customers-mail-cloud">@moongift/customers-mail-cloud - npm</a></p>
 
-&lt;p&gt;2020年はコロナショックがあり、あっという間に過ぎ去ってしまったように感じます。また、リモートワークやオンラインミートアップが多くなって刺激が低下しているのが否めない年でもありました。個人的には3月にいく予定だったインド行きがキャンセルになってしまったのが無念です。バンガロールでミートアップを行う予定で、20名を超える方たちが参加登録してたのに勿体なかったです。その頃はインドはほとんど広まっておらず、日本が避けられている状態だったのも、今に思えば遠い過去のようです。&lt;/p&gt;
+<h3 id="goofmintcustmersmailcloud-rb-customers-mail-cloudのrubyライブラリです"><a href="https://github.com/goofmint/CustmersMailCloud-rb">goofmint/CustmersMailCloud-rb: Customers Mail CloudのRubyライブラリです</a></h3>
 
-&lt;p&gt;うまくいけば2021年春頃にワクチン接種が開始しますが、副作用や輸入の問題もあって広く行き渡るのにはまだまだ時間がかかるでしょう。少なくとも2020年中に去年のようにリアルイベントを開くのは難しいと言わざるを得ません。そんな中でいかに情報を広め、開発者を鼓舞して寄り添えるか…2021年もDevRelの真価が問われることでしょう。&lt;/p&gt;
+<p>同じくCustomers Mail Cloud用のRuby SDKです。こちらもメール送信以外にも配信結果を取得するような機能も追加されています。</p>
 
-&lt;hr /&gt;
+<p><a href="https://libraries.io/rubygems/customers_mail_cloud">customers_mail_cloud 0.3.0 on Rubygems - Libraries.io</a></p>
 
-&lt;p&gt;MOONGIFTではDevRelのサポート、アウトソーシングを承っています。DevRelでのお悩みについてはお気軽に&lt;a href=&quot;/contact&quot;&gt;お問い合わせください&lt;/a&gt;。&lt;/p&gt;</content><author><name>moongift</name></author><summary type="html">2020年のDevRelアドベントカレンダーもついに25日、最終日になりました。せっかくなので、2020年における自分自身のDevRelに関する活動について振り返りたいと思います。</summary></entry><entry><title type="html">DevRelとブランドの関係</title><link href="https://devrel.jp/%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89/2020/12/06/devrel-branding.html" rel="alternate" type="text/html" title="DevRelとブランドの関係" /><published>2020-12-06T09:00:00+09:00</published><updated>2020-12-06T09:00:00+09:00</updated><id>https://devrel.jp/%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89/2020/12/06/devrel-branding</id><content type="html" xml:base="https://devrel.jp/%E3%83%96%E3%83%A9%E3%83%B3%E3%83%89/2020/12/06/devrel-branding.html">&lt;p&gt;こちらはDevRel/Asia 2020の発表内容を日本語化したものです。スライド画像は英語のままです。&lt;/p&gt;
+<h3 id="goofmintcustomersmailcloudpy-python-library-for-customers-mail-cloud"><a href="https://github.com/goofmint/CustomersMailCloudPy">goofmint/CustomersMailCloudPy: Python library for Customers Mail Cloud</a></h3>
 
-&lt;h2 id=&quot;ブランドとは何か&quot;&gt;ブランドとは何か&lt;/h2&gt;
+<p>同じくCustomers Mail Cloud用のPython SDKです。こちらもメール送信以外にも配信結果を取得するような機能も追加されています。</p>
 
-&lt;p&gt;ブランドとは有形のものではありません。皆さんもブランドのイメージはあっても、的確な答えを持ち合わせていないかもしれません。そこで、まずはブランドとは何かを説明しましょう。ブランドの起源は、牛などの家畜に焼き印を押したことにあります。自分の家畜であることの証としてブランド化されていました。これがブランドです。現在では、ブランドという言葉は、有名な企業やサービス、商品のロゴマークを指すことが多いです。ブランドとは、ロゴを見ただけで製品やサービスのイメージを呼び起こすことができる力のことです。&lt;/p&gt;
+<p><a href="https://pypi.org/project/CustomersMailCloud/">CustomersMailCloud · PyPI</a></p>
 
-&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-branding-006.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<h2 id="ハンズオン">ハンズオン</h2>
 
-&lt;p&gt;つまり、簡単に言えば、ブランドとはマインドシェアの力といえます。ブランド力があれば、消費者はすぐにあなたを見つけてくれます。それは開発者の頭の中にある種みたいなものです。そして、ブランドは信頼の証でもあります。ブランド力のある製品やサービスは、開発者からの信頼度が高いと言えます。メリットを理解すれば、ブランド構築の重要性が理解できるでしょう。&lt;/p&gt;
+<p>今年はハンズオンコンテンツに注力していました。リアルで行っている場合、せっかく来てもらっていることもあって2〜3時間のコンテンツが多かったですが、オンラインではなかなか集中力が続きません。そこで1時間のショートハンズオンを開催しています。たとえば利用している資料は次のようなものです。</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-branding-009.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p><a href="https://qiita.com/goofmint/items/928258011ac57e79e0ca">Monacaとニフクラ mobile backendを使ってタスク管理アプリを作ろう【ハンズオンスライド】 - Qiita</a></p>
 
-&lt;p&gt;こちらはインターブランドによるブランドランキングです。消費者向けですので、開発者向けとは違うことに注意してください。しかし、リストの上位5社をテクノロジ企業が独占しています。12位のインテル、13位のフェイスブック、14位のIBMもあります。テクノロジ企業がブランドを強化し、マインドシェアを獲得していることがわかります。&lt;/p&gt;
+<p>ハンズオンはDiscord上で行っています。Discordに登録してもらうことで、サービス体験者を可視化しています。また、その上でコミュニケーションを取ることで、タッチポイントを増やしています。</p>
 
-&lt;p&gt;開発者という観点で見てみると、Appleのブランド力が非常に強いです。日本にはApple信者という言葉があります。Appleに魅了され、新製品が出るとすぐに飛びつく人たちです。私もその一人で、Appleの積極的に先進的な製品をリリースする姿勢が好きです。しかし、ほとんどの場合、最初の製品は多くの問題を抱えています。それもまた、Appleの価値の一部です。Amazon、というかAWSのことを考えてみてください。彼らはトップクラウドベンダーとしてシェアを45％を占めていて、さまざまな機能をリリースしています。開発者はそれらをパズルのように組み合わせてサービスを開発しています。個々の技術やサービスが開発者にとっては心地良く、AWSの魅力に取りつかれているのです。AWSの魅力の一つは、システムの安定性と機能の継続性です。めったに動かなくなることはありません。過去に書いたコードが継続的に動き続けます。開発者は、ベンダーの問題によってリリースされた機能を修正することなく、常に新しい開発に取り組むことができます。この安定性と継続性は、ブランド構築に大きな役割を果たします。&lt;/p&gt;
+<h2 id="twitch">Twitch</h2>
 
-&lt;p&gt;Microsoftはどうでうでしょう。約10年前、Microsoftは一部の開発者から嫌われていました。しかし、新しいCEOが就任した際に、メッセージは変わりました。Vistual Studio Codeは世界でもトップレベルのプログラミングエディタになり、Edgeは独自開発をやめてChromiumをベースにし、Edgeはブラウザのシェアを急速に伸ばしています。Googleは常に開発者志向の会社です。多くの開発者が彼らのサービスをハッキングし、便利なソフトウェアを作ってきました。Androidはスマートフォンの未来を変えようとしています。そして、Google ChromeやChromiumはWebを変えています。しかし、GoogleはGoogle VideoやPicassa、Hangoutsなど、似たような名前のサービスを作っては停止させています。彼らのサービスは継続性に難点があると知られています。継続性に疑問符がつくと、信頼を築くのは難しいでしょう。&lt;/p&gt;
+<p>TwitchやYouTube Liveを使って開発中、ブログ執筆中の配信を行っています。まだ実験段階で、どういったコンテンツが向いているのか試行錯誤しています。</p>
 
-&lt;p&gt;このように強いブランドを持つことが、いかに企業価値を高めることにつながるかが分かったでしょう。ブランドの重要性が理解できたところで、次に進みます。&lt;/p&gt;
+<p>エバンジェリストが目立ちすぎるのはよくないと思う部分もありますが、オンラインでの活動が増えていく中ではYouTuberやDJのような分かりやすいシンボル化も必要だと考えています。そういった形になるのが目標です。</p>
 
-&lt;h2 id=&quot;ブランドメリット&quot;&gt;ブランドメリット&lt;/h2&gt;
+<h2 id="カンファレンス運営">カンファレンス運営</h2>
 
-&lt;p&gt;まずはメリットです。メリットを理解することで、ブランド構築の重要性が理解できます。ブランド構築のメリットは大きく分けて3つあります。&lt;/p&gt;
+<p>今年運営に関わったカンファレンスは次の通りです。</p>
 
-&lt;ol&gt;
-  &lt;li&gt;後天的なユーザーコストの低下&lt;/li&gt;
-  &lt;li&gt;LTVの増加&lt;/li&gt;
-  &lt;li&gt;代替サービスとの差別化&lt;/li&gt;
-&lt;/ol&gt;
+<p><img src="/images/articles/devrel-asia.png" alt="" /></p>
 
-&lt;p&gt;まず、新規ユーザー獲得のためのコストです。マインドシェアを獲得していれば、開発者はほかと比較せずにあなたのサービスを選ぶでしょう。また、ロイヤルティの高い開発者は、あなたのサービスをほかの人に勧める可能性が高くなります。口コミでユーザーを獲得するためのコストは、広告よりも大幅に小さいです。&lt;/p&gt;
+<ul>
+  <li><a href="https://conf2020.pwanight.jp/">PWA Night CONFERENCE 2020</a></li>
+  <li><a href="https://tokyo-2020.devrel.net/">DevRelCon Tokyo 2020</a></li>
+  <li><a href="https://2020.devrel.net/">DevRelCon Earth 2020</a></li>
+  <li><a href="https://www.cross-party.com/">CROSS2020</a></li>
+  <li><a href="https://devrel.dev/asia-2020/">DevRel/Asia 2020</a></li>
+</ul>
 
-&lt;p&gt;次に、LTVを向上につながります。あなたが強力なブランドを持っていれば、ユーザーは喜んであなたのサービスや製品を使い続けるでしょう。彼らはあなたのサービスに機能を追加してアップセルすることもあるでしょう。また、ほかのサービスへの切り替えコストが高くなるため、ユーザーはあなたのサービスを使い続けるでしょう。ほかのサービスへの流出は、単にマイナスではありません。競合他社にとってはプラス1、あなたにとってはマイナス1、合計2点の影響があります。&lt;/p&gt;
+<p>PWA Night CONFERENCE 2020は2月1日開催で、コロナショックを受ける直前のカンファレンスでした。DevRelCon Tokyo 2020は中止、その他のカンファレンスはすべてオンラインカンファレンスとなっています。一番感慨深いのはやはりDevRel/Asia 2020になります。約半年間の準備で、新しいチャレンジしかない楽しい試みでした。</p>
 
-&lt;p&gt;メリットの最後。ブランドはほかの代替サービスとの差別化になります。つまり、ブランドは選ぶ理由になります。価格や機能だけで選ばれるのではなく、ユーザーはブランドでサービスを選びます。たとえば、ブランドがなければ、あえてカッコ悪い商品を使いたいとは思わないでしょう。多少価格が高くても、使っていて格好良い、見た目がスマートな商品を選びます。また同じような商品が出てきても、ユーザーはあなたの商品を守ったり、応援してくれます。彼らはソーシャルメディアやブログを使って、クローン商品があなたのものとは違うことを説明してくれるでしょう。これは開発者にとって、あなたが一生懸命いうよりも説得力ある意見になるでしょう。&lt;/p&gt;
+<p><a href="https://devrel.jp/%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/2020/11/16/devrel-asia-2020.html">DevRel/Asia 2020を開催しました - DEVREL - 開発者向けマーケティング支援サービス -</a></p>
 
-&lt;h2 id=&quot;ブランド構築の目的&quot;&gt;ブランド構築の目的&lt;/h2&gt;
+<h2 id="英語登壇">英語登壇</h2>
 
-&lt;p&gt;さて、ブランド構築の目的についてですが、これは簡単なことです。会社の利益の増加につながることです。&lt;/p&gt;
+<p>今年は3つでした。</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-branding-024.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<ul>
+  <li><a href="https://2020.devrel.net/">DevRelCon Earth 2020</a></li>
+  <li><a href="https://devrel.dev/asia-2020/">DevRel/Asia 2020</a></li>
+  <li><a href="https://apidayshongkong.virtualconference.com/#/event">apidays LIVE HONG KONG</a></li>
+</ul>
 
-&lt;p&gt;1つ目は、満足度の向上です。満足度が向上するということは、開発者がより多くのお金を払うことでしょう。価格を上げたとしても、離脱する開発者は少なくなります。2つ目は、開発者との関係が良くなることです。開発者がほかのサービスを気にするのをやめて、あなたのサービスを使い続けます。その結果、LTVは増加し、利益の増加につながります。最後に、ブランドはあなたのサービスの評判を向上させます。評判が良ければ、その評判に惹かれて新たな開発者を獲得できます。新規獲得のコストを削減することで、あなたの収益を向上させることができます。&lt;/p&gt;
+<p>DevRelConやDevRel/Asiaについては運営側と言うこともあって下駄を履いているところがあるでしょう。apidaysは1週間くらい前に突然登壇を依頼されたものになります。香港開催ですが、時差は1時間程度ですし、現地入りする必要がないのはオンラインカンファレンスのメリットと言えそうです。</p>
 
-&lt;h2 id=&quot;ブランド価値を分解する&quot;&gt;ブランド価値を分解する&lt;/h2&gt;
+<h2 id="書籍">書籍</h2>
 
-&lt;p&gt;ブランド価値には2つの視点があります。開発者の視点と、企業の視点です。&lt;/p&gt;
+<p>DevRelに関連した書籍は2冊書いています。</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-branding-027.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p><img src="/images/articles/online-event.jpg" style="width: 350px !important" /></p>
 
-&lt;p&gt;まずは開発者の視点です。開発者目線のブランド価値観は、得られる利益とコストの差を基準にしています。認識できるものとは、わかりやすい価値のことです。たとえば、機能や価格などです。しかし、中には認識されにくい価値もあります。使っているとみんなが注目してくれるなど、エモーショナルな価値です。これは、数値化が難しいものです。一方で、目に見えないコストもあります。たとえば、学習コスト、コーディングの時間、さらにはあなたの製品を使用するために費やした彼らのキャリアなどです。&lt;/p&gt;
+<ul>
+  <li>[一冊で分かる！オンラインイベントのはじめかた (技術の泉シリーズ（NextPublishing）)https://www.amazon.co.jp/dp/4844379291/)</li>
+  <li><a href="https://techbookfest.org/product/5638666120593408">英語で広がる開発者のキャリア</a></li>
+</ul>
 
-&lt;p&gt;対して、企業のブランド価値はどうでしょう。企業がまず価値と考えるのは、製品提供価値です。製品提供価値の最大化はマーケティングの領域です。その製品価値が、コンテンツ提供価値やリレーションシップ提供価値と相まって、ブランド価値を生み出しているのです。DevRelに携わっている方なら、ここでピンとくるはずです。&lt;/p&gt;
+<p>どちらも技術書典に合わせてコミュニティメンバーと一緒に書いた本になります。徐々に執筆環境も整いつつあって、書きやすくなってきました。2021年も良いネタがあればぜひ書きたいですね。</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-branding-030.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<h2 id="devくんrelちゃんの制作">Devくん、Relちゃんの制作</h2>
 
-&lt;p&gt;そう、コンテンツとリレーションシップです。ブログ記事を書いたりドキュメントをメンテナンスしたりするのがコンテンツ、コミュニティを維持したりハッカソンを扱うのがリレーションシップと同じです。つまり、ブランド構築の2大要素をDevRelが担っているのです。私たちDevRelがやっていることは、ブランド構築を強化していると言ってもよいでしょう。もともと私はブランド構築に興味があり、いろいろと調べていました。コンテンツ提供価値とリレーションシップ提供価値を知ったときに、大きな衝撃を受けました。なぜなら、DevRelがこのコンテンツ提供価値とリレーションシップ提供価値を提供しているからです。&lt;/p&gt;
+<p>コロナ禍でなんとなく元気のなくなったDevRel界隈を盛り上げようと作成したのがDevくん、Relちゃんです。このイメージキャラクターはミートアップイベントやDevRel/Asia 2020でも活躍してくれました。</p>
 
-&lt;h3 id=&quot;コンテンツ提供価値とリレーション提供価値&quot;&gt;コンテンツ提供価値とリレーション提供価値&lt;/h3&gt;
+<p><img src="/images/articles/devkun-relchan.png" style="width: 500px !important" /></p>
 
-&lt;p&gt;もう少し詳しく説明しましょう。コンテンツ提供価値とは何かというと、製品の価値を上げる情報のことです。誰かに伝えたくなるようなストーリーであったり、相手を虜にするようなストーリーなどです。ほかとは何か違うと感じさせるストーリーもよいです。OSSの場合は、開発者が助けたくなるようなストーリーもよいです。&lt;/p&gt;
+<h2 id="まとめ">まとめ</h2>
 
-&lt;p&gt;同様に、リレーション提供価値とは、製品の価値を高める関係性のことです。サービスを利用してソフトウェアを開発する経験、ユーザーグループに参加してコミュニケーションをとる、公式・非公式のサポートを受ける、OSSの開発に貢献するなど、すべてが関係性につながります。&lt;/p&gt;
+<p>2020年はコロナショックがあり、あっという間に過ぎ去ってしまったように感じます。また、リモートワークやオンラインミートアップが多くなって刺激が低下しているのが否めない年でもありました。個人的には3月にいく予定だったインド行きがキャンセルになってしまったのが無念です。バンガロールでミートアップを行う予定で、20名を超える方たちが参加登録してたのに勿体なかったです。その頃はインドはほとんど広まっておらず、日本が避けられている状態だったのも、今に思えば遠い過去のようです。</p>
 
-&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-branding-034.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+<p>うまくいけば2021年春頃にワクチン接種が開始しますが、副作用や輸入の問題もあって広く行き渡るのにはまだまだ時間がかかるでしょう。少なくとも2020年中に去年のようにリアルイベントを開くのは難しいと言わざるを得ません。そんな中でいかに情報を広め、開発者を鼓舞して寄り添えるか…2021年もDevRelの真価が問われることでしょう。</p>
 
-&lt;p&gt;コンテンツ提供価値とリレーションシップ提供価値、この2つが一緒になって初めて意味を持ちます。しかし、多くの場合、最初の接触はコンテンツです。そして開発者があなたの製品を継続的に使用することで、開発者は関係性を感じ、あなたの製品をより深く好きになるのです。では、たとえばコンテンツ提供価値とリレーションシップ提供価値とは具体的に何なのでしょうか。コンテンツ提供価値とは、企業が提供する情報で、あなたの製品をより魅力的なものにしてくれるものです。コンセプトムービー、一貫したデザイン、ブログ記事、ドキュメントだったりします。リレーションシップ提供価値はソーシャルメディアやユーザーグループ、ハンズオン活動などの体験主導型の施策になります。これらの要素はどちらもあなたの製品提供価値を支え、ブランド力を向上させるものです。&lt;/p&gt;
+<hr />
 
-&lt;h3 id=&quot;注意ポイント&quot;&gt;注意ポイント&lt;/h3&gt;
-
-&lt;p&gt;B2BとB2Cでは、誰をターゲットにしているかによって製品やサービスの条件が異なることを理解しましょう。B2Cでは、個人の開発者がターゲットであり、ステークホルダーは少なくなります。その反面、安定性は低くなります。B2Bの場合、戦える市場が限られきます。どちらの場合でもターゲットオーディエンスを分析し、彼らに合わせたブランディングをしましょう。ターゲットが違えば、コミュニティも異なるでしょう。ターゲットオーディエンス、つまり開発者のことをしっかりと学びましょう。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-branding-036.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;次に、信頼はすぐに築かれるものではありません。システムの安定性、応答性の高さ、そしてサービスの継続性が関係しています。中長期的に時間をかけることが、確かな信頼を築くためには欠かせません。&lt;/p&gt;
-
-&lt;h2 id=&quot;いつはじめるか&quot;&gt;いつはじめるか&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-branding-040.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;では、ブランディングの構築はいつから始めるのがベストなのでしょうか。これは新商品と既存商品では異なります。まず、新規製品の場合は、サービスのコンセプトが固まってから行うのがベストです。それ以前にやってしまうと、ピボットの影響が大きくなります。すでにリリースしている製品の場合は、アーリーアダプタへの波及が落ち着いたタイミングにしましょう。アーリーアダプタのフィードバックを受けてサービスが改善された段階くらいがちょうどよいです。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-branding-041.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;注意点&quot;&gt;注意点&lt;/h2&gt;
-
-&lt;p&gt;ブランドというのは信頼の積み重ねです。信頼は砂粒のようなもので、それを山のように積み上げるのは非常に難しいです。たとえば、あなたの会社がいくつかのサービスを提供しているとしましょう。最初、それぞれのサービスと開発者は良い関係を築いています。しかし、あなたのサービスの1つがユーザーの信頼を損なったとします。そうすると、会社への信頼は損なわれ、ほかのサービスにも波及することになります。1つのサービスの失敗は、会社全体のブランディングに悪影響を及ぼすことになります。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-branding-046.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;逆に言えば、すべてのサービスで良好な関係が保たれていれば、会社全体で開発者との強い信頼関係を築くことができます。&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/articles/devrel-branding-047.jpeg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;まとめ&quot;&gt;まとめ&lt;/h2&gt;
-
-&lt;p&gt;ブランドとは、開発者とサービスの絆です。強いブランドがあれば、開発者の心に早く届くでしょう。またブランドとは、それぞれの製品、コンテンツ、関係性の提供価値の掛け算で表されます。最後に、信頼を築くのは難しいですが、壊すのは簡単だということを忘れないでください。&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;MOONGIFTではDevRelのサポート、アウトソーシングを承っています。DevRelでのお悩みについてはお気軽に&lt;a href=&quot;/contact&quot;&gt;お問い合わせください&lt;/a&gt;。&lt;/p&gt;</content><author><name>moongift</name></author><summary type="html">こちらはDevRel/Asia 2020の発表内容を日本語化したものです。スライド画像は英語のままです。</summary></entry></feed>
+<p>MOONGIFTではDevRelのサポート、アウトソーシングを承っています。DevRelでのお悩みについてはお気軽に<a href="/contact">お問い合わせください</a>。</p>]]></content><author><name>moongift</name></author><category term="ブログ" /><summary type="html"><![CDATA[2020年のDevRelアドベントカレンダーもついに25日、最終日になりました。せっかくなので、2020年における自分自身のDevRelに関する活動について振り返りたいと思います。]]></summary></entry></feed>
