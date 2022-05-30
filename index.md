@@ -113,36 +113,21 @@ permalink: /
         </div>
         <div class="col-md-9">
           <h3 class="tp-header is-ja">主なサービスと価格</h3>
+          <a href="/service" class=""><h4 style="font-weight: bold;font-size: 18px">DevRelサポート</h4></a>
           <p class="tp-section__text is-ja tp-section__text--pc">
           私たちはエバンジェリスト代行、ブログやドキュメントのライティング、イベント開催、コミュニティ育成をメインとしています。他にも動画の作成やデモコード作成、電子書籍の執筆など、DevRelに関する業務を全方位的に行っています。
+            <a href="/service" class="">DevRelサポートの詳細を見る</a>
           </p>
-          <div class="serviceIcon clearfix">
-            <dl class="serviceIcon__item">
-              <dt><img src="assets/images/service_icon06.png" alt="Code"/></dt>
-              <dd class="serviceIcon__en"><span>C</span>ode</dd>
-              <dd class="serviceIcon__ja">コード</dd>
-            </dl>
-            <dl class="serviceIcon__item">
-              <dt><img src="assets/images/service_icon02.png" alt="Content"/></dt>
-              <dd class="serviceIcon__en"><span>C</span>ontent</dd>
-              <dd class="serviceIcon__ja">コンテンツ</dd>
-            </dl>
-            <dl class="serviceIcon__item">
-              <dt><img src="assets/images/service_icon01.png" alt="Conductor"/></dt>
-              <dd class="serviceIcon__en"><span>C</span>onductor</dd>
-              <dd class="serviceIcon__ja">コンダクター</dd>
-            </dl>
-            <dl class="serviceIcon__item">
-              <dt><img src="assets/images/service_icon03.png" alt="Communication"/></dt>
-              <dd class="serviceIcon__en"><span>C</span>ommunication</dd>
-              <dd class="serviceIcon__ja">コミュニケーション</dd>
-            </dl>
-
-          </div><!--//.serviceIcon-->
-
-          <p class="kaiketsu is-ja">DEVRELをもっと知ろう！</p>
-          <p class="kaiketsu is-en">For whom and what world will be realized</p>
-          <div class="u-align-center mt2"><a href="/service" class="c-btn c-btn--viewmore">VIEW MORE</a></div>
+          <a href="/hiring" class=""><h4 style="font-weight: bold;font-size: 18px">エンジニア求人サポート</h4></a>
+          <p class="tp-section__text is-ja tp-section__text--pc">
+          DevRelをエンジニア求人に特化させたパッケージです。技術ブログの開設と運用、コンテンツ発信、開発者向けイベント実施をメインとしています。自社のブランディングを向上させ、エンジニアに選ばれる企業になりましょう。
+            <a href="/hiring" class="">エンジニア求人サポートの詳細を見る</a>
+          </p>
+          <a href="/techblog" class=""><h4 style="font-weight: bold;font-size: 18px">技術ブログ運営サポート</h4></a>
+          <p class="tp-section__text is-ja tp-section__text--pc">
+          技術ブログが続かない、コンテンツがないといった課題感はありませんか。技術ブログ運営サポートでは、御社の技術ブログ立ち上げから編集部体制の構築、運用まで網羅的にサポートします。自社ブランドの確立と、アウトプット文化を構築しましょう。
+            <a href="/techblog" class="">技術ブログ運営サポートの詳細を見る</a>
+          </p>
       </div> <!-- / .col  -->
     </div> <!-- / .row  -->
     </div><!-- /.container -->

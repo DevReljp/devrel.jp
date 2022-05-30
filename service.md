@@ -1,7 +1,7 @@
 ---
 layout: home
 permalink: /service/
-title: サービス
+title: DevRelサポートサービス
 ---
 
 <section class="tp-section tp-section">
@@ -10,7 +10,7 @@ title: サービス
 			<div class="col-md-3">
 				<div class="tp-section-header">
 					<h2 class="tp-section-header__title">SERVICE</h2>
-					<h2 class="tp-section-header__title-ja is-ja">主なサービスと価格</h2>
+					<h2 class="tp-section-header__title-ja is-ja">DevRelサポートサービスの内容と価格</h2>
 				</div>
 			</div>
 			<div class="col-md-9">
@@ -127,7 +127,7 @@ title: サービス
 							<h3 class="priceCol__title"><span>C</span>ontent</h3>
 							<p class="priceCol__subTitle is-ja">コンテンツ</p>
 							<p class="priceCol__subTitle is-en">Content</p>
-							<p class="priceCol__price is-ja">14万円〜/月　最低契約期間/1ヶ月〜</p>
+							<p class="priceCol__price is-ja">18万円〜/月　最低契約期間/1ヶ月〜</p>
 						</div>
 					</div><!--//priceCol-->
 
@@ -138,7 +138,7 @@ title: サービス
 							<h3 class="priceCol__title"><span>C</span>onductor</h3>
 							<p class="priceCol__subTitle is-ja">コンダクター</p>
 							<p class="priceCol__subTitle is-en">Conductor</p>
-							<p class="priceCol__price is-ja">32万円〜/月　最低契約期間/1ヶ月〜</p>
+							<p class="priceCol__price is-ja">35万円〜/月　最低契約期間/1ヶ月〜</p>
 						</div>
 					</div><!--//priceCol-->
 
