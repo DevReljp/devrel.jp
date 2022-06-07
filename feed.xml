@@ -1,4 +1,99 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://devrel.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://devrel.jp/" rel="alternate" type="text/html" /><updated>2022-05-30T15:23:11+09:00</updated><id>https://devrel.jp/feed.xml</id><title type="html">DEVREL - 開発者向けマーケティング支援サービス -</title><subtitle>DevRelは開発者向けマーケティング施策です。私たちは企業の製品、サービスを広く開発者に知ってもらうためのDevRelをサポート、代行しています。</subtitle><entry><title type="html">DevRelにチャレンジしたいエンジニアを募集！</title><link href="https://devrel.jp/%E6%B1%82%E4%BA%BA/2022/05/18/hiring-post.html" rel="alternate" type="text/html" title="DevRelにチャレンジしたいエンジニアを募集！" /><published>2022-05-18T09:00:00+09:00</published><updated>2022-05-18T09:00:00+09:00</updated><id>https://devrel.jp/%E6%B1%82%E4%BA%BA/2022/05/18/hiring-post</id><content type="html" xml:base="https://devrel.jp/%E6%B1%82%E4%BA%BA/2022/05/18/hiring-post.html"><![CDATA[<p>こちらは求人ポストになります。最初に書いておくと、雇用する人数は1名になります。大勢を雇用する訳ではないので「あなた」に刺さればOKです。以下を読んで、これは自分にぴったりだと思ったら、ぜひ<a href="https://twitter.com/goofmint">私にコンタクト</a>してください！</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://devrel.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://devrel.jp/" rel="alternate" type="text/html" /><updated>2022-06-07T15:41:32+09:00</updated><id>https://devrel.jp/feed.xml</id><title type="html">DEVREL - 開発者向けマーケティング支援サービス -</title><subtitle>DevRelは開発者向けマーケティング施策です。私たちは企業の製品、サービスを広く開発者に知ってもらうためのDevRelをサポート、代行しています。</subtitle><entry><title type="html">ニュースレターの始め方</title><link href="https://devrel.jp/%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/2022/06/07/newsletter.html" rel="alternate" type="text/html" title="ニュースレターの始め方" /><published>2022-06-07T09:00:00+09:00</published><updated>2022-06-07T09:00:00+09:00</updated><id>https://devrel.jp/%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/2022/06/07/newsletter</id><content type="html" xml:base="https://devrel.jp/%E3%83%9E%E3%83%BC%E3%82%B1%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0/2022/06/07/newsletter.html"><![CDATA[<p>最近、開発者向けにニュースレターが流行っています。Qiitaでもこんな記事がありました。</p>
+
+<p><a href="https://qiita.com/ninomiyt/items/52f221d6eb4314429a3c">新人エンジニアはnewsletterを読もう - Qiita</a></p>
+
+<p>そういった流れもあり、DevRelでもニュースレター配信を開始しました。1週間に1度（たぶん月曜日）、DevRelに関するニュースや記事などが配信されるニュースレターになります。ぜひご登録ください。</p>
+
+<p><img src="/images/articles/newsletter-3.jpg" alt="" /></p>
+
+<p><a href="https://www.getrevue.co/profile/devreljp">DevRelニュースレター | Revue</a></p>
+
+<p>ここではニュースレターとメールマガジンの違い、配信に利用できるサービスなどを紹介します。</p>
+
+<h2 id="メールマガジンの違い">メールマガジンの違い</h2>
+
+<p>おそらく両者に明確な違いはないように思います。日本ではメールマガジンと呼ばれることが多く、海外ではニュースレターと呼ばれているようです。</p>
+
+<p>個人的な意見としては、海外で言うニュースレターは一般的にリンクを並べたものが多いように見えます。つまりメール自体にはコンテンツはあまりなく、詳細を知りたければリンク先を見てと言ったスタイルです。対してメールマガジンの場合、メールの中にコンテンツ（テキスト）が書かれており、メールだけで完結するものが多いように見えます。</p>
+
+<p>ニュースレターと呼ぶだけあって、あくまでもニュース（最新情報）だけをリストアップして届けるニュースレターなのに対して、メールマガジンはマガジンとしてメールだけで楽しめる（特に速報性は関係なく）内容になっています。とはいえ、日本のニュースレターサービスである<a href="https://theletter.jp/">theLetter</a>はメールマガジンのような形式になっているものが多いので、必ずしも速報性だけを謳うわけではなさそうです。</p>
+
+<h2 id="ニュースレター配信に利用できるサービス">ニュースレター配信に利用できるサービス</h2>
+
+<p>ざっとリストアップすると以下のようになります。日本ではtheLetterくらいでした。まぐまぐは有名ですが、こちらはメールマガジンと銘打っているので除外しています。</p>
+
+<ul>
+  <li><a href="https://theletter.jp/">theLetter</a></li>
+  <li><a href="https://letterfuel.com/">Letterfuel</a></li>
+  <li><a href="https://refind.com/">Refind</a></li>
+  <li><a href="https://elink.io/">elink.io</a></li>
+  <li><a href="https://www.curated.co/">Curated</a></li>
+  <li><a href="https://www.getrevue.co/">Revue</a></li>
+  <li><a href="https://substack.com/">Substack</a></li>
+  <li><a href="https://buttondown.email/">Buttondown</a></li>
+  <li><a href="https://www.mailerlite.com/">MailerLite</a></li>
+  <li><a href="https://emailoctopus.com/">EmailOctopus</a></li>
+  <li><a href="https://tinyletter.com/">TinyLetter</a></li>
+  <li><a href="https://staykeen.com/landing">Keen</a></li>
+</ul>
+
+<p>Googleが提供するKeenは本来ニュースレターサービスではありませんが、購読しているKeenのアップデート情報を配信してくれるので載せています。ただし、コンテンツの配置などは選択できず、自動的に配信されるだけとなっています。</p>
+
+<p>よりカスタマイズしたニュースレターが配信したい場合には、MailchimpやHubSpotなどのメール機能を使うと良いでしょう。</p>
+
+<h2 id="revueの使い方">Revueの使い方</h2>
+
+<p>ここからはDevRel.jpで利用している<a href="https://www.getrevue.co/">Revue</a>の使い方を解説します。RevueはTwitterが提供するサービスで、Twitterアカウントから簡単に購読登録できます。また、ニュースレターのコンテンツも数多くのリソースを使って手軽に作成できます。</p>
+
+<p><img src="/images/articles/newsletter-4.jpg" alt="" /></p>
+
+<p>コンテンツリソースには以下が利用できます。</p>
+
+<ul>
+  <li>Twitter</li>
+  <li>Facebook</li>
+  <li>Pochet</li>
+  <li>Instagram</li>
+  <li>Medium</li>
+  <li>Refind</li>
+  <li>Product Hunt</li>
+  <li>Instapaper</li>
+  <li>RSSフィード</li>
+  <li>Feedbin</li>
+  <li>Dribbble</li>
+</ul>
+
+<p>また、Stripeを使って有料ニュースレターにしたり、Mailchimpと連携した購読者データのインポート、Zapierを使った購読者の自動同期、LinkedInへの発信なども可能です。</p>
+
+<p><a href="https://twitter.com/devreljp">Twitterのプロフィール欄からニュースレターの購読もできます</a>。こうした連携が便利です。</p>
+
+<p><img src="/images/articles/newsletter-1-2.jpg" alt="" /></p>
+
+<h3 id="devrelニュースレターの作り方">DevRelニュースレターの作り方</h3>
+
+<p>DevRelニュースレターのリソースはInstapaperのRSSフィードになっています。DevRelにとって役立つ記事があれば、それをInstapaperのDevRelフォルダに登録しています。InstapaperではフォルダごとにフィードのURLが発行されるので、それを購読するだけです。</p>
+
+<p><img src="/images/articles/newsletter-5.jpg" alt="" /></p>
+
+<p>なお、このInstapaperのデータはDevRelラジオでも活用しています。コンテンツを共通化することで、運用を低負荷にしています。上記の通り、リソースは様々に登録できるので、使いやすいものを選択すると良いでしょう。</p>
+
+<h3 id="購読者について">購読者について</h3>
+
+<p>購読者のデータは元々MailchimpにあったDevRel.jpのニュースレター登録者のデータです。本来400以上のメールアドレスがあるのですが、インポートするとなぜか85に減っています。この原因は今も不明です。</p>
+
+<h2 id="購読状況">購読状況</h2>
+
+<p>今のところDevRelニュースレターは購読停止になったことはありません。最新の#4で開封率29.41%、クリック率24%となっています。この数字は徐々に向上している傾向があるので、繰り返し送付することで、開封率も上がってくると思われます。</p>
+
+<p><img src="/images/articles/newsletter-2.jpg" alt="" /></p>
+
+<p>このニュースレター自体は営業する目的ではないので、購読している方にとって役立つ情報を送り続けていれば、将来的に良い結果につながると思われます。元々DevRelラジオのコンテンツの二次利用的なものなので、運用負荷が大きくないこと、ラジオは聞かない方々にもコンテンツが届けられるのが利点と言えるでしょう。</p>
+
+<h2 id="まとめ">まとめ</h2>
+
+<p>ニュースレターは開発者向けに情報を届ける施策として、悪くないと感じています。今後、クライアント向けにも実施してみる予定です。ぜひ皆さんもチャレンジしてみてください。</p>
+
+<p>DevRelニュースレターの購読は以下からどうぞ！</p>]]></content><author><name>moongift</name></author><category term="マーケティング" /><summary type="html"><![CDATA[最近、開発者向けにニュースレターが流行っています。Qiitaでもこんな記事がありました。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://devrel.jp/images/articles/newsletter.jpg" /><media:content medium="image" url="https://devrel.jp/images/articles/newsletter.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">DevRelにチャレンジしたいエンジニアを募集！</title><link href="https://devrel.jp/%E6%B1%82%E4%BA%BA/2022/05/18/hiring-post.html" rel="alternate" type="text/html" title="DevRelにチャレンジしたいエンジニアを募集！" /><published>2022-05-18T09:00:00+09:00</published><updated>2022-05-18T09:00:00+09:00</updated><id>https://devrel.jp/%E6%B1%82%E4%BA%BA/2022/05/18/hiring-post</id><content type="html" xml:base="https://devrel.jp/%E6%B1%82%E4%BA%BA/2022/05/18/hiring-post.html"><![CDATA[<p>こちらは求人ポストになります。最初に書いておくと、雇用する人数は1名になります。大勢を雇用する訳ではないので「あなた」に刺さればOKです。以下を読んで、これは自分にぴったりだと思ったら、ぜひ<a href="https://twitter.com/goofmint">私にコンタクト</a>してください！</p>
 
 <h2 id="短縮版">短縮版</h2>
 
@@ -1045,41 +1140,4 @@
 
 <script src="/assets/js/ncmb.min.js"></script>
 
-<script src="/assets/js/app.js"></script>]]></content><author><name>moongift</name></author><category term="マーケティング" /><summary type="html"><![CDATA[マーケティングが何かというと、幾つかの答えがあるようです。]]></summary></entry><entry><title type="html">成功するブログマーケティング10のルールを配布します</title><link href="https://devrel.jp/ebook/%E3%83%96%E3%83%AD%E3%82%B0/2021/08/20/devrel-content-marketing-guide.html" rel="alternate" type="text/html" title="成功するブログマーケティング10のルールを配布します" /><published>2021-08-20T09:00:00+09:00</published><updated>2021-08-20T09:00:00+09:00</updated><id>https://devrel.jp/ebook/%E3%83%96%E3%83%AD%E3%82%B0/2021/08/20/devrel-content-marketing-guide</id><content type="html" xml:base="https://devrel.jp/ebook/%E3%83%96%E3%83%AD%E3%82%B0/2021/08/20/devrel-content-marketing-guide.html"><![CDATA[<p>コロナ禍において、カンファレンスやEXPOのような対面文化が失われつつあります。コミュニティイベントも軒並みオンライン化されており、コミュニケーション手段が制限されていることでしょう。</p>
-
-<p>そんな中、ブログを中心としたコンテンツマーケティングにフォーカスする企業が増えています。MOONGIFTでも、ブログ作成に関する問い合わせが増えています。</p>
-
-<p>ブログをはじめたいけれど、どうやったら良いか分からない場合や、何に注意したら良いか分からない企業向けに「成功するブログマーケティング10のルール」というeBookを作成しました。ぜひご覧ください！</p>
-
-<h2 id="目次">目次</h2>
-
-<ol>
-  <li>目的を決める</li>
-  <li>対象を知る</li>
-  <li>書く場所を決める</li>
-  <li>コンテンツの種類</li>
-  <li>ゴールを決める</li>
-  <li>発信力を付ける</li>
-  <li>レギュレーション</li>
-  <li>測定する</li>
-  <li>改善する</li>
-  <li>その他</li>
-</ol>
-
-<p>こちらはその中の1ページです。</p>
-
-<p><img src="/assets/images/blog-rule-10-1.jpeg" style="width:300px !important" /></p>
-
-<h2 id="ダウンロード">ダウンロード</h2>
-
-<p>ダウンロードがこちらのフォームに入力いただければ可能です。なお、メールマガジンの購読が必須になるのでご注意ください。</p>
-
-<script type="text/javascript" src="//ma.moongift.co.jp/form/generate.js?id=4"></script>
-
-<h2 id="お知らせ">お知らせ</h2>
-
-<p>MOONGIFTではDevRelのアウトソーシングを提供しています。ブログ執筆はもちろん、各種開発者マーケティングに関するご相談を承ります。DevRelに取り組みたいが、アイディアも人員も不足している…そんな場合はぜひ<a href="/contact">お問い合わせください</a>。</p>
-
-<script src="/assets/js/ncmb.min.js"></script>
-
-<script src="/assets/js/app.js"></script>]]></content><author><name>moongift</name></author><category term="eBook" /><category term="ブログ" /><summary type="html"><![CDATA[コロナ禍において、カンファレンスやEXPOのような対面文化が失われつつあります。コミュニティイベントも軒並みオンライン化されており、コミュニケーション手段が制限されていることでしょう。]]></summary></entry></feed>
+<script src="/assets/js/app.js"></script>]]></content><author><name>moongift</name></author><category term="マーケティング" /><summary type="html"><![CDATA[マーケティングが何かというと、幾つかの答えがあるようです。]]></summary></entry></feed>
