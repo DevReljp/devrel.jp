@@ -1,4 +1,98 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://devrel.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://devrel.jp/" rel="alternate" type="text/html" /><updated>2022-06-09T21:16:35+09:00</updated><id>https://devrel.jp/feed.xml</id><title type="html">DEVREL - 開発者向けマーケティング支援サービス -</title><subtitle>DevRelは開発者向けマーケティング施策です。私たちは企業の製品、サービスを広く開発者に知ってもらうためのDevRelをサポート、代行しています。</subtitle><entry><title type="html">あなたはGiver/Taker/Matcher？</title><link href="https://devrel.jp/%E8%87%AA%E5%B7%B1%E8%A8%BA%E6%96%AD/2022/06/09/give-and-take.html" rel="alternate" type="text/html" title="あなたはGiver/Taker/Matcher？" /><published>2022-06-09T09:00:00+09:00</published><updated>2022-06-09T09:00:00+09:00</updated><id>https://devrel.jp/%E8%87%AA%E5%B7%B1%E8%A8%BA%E6%96%AD/2022/06/09/give-and-take</id><content type="html" xml:base="https://devrel.jp/%E8%87%AA%E5%B7%B1%E8%A8%BA%E6%96%AD/2022/06/09/give-and-take.html"><![CDATA[<p>最近Audibleにハマっています。普段読まないような本も運動がてらに聞くことで、ここ数ヶ月で一気に書籍の消化が進んでいます。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://devrel.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://devrel.jp/" rel="alternate" type="text/html" /><updated>2022-06-16T17:37:59+09:00</updated><id>https://devrel.jp/feed.xml</id><title type="html">DEVREL - 開発者向けマーケティング支援サービス -</title><subtitle>DevRelは開発者向けマーケティング施策です。私たちは企業の製品、サービスを広く開発者に知ってもらうためのDevRelをサポート、代行しています。</subtitle><entry><title type="html">プレゼンやドキュメントで置き換えるべきワード</title><link href="https://devrel.jp/%E3%83%97%E3%83%AC%E3%82%BC%E3%83%B3/2022/06/16/replace-words.html" rel="alternate" type="text/html" title="プレゼンやドキュメントで置き換えるべきワード" /><published>2022-06-16T09:00:00+09:00</published><updated>2022-06-16T09:00:00+09:00</updated><id>https://devrel.jp/%E3%83%97%E3%83%AC%E3%82%BC%E3%83%B3/2022/06/16/replace-words</id><content type="html" xml:base="https://devrel.jp/%E3%83%97%E3%83%AC%E3%82%BC%E3%83%B3/2022/06/16/replace-words.html"><![CDATA[<p>エバンジェリストやアドボケイトとして活動する中で、動画やプレゼンなど発信活動に従事することが多いです。そんな中で、不用意な言葉を使ったために信頼性を損なったり、炎上したりする可能性があります。</p>
+
+<p>有名なところではブラックリスト/ホワイトリストなどがありますが、旧来のワードから、現在はすでに利用すべきでない単語になっている技術用語をリストアップしてみます。</p>
+
+<p>この手のワードは<a href="https://inclusivenaming.org/">Inclusive Naming Initiative</a>にまとまっていますので、一度みてみると良いでしょう。</p>
+
+<h2 id="緊急度の高い置換すべき用語">緊急度の高い置換すべき用語</h2>
+
+<p>以下の4単語は緊急度が高い、今すぐ置き換えるべき単語としてリストアップされています。これらはプレゼンや資料内で使わないようにしましょう。</p>
+
+<h3 id="abort">Abort</h3>
+
+<p>知らなかったのですが（知らない、というのが一番まずいのですが）Abortは流産や産まれなくすると言うのが語源とのことです。しかし、このAbort、macOSで実行許可が取れていない実行ファイルをターミナルで実行した際にも出ますよね…（<code class="highlighter-rouge">Abort trap: 6</code> みたいな）。</p>
+
+<p>置き換え後は <code class="highlighter-rouge">Force quit</code> や <code class="highlighter-rouge">Fail</code> などが推奨されています。</p>
+
+<h3 id="ブラックリストホワイトリスト">ブラックリスト/ホワイトリスト</h3>
+
+<p>これについてはよく知られているかと思います。こちらはAllowlist（許可リスト）/Denylist（拒否リスト）への置き換えが推奨されています。</p>
+
+<h3 id="マスタースレイブ">マスター/スレイブ</h3>
+
+<p>これも有名ですね。こちらはプライマリー/セカンダリー、親子などへの置き換えが推奨されています。ヤマハのルーターはマネージャーとエージェントや、リーダー/フォロワーに替わっています。</p>
+
+<p><a href="http://www.rtpro.yamaha.co.jp/notice/terms/terms-change.html">用語変更のお知らせ</a></p>
+
+<h3 id="マスター">マスター</h3>
+
+<p>スレイブのないパターンです。GitHubもmasterブランチではなくmainブランチを使うのがデフォルトになっています。その他originalやsourceなども候補に挙がっています。</p>
+
+<h2 id="置き換えを強くお勧めする単語">置き換えを強くお勧めする単語</h2>
+
+<h3 id="サニタリーテストサニタリーチェック">サニタリーテスト/サニタリーチェック</h3>
+
+<p>いわゆる正常系テストに相当する単語かと思います。サニタリーは正気という意味があり、あまり良い単語ではないということでしょうか。置き換え後の単語はConfidence Check/Confidence Testとなっています。Confidenceは信用、信頼性と言った意味になります。</p>
+
+<h2 id="置き換えた方が良い単語">置き換えた方が良い単語</h2>
+
+<h3 id="segregate">Segregate</h3>
+
+<p>日本だとセグメンテーションという言い方になるかと思いますが、このSegregate/Segregatationは米国と南アフリカにおける公民権運動、米国南部における隔離の文脈があるそうです。置き換え語はSegment/Segmentationになります。</p>
+
+<h3 id="tribe">Tribe</h3>
+
+<p>Tribeは部族、部落などの意味になります。ネイティブアメリカンなどを説明する文脈でよく聞かれる単語は気がします。特に技術界隈であえて使う単語だとは思いませんが、Teamなどに置き換えるべきとしています。</p>
+
+<h2 id="置き換えを検討しないで良い単語">置き換えを検討しないで良い単語</h2>
+
+<p>以下は置き換えを検討する必要がない単語になります。</p>
+
+<ul>
+  <li>ブラックボックス</li>
+  <li>ブラックアウト</li>
+  <li>Disable</li>
+  <li>フェロー</li>
+  <li>Fair hiring practice（公正な雇用機会）</li>
+  <li>Master inventor</li>
+  <li>Mastermind</li>
+  <li>Parent and child</li>
+  <li>Red team</li>
+</ul>
+
+<p>LGBT/LGBTQが話題になった時にブラックボックスも注目が集まったように思います。ブラックボックス自体はそもそも語源がよく分かっていない単語のようで、人種に由来する単語ではありません。</p>
+
+<h2 id="日本語で注意すべきもの">日本語で注意すべきもの</h2>
+
+<p>英単語は主に海外向けに発信する場合に注意すべき言葉になるかと思います。そして国内での発信についても、以下のような単語は使わない or 置き換えが必要でしょう。</p>
+
+<ul>
+  <li>キル/kill</li>
+  <li>人柱</li>
+</ul>
+
+<p>以下はよく使われますが、置き換えがなかなか難しそうですね…。</p>
+
+<ul>
+  <li>隠蔽化</li>
+  <li>データをなめる</li>
+</ul>
+
+<p>ゲーム業界では先日、この単語の使い方で炎上していましたね。</p>
+
+<ul>
+  <li>人権</li>
+</ul>
+
+<p>動画などで公開される場合、ある業界では通用する or 受け入れられている単語が、一般的な感性からみると非常識な受けとめられ方をする可能性もあるので注意が必要です。</p>
+
+<p>個人的には先日「男気がある」といった言い方をしてしまって、うまい言い方を考えないと、と思っています。性別を限定する話ではないので…。</p>
+
+<h2 id="まとめ">まとめ</h2>
+
+<p>BLMは欧米の歴史に根ざしたものなので、日本に済んでいるとつい疎くなりがちです。とはいえ、日本も東アジアや東南アジアで侵略した歴史があり、琉球やアイヌに対する遺恨も残っています。</p>
+
+<p>エバンジェリストやアドボケイトは言葉を生業としていますので、性別的なものはもちろんのこと、こうした過去の歴史を踏まえた上での言葉選びにも気をつけたいですね。</p>]]></content><author><name>moongift</name></author><category term="プレゼン" /><summary type="html"><![CDATA[エバンジェリストやアドボケイトとして活動する中で、動画やプレゼンなど発信活動に従事することが多いです。そんな中で、不用意な言葉を使ったために信頼性を損なったり、炎上したりする可能性があります。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://devrel.jp/images/articles/ng-word.jpg" /><media:content medium="image" url="https://devrel.jp/images/articles/ng-word.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">あなたはGiver/Taker/Matcher？</title><link href="https://devrel.jp/%E8%87%AA%E5%B7%B1%E8%A8%BA%E6%96%AD/2022/06/09/give-and-take.html" rel="alternate" type="text/html" title="あなたはGiver/Taker/Matcher？" /><published>2022-06-09T09:00:00+09:00</published><updated>2022-06-09T09:00:00+09:00</updated><id>https://devrel.jp/%E8%87%AA%E5%B7%B1%E8%A8%BA%E6%96%AD/2022/06/09/give-and-take</id><content type="html" xml:base="https://devrel.jp/%E8%87%AA%E5%B7%B1%E8%A8%BA%E6%96%AD/2022/06/09/give-and-take.html"><![CDATA[<p>最近Audibleにハマっています。普段読まないような本も運動がてらに聞くことで、ここ数ヶ月で一気に書籍の消化が進んでいます。</p>
 
 <p>そんな中で、最近聞いたのが “<a href="https://www.amazon.co.jp/dp/B00IRV39FM">GIVE&amp;TAKE「与える人」こそ成功する時代</a>” という本です。この本自体は2014年出版とのことなので、読んだことがある方も多いかと思います。個人的にはこういった自己啓発系の書籍は読んだことがなかったので、Audibleを通じて触れられて新鮮でした。</p>
 
@@ -1000,83 +1094,4 @@
 
 <p>モデレーションを苦手としている方も意外と多そうなので、ぜひ参考にしてください。</p>
 
-<p><a href="/contact">MOONGIFTではコミュニティ運営のサポートを提供していますので、ぜひお気軽にお問い合わせください</a>。</p>]]></content><author><name>moongift</name></author><category term="パネルディスカッション" /><category term="イベント" /><summary type="html"><![CDATA[最近、イベントをパネルディスカッション形式で行うことが増えています。その際、モデレーターを担当するのですが、意外と進行を褒めてもらえることが多いです。]]></summary></entry><entry><title type="html">エラーメッセージから考えるよりよいDX（開発体験）とは</title><link href="https://devrel.jp/dx/2021/12/19/error-with-dx.html" rel="alternate" type="text/html" title="エラーメッセージから考えるよりよいDX（開発体験）とは" /><published>2021-12-19T09:00:00+09:00</published><updated>2021-12-19T09:00:00+09:00</updated><id>https://devrel.jp/dx/2021/12/19/error-with-dx</id><content type="html" xml:base="https://devrel.jp/dx/2021/12/19/error-with-dx.html"><![CDATA[<p>開発していれば、自然と疑問が出てくるものです。SaaSをはじめ、APIベースでサービスを提供する場合、サーバ側で何が行われているかはブラックボックスになります。エラーが出たとしても、コードを追いかけながら確認することはできません。</p>
-
-<p>よりよい開発体験（DX）を提供するためには、次の観点が必要です。</p>
-
-<ul>
-  <li>ユーザ環境に近いこと</li>
-  <li>レスポンスが早いこと</li>
-  <li>コミュニケーションが少ないこと</li>
-</ul>
-
-<p>この観点から、優れたサポートが何なのか解説します。</p>
-
-<h2 id="原因と対応が明確なエラーメッセージ">原因と対応が明確なエラーメッセージ</h2>
-
-<p><strong>数分</strong></p>
-
-<p>まずユーザ環境だけで解決するのが一番良いです。例えばSDKを使っている場合、SDKの中でエラー判定をし、処理をクラウド側に送る前にエラーメッセージを出せるようにします。必須項目漏れなどのエラーがこれに該当します。</p>
-
-<p><code class="highlighter-rouge">Something wrong</code> は最もだめなエラーメッセージです。かつてPerlをCGIで動かすと、Internal Server Errorしか返ってこない時代がありました。この時にはデバッグが本当に大変で、コードを一つ一つ確認しながら解決していました。その後、エラーが起きた行数やトレースができるようになり、開発効率は大幅に向上しています。</p>
-
-<p>APIでも同様に、ただ単にエラーですと出すのではなく、何のエラーなのかを明確にしなければなりません。さらに、そのエラーを回避する方法についてもメッセージを出すべきです。開発者はエラーメッセージを読んで修正を行ったり、必要があればメッセージに記載されたURLを開いて詳細を確認できます。</p>
-
-<p>開発元に問い合わせることなく、ユーザ自身ですぐに解決できるのがベストです。なお、エラーメッセージを独特なものにしておくのもコツです。例えばOracleのエラーIDは常にORA-9999といった形式なので、エラーIDで検索すると検索で見つかりやすくなります。汎用的なエラーメッセージはかえって情報が増加し、探しづらくなる可能性があります。</p>
-
-<h2 id="エラーメッセージでドキュメントを記載する">エラーメッセージでドキュメントを記載する</h2>
-
-<p><strong>10分程度</strong></p>
-
-<p>エラー内容がよく分からない場合、開発者はそのエラーメッセージでWeb検索するでしょう。そうした時に備えて、ドキュメント（またはブログ）で解説しておきます。</p>
-
-<p>この時、エラーメッセージ一覧表を用意するだけでは意味がありません。こうしたエラーメッセージ一覧表は、<code class="highlighter-rouge">NOT_FOUND</code> を <code class="highlighter-rouge">リソースがない</code> といった単に日本語化しただけの場合が多くなります。開発者が知りたいのはエラーを解決法であって、その意味ではありません。どうしたらエラーを回避できるのか、どういった修正を行えば良いのかを記事化する必要があります。</p>
-
-<h2 id="qaサービスを使う">Q&amp;Aサービスを使う</h2>
-
-<p><strong>数時間〜回答なし</strong></p>
-
-<p>Web検索で思ったような答えが見つからない場合、開発者はQ&amp;Aサービスを使うでしょう。例えばTeratail、Stack overflowまたは独自のフォーラムなどです。</p>
-
-<p>Q&amp;Aサービスは善意の回答者が現れないと答えの得られないサービスです。すぐに答えが返ってくるかもしれませんが、永遠に返ってこないかもしれません。開発者は質問を投稿しますが、答えが来るまで黙って待っていられる訳ではないでしょう。そのため自己解決の道は模索しつつ、Q&amp;Aによる答えを待つのが普通です。</p>
-
-<p>Q&amp;Aサービスは同じような課題に対して、2番目以降の人たちにとって役立つサービスになります。先進的な人たちは常に答えのない中、さまようことになるでしょう。</p>
-
-<p>オープンなQ&amp;Aサービスの場合、ある程度汎用的に聞く必要があります。自分たちのワークフローに寄りすぎていると、回答できる人も少なくなってしまうでしょう。エラー原因がよく分かっていない場合、質問すらできないかもしれません。</p>
-
-<h2 id="公式のサポートを頼る">公式のサポートを頼る</h2>
-
-<p><strong>数時間〜数日</strong></p>
-
-<p>Q&amp;Aと前後して、公式のサポートを利用する開発者もいるでしょう。多くの場合、公式サポートは有償ユーザー向けに提供されます。また、チケットなどもあり、いつでも何でも使える訳ではありません。そのため、ある程度厳選して利用することでしょう。</p>
-
-<p>公式サポートの場合、1対1で提供されるものが多いです。また、契約によっては詳細なワークフローに関係するものであったり、実際のソースコードを見せながら回答をもらえます。</p>
-
-<p>公式サポートは契約次第ですが、翌営業日中の回答などというケースがあります。また、確実な回答ではなく、調査中といったステータスの報告である場合もあるでしょう。必ず解決できるとは限らないのはQ&amp;Aサービスと同じくらいです。</p>
-
-<h2 id="ソースコードをあたる">ソースコードをあたる</h2>
-
-<p><strong>数時間〜不明</strong></p>
-
-<p>SDKがオープンソース・ソフトウェア（またはソースコードが開示されている）の場合、実際のコードを見ながらエラー原因を探れます。大型なSDKの場合、ファイルや役割が細かく分担されているため、一目でエラーが分かることはないでしょう。また、JavaScriptのように難読化されていると、さらにコードを追いづらくなります。</p>
-
-<p>とはいえ、ブラックボックスになっているSDKよりは幾分扱いやすいはずです。もちろんSDK側のコードを調べても、結局API側のエラーで何も分からなかったという結論になることもあります。</p>
-
-<h2 id="エラーが回避できない場合">エラーが回避できない場合</h2>
-
-<p>もし開発者が皆さんのサービスを使っていて、エラーをどうしても回避できなかったらどうするでしょうか。まずサービスの利用を止めるはずです。そして代替サービスの利用を検討するでしょう。</p>
-
-<p>最も良くないのは「このサービスは難しい・利用しない方が良い」という印象を与えてしまうことです。一度与えてしまったネガティブな印象を払拭するのは困難です。</p>
-
-<ol>
-  <li>すでにエラーを解決できなかったというネガティブな経験がある</li>
-  <li>回避できる手段を公開したとしても、それを届ける手段がない</li>
-</ol>
-
-<p>一度サービスから離れてしまった開発者を取り戻すのは、ほぼ不可能です。もしもう一度類似技術の導入検討を行う必要があったとしても、検討の土俵に上げてもらえることはないでしょう。</p>
-
-<h2 id="まとめ">まとめ</h2>
-
-<p>開発時にエラーは付きものです。エラーなく開発が終わることは100%ありません。重要なのはエラーが出た後に、どう素早く解決できるかになります。素早く自己解決できれば、開発者はあなたのサービスに対して、ポジティブな印象を持つことでしょう。</p>
-
-<p>大事なのは、ユーザの利用している環境に近いこと、セルフサポートできること、短時間で解決できることです。その観点からサービスやSDKのエラーメッセージを設計すると、よりよい開発体験の実現につながることでしょう。</p>]]></content><author><name>moongift</name></author><category term="DX" /><summary type="html"><![CDATA[開発していれば、自然と疑問が出てくるものです。SaaSをはじめ、APIベースでサービスを提供する場合、サーバ側で何が行われているかはブラックボックスになります。エラーが出たとしても、コードを追いかけながら確認することはできません。]]></summary></entry></feed>
+<p><a href="/contact">MOONGIFTではコミュニティ運営のサポートを提供していますので、ぜひお気軽にお問い合わせください</a>。</p>]]></content><author><name>moongift</name></author><category term="パネルディスカッション" /><category term="イベント" /><summary type="html"><![CDATA[最近、イベントをパネルディスカッション形式で行うことが増えています。その際、モデレーターを担当するのですが、意外と進行を褒めてもらえることが多いです。]]></summary></entry></feed>
