@@ -81,6 +81,9 @@ permalink: /contact/
 		  	</div>
 		  </form>
 		</div>
+		<div class="text-center">
+			<a href="/policy/">プライバシーポリシー</a>
+		</div>
 	</div><!-- /.container -->
 </section>
 <script src="/assets/js/ncmb.min.js"></script>
