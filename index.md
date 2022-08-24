@@ -44,6 +44,11 @@ permalink: /
           </div>
         </div>
         <div class="col-md-9">
+        <h3 class="tp-header is-ja">08/24 DevRelの教科書を無料「郵送」します</h3>
+        <p class="tp-section__text is-ja">
+          DevRelの基礎から歴史、始め方までビギナー向けに書いたDevRelの教科書を希望者向けに無料郵送します。期間限定になりますので、ぜひお早めにお申し込みください。
+          <a href="/textbook/">こちらのリンクよりお申し込みできます。</a>
+        </p>
         <h3 class="tp-header is-ja">05/07 DevRel戦略シートダウンロード開始</h3>
         <p class="tp-section__text is-ja">
           DevRelでは施策が多岐に渡って存在します。そのすべてに満遍なく取り組むのはほぼ不可能です。そこで施策ごとに効果を算出し、取り組むべき施策を可視化できるシートを用意しました。
