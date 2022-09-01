@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]><html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if (IE 7)&!(IEMobile)]><html class="no-js lt-ie9 lt-ie8"><![endif]-->
+<!--[if (IE 8)&!(IEMobile)]><html class="no-js lt-ie9"><![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"><!--<![endif]-->
+<head>
+    <meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="HandheldFriendly" content="True">
+<meta name="MobileOptimized" content="320">
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<script
+src="https://code.jquery.com/jquery-3.2.1.min.js"
+integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+crossorigin="anonymous"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+<link rel="stylesheet" type="text/css" href="/assets/css/style.css" media="screen">
+<link rel="shortcut icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+<link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-48936410-1"></script>
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>クラウドベースのライブ配信サービスまとめ | DEVREL - 開発者向けマーケティング支援サービス -</title>
+<meta name="generator" content="Jekyll v3.8.7" />
+<meta property="og:title" content="クラウドベースのライブ配信サービスまとめ" />
+<meta name="author" content="moongift" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="コロナ禍が落ち着きつつある現在ですが、それでもなかなかオフラインに人が集まるまでには時間がかかりそうです。また、オンライン配信の知見がたまりつつあり、オンラインでのDevRelがどんどん強化されているのではないでしょうか。" />
+<meta property="og:description" content="コロナ禍が落ち着きつつある現在ですが、それでもなかなかオフラインに人が集まるまでには時間がかかりそうです。また、オンライン配信の知見がたまりつつあり、オンラインでのDevRelがどんどん強化されているのではないでしょうか。" />
+<link rel="canonical" href="https://devrel.jp/devrel/%E3%81%BE%E3%81%A8%E3%82%81/%E9%85%8D%E4%BF%A1/2022/09/01/2022-08-24-cloud-live-studio.html" />
+<meta property="og:url" content="https://devrel.jp/devrel/%E3%81%BE%E3%81%A8%E3%82%81/%E9%85%8D%E4%BF%A1/2022/09/01/2022-08-24-cloud-live-studio.html" />
+<meta property="og:site_name" content="DEVREL - 開発者向けマーケティング支援サービス -" />
+<meta property="og:image" content="https://devrel.jp/images/articles/livestreaming-1.jpg" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2022-09-01T19:00:00+09:00" />
+<meta name="twitter:card" content="summary_large_image" />
+<meta property="twitter:image" content="https://devrel.jp/images/articles/livestreaming-1.jpg" />
+<meta property="twitter:title" content="クラウドベースのライブ配信サービスまとめ" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"BlogPosting","author":{"@type":"Person","name":"moongift"},"dateModified":"2022-09-01T19:00:00+09:00","datePublished":"2022-09-01T19:00:00+09:00","description":"コロナ禍が落ち着きつつある現在ですが、それでもなかなかオフラインに人が集まるまでには時間がかかりそうです。また、オンライン配信の知見がたまりつつあり、オンラインでのDevRelがどんどん強化されているのではないでしょうか。","headline":"クラウドベースのライブ配信サービスまとめ","image":"https://devrel.jp/images/articles/livestreaming-1.jpg","mainEntityOfPage":{"@type":"WebPage","@id":"https://devrel.jp/devrel/%E3%81%BE%E3%81%A8%E3%82%81/%E9%85%8D%E4%BF%A1/2022/09/01/2022-08-24-cloud-live-studio.html"},"url":"https://devrel.jp/devrel/%E3%81%BE%E3%81%A8%E3%82%81/%E9%85%8D%E4%BF%A1/2022/09/01/2022-08-24-cloud-live-studio.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+</head>
+<body>
+    <header class="l-header">
+  <h1><a href="/" class="js-header-icon-logo"><img src="/assets/images/icon-logo.png" class="l-header__icon-logo" alt="MOONGIFT" /></a></h1>
+  <span class="l-header__lang">
+    <span onclick="changeLang('en')">EN</span> / 
+    <span onclick="changeLang('ja')">JA</span>
+  </span>
+  <div class="l-header__spmenu-btn js-spmenu-btn">
+    <div class="c-hamburger">
+      <span></span>
+      <span></span>
+      <span></span>
+    </div>
+  </div>
+  <div class="l-header__inner">
+    <nav class="l-header__nav">
+      <ul class="l-header__navlist js-spmenu">
+        <li class="l-header__navlist-item"><a href="/#mission" class="l-header-navlist__link">MISSION</a></li>
+        <li class="l-header__navlist-item"><a href="/#service" class="l-header-navlist__link">SERVICE</a></li>
+        <li class="l-header__navlist-item"><a href="/#client" class="l-header-navlist__link">CLIENT</a></li>
+        <li class="l-header__navlist-item"><a href="/#blog" class="l-header-navlist__link">BLOG</a></li>
+        <li class="l-header__navlist-item"><a href="/#about" class="l-header-navlist__link">ABOUT</a></li>
+        <li class="l-header__navlist-item"><a href="/contact" class="l-header-navlist__link">CONTACT</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="c-sidebar">
+    <div class="c-sidebar__lang">
+      <span onclick="document.location.href='https://devrel.co/'" class="is-ja">EN</span>
+      <span onclick="changeLang('ja')" class="is-en">JA</span>
+    </div>
+    <img src="/assets/images/logo-vertical.png" class="c-sidebar__logo" />
+
+    <div class="c-sidebar__copyright">
+      COPYRIGHT ©️ 2018 MOONGIFT INC. ALL RIGHTS RESERVED.
+    </div>
+
+    <div class="c-sidebar__sns">
+      OFFICIAL SNS
+      <a href="https://www.facebook.com/devreljp/" target="_blank" class="c-sidebar__facebook"><img src="/assets/images/icon-facebook.png" alt="Facebook"></a>
+      <a href="https://twitter.com/devreljp" target="_blank" class="c-sidebar__twitter"><img src="/assets/images/icon-twitter.png" alt="Twitter"></a>
+    </div>
+  </div>
+</header>
+
+
+    <section class="tp-section tp-section">
+    	<div class="container mt9">
+    		<div class="row">
+    			<div class="col-md-12">
+    				<div class="blogHeader clearfix">
+    					<h1 class="blogHeader__title">クラウドベースのライブ配信サービスまとめ</h1>
+    					<ul class="blogHeader__meta clearfix">
+    						<li class="blogHeader__meta__date">2022/09/01</li>
+                
+                  <li class="blogHeader__meta__cat"><a href="/categories/DevRel/">DevRel</a></li>
+                
+                  <li class="blogHeader__meta__cat"><a href="/categories/%E3%81%BE%E3%81%A8%E3%82%81/">まとめ</a></li>
+                
+                  <li class="blogHeader__meta__cat"><a href="/categories/%E9%85%8D%E4%BF%A1/">配信</a></li>
+                
+    					</ul>
+    				</div>
+    				<div class="postBody">
+              
+              <img src="/images/articles/livestreaming-1.jpg" style="width:100%" alt="クラウドベースのライブ配信サービスまとめ" />
+              
+              <p>コロナ禍が落ち着きつつある現在ですが、それでもなかなかオフラインに人が集まるまでには時間がかかりそうです。また、オンライン配信の知見がたまりつつあり、オンラインでのDevRelがどんどん強化されているのではないでしょうか。</p>
+
+<p>ローカルから配信する場合にはOBSを使うのが早いですが、設定や慣れるまでに時間がかかります。そこでライブ配信サービスを使うのが便利です。個人的にはStreamYardをよく使っているのですが、本当にベストな選択なのかが分からないので類似サービスも調べてみました。</p>
+
+<h3 id="melon"><a href="https://melonapp.com/">Melon</a></h3>
+
+<p><img src="/images/articles/livestreaming-6.jpg" alt="" /></p>
+
+<p>料金体系は以下の通りです。詳細は<a href="https://melonapp.com/pricing">Plans &amp; Pricing | Melon</a>にて確認してください。</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>無料</th>
+      <th>月15ドル / 年150ドル</th>
+      <th>月49ドル / 年449ドル</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>出席者</td>
+      <td>2</td>
+      <td>6</td>
+      <td>12</td>
+    </tr>
+    <tr>
+      <td>配信先</td>
+      <td>1(？)</td>
+      <td>3</td>
+      <td>無制限</td>
+    </tr>
+    <tr>
+      <td>画質</td>
+      <td>720p</td>
+      <td>720p</td>
+      <td>1080p</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>画面に表示するものを細かくカスタマイズできます。コメントの表示に加えて、投げ銭のような情報もアラートが出せるようです。ソーシャルサービスのコメントを表示できますが、Twitterには対応していませんでした。</p>
+
+<p>ソーシャルサービスの登録は無制限に可能です。ティッカーが上に表示できたり、かなりStreamYardに近いサービスとなっています。料金的にも似せているように見えます。</p>
+
+<h3 id="vimeo-livestream"><a href="https://livestream.com/">Vimeo Livestream</a></h3>
+
+<p><img src="/images/articles/livestreaming-5.jpg" alt="" /></p>
+
+<p>Vimeoが提供するライブストリーミングサービスです。Vimeoに加えてYouTube LiveとFacebook Liveへ配信できます。YouTubeでは有料イベントの配信などはできませんが、Vimeoであれば有料セミナーなどの配信でも利用できます。</p>
+
+<p>料金的には月55ドル以上というところまでしか分かりません。</p>
+
+<h3 id="restream"><a href="https://restream.io/">Restream</a></h3>
+
+<p><img src="/images/articles/livestreaming-4.jpg" alt="" /></p>
+
+<p>料金体系は以下の通りです。詳細は<a href="https://restream.io/pricing?interval=yearly">Plans &amp; Pricing | Restream</a>にて確認してください。</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>無料</th>
+      <th>月19ドル / 年190ドル</th>
+      <th>月49ドル / 年490ドル</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>チャンネル数</td>
+      <td>2</td>
+      <td>5</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>出席者</td>
+      <td>6</td>
+      <td>10</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>画質</td>
+      <td>720p</td>
+      <td>720p</td>
+      <td>1080p</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>StreamYardと良く比較されるサービスです。ソーシャルアカウントの登録数が渋いので、個人的には使わなくなってしまいました。外部のRTMPソースを受け取れるのが便利です。</p>
+
+<p>Restreamユーザー同士で共演して、お互いのチャンネルに配信する機能があります。YouTuber同士のコラボなどを想定している、片方はYouTuberでもう一人はInstagramerといった場合にも使えそうです。</p>
+
+<h3 id="belive"><a href="https://be.live/">Be.Live</a></h3>
+
+<p><img src="/images/articles/livestreaming-3.jpg" alt="" /></p>
+
+<p>料金体系は以下の通りです。詳細は<a href="https://be.live/packages">Be.Live Pricing</a>にて確認してください。</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>無料</th>
+      <th>月4738円 / 年47,379円</th>
+      <th>月7,106円 / 年71,070円</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>月制限</td>
+      <td>月3回まで</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>人数</td>
+      <td>2</td>
+      <td>8</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>画面共有</td>
+      <td>×</td>
+      <td>○</td>
+      <td>○</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>OneStream.liveもそうですが、ライブコマースをサポートしています。恐らく配信から物販につなげる機能ですが、DevRelではあまり使わないかも知れません。有料だとスクリーンレイアウトが19と数多いのが気になります。</p>
+
+<p>唯一、日本円払いに対応しています。配信先がFacebook、Youtube、LinkedInだけなのが（表示されている限りは）気になります（一応、他20以上のサービスに対応とは書かれています）。</p>
+
+<p>オンラインの動画編集機能があります。レコーディングした後、ちょっとした加工を行いたい時に便利かも知れません。</p>
+
+<h3 id="onestreamlive"><a href="https://www.onestream.live/">OneStream.live</a></h3>
+
+<p><img src="/images/articles/livestreaming-2.jpg" alt="" /></p>
+
+<p>料金は大雑把に書くと以下の通りです。詳細は<a href="https://www.onestream.live/pricing">Plans &amp; Pricing | OneStream.live</a>にて確認してください。</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>無料</th>
+      <th>月10ドル / 年96ドル</th>
+      <th>月39ドル / 年276ドル</th>
+      <th>月79ドル / 年792ドル</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>登録できるアカウント数</td>
+      <td>2</td>
+      <td>5</td>
+      <td>25</td>
+      <td>50</td>
+    </tr>
+    <tr>
+      <td>最大人数</td>
+      <td>4</td>
+      <td>6</td>
+      <td>8</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>画質</td>
+      <td>720p</td>
+      <td>720p</td>
+      <td>720p</td>
+      <td>1080p</td>
+    </tr>
+    <tr>
+      <td>1回の時間制限</td>
+      <td>1時間</td>
+      <td>2時間</td>
+      <td>4時間</td>
+      <td>8時間</td>
+    </tr>
+    <tr>
+      <td>録画配信</td>
+      <td>10分</td>
+      <td>30分</td>
+      <td>2時間</td>
+      <td>8時間</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>登録できるアカウント数が少ないのが気になります。特に当社のようにクライアントを横断している場合、ソーシャルアカウント数を数多く登録するからです。</p>
+
+<p>サードパーティーのRTMPソースを受けられるのが良さそうです。OBSやZoomなどのRTMPを受けて、さらに加工した上で配信ができるようです。</p>
+
+<h3 id="streamyard"><a href="https://streamyard.com/">StreamYard</a></h3>
+
+<p><img src="/images/articles/livestreaming-1.jpg" alt="" /></p>
+
+<p>個人的に最も使い慣れているサービスです。料金プランは以下の通りです。</p>
+
+<table>
+  <thead>
+    <tr>
+      <th> </th>
+      <th>無料</th>
+      <th>月25ドル / 年240ドル</th>
+      <th>月39ドル / 年468ドル</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>最大人数</td>
+      <td>6</td>
+      <td>10</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>画質</td>
+      <td>720p</td>
+      <td>720p</td>
+      <td>1080p</td>
+    </tr>
+    <tr>
+      <td>時間制限</td>
+      <td>月20時間まで</td>
+      <td> </td>
+      <td> </td>
+    </tr>
+    <tr>
+      <td>カスタムRTMP</td>
+      <td> </td>
+      <td>○</td>
+      <td>○</td>
+    </tr>
+    <tr>
+      <td>配信数</td>
+      <td>1</td>
+      <td>3</td>
+      <td>8</td>
+    </tr>
+    <tr>
+      <td>Webカメラの数</td>
+      <td>1</td>
+      <td>1</td>
+      <td>複数</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>無料の場合は常時StreamYardのロゴが表示されます。実際の配信先は3つなどに制限されますが、登録は無制限にできます。ゲストにはURLを教えるだけというのも手軽で便利です。</p>
+
+<p>上位プランではプライベートバックステージという機能があり、ライブストリーミング開始前にゲストが話をできる場所を用意できます。</p>
+
+<p>気になっている点としては、YouTubeやFacebook、Twitchなどのコメントは表示できるのですがTwitterが対応していないことでしょう。</p>
+
+<h2 id="まとめ">まとめ</h2>
+
+<p>個人的に欲しかったツイートを表示する機能は、残念ながらどのプラットフォームにもなさそうです。機能的にはどれも大きくは違いませんが、ソーシャルサービスの登録数に違いがあるので、適したサービスとプランを選ぶようにしてください。</p>
+
+<p>個人的にはMelonの49ドルプランは意外と使えるのではないかと思っています。StreamYardと比べつつ、より良い方を選択したいところです。</p>
+
+<script>
+	$(() => {
+		$('table').addClass('table');
+	});
+</script>
+
+
+    				</div><!--//.postBody-->
+    			</div>
+    		</div> <!-- / .row  -->
+    	</div><!-- /.container -->
+    </section>
+    <script src="https://sdk.amazonaws.com/js/aws-sdk-2.2.10.min.js"></script>
+<script>
+  var smoothScroll = function() {
+    var headerHeight = 80;
+    $('a[href^="/#"]').click(function(){
+      var speed = 500;
+      var href= $(this).attr("href");
+      var target = $(href == "#" || href == "" ? 'html' : "a[name='" + href.replace('/#', '') + "']");
+      var position = target.offset().top - headerHeight;
+      $("html, body").animate({scrollTop:position}, speed, "swing");
+      return false;
+    });
+  };
+
+  var ToggleSpMenu = function () {
+    $('.js-spmenu-btn').on('click', function(){
+      $(this).toggleClass('is-on');
+      $(this).next().toggleClass('is-on');
+    })
+  };
+
+  var closeMenu = function () {
+    $('.js-spmenu-btn').removeClass('is-on');
+    $('.js-spmenu-btn').next().removeClass('is-on');
+  }
+
+  var changeLang = function (lang) {
+    switch (lang){
+      case 'ja':
+        $('.is-ja').show();
+        $('.is-en').hide();
+        break;
+      case 'en':
+        $('.is-en').show();
+        $('.is-ja').hide();
+        break;
+    }
+    $('.contact__errmsg').hide();
+  }
+
+  $(function(){
+    changeLang('ja');
+    smoothScroll();
+    ToggleSpMenu();
+    $('.js-spmenu a').on('click', function(){
+      closeMenu();
+    })
+  });
+
+  $("#submit").on("click", function(e) {
+    AWS.config.region = 'ap-northeast-1'; // Region
+    AWS.config.credentials = new AWS.CognitoIdentityCredentials({
+      IdentityPoolId: 'ap-northeast-1:bd469da6-ea5c-425d-9181-a4d854e95ce3'
+    });
+    e.preventDefault();
+    AWS.config.region = 'ap-northeast-1';
+    var s3BucketName = "mail.moongift.jp";
+    var now = new Date();
+    var obj = {
+      title: "DevRel.jp: お問い合わせ",
+      date: now.toLocaleString()
+    };
+    var ary = ['Company', 'Name', 'Email', 'Msg'];
+    var error = false;
+    for (var i = 0; i < ary.length; i += 1) {
+      var name = '#input' + ary[i];
+      if ($(name).val().trim() === '') {
+        $(name + 'Error').html('入力してください');
+        $(name + 'Error').show();
+        error = true;
+      } else {
+        $(name + 'Error').hide();
+        obj[ary[i].toLowerCase()] = $(name).val();
+      }
+    }
+    if (error) return;
+    var s3 = new AWS.S3({params: {Bucket: s3BucketName}});
+    var blob = new Blob([JSON.stringify(obj, null, 2)], {type:'text/plain'});
+    s3.putObject({
+      Key: "uploads/" +now.getTime()+".txt", 
+      ContentType: "text/plain", 
+      Body: blob, 
+      ACL: "public-read"
+    }, function(err, data){
+      if(data !== null){
+        $("#result").text("お問い合わせいただきありがとうございます。すぐに回答いたしますのでお待ちください。")
+        $("#result").addClass("alert-success");
+        $("form")[0].reset();
+        _gaq.push(['_trackPageview', '/contact/success']);
+      } else {
+        $("#result").html("問題が発生しました。<a href='mailto:info@devrel.jp'>info@devrel.jp</a>へメールにてお問い合わせください。");
+        $("#result").addClass("alert-danger");
+      }
+      $("#result").removeClass("hide");
+    });
+  });
+</script>
+
+    <section class="tp-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <div class="tp-section-header">
+          <h2 class="tp-section-header__title">UPDATE</h2>
+          <h2 class="tp-section-header__title-ja is-ja">アップデートを受け取る</h2>
+        </div>
+      </div>
+      <div class="col-md-9">
+          <p class="is-ja">メールにてDevRelに関するニュース、アップデートをお送りします。</p>
+          <p class="is-en">Contact is below.</p>
+        <div class="u-align-center mt8">
+          <form action="https://www.getrevue.co/profile/devreljp/add_subscriber" method="post" id="mauticform_merugouduyongfomu" name="revue-form"  style="text-align:left;" target="_blank">
+            <div class="mauticform-error" id="mauticform_merugouduyongfomu_error"></div>
+          <div class="mauticform-message" id="mauticform_merugouduyongfomu_message"></div>
+          <input class="revue-form-field" placeholder="メールアドレス" type="email" name="member[email]" id="member_email" style="font-size:2rem;width:60%">
+          <button type="submit" name="member[subscribe]" id="mauticform_input_merugouduyongfomu_submit" value="" class="mauticform-button btn btn-default" style="font-size:2rem;">送信</button>
+
+          </form>
+        </div>
+      </div>
+    </div> <!-- / .row  -->
+  </div><!-- /.container -->
+</section>
+
+<script type="text/javascript">
+    /** This section is only needed once per page if manually copying **/
+    if (typeof MauticSDKLoaded == 'undefined') {
+        var MauticSDKLoaded = true;
+        var head            = document.getElementsByTagName('head')[0];
+        var script          = document.createElement('script');
+        script.type         = 'text/javascript';
+        script.src          = 'https://ma.moongift.co.jp/media/js/mautic-form.js';
+        script.onload       = function() {
+            MauticSDK.onLoad();
+        };
+        head.appendChild(script);
+        var MauticDomain = 'https://ma.moongift.co.jp';
+        var MauticLang   = {
+            'submittingMessage': "お待ちください…"
+        }
+    }
+</script>
+
+    
+      <script type="text/javascript">
+    /** This section is only needed once per page if manually copying **/
+    if (typeof MauticSDKLoaded == 'undefined') {
+        var MauticSDKLoaded = true;
+        var head            = document.getElementsByTagName('head')[0];
+        var script          = document.createElement('script');
+        script.type         = 'text/javascript';
+        script.src          = 'https://ma.moongift.co.jp/media/js/mautic-form.js';
+        script.onload       = function() {
+            MauticSDK.onLoad();
+        };
+        head.appendChild(script);
+        var MauticDomain = 'https://ma.moongift.co.jp';
+        var MauticLang   = {
+            'submittingMessage': "お待ちください…"
+        }
+    }
+  </script>
+
+  <script>
+      (function(w,d,t,u,n,a,m){w['MauticTrackingObject']=n;
+          w[n]=w[n]||function(){(w[n].q=w[n].q||[]).push(arguments)},a=d.createElement(t),
+          m=d.getElementsByTagName(t)[0];a.async=1;a.src=u;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://ma.moongift.co.jp/mtc.js','mt');
+
+      mt('send', 'pageview');
+  </script>
+  <footer class="l-footer">
+    <span class="is-ja">株式会社MOONGIFT</span>
+    <span class="is-en">MOOGIFT Inc.</span>
+  </footer>
+</body>
+</html>
+
+  </body>
+</html>
