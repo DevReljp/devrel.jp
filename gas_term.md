@@ -1,7 +1,7 @@
 ---
 layout: home
-title: GAS SDK利用規約
-permalink: /gas_term/
+title: NCMB GAS SDK利用規約
+permalink: /ncmb_gas_term/
 ---
 
 <section class="tp-section tp-section">
