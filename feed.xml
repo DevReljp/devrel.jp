@@ -1,4 +1,79 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://devrel.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://devrel.jp/" rel="alternate" type="text/html" /><updated>2022-11-10T14:20:26+09:00</updated><id>https://devrel.jp/feed.xml</id><title type="html">DEVREL - 開発者向けマーケティング支援サービス -</title><subtitle>DevRelは開発者向けマーケティング施策です。私たちは企業の製品、サービスを広く開発者に知ってもらうためのDevRelをサポート、代行しています。</subtitle><entry><title type="html">クラウドベースのライブ配信サービスまとめ</title><link href="https://devrel.jp/devrel/%E3%81%BE%E3%81%A8%E3%82%81/%E9%85%8D%E4%BF%A1/2022/09/01/2022-08-24-cloud-live-studio.html" rel="alternate" type="text/html" title="クラウドベースのライブ配信サービスまとめ" /><published>2022-09-01T19:00:00+09:00</published><updated>2022-09-01T19:00:00+09:00</updated><id>https://devrel.jp/devrel/%E3%81%BE%E3%81%A8%E3%82%81/%E9%85%8D%E4%BF%A1/2022/09/01/2022-08-24-cloud-live-studio</id><content type="html" xml:base="https://devrel.jp/devrel/%E3%81%BE%E3%81%A8%E3%82%81/%E9%85%8D%E4%BF%A1/2022/09/01/2022-08-24-cloud-live-studio.html"><![CDATA[<p>コロナ禍が落ち着きつつある現在ですが、それでもなかなかオフラインに人が集まるまでには時間がかかりそうです。また、オンライン配信の知見がたまりつつあり、オンラインでのDevRelがどんどん強化されているのではないでしょうか。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://devrel.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://devrel.jp/" rel="alternate" type="text/html" /><updated>2022-12-02T10:46:30+09:00</updated><id>https://devrel.jp/feed.xml</id><title type="html">DEVREL - 開発者向けマーケティング支援サービス -</title><subtitle>DevRelは開発者向けマーケティング施策です。私たちは企業の製品、サービスを広く開発者に知ってもらうためのDevRelをサポート、代行しています。</subtitle><entry><title type="html">DevRelで大事な情報発信方法</title><link href="https://devrel.jp/devrel/2022/12/02/right-intormation.html" rel="alternate" type="text/html" title="DevRelで大事な情報発信方法" /><published>2022-12-02T09:00:00+09:00</published><updated>2022-12-02T09:00:00+09:00</updated><id>https://devrel.jp/devrel/2022/12/02/right-intormation</id><content type="html" xml:base="https://devrel.jp/devrel/2022/12/02/right-intormation.html"><![CDATA[<p>DevRelは「正しい情報を、必要としている開発者に、正しく伝える」のが大事です。この中の一つでも間違っていると、大きな問題や損害につながります。</p>
+
+<ul>
+  <li>“間違った” 情報を、必要としている開発者に、正しく伝える</li>
+  <li>正しい情報を、“必要としていない” 開発者に、正しく伝える</li>
+  <li>正しい情報を、必要としている開発者に、“間違って” 伝える</li>
+</ul>
+
+<p>いずれも駄目なことは分かってもらえるでしょう。</p>
+
+<p>では、どうやって「正しい情報を、必要としている開発者に、正しく伝える」を実現するかが課題になります。</p>
+
+<h2 id="正しい情報とは">正しい情報とは</h2>
+
+<p>正しい情報とは、正確な情報と言い換えることもできます。一般的に、正しさは以下のようにあるべきです。</p>
+
+<ol>
+  <li>公式サイトからの発信</li>
+  <li>公式サイトのブログ</li>
+  <li>公式ソーシャルアカウントの発信</li>
+  <li>第三者のブログ</li>
+  <li>第三者のソーシャル</li>
+  <li>Q&amp;Aサイト</li>
+</ol>
+
+<p>Q&amp;Aサイトを最下位にしたのは、最初の情報（質問）は総じて間違っているからです。それに対して、善意の第三者が答えを提供することで正しい情報になります。質問をそのまま放置すると、間違った情報が伝搬することになりかねないので注意が必要です。</p>
+
+<p>公式ブログが2番目になっているのは、多くのブログ記事には消費期限があるからです。SDKがバージョンアップしたり、前提条件になる市場状況が変わることで、当時は正しかった情報も自然と間違ったり、劣化する可能性があります。定期的に見直しをかけるのがベストですが、多くのブログではそうした手間はかけられません。そのため「1年前の情報です」といった注意書きを出すことで、リスクヘッジを取っているのが一般的です。</p>
+
+<p>ソーシャルサービスでの発信は、正しさよりも速報性だったり、見た目重視のインパクトが優先されるケースがあります。そのため、正しさという意味においては若干劣化せざるを得ません。特にTwitterでは文字数制限もあり、意図した通りに伝えきれない場合も多いでしょう。そういった点は加味しつつも、ソーシャルメディアでの間違った発信は炎上リスクにもつながるので注意しましょう。</p>
+
+<p>第三者（コミュニティメンバー、利用者など）による発信は、公正な視点で書かれているだろうという安心感を読み手にもたらします。そのため、公式情報が「良い製品です」と発信するよりも、第三者が「良い製品です」と言った方が信頼が得られやすいのも事実です。とはいえ、内部的な処理を知らなかったり、仕様を完全に把握されていない中で書かれる記事の中には、間違った前提に立った記事だったり、誤認があるのも事実です。そうした記事に対しては丁寧なアプローチをしないと、威圧的に感じられたり、相手を萎縮させています可能性があります。良好な関係性を築くためにも、温和なアプローチを心がけましょう。</p>
+
+<h2 id="必要としている開発者とは">必要としている開発者とは</h2>
+
+<p>必要としている開発者とは、まさにあなたの情報を必要としている人たちに他なりません。情報の種類によって、まだあなたのプロダクトを知らない人たちであったり、すでに知っている（使っている）人たちだったりします。そうした前提知識の違いによって、情報の届け方は分かれるでしょう。</p>
+
+<p>自分たちのプロダクトを知らない人たちとは、言い換えれば想定ユーザーのことです。想定ユーザーの方たちに対して情報が届くからこそ、使ってみようと考えてもらえるのです。そのためにはある程度のフィルタリングを行い、自分たちが情報を届けたいと思っている開発者に絞り込む必要があります。</p>
+
+<p>フィルタリングとはいわば属性になります。例えば以下のようなものが挙げられるでしょう。</p>
+
+<ul>
+  <li>プログラマー / エンジニア / リードエンジニア / マネージャー</li>
+  <li>プログラミング言語</li>
+  <li>データベースの種類</li>
+  <li>ハードウェアの種類</li>
+  <li>企業規模</li>
+  <li>企業ステージ</li>
+  <li>経験年数</li>
+  <li>デスクトップ/Web/モバイル</li>
+  <li>フロントエンド・バックエンド</li>
+</ul>
+
+<p>こうした属性によって、開発者の働き方や情報収集方法は異なります。そのため、最適なチャンネルを選ばなければなりません。</p>
+
+<h2 id="正しく伝えるとは">正しく伝えるとは</h2>
+
+<p>最後、正しく伝えるというのは、2つの側面があります。</p>
+
+<h3 id="理解してもらえる形で伝える">理解してもらえる形で伝える</h3>
+
+<p>情報の正確性を求めるあまり、文章が冗長的になってしまったり、読みづらいものになってしまうのは悪手です。情報は単に正確に伝えるのではなく、相手に理解してもらえる形で届けなければなりません。BtoBになると、つい堅苦しい文章を使いたくなりますが、それによって理解できない文章になってしまったら元も子もありません。</p>
+
+<p>そして、人には認知しやすい情報形態が存在します。これは画一的ではなく、人によって異なります。テキストが分かりやすい人、人が説明する方が分かりやすい人、動画が良い人など様々です。小説の方が情景が思い浮かんで良いという人もいれば、マンガの方が分かりやすい人もいるでしょう。そのため、1つの情報であっても色々なフォーマットで届けることが肝要です。</p>
+
+<h3 id="devrelとして正しく伝える">DevRelとして正しく伝える</h3>
+
+<p>もう1つはDevRelとしての側面です。マーケティングの中には恐怖を煽ったり、数字を拡大解釈したり、相手をだまそうとするかのような手口を利用することがあります。そうした悪い手口は、瞬間的な目標は達成できるかも知れません。しかし、開発者（顧客）との中長期的な関係性を築くのには不向きです。騙されたと感じた開発者は、二度とあなたの製品を使おうとしないでしょう。</p>
+
+<p>そうした相手に対しての誠実さもDevRelにとっては大事な観点です。できないことはできないと認めて、その上で開発者からのフィードバック（機能要望など）を新機能開発に活かせば良いだけです。良いフィードバックが得られるのは、あなたと開発者の間に良い関係性が築けているからこそです。</p>
+
+<h2 id="まとめ">まとめ</h2>
+
+<p>今回はDevRelにとって大事な「正しい情報を、必要としている開発者に、正しく伝える」について解説しました。闇雲に情報発信するのではなく、常に今回紹介した観点をベースに伝えてみてください。</p>
+
+<p><a href="/contact">MOONGIFTでは企業のDevRel活動をサポートしています。ぜひお気軽にお問い合わせください</a>。</p>]]></content><author><name>moongift</name></author><category term="DevRel" /><summary type="html"><![CDATA[DevRelは「正しい情報を、必要としている開発者に、正しく伝える」のが大事です。この中の一つでも間違っていると、大きな問題や損害につながります。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://devrel.jp/images/articles/right-publishing.jpg" /><media:content medium="image" url="https://devrel.jp/images/articles/right-publishing.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">クラウドベースのライブ配信サービスまとめ</title><link href="https://devrel.jp/devrel/%E3%81%BE%E3%81%A8%E3%82%81/%E9%85%8D%E4%BF%A1/2022/09/01/2022-08-24-cloud-live-studio.html" rel="alternate" type="text/html" title="クラウドベースのライブ配信サービスまとめ" /><published>2022-09-01T19:00:00+09:00</published><updated>2022-09-01T19:00:00+09:00</updated><id>https://devrel.jp/devrel/%E3%81%BE%E3%81%A8%E3%82%81/%E9%85%8D%E4%BF%A1/2022/09/01/2022-08-24-cloud-live-studio</id><content type="html" xml:base="https://devrel.jp/devrel/%E3%81%BE%E3%81%A8%E3%82%81/%E9%85%8D%E4%BF%A1/2022/09/01/2022-08-24-cloud-live-studio.html"><![CDATA[<p>コロナ禍が落ち着きつつある現在ですが、それでもなかなかオフラインに人が集まるまでには時間がかかりそうです。また、オンライン配信の知見がたまりつつあり、オンラインでのDevRelがどんどん強化されているのではないでしょうか。</p>
 
 <p>ローカルから配信する場合にはOBSを使うのが早いですが、設定や慣れるまでに時間がかかります。そこでライブ配信サービスを使うのが便利です。個人的にはStreamYardをよく使っているのですが、本当にベストな選択なのかが分からないので類似サービスも調べてみました。</p>
 
@@ -988,170 +1063,4 @@
 
 <p>DevRel Meetup in Tokyoではそうしたトライ&amp;エラーを通して、自社イベントに活かせる学びを得ています。ぜひご参加ください！</p>
 
-<p><a href="https://devrel.connpass.com/">DevRel Meetup in Tokyo - connpass</a></p>]]></content><author><name>moongift</name></author><category term="イベント" /><summary type="html"><![CDATA[4月6日にDevRel Meetup in Tokyo #73 〜ソーシャル活用術〜を開催しました。まん延防止等重点措置が解除され、久々のオフライン会場を用意してのイベントになります。2021年12月にもオンラインとオフライン一緒にイベントを開催したのですが、その時には久々ということもあって、色々足りていませんでした。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://devrel.jp/images/articles/hybrid-event.jpeg" /><media:content medium="image" url="https://devrel.jp/images/articles/hybrid-event.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">オンラインイベントを行うのに便利なサービスまとめ</title><link href="https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3/2022/03/24/online-event-tools.html" rel="alternate" type="text/html" title="オンラインイベントを行うのに便利なサービスまとめ" /><published>2022-03-24T09:00:00+09:00</published><updated>2022-03-24T09:00:00+09:00</updated><id>https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3/2022/03/24/online-event-tools</id><content type="html" xml:base="https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/%E3%82%AA%E3%83%B3%E3%83%A9%E3%82%A4%E3%83%B3/2022/03/24/online-event-tools.html"><![CDATA[<p>オンラインイベントを行う際には、何らかのサービスを使うのが一般的です。企業イベントであれば予算も付くでしょうが、コミュニティの場合はなるべく安価なツールを選びたいでしょう。</p>
-
-<p>そこで今回は各種あるオンラインイベントツールについて、料金や機能の差異含めて紹介します。なお、あまり高いところは選択肢から外しています。</p>
-
-<h2 id="ミーティング型">ミーティング型</h2>
-
-<p>いわゆるオンライン会議システムをミートアップなどのイベントで利用する場合です。使い慣れているサービスが使える反面、参加していて面白さを感じられるかは疑問です。</p>
-
-<h3 id="zoom"><a href="https://zoom.us/">Zoom</a></h3>
-
-<p><img src="/images/articles/online-event-1.jpg" alt="" /></p>
-
-<p>Zoomはおそらく社内外のミーティングで一番使われている会議システムではないでしょうか。Webブラウザでも利用できますが、基本的に専用アプリを利用するかと思います。</p>
-
-<p>100人までのミーティングが月間2,000円（年間20,100円）で使えるのはかなり安価です。ただしベースが会議システムなので、ミートアップをしているというカジュアルな雰囲気になりづらいのが欠点です。いわば社内の会議室でミートアップをしているような雰囲気です。</p>
-
-<p><a href="https://zoom.us/">ビデオ カンファレンス、クラウド電話、ウェビナー、チャット、仮想イベント | Zoom</a></p>
-
-<h3 id="google-meet"><a href="https://apps.google.com/intl/ja/meet/">Google Meet</a></h3>
-
-<p><img src="/images/articles/online-event-8.jpg" alt="" /></p>
-
-<p>無料版のGoogle Meetでは100人までの参加者が募れますが、1時間に制限されます。Google Workspace Individual（月間7.99ドル）を利用すると100名まで、最長24時間のミーティングが作成できます。</p>
-
-<p>Google Meetでは自動文字起こし機能が便利です。また、背景のぼかし機能は他のツールと比べてWebブラウザベースながら綺麗にぼかされる印象です。</p>
-
-<p>Google Workspaceの場合はBusiness Standardであれば150名まで、ノイズキャンセルやブレイクアウトルーム付きのGoogle Meetになります（月間1,360円）。Business Starter（月間680円）の場合は100名まで、ノイズキャンセルやブレイクアウトルームはありません。</p>
-
-<p><a href="https://apps.google.com/intl/ja/meet/">Google Meet（旧称 Hangouts Meet） - 無料のビデオ会議</a></p>
-
-<h2 id="バーチャルコミュニケーションツール">バーチャルコミュニケーションツール</h2>
-
-<p>コロナ禍になって一気に注目を集めたのがバーチャルコミュニケーションツールです。主に社内コミュニケーション促進のために使われていますが、コミュニティイベントでも利用できます。</p>
-
-<h3 id="ovice"><a href="https://ovice.in/ja/">oVice</a></h3>
-
-<p><img src="/images/articles/online-event-12.jpg" alt="" /></p>
-
-<p>oViceは平面な空間上に丸いアイコンが表示されて、そのアイコン同士の距離感によって音声の強弱が変わるコミュニケーションツールです。会議室やコミュニケーションアイコンを作れば、そこでWebカメラを使ったコミュニケーションも可能です。Webブラウザだけ、専用アプリが不要なのは利点です。</p>
-
-<p>かなり機能が多いですが、UIが分かりづらいのが難点です。初見で使いこなすのが難しいため、イベントの登壇者などに使い方を教えるのは時間がかかるでしょう。</p>
-
-<p>20名までの利用で月間5,500円、50名までで月間22,000円となっています（上位プランあり）。単発イベント向けに1週間2,750円（20名まで）、11,000円（100名まで）などもあります。</p>
-
-<p><a href="https://ovice.in/ja/">oVice - Business Metaverse</a></p>
-
-<h3 id="spatialchat"><a href="https://spatial.chat/">SpatialChat</a></h3>
-
-<p><img src="/images/articles/online-event-11.jpg" alt="" /></p>
-
-<p>SpatialChatはoVice同様に丸いアイコン同士の距離感で音量が変わるコミュニケーションツールです。oViceのような会議室機能はなく、平面空間だけでコミュニケーションをします。</p>
-
-<p>セッションなどを行う時にはメガホン機能を使って、全体にアナウンスができます。Webブラウザだけで利用できるのが利点です。</p>
-
-<p>料金は頻繁に変わるので注意が必要です。先日の料金改定によって、無料プランは25名までに変更されました。1日のイベントの場合、一人2ドルとなっています。これが25名を超えた場合の料金なのか、1名からなのかは不明です。</p>
-
-<p><a href="https://spatial.chat/">SpatialChat</a></p>
-
-<h3 id="gather--a-better-way-to-meet-online"><a href="https://www.gather.town/">Gather | A better way to meet online.</a></h3>
-
-<p><img src="/images/articles/online-event-10.jpg" alt="" /></p>
-
-<p>8ビット風のデザインが特徴なオンラインコミュニケーションツールです。oViceやSpatialChatと同じく距離や向きによって音量が変わります。Webブラウザだけで利用できます。</p>
-
-<p>会議室を作ったり、その中でホワイトボードやゲームをしたりできるなど、かなり細かい機能があります。セッションを行う際には登壇台に移動して画面を共有するなど、細かい部分にまで気が配られています。</p>
-
-<p>料金は無料で25名まで、その後は2ドル/2時間/ユーザー（500名まで）、3ドル/日/ユーザーなどとなっています。</p>
-
-<p><a href="https://www.gather.town/">Gather | A better way to meet online.</a></p>
-
-<h3 id="discord"><a href="https://discord.com/">Discord</a></h3>
-
-<p><img src="/images/articles/online-event-9.jpg" alt="" /></p>
-
-<p>Discordはゲーム界隈で有名なチャットサービスですが、最近はIT系でも利用が進んでいます。Slackでは提供されない音声チャットが無料で利用できるのが大きいです。専用アプリもありますが、Webブラウザだけでも利用できます。</p>
-
-<p>画面共有を伴うイベントは25名までとなっています。Clubhouse的な音声のみのサービスStage Channelsは1,000名まで参加可能です。</p>
-
-<p>料金は無料ですが、Discord Nitoroというサービスに個人で入れます（月間9.99ドル〜）。利用者がお金を払って便利な機能を手に入れるのが他と異なる部分です。なお、課金すると画面共有が1080p、または4Kになります。この辺りがゲーム向きの機能でしょう。</p>
-
-<p><a href="https://discord.com/">Discord | 会話や交流が楽しめるプラットフォーム</a></p>
-
-<h3 id="nework"><a href="https://nework.app/top">NeWork</a></h3>
-
-<p><img src="/images/articles/online-event-7.jpg" alt="" /></p>
-
-<p>NTTコミュニケーションズが提供するサービスです。バブルと呼ばれる枠に入ることで、会話ができます。また、自分のステータスを色で表現することで、話しかけていいか分かるようになっています。</p>
-
-<p>バブルの枠外にいると、聞き耳モードになります。会話には参加できませんが、画面共有を見たり、会話を聞けます。複数人で同時に画面共有を行えるのが便利です。</p>
-
-<p>サービスはWebブラウザだけで利用できます。料金は20名までは無料、50名までが月額27,500円、100名までが月額55,000円となっています。ごく小さなグループであれば無料で利用できそうです。20名の場合はゲストを呼べないので、全員登録している必要があります。</p>
-
-<p><a href="https://nework.app/top">NeWork リアルより話しやすいオンラインワークスペース</a></p>
-
-<h2 id="3d">3D</h2>
-
-<p>3Dアバターを使ったコミュニケーションツールです。より没入感が感じられるものの、イベントの主体はコンテンツやコミュニケーションにあるので、3Dであることがどこまで意味を持つかは疑問です。リッチな分、負荷が高いのは難点です。</p>
-
-<h3 id="hubs"><a href="https://hubs.mozilla.com/">Hubs</a></h3>
-
-<p><img src="/images/articles/online-event-5.jpg" alt="" /></p>
-
-<p>Mozillaの提供する3D空間サービスです。オープンソースなので自分でサーバーを立てることもできますし、<a href="https://hubs.mozilla.com/cloud">Hubs Cloud</a>を利用することもできます。Hubs CloudはAWSインスタンスです。</p>
-
-<p>利用はWebブラウザだけで可能で、PWAとしてインストールもできます。1つのルームで25名程度というのが制限となっています。自分でサーバを立てる場合、強力なインスタンスを使えばもっと人数を増やせると言う話もあります。特に課金モデルはないようです。</p>
-
-<p><a href="https://hubs.mozilla.com/">Hubs - Private, virtual 3D spaces in your browser</a></p>
-
-<h3 id="door"><a href="https://door.ntt/">DOOR</a></h3>
-
-<p><img src="/images/articles/online-event-4.jpg" alt="" /></p>
-
-<p>Mozilla HubsをベースにNTTコミュニケーションズが提供するサービスです。同時参加人数は24名までとなっています。部屋を作成するツールが用意されており、自由にカスタマイズが可能です。</p>
-
-<p>動画を配置したり、3Dオブジェクトをインポートしたりできます。アバターが使えますが、会話していても口が動かないので誰が話しているのか分からないのが欠点です。</p>
-
-<p>現時点では明確な料金表はありません。24名までの利用であれば無料といった程度で、法人利用する場合は問い合わせが用意されています。</p>
-
-<p><a href="https://door.ntt/">DOOR　開け。次の世界 -</a></p>
-
-<h3 id="clusterクラスター"><a href="https://cluster.mu/">cluster（クラスター）</a></h3>
-
-<p><img src="/images/articles/online-event-3.jpg" alt="" /></p>
-
-<p>専用アプリやHMDを使って利用する3Dコミュニケーションツールです。様々な大型イベントでも使われているので、実績は十分にあります。あります。</p>
-
-<p>イベントは無料で作成可能です。公開イベントの場合は500名まで、非公開イベントは50名までとなっています。画面共有はなく、PDFファイルのみ共有できます。そうした点を登壇者にも伝えておかないといけないのが注意点でしょう。</p>
-
-<p>また、専用アプリをインストールしておく必要があるのが面倒ではあります。</p>
-
-<p><a href="https://cluster.mu/">メタバースプラットフォーム cluster（クラスター）</a></p>
-
-<h2 id="配信特化型">配信特化型</h2>
-
-<p>コミュニケーションツール内に参加者、運営者が集まるのではなく、配信側と聞く側で分かれる形式の場合です。この形式の場合は下記の配信サービスと、YouTube LiveやFacebook、Twitter Live Streamingなどを組み合わせる形になるでしょう。</p>
-
-<h3 id="streamyard"><a href="https://streamyard.com/teams/kPWTXgIk7U5n89HHnObem2N7/broadcasts">StreamYard</a></h3>
-
-<p><img src="/images/articles/online-event-2.jpg" alt="" /></p>
-
-<p>StreamYardは月25ドルから利用できます（年間の場合は240ドル）。同時に10人の参加者で、3件の配信先を選択できます。無料の場合は6人まで、1ヶ月20時間までという制限があります。月25ドルの場合は720p、月39ドルで1080pによる配信が可能です。</p>
-
-<p>配信内容はローカルファイルとして保存されており、ダウンロードできます。動画にはロゴや背景の変更、YouTubeやFacebook、Twitchなどからのコメントピックアップといった機能があります。</p>
-
-<p><a href="https://streamyard.com/teams/kPWTXgIk7U5n89HHnObem2N7/broadcasts">StreamYard</a></p>
-
-<h3 id="restream"><a href="https://www.g2.com/products/restream/reviews">Restream</a></h3>
-
-<p><img src="/images/articles/online-event-13.jpg" alt="" /></p>
-
-<p>RestreamもStreamYardのようにクラウドベースの配信プラットフォームになります。有料の場合は16ドルからとなっています。配信先が5チャンネル選べますが、登録自体5チャンネルまでしかできない仕組みです（StreamYardはいくつでも登録は行えます）。また、以前は有料でもロゴが消せないといった欠点がありました（現在は消せるようです）。</p>
-
-<p>機能的にはStreamYardよりも若干多いように見えます。ただ、個人的には使いづらい印象があります。OBSやZoomと接続する機能は便利そうです。</p>
-
-<p><a href="https://www.g2.com/products/restream/reviews">Restream Reviews 2022: Details, Pricing, &amp; Features | G2</a></p>
-
-<h2 id="まとめ">まとめ</h2>
-
-<p>イベントツールの選定としては、ブラウザだけで利用できるかどうかが一つ大きなポイントになります。できれば専用ソフトウェアは不要な方が良いでしょう。運営メンバーはともかく、初参加の人にとっては敷居が高くなります。</p>
-
-<p>また、無料（または有料でも）で何人まで参加できるのかもポイントになります。イベント規模によって、収まらないケースもあるでしょう。</p>
-
-<p>後は多機能なツールはありますが、独特な使い勝手を覚えないといけないケースも多いので注意が必要です。特に登壇者の方が不慣れな状態だと、操作するのに必死になってしまうと、せっかくのプレゼンが台無しになってしまいます。</p>
-
-<p>こうしたサービスは正しく選定し、自分たちの目的やイベントの趣旨に合わせて選択しましょう。そうすればきっとオンラインイベントが成功するはずです。</p>
-
-<p><a href="/contact">MOONGIFTではコミュニティ運営のサポートを提供していますので、ぜひお気軽にお問い合わせください</a>。</p>]]></content><author><name>moongift</name></author><category term="イベント" /><category term="オンライン" /><summary type="html"><![CDATA[オンラインイベントを行う際には、何らかのサービスを使うのが一般的です。企業イベントであれば予算も付くでしょうが、コミュニティの場合はなるべく安価なツールを選びたいでしょう。]]></summary></entry></feed>
+<p><a href="https://devrel.connpass.com/">DevRel Meetup in Tokyo - connpass</a></p>]]></content><author><name>moongift</name></author><category term="イベント" /><summary type="html"><![CDATA[4月6日にDevRel Meetup in Tokyo #73 〜ソーシャル活用術〜を開催しました。まん延防止等重点措置が解除され、久々のオフライン会場を用意してのイベントになります。2021年12月にもオンラインとオフライン一緒にイベントを開催したのですが、その時には久々ということもあって、色々足りていませんでした。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://devrel.jp/images/articles/hybrid-event.jpeg" /><media:content medium="image" url="https://devrel.jp/images/articles/hybrid-event.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
