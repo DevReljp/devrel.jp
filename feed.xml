@@ -1,4 +1,168 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://devrel.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://devrel.jp/" rel="alternate" type="text/html" /><updated>2023-02-16T15:33:24+09:00</updated><id>https://devrel.jp/feed.xml</id><title type="html">DEVREL - 開発者向けマーケティング支援サービス -</title><subtitle>DevRelは開発者向けマーケティング施策です。私たちは企業の製品、サービスを広く開発者に知ってもらうためのDevRelをサポート、代行しています。</subtitle><entry><title type="html">DevRelで大事な情報発信方法</title><link href="https://devrel.jp/devrel/2022/12/02/right-intormation.html" rel="alternate" type="text/html" title="DevRelで大事な情報発信方法" /><published>2022-12-02T09:00:00+09:00</published><updated>2022-12-02T09:00:00+09:00</updated><id>https://devrel.jp/devrel/2022/12/02/right-intormation</id><content type="html" xml:base="https://devrel.jp/devrel/2022/12/02/right-intormation.html"><![CDATA[<p>DevRelは「正しい情報を、必要としている開発者に、正しく伝える」のが大事です。この中の一つでも間違っていると、大きな問題や損害につながります。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://devrel.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://devrel.jp/" rel="alternate" type="text/html" /><updated>2023-03-29T16:40:24+09:00</updated><id>https://devrel.jp/feed.xml</id><title type="html">DEVREL - 開発者向けマーケティング支援サービス -</title><subtitle>DevRelは開発者向けマーケティング施策です。私たちは企業の製品、サービスを広く開発者に知ってもらうためのDevRelをサポート、代行しています。</subtitle><entry><title type="html">カンファレンス向けに外国人にビザを発行する流れ</title><link href="https://devrel.jp/devrelcon/%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/%E3%83%93%E3%82%B6/2023/03/28/visa-application.html" rel="alternate" type="text/html" title="カンファレンス向けに外国人にビザを発行する流れ" /><published>2023-03-28T09:00:00+09:00</published><updated>2023-03-28T09:00:00+09:00</updated><id>https://devrel.jp/devrelcon/%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/%E3%83%93%E3%82%B6/2023/03/28/visa-application</id><content type="html" xml:base="https://devrel.jp/devrelcon/%E3%82%AB%E3%83%B3%E3%83%95%E3%82%A1%E3%83%AC%E3%83%B3%E3%82%B9/%E3%83%93%E3%82%B6/2023/03/28/visa-application.html"><![CDATA[<p>3月10日、11日にDevRel/Japan CONFERENCE 2023とDevRelCon Yokohama 2023を主催しました。</p>
+
+<ul>
+  <li><a href="https://devrel.tokyo/japan-2023/">DevRel/Japan CONFERENCE 2023</a></li>
+  <li><a href="https://yokohama-2023.devrelcon.dev/">DevRelCon Yokohama 2023</a></li>
+</ul>
+
+<p>このカンファレンスでは、十数人の外国人向けにビザを発行しました。これまでは個別対応してきましたが、今回は共通した手順で対応したので、その方法をメモしておきます。</p>
+
+<h2 id="前提条件">前提条件</h2>
+
+<p>今回は私の会社、株式会社MOONGIFTが招聘人となっています。そして私が代表取締役です。これが一社員の場合、用意する書類が異なるはずなので注意してください。</p>
+
+<p>今回招聘した人たちの国籍は以下の通りです。</p>
+
+<ul>
+  <li>インド</li>
+  <li>南アフリカ</li>
+  <li>中国（本土）</li>
+  <li>ウクライナ</li>
+  <li>ロシア</li>
+</ul>
+
+<p>基本的には同じ書類で大丈夫なはずですが、もっとビザ発行が難しい国はあるはずなので、今回の手順がすべての場合で通用する訳ではありません。</p>
+
+<p>なお、今回はカンファレンスへの招聘目的であり、非商用の短期滞在になります。これ以外の場合は参考にならないので注意してください。後、申請は個別です。複数人の場合は別な書類が必要になるので、それは別途確認してください。</p>
+
+<h2 id="必要な書類">必要な書類</h2>
+
+<p>日本で用意する書類は以下の通りです。</p>
+
+<h3 id="区役所">区役所</h3>
+
+<p>区役所では以下の書類が手に入ります。</p>
+
+<ul>
+  <li>住民票</li>
+  <li>戸籍謄本</li>
+  <li>納税証明書</li>
+  <li>市民税・県民税課税（非課税）証明書</li>
+</ul>
+
+<p>住民票、戸籍謄本はマイナンバーカードがあれば、コンビニでも手に入るはずです。後者の2つの書類も市区町村によってはコンビニで手に入るようです。私の住んでいる横浜市では対応していなかったので、区役所に行く必要がありました。</p>
+
+<h3 id="法務局">法務局</h3>
+
+<p>法務局では以下の書類が手に入ります。</p>
+
+<ul>
+  <li>法人登記簿謄本</li>
+  <li>納税証明書</li>
+</ul>
+
+<p>なお、社長ではない場合は在職証明書を会社に出してもらう必要があるようです。これは私の場合は作成していないので、正しいフォーマットは不明です。</p>
+
+<h3 id="記述する書類">記述する書類</h3>
+
+<p>前は以下を1つのファイルでダウンロードできたのですが、今は個別になっているようです。</p>
+
+<ul>
+  <li><a href="https://www.mofa.go.jp/files/000137089.pdf">ビザ申請書</a></li>
+  <li><a href="https://www.mofa.go.jp/files/000262548.pdf">滞在予定表</a></li>
+  <li><a href="https://www.mofa.go.jp/files/000262545.pdf">身元保証書</a></li>
+</ul>
+
+<p>これらの文書を、自社のレターヘッド（ヘッダー・フッター）がついた状態で印刷します。また、すべてのページに社印と個人のサインを記述しました。</p>
+
+<p>滞在予定表は日本にいつ来るか、どこに滞在するかなどの情報をまとめたものです。これは航空券、ホテルなどをすべてサポートする場合には提示できると思います。今回のカンファレンスではサポートは提供しなかったので、内容は記述していない状態で印刷だけして送りました。</p>
+
+<h2 id="もらう情報">もらう情報</h2>
+
+<p>非招聘人（スピーカーやスポンサーなど）からもらった情報は以下の通りです。</p>
+
+<ul>
+  <li>メールアドレス</li>
+  <li>国籍</li>
+  <li>名前</li>
+  <li>住所（国、郵便番号を含む）</li>
+  <li>性別</li>
+  <li>パスポート番号</li>
+  <li>電話番号</li>
+  <li>申請書類の提出先</li>
+  <li>誕生日</li>
+  <li>年齢</li>
+  <li>職業</li>
+</ul>
+
+<p>パスポート番号はビザ申請書の国籍の横に記述していました。これは一人目の方から言われたので、その後は常に記述していました。書類は現地の大使館、総領事館に提出します（この対象となる提出先都市名も記述します）。住んでいる地域とは関係ないので、あらかじめ確認が必要です。自分の住所を送ってきて、そこには大使館も総領事館もないよね、と確認することも度々ありました。</p>
+
+<p>書類に不備があると申請が許可されず、修正して再送付などで時間がかかります。発送前に内容に不備がないか、確実な確認が必要です。</p>
+
+<h2 id="書類への記述">書類への記述</h2>
+
+<p>ビザ申請書の中での記述については、以下のような感じです。</p>
+
+<ul>
+  <li>Purpose of invitation（招聘理由）<br />
+For speech at a conference hosted by an invisiting person https://yokohama-2023.devrelcon.dev/</li>
+  <li>Background to invitation（招聘する背景）<br />
+The Applicant’s speech on DeveloperRelations was judged to be of great value to the Japanese audience. to be invited as a conference speaker.</li>
+  <li>Relationship with visa applicant(s)<br />
+Conference speaker</li>
+</ul>
+
+<h2 id="送付">送付</h2>
+
+<p>これらの書類を封筒に入れて、送付します。送付方法ですが、EMSが割安で速いはずです。EMSで送付する際には下記のサイトであらかじめ送り状を作成・印刷しておきます。</p>
+
+<p><a href="https://www.post.japanpost.jp/int/ems/">EMS（国際スピード郵便） - 日本郵便</a></p>
+
+<p>EMSに対応していない国もあるので注意してください。確認は<a href="https://www.post.japanpost.jp/int/ems/country/index.html">EMS取り扱い国・地域 - 日本郵便</a>にて行えます。今回、ロシアやウクライナ国籍の方は別なヨーロッパ内の国に住んでいたので送付先としては問題ありませんでした。コロナや戦争、紛争などの影響で対応していない国もあるので注意してください。</p>
+
+<p>送付料金はおおむね3,000円/通くらいです。</p>
+
+<h3 id="デジタル版も送る">デジタル版も送る</h3>
+
+<p>ドキュメントを送付したら、同じ内容をPDFで非招聘人に送っておきます。戸籍謄本などもPDF化しておいて送ってあげると良いでしょう。確認はできていませんが、チェコではデジタル版の書類でも申請できると後で聞きました。デジタル版（現地で印刷）で出せるなら、それが一番早いです。</p>
+
+<h2 id="到着">到着</h2>
+
+<p>国によって到着までの日数はまったく異なります。<a href="https://www.post.japanpost.jp/int/deli_days/ems/index.html">EMSのサイト</a>にも参考日数が書いてあるのですが、まったくあてになりません。中国で1週間程度、インドでは2〜3週間くらいかかりました。ただ、配達ステータスは税関から出ていないのに、すでに受け取っているということもあるのでステータスもあまりあてになりません。</p>
+
+<p>あくまでも個人の経験ではありますが、チェコの郵便局は本当にあてにならないので注意が必要です。税関で数ヶ月止まったりします。</p>
+
+<h2 id="ステータスを要確認">ステータスを要確認</h2>
+
+<p>各ビザ申請者には、適宜ステータスを確認しましょう。彼らは書類を受け取った後、以下のようなタスクがあります。</p>
+
+<ul>
+  <li>航空券の手配</li>
+  <li>ホテルの手配</li>
+  <li>書類を大使館、領事館に提出</li>
+  <li>ビザを受け取りに行く</li>
+</ul>
+
+<p>ビザがどういった書類かは分かりませんが、多くの場合パスポートに貼り付けられるかと思います。その場合、書類を大使館などに提出する際にパスポートを預けないといけません。パスポートの郵送は対応していないことが多いので、直接受け取りに行く必要があります。ビザの申請から受け取りまで、約1週間はかかります。</p>
+
+<p>中国の場合、ビザ申請は必ず代理店を通さないといけないらしいです。また、インドの場合大使館が近くにない場合には代理店を頼ったりします。そうなると、やり取りでさらに時間がかかるでしょう。</p>
+
+<p>DevRelCon Yokohama 2023の場合ですが、全員のビザ申請が完了したのは2月末のことでした。</p>
+
+<h2 id="必要な日数">必要な日数</h2>
+
+<p>全体の日数としては、ベストに進んで以下のようになるでしょう。</p>
+
+<ul>
+  <li>郵送（2〜3週間）</li>
+  <li>ビザ申請（1〜2週間）</li>
+</ul>
+
+<p>つまり、3〜5週間かかると考えた方が良いでしょう。こちらからの書類に不備があれば、さらに時間がかかるので注意しましょう。</p>
+
+<h2 id="一連の手続きを外部委託した場合">一連の手続きを外部委託した場合</h2>
+
+<p>この手のビザ申請周りを請けている会社があります。</p>
+
+<p><a href="https://common-s.jp/tankiindia.html">インド人を日本に呼ぶ方法・手続き／短期滞在ビザ</a></p>
+
+<p>人数によって値段が変わるようですが、5.5万円〜となっています。また、海外側での作業を代行してくれる訳ではないので、その点は注意が必要です。</p>
+
+<h2 id="まとめ">まとめ</h2>
+
+<p>今回、ビザ取得対象者が全員ビザを得られたということで、書類については問題なかったと言えそうです。必要な書類や手順も分かったので、今後はもっとスムーズに処理ができそうです。</p>
+
+<p>海外からカンファレンススピーカーを招聘することは良くあると思います。また、そうした方がビザを必要とする場合の参考としてください。</p>]]></content><author><name>moongift</name></author><category term="DevRelCon" /><category term="カンファレンス" /><category term="ビザ" /><summary type="html"><![CDATA[3月10日、11日にDevRel/Japan CONFERENCE 2023とDevRelCon Yokohama 2023を主催しました。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://devrel.jp/images/articles/visa.jpg" /><media:content medium="image" url="https://devrel.jp/images/articles/visa.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">DevRelで大事な情報発信方法</title><link href="https://devrel.jp/devrel/2022/12/02/right-intormation.html" rel="alternate" type="text/html" title="DevRelで大事な情報発信方法" /><published>2022-12-02T09:00:00+09:00</published><updated>2022-12-02T09:00:00+09:00</updated><id>https://devrel.jp/devrel/2022/12/02/right-intormation</id><content type="html" xml:base="https://devrel.jp/devrel/2022/12/02/right-intormation.html"><![CDATA[<p>DevRelは「正しい情報を、必要としている開発者に、正しく伝える」のが大事です。この中の一つでも間違っていると、大きな問題や損害につながります。</p>
 
 <ul>
   <li>“間違った” 情報を、必要としている開発者に、正しく伝える</li>
@@ -953,114 +1117,4 @@
 
 <hr />
 
-<p>そんなMOONGIFTではブログの執筆やコミュニティ支援を手伝ってくれる仲間を募集しています。DevRelに興味があれば、まず<a href="/contact">気軽にお話ししてみましょう</a>！</p>]]></content><author><name>moongift</name></author><category term="全般" /><summary type="html"><![CDATA[私はとても成績優秀な学生という訳ではなく、むしろ高専時代の5年生（高専は高校3年+短大2年の計5年間もあります。しかも1学科1クラス！）には落第寸前という状態でした。絶対落とせない授業を（自分のせいで）落としたからですが、この時に救ってくれたのが製図の授業を行っていた教諭でした。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://devrel.jp/images/articles/i-love-devrel.jpeg" /><media:content medium="image" url="https://devrel.jp/images/articles/i-love-devrel.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">オンライン/オフライン同時開催型のパネルディスカッションで得られた知見</title><link href="https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/04/07/hybrid-event.html" rel="alternate" type="text/html" title="オンライン/オフライン同時開催型のパネルディスカッションで得られた知見" /><published>2022-04-07T09:00:00+09:00</published><updated>2022-04-07T09:00:00+09:00</updated><id>https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/04/07/hybrid-event</id><content type="html" xml:base="https://devrel.jp/%E3%82%A4%E3%83%99%E3%83%B3%E3%83%88/2022/04/07/hybrid-event.html"><![CDATA[<p>4月6日に<a href="https://devrel.connpass.com/event/243022/">DevRel Meetup in Tokyo #73 〜ソーシャル活用術〜</a>を開催しました。まん延防止等重点措置が解除され、久々のオフライン会場を用意してのイベントになります。2021年12月にもオンラインとオフライン一緒にイベントを開催したのですが、その時には久々ということもあって、色々足りていませんでした。</p>
-
-<p>今回はその前回の反省を踏まえて取り組んだので、その知見を共有します。</p>
-
-<h2 id="アーキテクチャ">アーキテクチャ</h2>
-
-<p>今回、全体としてのアーキテクチャは次のようになっています。</p>
-
-<p><img src="/images/articles/hybrid-architecture.jpeg" alt="" /></p>
-
-<p>各デバイスは次のように使われています。</p>
-
-<h3 id="会議室用スピーカー">会議室用スピーカー</h3>
-
-<p>会議室用スピーカーとして<a href="https://www.amazon.co.jp/Anker-A3305011-PowerConf-S500/dp/B08VWKFPCR">Anker PowerConf S500</a>を用意しました。執筆時点で2.5万円くらいです。会議室用スピーカーがあることで、各パネリストやモデレーターの方はマイクやイヤホンの用意が不要になります。発言が混じったとしても、聞き苦しくなりません。</p>
-
-<p><img src="/images/articles/ankor.jpg" alt="" /></p>
-
-<p>参加者がコミュニケーションしている声も遠くの方で聞こえるようで、多少なりともオフラインの雰囲気がオンラインの方々に聞こえたのは良かったと思います。</p>
-
-<p>Anker PowerConf S500の実力としては、10〜15名くらいの箱であれば十分に聞こえるレベルのスピーカーでした。マイクについては、遠くにいる人は少し声を張り上げた方が良さそうです。パネリストやモデレーターの声であればまったく問題なく届けられていました。<a href="https://www.ankerjapan.com/products/a3305">Anker PowerConf S500は2台接続も可能</a>なので、20人規模の会場であれば2つあった方が良さそうです。</p>
-
-<p>ケーブルはUSB type-A - USB type-C（3m）を利用しています。ケーブルが短いと色々苦労するので、長いものを用意しておくのがお勧めです。</p>
-
-<h3 id="iphone">iPhone</h3>
-
-<p>iPhoneはWebカメラとして利用しています。ノートPCのものではカメラ性能が良くありませんし、緊急時にノートPCの向きを変更することもできません。iPhone（またはAndroid）であれば使わなくなった端末があるかと思いますので、それを利用できます。今回はiPhone 6sを使っています。</p>
-
-<p>iPhone 6sはOSがiOS12までしか使えないので、その制約で使えるアプリに限りがあります。今回は<a href="https://reincubate.com/ja/camo/">Reincubate Camo</a>を使っています。フリー版もあるようですが、画質などで制約があるのでPro版にするのが良いでしょう。ライフタイム（買い切り）で79.99ドルでした。</p>
-
-<p>このReincubate CamoをノートPC、iPhone両方にインストールして、USBケーブルで接続します。ケーブルの取り回しが必要になるので、USB type-A - lightningケーブル（3m）を使っています。また、iPhoneは三脚を用意して、そこで固定しています。</p>
-
-<h3 id="tv">TV</h3>
-
-<p>テレビは予定外でしたが、たまたま部屋にあらかじめあったのでモニターとして利用しました。オンライン側のパネリストを映したり、画面共有を表示するのに使っています。イベントスペースにあるプロジェクターは大抵ルーメンが低く、会場を暗くする必要があります。それだと会場の様子が暗く、見づらいものになるので意外とTVは便利です。</p>
-
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/DevRelJP?src=hash&amp;ref_src=twsrc%5Etfw">#DevRelJP</a> <a href="https://twitter.com/hashtag/DevRel?src=hash&amp;ref_src=twsrc%5Etfw">#DevRel</a> はじまりー。久々のハイブリッド開催！ <a href="https://t.co/FjodVEtOSh">pic.twitter.com/FjodVEtOSh</a></p>&mdash; Atsushi 🇯🇵 DevRel Meetup in 🗼 4/6 (@goofmint) <a href="https://twitter.com/goofmint/status/1511649429522386950?ref_src=twsrc%5Etfw">April 6, 2022</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>なお、TVに付属していた細いHDMIケーブル（3mくらい）の調子が悪く、短いものにせざるを得ませんでした。HDMIケーブルだけでも用意しておけば良かったと後悔しています。</p>
-
-<h3 id="usbハブ">USBハブ</h3>
-
-<p>配信用PCがMacBook Airだったこともあって、接続するUSBデバイスのポートが不足しがちです。USBハブを持っているのですが、久々に使ってみたら調子がとても悪く、接続が瞬断する状態でした…。定期的な確認が必要ですね。</p>
-
-<h3 id="その他">その他</h3>
-
-<p>その他用意していたものです。</p>
-
-<h4 id="パネリスト同士の飛沫感染を防止するフィルム">パネリスト同士の飛沫感染を防止するフィルム</h4>
-
-<p><img src="/images/articles/film.jpg" alt="" /></p>
-
-<p>会場ではソファーを使う想定をしていたので、そのソファーの上にかけられる感染防止フィルムを用意しました。購入したのは<a href="https://www.amazon.co.jp/gp/product/B0897KVTXV/ref=ppx_yo_dt_b_asin_title_o02_s00?ie=UTF8&amp;psc=1">飛沫ブロッカー側面用タイプ</a>です。価格は1万円弱になります。これは片足タイプなので、土台をソファーの下に滑り込ませることで、見た目に邪魔にならないように配置できます。</p>
-
-<h2 id="進行">進行</h2>
-
-<p>今回の進行はすべてモデレーターでもある<a href="https://twitter.com/taiponrock">Taiji Eddie Hagino (@taiponrock)</a>さんにお任せとなっています。HDMIケーブルの問題、USBハブの問題があって、たいじさんのPCから画面共有、音声共有を行っています。</p>
-
-<p>実際のイベント中は、こんな感じです。</p>
-
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr"><a href="https://twitter.com/hashtag/DevRelJP?src=hash&amp;ref_src=twsrc%5Etfw">#DevRelJP</a> <a href="https://twitter.com/hashtag/DevRel?src=hash&amp;ref_src=twsrc%5Etfw">#DevRel</a><br /><br />会場からはこんな感じ。リアル感ありますね。 <a href="https://t.co/DBFHK6wv9O">pic.twitter.com/DBFHK6wv9O</a></p>&mdash; Shotaro Suzuki (@shosuz) <a href="https://twitter.com/shosuz/status/1511655855057354752?ref_src=twsrc%5Etfw">April 6, 2022</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>今から思ってみると、名刺を忘れていました。ちゃんと持っている方も多くて、素晴らしいなと思います。</p>
-
-<h2 id="結果">結果</h2>
-
-<p>ツイートは200超（速報値）なので、オンラインだけでイベントをやるよりも比較的伸びたのではないかと思っています。たいじさんからは運営している感があったという意見もあり、確かにそう感じます。オフラインで会場を準備したり、挨拶したりといった体験はオンラインではなかなか得づらいものだなと。</p>
-
-<p>他の人に紹介されて一緒に来たという方もいました。これもオンラインだけでイベントをやっていると、なかなか生まれづらかったものです。オンラインは拡大という意味においては有効ですが、コミュニケーション深度はオフラインには敵わないかと思います。そういった意味で、オンラインとオフラインのハイブリッド開催は両方の良いところ取りができるのでお勧めです。</p>
-
-<h2 id="tips">Tips</h2>
-
-<p>以下はハイブリッド開催にあたってのTipsです。</p>
-
-<h3 id="会場について">会場について</h3>
-
-<p>コロナ禍になって、オフィスを縮小したりリモートワークを強化している企業が増えています。かつてはイベント会場を貸してくれる企業が多数ありましたが、コロナ禍になって利用が難しくなっています。担当者の負担が大きいですし、万一感染が広がる原因になってしまった時のリスクは大きいでしょう。</p>
-
-<p>WeWorkのようなコワーキングスペースを借りている方であればそういった場所を使うこともできます。私の場合はSpaceMarketで探して利用しています。この時大事なのは、単なる会議室ではなく、少しでも非日常が感じられるような空間を選ぶことです。</p>
-
-<h3 id="オンライン側のファシリテーション">オンライン側のファシリテーション</h3>
-
-<p>ハイブリッド開催になると、オフラインはもちろんのことオンライン側でもファシリテーターが必要です。運営メンバーも全員オフラインに集まるのではなく、オンライン側の担当者が必要です。</p>
-
-<p>オンライン側の担当者は、以下を担当します。</p>
-
-<ul>
-  <li>万一のネットワーク問題が発生した際のつなぎ</li>
-  <li>イベント後の懇親会</li>
-</ul>
-
-<p>今回、一時的にネットワーク障害が発生し、パネルディスカッションが数分途絶えてしまいました。こうした不測の事態が発生した際に、オンライン会場側の場をつなぐのが役割です。オンラインにいる人たちは、リアルの会場でどういったトラブルが起こっているのか分かりません。何も分からないまま数分放置されるのは苦痛です。</p>
-
-<blockquote class="twitter-tweet"><p lang="ja" dir="ltr">カメラ高かったのにー！！(´Д` )←外出していない<br />とりあえず配信トラブルを救ってみましたd(´Д` )♪<a href="https://twitter.com/hashtag/DevReljp?src=hash&amp;ref_src=twsrc%5Etfw">#DevReljp</a> <a href="https://twitter.com/hashtag/DevRel?src=hash&amp;ref_src=twsrc%5Etfw">#DevRel</a> <a href="https://t.co/xGlWCLSq57">https://t.co/xGlWCLSq57</a></p>&mdash; odasho@5/25-26 Microsoft Build!! (@MS_odasho) <a href="https://twitter.com/MS_odasho/status/1511673302858997772?ref_src=twsrc%5Etfw">April 6, 2022</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>オンライン側の担当者は、現地のスタッフと連絡を取りつつ、場をつなぐのが大事な役割になります。</p>
-
-<p>イベント後の懇親会についても大事です。試行錯誤しましたが、懇親会をハイブリッドで盛り上げるのはとても難しいです。そこで、今回はパネルディスカッションが終わったらリアル会場とオンライン側で分断し、コミュニケーションタイムとしました。</p>
-
-<p>リアルで会っている場合は、参加者同士で勝手に話し始められるのですが、オンラインではなかなかうまくいかないものです。そうした時にコミュニケーションを促したり、場を盛り上げるのはオンライン側の担当者になります。</p>
-
-<h2 id="まとめ">まとめ</h2>
-
-<p>今回はパネルディスカッションでしたが、次回はセッション形式を予定しています。感染状況次第ですが、またハイブリッドでの開催を予定しています。セッション方式ではまた違った方式が最適になると思いますので、色々と試行錯誤してみたいと思います。</p>
-
-<p>DevRel Meetup in Tokyoではそうしたトライ&amp;エラーを通して、自社イベントに活かせる学びを得ています。ぜひご参加ください！</p>
-
-<p><a href="https://devrel.connpass.com/">DevRel Meetup in Tokyo - connpass</a></p>]]></content><author><name>moongift</name></author><category term="イベント" /><summary type="html"><![CDATA[4月6日にDevRel Meetup in Tokyo #73 〜ソーシャル活用術〜を開催しました。まん延防止等重点措置が解除され、久々のオフライン会場を用意してのイベントになります。2021年12月にもオンラインとオフライン一緒にイベントを開催したのですが、その時には久々ということもあって、色々足りていませんでした。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://devrel.jp/images/articles/hybrid-event.jpeg" /><media:content medium="image" url="https://devrel.jp/images/articles/hybrid-event.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>そんなMOONGIFTではブログの執筆やコミュニティ支援を手伝ってくれる仲間を募集しています。DevRelに興味があれば、まず<a href="/contact">気軽にお話ししてみましょう</a>！</p>]]></content><author><name>moongift</name></author><category term="全般" /><summary type="html"><![CDATA[私はとても成績優秀な学生という訳ではなく、むしろ高専時代の5年生（高専は高校3年+短大2年の計5年間もあります。しかも1学科1クラス！）には落第寸前という状態でした。絶対落とせない授業を（自分のせいで）落としたからですが、この時に救ってくれたのが製図の授業を行っていた教諭でした。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://devrel.jp/images/articles/i-love-devrel.jpeg" /><media:content medium="image" url="https://devrel.jp/images/articles/i-love-devrel.jpeg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
