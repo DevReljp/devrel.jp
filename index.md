@@ -123,6 +123,11 @@ permalink: /
           私たちはエバンジェリスト代行、ブログやドキュメントのライティング、イベント開催、コミュニティ育成をメインとしています。他にも動画の作成やデモコード作成、電子書籍の執筆など、DevRelに関する業務を全方位的に行っています。
             <a href="/service" class="">DevRelサポートの詳細を見る</a>
           </p>
+          <a href="/sdk" class=""><h4 style="font-weight: bold;font-size: 18px">SDK開発サービス</h4></a>
+          <p class="tp-section__text is-ja tp-section__text--pc">
+            APIを公開するだけでは利用者は増えません。システムから使いやすくするSDK（Software Development Kit）の存在があってこそ、はじめてプロダクトへ組み込まれます。各種言語に対応したSDK開発をサポートします。
+            <a href="/sdk" class="">SDK開発サービスの詳細を見る</a>
+          </p>
           <a href="/hiring" class=""><h4 style="font-weight: bold;font-size: 18px">エンジニア求人サポート</h4></a>
           <p class="tp-section__text is-ja tp-section__text--pc">
           DevRelをエンジニア求人に特化させたパッケージです。技術ブログの開設と運用、コンテンツ発信、開発者向けイベント実施をメインとしています。自社のブランディングを向上させ、エンジニアに選ばれる企業になりましょう。
