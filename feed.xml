@@ -1,4 +1,126 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://devrel.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://devrel.jp/" rel="alternate" type="text/html" /><updated>2023-12-01T09:16:30+09:00</updated><id>https://devrel.jp/feed.xml</id><title type="html">DEVREL - 開発者向けマーケティング支援サービス -</title><subtitle>DevRelは開発者向けマーケティング施策です。私たちは企業の製品、サービスを広く開発者に知ってもらうためのDevRelをサポート、代行しています。</subtitle><entry><title type="html">2023年版。で、結局DevRelって何？</title><link href="https://devrel.jp/%E3%83%96%E3%83%AD%E3%82%B0/2023/12/01/what-is-devrel.html" rel="alternate" type="text/html" title="2023年版。で、結局DevRelって何？" /><published>2023-12-01T09:00:00+09:00</published><updated>2023-12-01T09:00:00+09:00</updated><id>https://devrel.jp/%E3%83%96%E3%83%AD%E3%82%B0/2023/12/01/what-is-devrel</id><content type="html" xml:base="https://devrel.jp/%E3%83%96%E3%83%AD%E3%82%B0/2023/12/01/what-is-devrel.html"><![CDATA[<p>ここ最近、各社でDevRelチームを立ち上げました！という話題が聞かれるようになっています。</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://devrel.jp/feed.xml" rel="self" type="application/atom+xml" /><link href="https://devrel.jp/" rel="alternate" type="text/html" /><updated>2023-12-21T18:53:37+09:00</updated><id>https://devrel.jp/feed.xml</id><title type="html">DEVREL - 開発者向けマーケティング支援サービス -</title><subtitle>DevRelは開発者向けマーケティング施策です。私たちは企業の製品、サービスを広く開発者に知ってもらうためのDevRelをサポート、代行しています。</subtitle><entry><title type="html">プロダクトライフサイクルとDevRel戦略</title><link href="https://devrel.jp/%E3%83%96%E3%83%AD%E3%82%B0/2023/12/21/product-devrel.html" rel="alternate" type="text/html" title="プロダクトライフサイクルとDevRel戦略" /><published>2023-12-21T09:00:00+09:00</published><updated>2023-12-21T09:00:00+09:00</updated><id>https://devrel.jp/%E3%83%96%E3%83%AD%E3%82%B0/2023/12/21/product-devrel</id><content type="html" xml:base="https://devrel.jp/%E3%83%96%E3%83%AD%E3%82%B0/2023/12/21/product-devrel.html"><![CDATA[<p>DevRelで行うべき施策は、自社やサービスのステージによって異なります。「これをやればDevRel」というものはありません。ただし、その施策が「開発者との関係性を構築する」という目的に沿っているかどうかは、常に意識しておく必要があります。ただイベントをやる、ブログを書くのであればそれは発信しか意識していないので、DevRelとは言えないでしょう。</p>
+
+<p>サービスのステージを考える際には、プロダクトライフサイクルを意識すると良いでしょう。プロダクトライフサイクルとは、製品の市場投入から撤退までの期間を、市場の反応によって分類したものです。このプロダクトライフサイクルには、以下の4つのステージがあります。</p>
+
+<ul>
+  <li>導入期</li>
+  <li>成長期</li>
+  <li>成熟期</li>
+  <li>飽和期</li>
+  <li>衰退期</li>
+</ul>
+
+<p>このステージとDevRelの関係について、考え方を紹介します。</p>
+
+<h2 id="導入期">導入期</h2>
+
+<p><img src="/images/articles/product-line-devrel-1.png" alt="導入期" /></p>
+
+<p>導入期とは、製品が市場に投入された直後のフェーズです。つまり、その製品をほとんどの開発者は知らない段階と言えます。この時には、まず知ってもらう = 認知度向上が最重要視される段階と言えるでしょう。そのため、イベントやブログなどの発信を行うことが重要になります。</p>
+
+<p>主な施策としては、以下のようなものが考えられます。</p>
+
+<ul>
+  <li>自社イベントの開催</li>
+  <li>自社ブログの開設と記事執筆</li>
+  <li>ドキュメントの充実</li>
+  <li>チュートリアル動画の作成</li>
+  <li>EXPOなどへの出展</li>
+  <li>電子書籍の出版</li>
+  <li>基本的な言語向けのSDK開発</li>
+</ul>
+
+<p>たとえば、この段階でユーザーコミュニティを考えるのは時期尚早です。なぜなら、ユーザーコミュニティの核となる熱狂的なファンがいないからです。イベントを行うとしても、自社で開催するのが良いでしょう。</p>
+
+<p>また、この段階でカンファレンスのスポンサードやブース出展は控えるべきでしょう。まだ製品に不具合があったり、ドキュメントが充実していない段階でユーザーを増やしても、製品の評判が悪くなるだけです。ユーザーは獲得しつつも、まず足下を固めることが重要です。</p>
+
+<h2 id="成長期">成長期</h2>
+
+<p><img src="/images/articles/product-line-devrel-2.png" alt="成長期" /></p>
+
+<p>成長期とは、製品が市場に浸透し始めた段階です。この段階では、製品の認知度は高まっています。ただし、まだ製品の利用者は少ないため、製品の利用者を増やすことが重要になります。そのため、製品の利用者を増やす施策を行うことが重要です。</p>
+
+<p>ユーザーに使いやすいサービスであるためには、まずユーザーの声を聞いて開発へフィードバックする点が求められます。そのためにもサポートフォーラムやチャットなど、ユーザーが問い合わせできる窓口を用意しましょう。</p>
+
+<p>また、アーリーアダプターになるユーザーが集まることで、熱狂的なファンが創出されます。そうしたユーザーの方たちを中心に、ユーザーコミュニティを作りましょう。ユーザーコミュニティは、ユーザー同士の交流の場としてだけでなく、開発者とユーザーの交流の場としても重要です。</p>
+
+<p>この成長期での主な施策は、以下のようなものが考えられます。</p>
+
+<ul>
+  <li>ユーザーコミュニティの開設</li>
+  <li>サポートフォーラムの開設</li>
+  <li>ユーザー表彰制度の開始</li>
+  <li>ハンズオン</li>
+  <li>ハッカソンへの協賛</li>
+  <li>幅広い言語向けにSDK開発</li>
+  <li>デモアプリの開発</li>
+</ul>
+
+<h2 id="成熟期">成熟期</h2>
+
+<p><img src="/images/articles/product-line-devrel-3.png" alt="成熟期" /></p>
+
+<p>成熟期とは、製品が市場に浸透し、製品の利用者が増えている段階です。この段階では、製品の利用者を維持することが重要になります。そのため、製品の利用者が離れないような施策を行うことが重要です。</p>
+
+<p>また、製品として利益を生み出すことが求められます。そのためには、有料ユーザー向けのサポートやカスタマーサクセスなども求められます。利用ユーザーもオープンなチャンネルでのコミュニケーションが得意な層から、徐々に企業規模が大きくなり、手厚いサポートも求められるようになるでしょう。</p>
+
+<p>この成熟期での主な施策は、以下のようなものが考えられます。</p>
+
+<ul>
+  <li>カスタマーサクセス</li>
+  <li>サポート体制の充実</li>
+  <li>既存ユーザー向けのイベント開催</li>
+  <li>パートナー戦略の構築</li>
+  <li>ユーザーフィードバックによる他社との差別化</li>
+  <li>最新テクノロジーと自社製品の連携</li>
+  <li>製品の監視ダッシュボード</li>
+</ul>
+
+<h2 id="飽和期">飽和期</h2>
+
+<p><img src="/images/articles/product-line-devrel-4.png" alt="飽和期" /></p>
+
+<p>飽和期は、製品の利用者が飽和しつつある段階です。この段階では、自社製品の類似サービスも増えているでしょう。その中では、競争に負けて撤退を余儀なくされるプレイヤーも出てきます。こうした他社ユーザーを確実に獲得していくことが重要になります。</p>
+
+<p>また、製品市場に関する情報を発信することで、市場における自社の立ち位置を優位にする戦略も有効です。もちろん、すでに巨大なライバルがいる場合には、ニッチ戦略に切り替えたり、二番手を目指す戦略も有効です。</p>
+
+<p>この飽和期での主な施策は、以下のようなものが考えられます。</p>
+
+<ul>
+  <li>他社サービスからの移行ツールを提供</li>
+  <li>市場状況・展望に関する白書の発行</li>
+  <li>他社の機能を自社製品に取り込む</li>
+  <li>関連サービスを買収、統合する</li>
+  <li>最新テクノロジーを取り入れる</li>
+  <li>自社関連サービスと組み合わせたクロスセルの提案</li>
+</ul>
+
+<h2 id="衰退期">衰退期</h2>
+
+<p><img src="/images/articles/product-line-devrel-5.png" alt="衰退期" /></p>
+
+<p>衰退期は、プロダクトライフサイクルの最終段階です。この時点では市場規模が衰退、減少しており、撤退やサービスのクロージングを検討する段階となっています。なるべく衰退期に陥らず、成熟期と飽和期を繰り返したり、寿命を延ばすのが理想です。</p>
+
+<p>もしサービスをクロージング、撤退する場合にもそのやり方を慎重に進めましょう。間違った撤退方法を選択すると、自社の別事業にも悪影響を及ぼしたり、今後のサービス開発に対するユーザーの信頼を失うことになります。</p>
+
+<p>この衰退期での主な施策は、以下のようなものが考えられます。</p>
+
+<ul>
+  <li>他社サービスへの移行ツールを提供</li>
+  <li>サービスのクロージングに関する情報発信</li>
+  <li>移行期間を十分に踏まえたサービスのクロージングスケジュール立案</li>
+  <li>サービスのクロージングに関するFAQの作成</li>
+  <li>サービスのバイアウト検討（ドメイン、ブランド、ユーザー、技術、データなど）</li>
+  <li>サービスのオープンソース化の検討</li>
+</ul>
+
+<h2 id="まとめ">まとめ</h2>
+
+<p>DevRelが得意とするのは主に導入期〜成長期になるでしょう。マーケティング予算もあり、活発なユーザーがいる段階だからです。しかし、インターネットが登場して30年近くが経つ中、多くのサービスが成熟期に入っています。スマートフォンですら、飽和期にあると言っても過言ではありません。</p>
+
+<p>常に新しいサービスだけにキャッチアップしても、DevRelとしての価値は十分ではないかも知れません。成熟・飽和していく中にあっても、十分な価値を提供できるように、自社のサービスのステージを意識して施策を考えていきましょう。</p>
+
+<p><a href="/contact/">MOONGIFTでは御社のDevRelに関して、幅広いサポートを提供しています。お気軽にお問い合わせください。</a></p>]]></content><author><name>moongift</name></author><category term="ブログ" /><summary type="html"><![CDATA[DevRelで行うべき施策は、自社やサービスのステージによって異なります。「これをやればDevRel」というものはありません。ただし、その施策が「開発者との関係性を構築する」という目的に沿っているかどうかは、常に意識しておく必要があります。ただイベントをやる、ブログを書くのであればそれは発信しか意識していないので、DevRelとは言えないでしょう。]]></summary></entry><entry><title type="html">2023年版。で、結局DevRelって何？</title><link href="https://devrel.jp/%E3%83%96%E3%83%AD%E3%82%B0/2023/12/01/what-is-devrel.html" rel="alternate" type="text/html" title="2023年版。で、結局DevRelって何？" /><published>2023-12-01T09:00:00+09:00</published><updated>2023-12-01T09:00:00+09:00</updated><id>https://devrel.jp/%E3%83%96%E3%83%AD%E3%82%B0/2023/12/01/what-is-devrel</id><content type="html" xml:base="https://devrel.jp/%E3%83%96%E3%83%AD%E3%82%B0/2023/12/01/what-is-devrel.html"><![CDATA[<p>ここ最近、各社でDevRelチームを立ち上げました！という話題が聞かれるようになっています。</p>
 
 <ul>
   <li>05月02日：<a href="https://note.com/r_kawamata/n/n3082515ba327">【入社エントリ】タイミーのDevEnable室でDevRelやっていきます｜かわまた／DevRel</a></li>
@@ -1105,100 +1227,4 @@ Conference speaker</li>
 
 <p>後は作成したコンテンツを1つの領域だけに提供するのは勿体ないので、なるべく使い回すようにしましょう。</p>
 
-<p>MOONGIFTではブログの執筆や動画作成など、コンテンツ作成に関するサポートを行っています。ぜひ<a href="/contact">お問い合わせください</a>！</p>]]></content><author><name>moongift</name></author><category term="コンテンツ" /><summary type="html"><![CDATA[先日こんなツイートを見かけました。ヒデさんはStripeのデベロッパーアドボケイトです。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://devrel.jp/images/articles/ear-eye-text.png" /><media:content medium="image" url="https://devrel.jp/images/articles/ear-eye-text.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">お前は今までに作成したSDKの数を覚えているか？</title><link href="https://devrel.jp/%E9%96%8B%E7%99%BA/sdk/2022/04/13/development-sdk.html" rel="alternate" type="text/html" title="お前は今までに作成したSDKの数を覚えているか？" /><published>2022-04-13T09:00:00+09:00</published><updated>2022-04-13T09:00:00+09:00</updated><id>https://devrel.jp/%E9%96%8B%E7%99%BA/sdk/2022/04/13/development-sdk</id><content type="html" xml:base="https://devrel.jp/%E9%96%8B%E7%99%BA/sdk/2022/04/13/development-sdk.html"><![CDATA[<p>こんなツイートをたまたま見てしまったがために…。</p>
-
-<blockquote class="twitter-tweet" data-partner="tweetdeck"><p lang="ja" dir="ltr">DevRel と SDK 開発の兼任ってめちゃくちゃ格好いいですね……😍</p>&mdash; lettenj61 (@lettenj61) <a href="https://twitter.com/lettenj61/status/1514088366928973825?ref_src=twsrc%5Etfw">April 13, 2022</a></blockquote>
-<script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
-
-<p>ということで、これまでDevRelサポートを提供する中で開発してきたSDKをリストアップしてみようと思います。これは2022年4月現在です。</p>
-
-<h2 id="ncmbニフクラ-mobile-backend"><a href="https://mbaas.nifcloud.com/">NCMB（ニフクラ mobile backend）</a></h2>
-
-<p>NCMBは一番サービス提供の歴史が長いので、多いですね。私が開発していない<a href="https://github.com/NCMBMania/php-ncmb">PHP SDK</a>もあります。公式SDKはJavaScript/Swift/Objective-C/Java（Android）/Kotlin（Android）/Unity向けがあります。足りない部分を私が開発している形です。</p>
-
-<ul>
-  <li><a href="https://github.com/NCMBMania/ncmb-dart">Dart &amp; Flutter.</a></li>
-  <li><a href="https://github.com/NCMBMania/ncmb_deno">TypeScript &amp; Deno</a></li>
-  <li><a href="https://github.com/NCMBMania/ncmb_gas">Google Apps Script</a></li>
-  <li><a href="https://github.com/NCMBMania/ncmb_js_light">JavaScript SDK（軽量版）</a></li>
-  <li><a href="https://github.com/NCMBMania/ncmb-react-native">React Native</a></li>
-  <li><a href="https://github.com/NCMBMania/ncmb-ruby-client">Ruby</a></li>
-  <li><a href="https://github.com/NCMBMania/ncmb_xamarin">C# &amp; Xamarin</a></li>
-  <li><a href="https://github.com/NCMBMania/ncmb_py">Python</a></li>
-  <li><a href="https://github.com/NCMBMania/java-sdk">Java</a></li>
-  <li><a href="https://github.com/NCMBMania/ncmb-excel">Excel VBA</a></li>
-</ul>
-
-<h2 id="customers-mail-cloud"><a href="https://smtps.jp/">Customers Mail Cloud</a></h2>
-
-<p>メール配信サービスです。ブログ記事執筆を提供する中で生まれたSDKです。</p>
-
-<ul>
-  <li><a href="https://github.com/goofmint/CustomersMailCloud-js">Node.js</a></li>
-  <li><a href="https://github.com/goofmint/Customers-Mail-Cloud-Java">Java</a></li>
-  <li><a href="https://github.com/goofmint/Customers-Mail-Cloud-VBA">Excel VBA</a></li>
-  <li><a href="https://github.com/goofmint/CustmersMailCloud-rb">Ruby</a></li>
-  <li><a href="https://github.com/goofmint/CustomersMailCloudPy">Python</a></li>
-</ul>
-
-<h2 id="quality-forward"><a href="https://www.veriserve.co.jp/qualityforward/">Quality Forward</a></h2>
-
-<p>テストのクラウド管理サービスを提供しています。</p>
-
-<ul>
-  <li><a href="https://github.com/goofmint/qualityforward-rb">Ruby</a></li>
-  <li><a href="https://github.com/goofmint/qualityforward-py">Python</a></li>
-  <li><a href="https://github.com/goofmint/qualityforward-node">Node.js</a></li>
-</ul>
-
-<h2 id="blastengine"><a href="https://blastengine.jp/">blastengine</a></h2>
-
-<p>エンジニアフレンドリーなメール配信サービスです。最近サービス提供を開始したこともあり、今後SDK拡充予定です。</p>
-
-<ul>
-  <li><a href="https://github.com/blastengineMania/blastengine-java">Java</a></li>
-  <li><a href="https://github.com/blastengineMania/blastengine-node">Node.js</a></li>
-</ul>
-
-<h2 id="なぜsdkを開発するのか">なぜSDKを開発するのか</h2>
-
-<p>APIを提供するサービスがあったとして、それをわざわざHTTPライブラリから直接操作したいと思うでしょうか。コードがごちゃっとしますし、仕様を理解してコーディングするのは苦痛です。私ならSDKがあるサービスとないサービスの2つがあれば、SDKがあるサービスを選ぶでしょう。</p>
-
-<p>ということで、開発者にとってのペインポイントを除去し、かつ選ばれる理由を提供するためにSDKを開発しています。全機能を網羅していないものも多いですが、その辺りは利用者の需要に合わせて開発しています。</p>
-
-<p>後はブログ記事のネタとして使えるのが良いです。SDKを開発して、それの使い方をブログ記事にするというマッチポンプ的なことをよく行っています。</p>
-
-<p>例）<br />
-<a href="https://qiita.com/goofmint/items/b7498e17e6e3b136660d">blastengineのJava SDKを使ってメール送信を行う - Qiita</a></p>
-
-<h2 id="言語選定">言語選定</h2>
-
-<p>色々な言語で開発していますが、極力そのサービス利用者が使っている言語を優先的に採用しています。サーバーサイドの場合、Java需要が強いように感じます。その後はPHP、Node.js、Python、Rubyでしょうか。</p>
-
-<p>アプリ界隈であれば最近ならFlutter、ついでReact Nativeになるかなと。Xamarinはコロナ感染チェックアプリで一躍有名になったので、開発してみました。</p>
-
-<p>正直得意ではない言語も多いので、その辺りはテストを書きつつググりながら実装していたりします。C#とかJavaは得意ではないですが、IDEがあるので安心ですね（それでも苦戦することが多いですが）。</p>
-
-<h2 id="パッケージ管理への登録">パッケージ管理への登録</h2>
-
-<p>RubyであればRubygems、Pythonであればpipなどが有名なパッケージ管理システムです。この辺りへの登録はもちろん行っています。</p>
-
-<p>各パッケージ管理のプロフィールページです。</p>
-
-<ul>
-  <li><a href="https://pypi.org/user/goofmint/">PyPI</a></li>
-  <li><a href="https://rubygems.org/profiles/moongift">RubyGems.org</a></li>
-  <li><a href="https://www.npmjs.com/~moongift">npm</a></li>
-  <li><a href="https://www.nuget.org/profiles/goofmint">NuGet</a></li>
-  <li><a href="https://pub.dev/packages/ncmb">Dart</a></li>
-</ul>
-
-<p>この辺りはインストールのしやすさはもちろん、個人のブランディングとして行っている面もあります。なお、JavaのMaven Central Repositoryはとても面倒なイメージがあって登録していません…。</p>
-
-<h2 id="まとめ">まとめ</h2>
-
-<p>今後はGo言語やRust辺りでも開発していきたいのと、PHPは自分の中で歴史がバージョン5で終わってしまっているので、SDK開発を通して勉強し直したいと思っています。</p>
-
-<p>SDK開発はDevRelにおいて、コーディングスキルが活かせる場面だと思うので、ぜひ取り組んでみると良いでしょう。</p>
-
-<p><a href="/contact">MOONGIFTではブログ執筆を通してSDKを開発したり、単体でSDK開発も承りますのでぜひお問い合わせください</a>。</p>]]></content><author><name>moongift</name></author><category term="開発" /><category term="SDK" /><summary type="html"><![CDATA[こんなツイートをたまたま見てしまったがために…。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://devrel.jp/images/articles/sdk.jpg" /><media:content medium="image" url="https://devrel.jp/images/articles/sdk.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+<p>MOONGIFTではブログの執筆や動画作成など、コンテンツ作成に関するサポートを行っています。ぜひ<a href="/contact">お問い合わせください</a>！</p>]]></content><author><name>moongift</name></author><category term="コンテンツ" /><summary type="html"><![CDATA[先日こんなツイートを見かけました。ヒデさんはStripeのデベロッパーアドボケイトです。]]></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://devrel.jp/images/articles/ear-eye-text.png" /><media:content medium="image" url="https://devrel.jp/images/articles/ear-eye-text.png" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
