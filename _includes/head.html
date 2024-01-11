@@ -13,4 +13,24 @@ crossorigin="anonymous"></script>
 <link rel="icon" href="/favicon.ico" type="image/vnd.microsoft.icon">
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-48936410-1"></script>
+
+<script type="text/javascript">
+	/** This section is only needed once per page if manually copying **/
+	if (typeof MauticSDKLoaded == 'undefined') {
+			var MauticSDKLoaded = true;
+			var head            = document.getElementsByTagName('head')[0];
+			var script          = document.createElement('script');
+			script.type         = 'text/javascript';
+			script.src          = 'http://ma.moongift.co.jp/media/js/mautic-form.js';
+			script.onload       = function() {
+					MauticSDK.onLoad();
+			};
+			head.appendChild(script);
+			var MauticDomain = 'http://ma.moongift.co.jp';
+			var MauticLang   = {
+					'submittingMessage': "お待ちください…"
+			}
+	}
+</script>
+
 {% seo %}
